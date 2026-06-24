@@ -709,3 +709,58 @@ body {
         grid-column: span 1;
     }
 }
+
+/* 頂部導覽列樣式 */
+.brand-nav-group {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-nav-links {
+    display: flex;
+    gap: 12px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+}
+
+.header-nav-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 6px;
+    transition: var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid transparent;
+}
+
+.header-nav-link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.header-nav-link.active {
+    color: var(--color-accent);
+    background: rgba(56, 189, 248, 0.08);
+    border: 1px solid rgba(56, 189, 248, 0.15);
+}
+
+@media (max-width: 768px) {
+    .brand-nav-group {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .header-nav-links {
+        border-left: none;
+        padding-left: 0;
+        width: 100%;
+        gap: 10px;
+    }
+}
+
