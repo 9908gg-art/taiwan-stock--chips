@@ -87,7 +87,7 @@ body {
     background: rgba(6, 9, 19, 0.85);
     backdrop-filter: blur(25px);
     border-bottom: 1px solid var(--border-color);
-    padding: 14px 0;
+    padding: 6px 0;
 }
 
 .ticker-gradient {
@@ -134,10 +134,10 @@ body {
 .ticker-card {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.05);
-    padding: 8px 16px;
+    padding: 4px 10px;
     border-radius: var(--border-radius-sm);
     transition: var(--transition-fast);
 }
@@ -166,7 +166,7 @@ body {
 }
 
 .ticker-price {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     font-family: var(--font-mono);
 }
@@ -216,23 +216,23 @@ body {
 /* 主要雙欄版面 */
 .main-layout {
     display: grid;
-    grid-template-columns: 340px 1fr;
-    gap: 30px;
-    padding: 30px 0 60px;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+    padding: 16px 0 32px;
 }
 
 /* 左側邊欄 */
 .sidebar-panel {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
 }
 
 .card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-md);
-    padding: 22px;
+    padding: 14px 18px;
     box-shadow: var(--shadow-sm);
     transition: var(--transition-normal);
 }
@@ -243,22 +243,22 @@ body {
 }
 
 .section-title {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 18px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    padding-bottom: 10px;
+    padding-bottom: 6px;
 }
 
 /* 系統監控樣式 */
 .status-list {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
 }
 
 .status-item {
@@ -290,7 +290,7 @@ body {
     padding: 3px;
     border-radius: var(--border-radius-sm);
     gap: 4px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .sub-toggle-btn {
@@ -417,9 +417,9 @@ body {
     color: #f59e0b;
     background: rgba(245, 158, 11, 0.06);
     border: 1px dashed rgba(245, 158, 11, 0.18);
-    padding: 8px 12px;
+    padding: 6px 10px;
     border-radius: var(--border-radius-sm);
-    margin-top: 14px;
+    margin-top: 8px;
     line-height: 1.4;
 }
 
@@ -427,7 +427,7 @@ body {
 .subscribers-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
 }
 
 .sub-list-section h4 {
@@ -475,7 +475,7 @@ body {
 .news-panel {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
 }
 
 .news-header {
@@ -498,7 +498,7 @@ body {
 .news-container {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
 
 .news-loader, .news-error {
@@ -523,10 +523,10 @@ body {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-md);
-    padding: 20px 24px;
+    padding: 10px 16px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 6px;
     box-shadow: var(--shadow-sm);
     transition: var(--transition-normal);
 }
@@ -564,9 +564,9 @@ body {
 
 /* 標題與連結 */
 .news-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .news-link {
@@ -609,8 +609,8 @@ body {
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid rgba(255, 255, 255, 0.03);
-    padding-top: 10px;
-    margin-top: 4px;
+    padding-top: 6px;
+    margin-top: 2px;
 }
 
 /* 標籤關鍵詞 */
