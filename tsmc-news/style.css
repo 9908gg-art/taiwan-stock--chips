@@ -1,0 +1,711 @@
+/* ==========================================================================
+   台積電新聞與股價即時追蹤器 - 專業金融科技終端風格樣式表 (style.css)
+   ========================================================================== */
+
+:root {
+    --bg-primary: #060913;        /* 科技極黑 */
+    --bg-secondary: #0d1322;      /* 暗夜深藍 */
+    --bg-card: rgba(13, 19, 34, 0.7); /* 玻璃半透藍 */
+    --border-color: rgba(56, 189, 248, 0.08); /* 金融藍微邊框 */
+    
+    --text-primary: #f1f5f9;      /* 亮白 */
+    --text-secondary: #94a3b8;    /* 藍灰輔助 */
+    --text-muted: #475569;        /* 灰暗 */
+    
+    /* 台灣股市顏色規律 (紅漲綠跌) */
+    --tw-up: #f43f5e;
+    --tw-up-bg: rgba(244, 63, 94, 0.1);
+    --tw-down: #10b981;
+    --tw-down-bg: rgba(16, 185, 129, 0.1);
+    
+    /* 美國股市顏色規律 (綠漲紅跌) */
+    --us-up: #10b981;
+    --us-up-bg: rgba(16, 185, 129, 0.1);
+    --us-down: #f43f5e;
+    --us-down-bg: rgba(244, 63, 94, 0.1);
+    
+    --color-accent: #38bdf8;      /* Neon Blue */
+    --color-accent-hover: #0ea5e9;
+    --color-accent-glow: rgba(56, 189, 248, 0.25);
+    
+    --font-sans: 'Outfit', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: 'Fira Code', 'Courier New', Courier, monospace;
+    
+    --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-normal: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 12px 40px rgba(0, 0, 0, 0.4);
+    
+    --border-radius-sm: 8px;
+    --border-radius-md: 14px;
+}
+
+/* 基礎重設 */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 捲軸美化 */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 頂部股價報價板 */
+.ticker-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(6, 9, 19, 0.85);
+    backdrop-filter: blur(25px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 14px 0;
+}
+
+.ticker-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--tw-up), var(--color-accent), var(--tw-down));
+}
+
+.ticker-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brand-icon {
+    color: var(--color-accent);
+    font-size: 18px;
+    filter: drop-shadow(0 0 8px var(--color-accent-glow));
+}
+
+.brand-name {
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    background: linear-gradient(135deg, #fff, #94a3b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ticker-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.ticker-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 8px 16px;
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition-fast);
+}
+
+.ticker-card:hover {
+    border-color: rgba(56, 189, 248, 0.2);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.ticker-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticker-label {
+    font-size: 11px;
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.ticker-price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.ticker-price {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--font-mono);
+}
+
+.ticker-change {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--font-mono);
+}
+
+.market-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.badge-tw {
+    background: rgba(255, 255, 255, 0.05);
+    color: #e2e8f0;
+}
+
+.badge-us {
+    background: rgba(56, 189, 248, 0.1);
+    color: var(--color-accent);
+}
+
+/* 漲跌顏色動態配置 */
+.price-up { color: #f43f5e; } /* 紅色 */
+.price-down { color: #10b981; } /* 綠色 */
+.price-us-up { color: #10b981; } /* 美股綠色 */
+.price-us-down { color: #f43f5e; } /* 美股紅色 */
+
+/* 漸入動畫 */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    opacity: 0;
+    animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.delay-100 { animation-delay: 0.12s; }
+
+/* 主要雙欄版面 */
+.main-layout {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: 30px;
+    padding: 30px 0 60px;
+}
+
+/* 左側邊欄 */
+.sidebar-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: 22px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-normal);
+}
+
+.card:hover {
+    border-color: rgba(56, 189, 248, 0.18);
+    box-shadow: var(--shadow-md);
+}
+
+.section-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 10px;
+}
+
+/* 系統監控樣式 */
+.status-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.status-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.status-label {
+    color: var(--text-secondary);
+}
+
+.status-value {
+    font-weight: 500;
+    font-family: var(--font-mono);
+}
+
+.status-value.highlight {
+    color: var(--color-accent);
+    font-weight: 600;
+    text-shadow: 0 0 6px var(--color-accent-glow);
+}
+
+/* 訂閱面板樣式 */
+.sub-toggle-wrapper {
+    display: flex;
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid var(--border-color);
+    padding: 3px;
+    border-radius: var(--border-radius-sm);
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.sub-toggle-btn {
+    background: transparent;
+    color: var(--text-secondary);
+    border: none;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: var(--transition-fast);
+}
+
+.sub-toggle-btn:hover {
+    color: var(--text-primary);
+}
+
+.sub-toggle-btn.active {
+    background: var(--bg-secondary);
+    color: var(--color-accent);
+    box-shadow: var(--shadow-sm);
+}
+
+.sub-form-container {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sub-form-container.active {
+    display: flex;
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+.sub-desc {
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group input {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+    padding: 10px 14px;
+    border-radius: var(--border-radius-sm);
+    font-size: 13px;
+    outline: none;
+    transition: var(--transition-fast);
+}
+
+.input-group input:focus {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 8px rgba(56, 189, 248, 0.15);
+}
+
+/* 按鈕樣式 */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: var(--border-radius-sm);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: var(--transition-fast);
+    border: none;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));
+    color: #0f172a;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+    filter: brightness(1.08);
+}
+
+.sub-message {
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: var(--border-radius-sm);
+    display: none;
+    margin-top: 10px;
+}
+
+.sub-message.success {
+    display: block;
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    color: #10b981;
+}
+
+.sub-message.error {
+    display: block;
+    background: rgba(244, 63, 94, 0.1);
+    border: 1px solid rgba(244, 63, 94, 0.2);
+    color: #f43f5e;
+}
+
+.sub-warning-note {
+    font-size: 11px;
+    color: #f59e0b;
+    background: rgba(245, 158, 11, 0.06);
+    border: 1px dashed rgba(245, 158, 11, 0.18);
+    padding: 8px 12px;
+    border-radius: var(--border-radius-sm);
+    margin-top: 14px;
+    line-height: 1.4;
+}
+
+/* 已訂閱清單樣式 */
+.subscribers-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sub-list-section h4 {
+    font-size: 12px;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.sub-ul {
+    background: rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: var(--border-radius-sm);
+    padding: 6px 12px;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.sub-ul li {
+    font-size: 11px;
+    color: var(--text-secondary);
+    list-style: none;
+    padding: 3px 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.02);
+    font-family: var(--font-mono);
+    word-break: break-all;
+}
+
+.sub-ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-ul li.empty-list {
+    color: var(--text-muted);
+    font-style: italic;
+    font-family: var(--font-sans);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 右側新聞主欄位 */
+.news-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+}
+
+.main-title {
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* 新聞串流容器 */
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.news-loader, .news-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    gap: 16px;
+    color: var(--text-secondary);
+    font-size: 14px;
+    text-align: center;
+}
+
+.loader-icon {
+    font-size: 28px;
+    color: var(--color-accent);
+}
+
+/* 新聞卡片 */
+.news-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-normal);
+}
+
+.news-card:hover {
+    transform: translateX(4px);
+    border-color: rgba(56, 189, 248, 0.2);
+    box-shadow: var(--shadow-md);
+}
+
+/* 卡片中繼資訊列 */
+.news-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+.meta-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.news-source {
+    font-weight: 600;
+    color: #cbd5e1;
+}
+
+.news-time {
+    font-family: var(--font-mono);
+    opacity: 0.8;
+}
+
+/* 標題與連結 */
+.news-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.news-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.news-link:hover {
+    color: var(--color-accent);
+}
+
+/* 大綱/摘要收合 */
+.news-summary-wrapper {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius-sm);
+    padding: 0 14px;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.news-summary-wrapper.expanded {
+    padding: 12px 14px;
+    height: auto;
+    opacity: 1;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.news-summary {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* 卡片底部操作列 */
+.news-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.03);
+    padding-top: 10px;
+    margin-top: 4px;
+}
+
+/* 標籤關鍵詞 */
+.news-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    font-size: 10px;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 2px 8px;
+    border-radius: 20px;
+}
+
+.expand-btn {
+    background: transparent;
+    border: none;
+    color: var(--color-accent);
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: var(--transition-fast);
+}
+
+.expand-btn:hover {
+    color: var(--text-primary);
+}
+
+/* 頁尾樣式 */
+.app-footer {
+    background: #03050a;
+    border-top: 1px solid var(--border-color);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.app-footer p {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+.github-badge {
+    display: inline-block;
+    font-size: 11px;
+    color: var(--color-accent);
+    background: var(--color-accent-bg);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+/* ==========================================================================
+   響應式排版調整
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+    .main-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .sidebar-panel {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+    .subscribers-list-card {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .ticker-container {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+    .ticker-wrapper {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .ticker-card {
+        width: 100%;
+    }
+    .sidebar-panel {
+        grid-template-columns: 1fr;
+    }
+    .subscribers-list-card {
+        grid-column: span 1;
+    }
+}

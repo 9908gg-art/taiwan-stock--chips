@@ -1,0 +1,585 @@
+{
+  "last_updated": "2026-06-24 23:01:34",
+  "stock_prices": {
+    "tw_2330": {
+      "price": 2390.0,
+      "change": -100.0,
+      "change_percent": -4.02
+    },
+    "us_tsm": {
+      "price": 441.68,
+      "change": 5.29,
+      "change_percent": 1.21
+    }
+  },
+  "news": [
+    {
+      "news_id": 6511119,
+      "title": "盤中速報 - 費城半導體大跌1.02%，報13345.53點",
+      "summary": "費城半導體盤中下跌，近日週月績效、成分股表現、即時新聞資訊。",
+      "publish_time": "2026-06-24 22:31:11",
+      "publish_timestamp": 1782311471,
+      "url": "https://news.cnyes.com/news/id/6511119",
+      "keywords": [
+        "美股",
+        "美股盤中",
+        "美股指數",
+        "盤中速報",
+        "費城半導體"
+      ]
+    },
+    {
+      "news_id": 6511011,
+      "title": "中信私銀：AI供應鏈市值暴漲 提前催化高資產家族傳承急迫性",
+      "summary": "AI 浪潮席捲全球，台灣供應鏈成為全球核心，隨著台股暴漲，帶動許多企業主資產翻騰數十倍，卻也提前催化了高資產家族的傳承急迫性。",
+      "publish_time": "2026-06-24 21:47:30",
+      "publish_timestamp": 1782308850,
+      "url": "https://news.cnyes.com/news/id/6511011",
+      "keywords": [
+        "中信銀行",
+        "家族傳承",
+        "家族辦公室"
+      ]
+    },
+    {
+      "news_id": 6510946,
+      "title": "〈美股早盤〉市場聚焦美光財報檢驗AI熱潮 主要指數持平整理",
+      "summary": "美股周三 (24 日) 開盤變動不大，在連續兩個交易日走低後暫時止跌。隨著油價回落、科技股自本周拋售潮中反彈，市場情緒略有回穩，但投資人仍保持觀望，等待記憶體大廠美光 (Micron) 盤後公布財報，以評估 AI 基礎建設投資熱潮能否",
+      "publish_time": "2026-06-24 21:42:16",
+      "publish_timestamp": 1782308536,
+      "url": "https://news.cnyes.com/news/id/6510946",
+      "keywords": [
+        "美國經濟",
+        "聯準會",
+        "Fed",
+        "貨幣政策",
+        "通膨",
+        "基金",
+        "利率",
+        "石油",
+        "油價",
+        "能源",
+        "期貨",
+        "美國",
+        "伊朗",
+        "荷姆茲海峽",
+        "美股早盤",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6510991,
+      "title": "AI 牛市進入下半場 誰在給淘金者賣鏟子？",
+      "summary": "",
+      "publish_time": "2026-06-24 20:00:05",
+      "publish_timestamp": 1782302405,
+      "url": "https://news.cnyes.com/news/id/6510991",
+      "keywords": [
+        "金色財經",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
+      ]
+    },
+    {
+      "news_id": 6510953,
+      "title": "SK海力士赴美上市募資294億美元 規模比肩沙烏地阿美IPO",
+      "summary": "綜合外媒周三 (24 日) 報導，SK 海力士 (SK Hynix) 計劃透過赴美掛牌籌資逾 290 億美元，成為人工智慧 (AI) 浪潮下最新一宗超大型募資案。隨著全球科技巨頭持續加碼資料中心與 AI 基礎建設投資，高頻寬記憶體 (HBM) 需求",
+      "publish_time": "2026-06-24 19:33:18",
+      "publish_timestamp": 1782300798,
+      "url": "https://news.cnyes.com/news/id/6510953",
+      "keywords": [
+        "SK海力士",
+        "SK Hynix",
+        "ADR",
+        "美股",
+        "IPO",
+        "上市",
+        "AI",
+        "人工智慧",
+        "概念股",
+        "記憶體",
+        "高頻寬記憶體",
+        "HBM",
+        "晶片",
+        "半導體",
+        "科技",
+        "產業",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6510909,
+      "title": "〈台幣〉股匯雙殺！貶逾1角險守31.8元關卡 爆史上第七大巨量",
+      "summary": "台股今 (24) 日急殺逾千點，外資瘋狂提款 1774 億元，且匯出力道不手軟，新台幣兌美元匯率應聲重貶，一度回測 31.8 元關卡",
+      "publish_time": "2026-06-24 19:10:59",
+      "publish_timestamp": 1782299459,
+      "url": "https://news.cnyes.com/news/id/6510909",
+      "keywords": [
+        "新台幣",
+        "匯率",
+        "貶值"
+      ]
+    },
+    {
+      "news_id": 6510727,
+      "title": "外資大賣空！史上最大賣超1774億元砍台積電3.8萬張 台指期加空至8.3萬口新高",
+      "summary": "台股今 (24) 日終場收 46043.6 點，下跌 1057.05 點或跌 2.24%，守住 46000 點大關，失守 5 日均線，成交量 1.4 兆元；其中外資賣超 1774.18 億元，呈連二賣，並創歷史新高，大賣 0050",
+      "publish_time": "2026-06-24 18:59:53",
+      "publish_timestamp": 1782298793,
+      "url": "https://news.cnyes.com/news/id/6510727",
+      "keywords": [
+        "三大法人",
+        "外資",
+        "華邦電",
+        "00981A",
+        "TOP",
+        "台積電",
+        "台指期",
+        "空單"
+      ]
+    },
+    {
+      "news_id": 6510846,
+      "title": "史上最大外資賣超來了！<mark>台積電</mark>、聯發科倒成一片，主力卻偷偷卡位這些股！",
+      "summary": "",
+      "publish_time": "2026-06-24 18:19:45",
+      "publish_timestamp": 1782296385,
+      "url": "https://news.cnyes.com/news/id/6510846",
+      "keywords": [
+        "台股",
+        "投資",
+        "趨勢分析"
+      ]
+    },
+    {
+      "news_id": 6510740,
+      "title": "台股殺千點、外資狂砍1774億創紀錄！46000點防線大考驗",
+      "summary": "",
+      "publish_time": "2026-06-24 18:16:04",
+      "publish_timestamp": 1782296164,
+      "url": "https://news.cnyes.com/news/id/6510740",
+      "keywords": [
+        "台積電",
+        "奇鋐",
+        "新應材",
+        "欣興",
+        "AI伺服器",
+        "ABF載板",
+        "外資期貨",
+        "光通訊",
+        "半導體",
+        "凱旭投顧",
+        "陳智霖"
+      ]
+    },
+    {
+      "news_id": 6510737,
+      "title": "【量大強漲股整理】台股血腥大屠殺！還會繼續跌嗎？有撿鑽石的機會嗎？",
+      "summary": "",
+      "publish_time": "2026-06-24 18:12:38",
+      "publish_timestamp": 1782295958,
+      "url": "https://news.cnyes.com/news/id/6510737",
+      "keywords": [
+        "美光",
+        "集團股",
+        "台塑",
+        "聯電",
+        "莊佳螢分析師",
+        "摩爾投顧",
+        "三大法人",
+        "趨勢分析"
+      ]
+    },
+    {
+      "news_id": 6510880,
+      "title": "辣椒:公告本公司最近一年累積處分有價證券達公告標準",
+      "summary": "辣椒:公告本公司最近一年累積處分有價證券達公告標準",
+      "publish_time": "2026-06-24 18:12:14",
+      "publish_timestamp": 1782295934,
+      "url": "https://news.cnyes.com/news/id/6510880",
+      "keywords": []
+    },
+    {
+      "news_id": 6510687,
+      "title": "台股大跌千點再掀抄底潮 00631L、0050成交量衝破200億元登冠、亞軍",
+      "summary": "受美股、亞股震盪影響，台股今 (24) 日大跌逾千點，帶動逢低加碼資金湧入，元大台灣 50 正 2(00631L-TW)、元大台灣 50(0050-TW) 成交金額雙雙衝破 200 億元，分居 ETF 冠、亞軍，00631L 更改寫歷史次高紀錄",
+      "publish_time": "2026-06-24 18:09:15",
+      "publish_timestamp": 1782295755,
+      "url": "https://news.cnyes.com/news/id/6510687",
+      "keywords": [
+        "台股ETF",
+        "0050",
+        "正2",
+        "成交量"
+      ]
+    },
+    {
+      "news_id": 6510589,
+      "title": "聯發:依據「公開發行公司取得或處份資產處理準則」公告",
+      "summary": "聯發:依據「公開發行公司取得或處份資產處理準則」公告",
+      "publish_time": "2026-06-24 16:48:10",
+      "publish_timestamp": 1782290890,
+      "url": "https://news.cnyes.com/news/id/6510589",
+      "keywords": []
+    },
+    {
+      "news_id": 6510290,
+      "title": "〈港股盤後〉半導體股領漲 恒指小漲結束四連黑 恒科大漲1.81%",
+      "summary": "",
+      "publish_time": "2026-06-24 16:40:06",
+      "publish_timestamp": 1782290406,
+      "url": "https://news.cnyes.com/news/id/6510290",
+      "keywords": [
+        "港股盤後",
+        "半導體股",
+        "科網股",
+        "恒指",
+        "恒生科技指數"
+      ]
+    },
+    {
+      "news_id": 6510347,
+      "title": "迎向下個「Sputnik」時刻 聯發科蔡明介揭示晶片與應用新世代",
+      "summary": "聯發科 (2454-TW) 董事長蔡明介今 (24) 日出席 MARC Workshop 2026 表示，半導體不僅是科技產業的堅實根基，更是驅動 AI 運算的關鍵。隨著科技演進，晶片設計已不再侷限於傳統的電訊號，而是正式邁入「多重",
+      "publish_time": "2026-06-24 16:02:29",
+      "publish_timestamp": 1782288149,
+      "url": "https://news.cnyes.com/news/id/6510347",
+      "keywords": [
+        "聯發科",
+        "AI",
+        "衛星",
+        "蔡明介"
+      ]
+    },
+    {
+      "news_id": 6502453,
+      "title": "盈虧分化加劇！台灣5000大企業一年大賺5.77兆元  後段虧損家數卻創10年新高",
+      "summary": "根據中華徵信所 CRIF 最新調查，台灣 5000 大企業過去一年受惠 AI 供應鏈需求急速升溫，總體營收達 48.50 兆元、稅後純益達 5.77 兆元，雙雙刷新歷史紀錄。然而，在亮眼成績背後卻出現盈虧分化加劇的現象。不僅平均營收成長率等",
+      "publish_time": "2026-06-24 15:55:24",
+      "publish_timestamp": 1782287724,
+      "url": "https://news.cnyes.com/news/id/6502453",
+      "keywords": [
+        "中華徵信所",
+        "CRIF",
+        "營收",
+        "虧損",
+        "EPS",
+        "純益",
+        "AI",
+        "金融業",
+        "證券投信",
+        "通膨"
+      ]
+    },
+    {
+      "news_id": 6510160,
+      "title": "〈台股盤後〉半導體股重摔 暴跌1057點失守5日線勉強守住4萬6",
+      "summary": "美股受獲利賣壓全面下挫，台股今 (24) 日開低後一路下探，盤中最高僅達開盤的 46143.32 點，隨後失守 4 萬 6 大關，最低暴跌 1280 點至 45819.71 點。終場收 46043.6 點，下跌 1057.05 點或",
+      "publish_time": "2026-06-24 14:04:48",
+      "publish_timestamp": 1782281088,
+      "url": "https://news.cnyes.com/news/id/6510160",
+      "keywords": [
+        "台股盤後",
+        "面板",
+        "台塑四寶",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6510021,
+      "title": "亞股反彈曇花一現！<mark>台積電</mark>、SK海力士急殺逾3% Kospi翻黑挫跌",
+      "summary": "",
+      "publish_time": "2026-06-24 12:51:21",
+      "publish_timestamp": 1782276681,
+      "url": "https://news.cnyes.com/news/id/6510021",
+      "keywords": [
+        "韓股",
+        "台股",
+        "台積電",
+        "SK海力士",
+        "三星",
+        "科技股",
+        "AI",
+        "AI熱潮",
+        "TOP",
+        "亞股",
+        "美光",
+        "財報"
+      ]
+    },
+    {
+      "news_id": 6507854,
+      "title": "〈觀察〉FOPLP填補關鍵技術缺口 群創如何在先進封裝「方形革命」扮要角？",
+      "summary": "隨著 AI 浪潮引爆高速運算晶片需求，但目前封裝技術來看，一邊是解析度可達 0.2μm 至 2μm 的高階晶圓級封裝，另一邊則是 20μm 至 50μm 的傳統 PCB 封裝，兩者之間在 2μm 至 10μm 解析度的中",
+      "publish_time": "2026-06-24 12:25:24",
+      "publish_timestamp": 1782275124,
+      "url": "https://news.cnyes.com/news/id/6507854",
+      "keywords": [
+        "群創",
+        "FOPLP",
+        "封裝"
+      ]
+    },
+    {
+      "news_id": 6509800,
+      "title": "費半指數單日暴跌近8%！高盛警告：AI「橡皮筋」已拉至極限",
+      "summary": "",
+      "publish_time": "2026-06-24 12:22:20",
+      "publish_timestamp": 1782274940,
+      "url": "https://news.cnyes.com/news/id/6509800",
+      "keywords": [
+        "費半",
+        "半導體",
+        "AI",
+        "高盛",
+        "CSP",
+        "超大規模雲端服務商",
+        "資本支出",
+        "Fed",
+        "升息預期",
+        "美銀",
+        "SK海力士",
+        "三星",
+        "HBM",
+        "記憶體"
+      ]
+    },
+    {
+      "news_id": 6509972,
+      "title": "〈日月光股東會〉同時蓋15座廠還不夠 吳田玉暗示：資本支出要再上調",
+      "summary": "封測龍頭日月光投控 (3711-TW)(ASX-US) 今 (24) 日召開股東會，營運長吳田玉表示，AI 需求相當強勁，為因應長期趨勢與客戶訂單湧入，集團今年包括 Greenfiled(新建廠) 以及 Brownfield(購入既有",
+      "publish_time": "2026-06-24 11:40:16",
+      "publish_timestamp": 1782272416,
+      "url": "https://news.cnyes.com/news/id/6509972",
+      "keywords": [
+        "日月光投控",
+        "日月光",
+        "集團",
+        "AI",
+        "先進封裝",
+        "矽品",
+        "輝達",
+        "超微",
+        "AMD",
+        "股東會"
+      ]
+    },
+    {
+      "news_id": 6505184,
+      "title": "辣椒:公告本公司最近一年累積取得有價證券達公告標準",
+      "summary": "辣椒:公告本公司最近一年累積取得有價證券達公告標準",
+      "publish_time": "2026-06-18 18:15:26",
+      "publish_timestamp": 1781777726,
+      "url": "https://news.cnyes.com/news/id/6505184",
+      "keywords": []
+    },
+    {
+      "news_id": 6501327,
+      "title": "AI智能體將取代APP！高通執行長揭逾40款AI終端設計：重返資料中心CPU 挑戰輝達推理市場",
+      "summary": "",
+      "publish_time": "2026-06-17 07:50:37",
+      "publish_timestamp": 1781653837,
+      "url": "https://news.cnyes.com/news/id/6501327",
+      "keywords": [
+        "高通",
+        "Cristiano Amon",
+        "AI智能體",
+        "App",
+        "應用程式",
+        "邊緣AI",
+        "資料中心CPU",
+        "輝達",
+        "Snapdragon X",
+        "Oryon",
+        "AI伺服器"
+      ]
+    },
+    {
+      "news_id": 6493638,
+      "title": "盤後速報 - 台積電(<mark>2330</mark>)次交易(11)日除息6元，參考價2249.0元",
+      "summary": "台積電(2330)次交易日除息6元，參考價2249.0元，股票股利、現金股利、參考價、權息值、股息殖利率、歷史股利發放、即時新聞資訊。",
+      "publish_time": "2026-06-10 17:07:01",
+      "publish_timestamp": 1781082421,
+      "url": "https://news.cnyes.com/news/id/6493638",
+      "keywords": [
+        "台股",
+        "台股除權息",
+        "台股盤後",
+        "盤後速報"
+      ]
+    },
+    {
+      "news_id": 6493477,
+      "title": "營收速報  - 台積電(<mark>2330</mark>)5月營收4,169.75億元年增率高達30.09％",
+      "summary": "2026年5月台積電(2330-TW) 營收年增成長30.09% , 盤後股價為2255元",
+      "publish_time": "2026-06-10 16:20:38",
+      "publish_timestamp": 1781079638,
+      "url": "https://news.cnyes.com/news/id/6493477",
+      "keywords": [
+        "台股",
+        "台股營收",
+        "營收速報",
+        "5月營收",
+        "台積電"
+      ]
+    },
+    {
+      "news_id": 6493783,
+      "title": "台積電:台積公司2026年5月營收報告",
+      "summary": "台積電:台積公司2026年5月營收報告",
+      "publish_time": "2026-06-10 13:52:56",
+      "publish_timestamp": 1781070776,
+      "url": "https://news.cnyes.com/news/id/6493783",
+      "keywords": []
+    },
+    {
+      "news_id": 6487212,
+      "title": "從麥迪遜花園到Kalshi：預測市場闖入NBA總決賽",
+      "summary": "",
+      "publish_time": "2026-06-07 11:30:05",
+      "publish_timestamp": 1780803005,
+      "url": "https://news.cnyes.com/news/id/6487212",
+      "keywords": [
+        "金色財經",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
+      ]
+    },
+    {
+      "news_id": 6486378,
+      "title": "列特博:公告本公司一年內累積取得同一有價證券達實收資本額百分之二十",
+      "summary": "列特博:公告本公司一年內累積取得同一有價證券達實收資本額百分之二十",
+      "publish_time": "2026-06-05 16:55:52",
+      "publish_timestamp": 1780649752,
+      "url": "https://news.cnyes.com/news/id/6486378",
+      "keywords": []
+    },
+    {
+      "news_id": 6484214,
+      "title": "台積電:台積公司股東常會重要決議",
+      "summary": "台積電:台積公司股東常會重要決議",
+      "publish_time": "2026-06-04 17:21:46",
+      "publish_timestamp": 1780564906,
+      "url": "https://news.cnyes.com/news/id/6484214",
+      "keywords": []
+    },
+    {
+      "news_id": 6484122,
+      "title": "盤後速報 - 台積電(<mark>2330</mark>)下週(6月11日)除息6元，預估參考價2379.0元",
+      "summary": "台積電(2330)將進行除權息交易，預估參考價2379.0元，股票股利、現金股利、參考價、權息值、股息殖利率、歷史股利發放、即時新聞資訊。",
+      "publish_time": "2026-06-04 17:08:36",
+      "publish_timestamp": 1780564116,
+      "url": "https://news.cnyes.com/news/id/6484122",
+      "keywords": [
+        "台股",
+        "台股除權息",
+        "台股盤後",
+        "盤後速報"
+      ]
+    },
+    {
+      "news_id": 6483961,
+      "title": "台積電:台積公司股東常會決議",
+      "summary": "台積電:台積公司股東常會決議",
+      "publish_time": "2026-06-04 16:00:42",
+      "publish_timestamp": 1780560042,
+      "url": "https://news.cnyes.com/news/id/6483961",
+      "keywords": []
+    },
+    {
+      "news_id": 6482792,
+      "title": "漢來美食:公告本公司一年內累積取得同一有價證券達實收資本額20%",
+      "summary": "漢來美食:公告本公司一年內累積取得同一有價證券達實收資本額20%",
+      "publish_time": "2026-06-03 18:30:50",
+      "publish_timestamp": 1780482650,
+      "url": "https://news.cnyes.com/news/id/6482792",
+      "keywords": []
+    },
+    {
+      "news_id": 6482731,
+      "title": "台積電:本公司代子公司 TSMC Global Ltd. 公告取得固定收益證券",
+      "summary": "台積電:本公司代子公司 TSMC Global Ltd. 公告取得固定收益證券",
+      "publish_time": "2026-06-03 17:34:11",
+      "publish_timestamp": 1780479251,
+      "url": "https://news.cnyes.com/news/id/6482731",
+      "keywords": []
+    },
+    {
+      "news_id": 6481151,
+      "title": "台積電:本公司代子公司 TSMC Global Ltd. 公告取得固定收益證券",
+      "summary": "台積電:本公司代子公司 TSMC Global Ltd. 公告取得固定收益證券",
+      "publish_time": "2026-06-02 18:04:55",
+      "publish_timestamp": 1780394695,
+      "url": "https://news.cnyes.com/news/id/6481151",
+      "keywords": []
+    },
+    {
+      "news_id": 6479555,
+      "title": "台積電:本公司代子公司 TSMC Global Ltd. 公告處分固定收益證券",
+      "summary": "台積電:本公司代子公司 TSMC Global Ltd. 公告處分固定收益證券",
+      "publish_time": "2026-06-01 17:53:40",
+      "publish_timestamp": 1780307620,
+      "url": "https://news.cnyes.com/news/id/6479555",
+      "keywords": []
+    },
+    {
+      "news_id": 6479554,
+      "title": "台積電:本公司代子公司 TSMC Global Ltd. 公告取得固定收益證券",
+      "summary": "台積電:本公司代子公司 TSMC Global Ltd. 公告取得固定收益證券",
+      "publish_time": "2026-06-01 17:50:38",
+      "publish_timestamp": 1780307438,
+      "url": "https://news.cnyes.com/news/id/6479554",
+      "keywords": []
+    },
+    {
+      "news_id": 6477871,
+      "title": "國巨*(2327)股價285→784元還有肉嗎？ 億元教授鄭廳宜喊：這族群「本益比僅7倍」現在買最甜！",
+      "summary": "",
+      "publish_time": "2026-05-30 20:00:05",
+      "publish_timestamp": 1780142405,
+      "url": "https://news.cnyes.com/news/id/6477871",
+      "keywords": [
+        "華邦電",
+        "力積電",
+        "國巨",
+        "鼎元",
+        "新應材",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6473065,
+      "title": "台積電:台灣積體電路製造股份有限公司（公司代號：<mark>2330</mark>）註銷收回股票事宜。",
+      "summary": "台積電:台灣積體電路製造股份有限公司（公司代號：2330）註銷收回股票事宜。",
+      "publish_time": "2026-05-29 12:15:10",
+      "publish_timestamp": 1780028110,
+      "url": "https://news.cnyes.com/news/id/6473065",
+      "keywords": []
+    },
+    {
+      "news_id": 6472258,
+      "title": "盤中速報 - 新代(7750)大跌7.17%，報<mark>2330</mark>元",
+      "summary": "新代(7750-TW)盤中股價下跌，近5日股價、大盤表現、三大法人買賣超、融資融券增減、即時新聞資訊。",
+      "publish_time": "2026-05-28 12:56:53",
+      "publish_timestamp": 1779944213,
+      "url": "https://news.cnyes.com/news/id/6472258",
+      "keywords": [
+        "台股",
+        "台股盤中",
+        "盤中速報",
+        "盤中漲跌幅"
+      ]
+    },
+    {
+      "news_id": 6473524,
+      "title": "台積電:本公司代子公司 TSMC Global Ltd. 公告取得固定收益證券",
+      "summary": "台積電:本公司代子公司 TSMC Global Ltd. 公告取得固定收益證券",
+      "publish_time": "2026-05-27 17:18:30",
+      "publish_timestamp": 1779873510,
+      "url": "https://news.cnyes.com/news/id/6473524",
+      "keywords": []
+    }
+  ]
+}
