@@ -1,0 +1,39 @@
+name: Auto Crawl Stock Chips
+
+on:
+  schedule:
+    # Monday to Friday hourly at 07:00, 08:00, 09:00, 10:00, 11:00, 12:00 UTC
+    # (Coresponds to 15:00, 16:00, 17:00, 18:00, 19:00, 20:00 Taiwan Time)
+    - cron: '0 7,8,9,10,11,12 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Crawler Script
+        run: |
+          python cron_crawler.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes in daily stock chips data."
+          else
+            git commit -m "auto(data): update daily stock chips for $(date +'%Y-%m-%d')"
+            git push
+          fi

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台股法人籌碼下載器 | 每日三大法人、官股買賣超金額與個股排行一鍵導出</title>
+    <meta name="description" content="免費且專業的台股盤後籌碼分析工具。每日下午自動更新外資、投信、自營商及八大官股買賣超金額，提供個股買賣超 Top 10 排行與融資融券數據，支援一鍵下載 CSV/Excel。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome 圖示 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 頂部金融終端風格 Header -->
+    <header class="app-header">
+        <div class="header-bg-gradient"></div>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fa-solid fa-chart-line logo-icon"></i>
+                <span class="logo-text">TWStockChips</span>
+            </div>
+            <h1>台股法人籌碼下載器</h1>
+            <p class="subtitle">每日盤後三大法人、八大官股買賣超數據彙整，支援一鍵匯出 Excel 分析表</p>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <!-- 頂部狀態列與下載按鈕 -->
+        <section class="status-download-bar animate-fade-in">
+            <div class="status-info">
+                <span class="pulse-indicator"></span>
+                <span class="status-text">最新資料日期：<strong id="data-date">加載中...</strong></span>
+            </div>
+            <div class="download-actions">
+                <a href="data/daily_chips.csv" download id="link-download-csv" class="btn btn-primary btn-sm">
+                    <i class="fa-solid fa-file-excel"></i> 導出今日數據 (CSV)
+                </a>
+                <a href="data/daily_chips.json" target="_blank" class="btn btn-secondary btn-sm">
+                    <i class="fa-solid fa-code"></i> 檢視 API 資料 (JSON)
+                </a>
+            </div>
+        </section>
+
+        <!-- 第一部分：三大法人與官股買賣超卡片 (台股習慣：紅買綠賣) -->
+        <section class="summary-grid animate-fade-in delay-100">
+            <!-- 外資 -->
+            <div class="card stat-card" id="card-foreign">
+                <div class="card-inner-flex">
+                    <div>
+                        <span class="stat-title">外資及陸資 (Foreign)</span>
+                        <h3 class="stat-value" id="val-foreign">0.0 億</h3>
+                    </div>
+                    <i class="fa-solid fa-earth-asia stat-card-icon"></i>
+                </div>
+            </div>
+            <!-- 投信 -->
+            <div class="card stat-card" id="card-trust">
+                <div class="card-inner-flex">
+                    <div>
+                        <span class="stat-title">投信基金 (Mutual Fund)</span>
+                        <h3 class="stat-value" id="val-trust">0.0 億</h3>
+                    </div>
+                    <i class="fa-solid fa-building-columns stat-card-icon"></i>
+                </div>
+            </div>
+            <!-- 自營商 -->
+            <div class="card stat-card" id="card-dealer">
+                <div class="card-inner-flex">
+                    <div>
+                        <span class="stat-title">自營商 (Proprietary)</span>
+                        <h3 class="stat-value" id="val-dealer">0.0 億</h3>
+                    </div>
+                    <i class="fa-solid fa-user-tie stat-card-icon"></i>
+                </div>
+            </div>
+            <!-- 八大官股 -->
+            <div class="card stat-card" id="card-gov">
+                <div class="card-inner-flex">
+                    <div>
+                        <span class="stat-title">八大官股行庫 (Gov Banks)</span>
+                        <h3 class="stat-value" id="val-gov">0.0 億</h3>
+                    </div>
+                    <i class="fa-solid fa-shield-halved stat-card-icon"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- 第二部分：大盤信用交易與融資融券 -->
+        <section class="card margin-card animate-fade-in delay-200">
+            <h2 class="card-title"><i class="fa-solid fa-balance-scale text-accent"></i> 大盤信用交易餘額變化</h2>
+            <div class="margin-grid">
+                <div class="margin-box">
+                    <span class="margin-label">融資餘額增減</span>
+                    <span class="margin-value" id="val-margin-buy">0.0 億</span>
+                </div>
+                <div class="margin-box">
+                    <span class="margin-label">融券餘額增減</span>
+                    <span class="margin-value" id="val-margin-sell">0 張</span>
+                </div>
+                <div class="margin-box">
+                    <span class="margin-label">今日成交總值</span>
+                    <span class="margin-value" id="val-total-volume">0.0 億</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 第三部分：個股買賣超 Top 10 排行表 (Tabs 切換) -->
+        <section class="card ranking-card animate-fade-in delay-200">
+            <div class="ranking-header">
+                <h2 class="card-title"><i class="fa-solid fa-list-ol text-accent"></i> 個股法人買賣超排行 Top 10</h2>
+                <!-- Tabs 選單 -->
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="tab-foreign">外資買賣超排行</button>
+                    <button class="tab-btn" data-tab="tab-trust">投信買賣超排行</button>
+                </div>
+            </div>
+
+            <!-- 外資 Tab -->
+            <div class="tab-content active" id="tab-foreign">
+                <div class="tables-wrapper">
+                    <!-- 買超 -->
+                    <div class="table-box">
+                        <h3 class="table-subtitle subtitle-buy"><i class="fa-solid fa-arrow-trend-up"></i> 外資買超前十名</h3>
+                        <table class="chips-table">
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>代號 / 名稱</th>
+                                    <th class="text-right">買超張數</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-foreign-buy-body">
+                                <tr><td colspan="3" class="text-center">讀取中...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- 賣超 -->
+                    <div class="table-box">
+                        <h3 class="table-subtitle subtitle-sell"><i class="fa-solid fa-arrow-trend-down"></i> 外資賣超前十名</h3>
+                        <table class="chips-table">
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>代號 / 名稱</th>
+                                    <th class="text-right">賣超張數</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-foreign-sell-body">
+                                <tr><td colspan="3" class="text-center">讀取中...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 投信 Tab -->
+            <div class="tab-content" id="tab-trust">
+                <div class="tables-wrapper">
+                    <!-- 買超 -->
+                    <div class="table-box">
+                        <h3 class="table-subtitle subtitle-buy"><i class="fa-solid fa-arrow-trend-up"></i> 投信買超前十名</h3>
+                        <table class="chips-table">
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>代號 / 名稱</th>
+                                    <th class="text-right">買超張數</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-trust-buy-body">
+                                <tr><td colspan="3" class="text-center">讀取中...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- 賣超 -->
+                    <div class="table-box">
+                        <h3 class="table-subtitle subtitle-sell"><i class="fa-solid fa-arrow-trend-down"></i> 投信賣超前十名</h3>
+                        <table class="chips-table">
+                            <thead>
+                                <tr>
+                                    <th>排名</th>
+                                    <th>代號 / 名稱</th>
+                                    <th class="text-right">賣超張數</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-trust-sell-body">
+                                <tr><td colspan="3" class="text-center">讀取中...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEO FAQ 常見問題問答區 -->
+        <section class="card faq-card animate-fade-in delay-300">
+            <h2 class="card-title"><i class="fa-solid fa-circle-question text-accent"></i> 台股籌碼面常見問答 (FAQ)</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question">Q1：什麼是「三大法人」？看他們的數據有什麼用？</h3>
+                    <div class="faq-answer">
+                        三大法人是指在台灣證券市場中，資金最為龐大的三個機構群體：
+                        <ul>
+                            <li>**外資及陸資**：來自國外的投資機構，是台股大盤漲跌最主要的資金推手，偏向買賣權值股（如台積電、聯發科）。</li>
+                            <li>**投信**：國內的證券投資信託公司（募集共同基金操作），俗稱國內基金。他們的資金操作通常偏向中小型飆股，買超排行極具跟單價值。</li>
+                            <li>**自營商**：證券商自己的自營部門，用券商本身的資金操作，通常操作短線、波段或避險交易。</li>
+                        </ul>
+                        *看法人買賣超能幫助散戶知道大資金目前正在流向哪些板塊與個股，以避免「與大勢作對」。*
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Q2：什麼是「八大官股行庫買賣超」？</h3>
+                    <div class="faq-answer">
+                        八大官股（公股）是指具有政府官方色彩的八間銀行證券部門（包括：台銀、土銀、合庫、一銀、華南、彰銀、兆豐、台企銀）。
+                        他們的買賣超動向通常被視為**「國家隊/護盤指標」**。一般而言，當大盤暴跌時，八大官股通常會大舉買超以穩定市場；當大盤大漲時，他們則會適度賣超調節。散戶常藉此觀察政府防守大盤的決心。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Q3：本工具提供的 CSV 檔案可以做什麼？數據更新時間是何時？</h3>
+                    <div class="faq-answer">
+                        本工具每天下午會由雲端機器人自動彙整證交所與櫃買中心數據，提供乾淨的 **`daily_chips.csv`** 檔案供投資人一鍵下載。您可以直接將該檔案匯入 Microsoft Excel、Google Sheets 或自行開發的程式交易軟體中進行長期的歷史追蹤與量化回測。
+                        數據大約於每個交易日的 **下午 3:15 到 4:30 之間** 由雲端爬蟲自動完成撈取與網站發布。
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="app-footer">
+        <div class="container">
+            <p>© 2026 TWStockChips. 專為台股投資人設計的盤後籌碼數據一鍵導出工具。</p>
+            <p class="github-badge">數據自動託管於 GitHub Pages | 免費、本地安全、無廣告</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript 邏輯 -->
+    <script src="app.js"></script>
+</body>
+</html>
