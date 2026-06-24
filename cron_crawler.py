@@ -68,7 +68,8 @@ def run():
     print(f"Target Date: {formatted_date_dash} (Minguo: {minguo_date})")
     
     # Check-and-Skip: Check if history file already has today's date
-    data_dir = "/root/taiwan-stock-chips/data"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(script_dir, "data")
     os.makedirs(data_dir, exist_ok=True)
     history_file = os.path.join(data_dir, "daily_chips_history.json")
     

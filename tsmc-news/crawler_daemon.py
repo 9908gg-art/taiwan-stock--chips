@@ -140,7 +140,8 @@ def run_crawl():
     raw_news = fetch_tsmc_news()
     print(f"Fetched {len(raw_news)} unique news items.")
     
-    data_dir = "/root/taiwan-stock-chips/tsmc-news/data"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(script_dir, "data")
     os.makedirs(data_dir, exist_ok=True)
     json_path = os.path.join(data_dir, "tsmc_news.json")
     subscribers_path = os.path.join(data_dir, "subscribers.json")
