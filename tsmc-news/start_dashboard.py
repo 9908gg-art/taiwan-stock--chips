@@ -83,9 +83,20 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 
                 # Async git push to store subscriber back to GitHub
                 def git_push_subscribers():
+                    import subprocess
                     try:
                         # Add, commit and push to remote origin
-                        os.system(f"git add {sub_file} && git commit -m 'chore(subscribers): new subscription' && git push")
+                        res_add = subprocess.run(["git", "add", sub_file], capture_output=True, text=True)
+                        if res_add.returncode != 0:
+                            print("[Git] Add failed:", res_add.stderr)
+                            return
+                        res_commit = subprocess.run(["git", "commit", "-m", "chore(subscribers): new subscription"], capture_output=True, text=True)
+                        res_push = subprocess.run(["git", "push"], capture_output=True, text=True)
+                        if res_push.returncode != 0:
+                            print("[Git] Push failed:", res_push.stderr)
+                            print("[Git] Tip: If authentication failed, please check your Git credentials or SSH configuration.")
+                        else:
+                            print("[Git] Successfully pushed subscribers list back to GitHub.")
                     except Exception as ge:
                         print("[Git] Failed to push subscription back to GitHub:", ge)
                 
