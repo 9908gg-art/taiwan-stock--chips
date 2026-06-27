@@ -314,10 +314,42 @@ def run():
     else:
         print("Could not fetch Mutual Fund stock rankings.")
 
+    # 7.5 Fetch TSMC (2330) individual institutional buy/sell (T86)
+    url_tsmc_t86 = f"https://www.twse.com.tw/fund/T86?response=json&date={date_str}&selectType=24"
+    print(f"Fetching TSMC institutional data from {url_tsmc_t86}...")
+    t86_data = fetch_json(url_tsmc_t86)
+    
+    if not t86_data or 'data' not in t86_data or len(t86_data['data']) == 0:
+        print("No T86 semiconductor data published yet.")
+        if len(sys.argv) == 1:
+            print("Exiting with status 1 to retry later.")
+            sys.exit(1)
+            
+    tsmc_foreign = 0
+    tsmc_trust = 0
+    tsmc_dealer = 0
+    tsmc_total = 0
+    
+    if t86_data and 'data' in t86_data:
+        for row in t86_data['data']:
+            if row[0].strip() == '2330':
+                tsmc_foreign = int(parse_number(row[4]) / 1000)
+                tsmc_trust = int(parse_number(row[10]) / 1000)
+                tsmc_dealer = int(parse_number(row[11]) / 1000)
+                tsmc_total = int(parse_number(row[18]) / 1000)
+                print(f"TSMC (2330) Chips Lots: Foreign={tsmc_foreign}, Trust={tsmc_trust}, Dealer={tsmc_dealer}, Total={tsmc_total}")
+                break
+
     # 8. Save Current Day JSON
     current_data = {
         "date": formatted_date_dash,
         "updated_time": datetime.now(tz_tw).strftime("%Y-%m-%d %H:%M:%S"),
+        "tsmc_chips": {
+            "foreign": tsmc_foreign,
+            "trust": tsmc_trust,
+            "dealer": tsmc_dealer,
+            "total": tsmc_total
+        },
         "market_summary": {
             "tse": {
                 "foreign": round(tse_foreign, 2),
@@ -376,7 +408,8 @@ def run():
         "combined_summary": current_data["market_summary"]["combined"],
         "gov_banks": current_data["gov_banks"],
         "margin_trading": current_data["margin_trading"],
-        "trading_volume": current_data["trading_volume"]
+        "trading_volume": current_data["trading_volume"],
+        "tsmc_chips": current_data["tsmc_chips"]
     }
     history_entries.append(history_entry)
     
@@ -405,6 +438,12 @@ def run():
         writer.writerow(["融資餘額增減 (億元)", f"{margin_balance_change:.2f} (目前總額: {margin_balance_total:.2f})"])
         writer.writerow(["融券餘額增減 (張)", f"{short_balance_change} (目前總張: {short_balance_total})"])
         writer.writerow(["八大官股買賣超 (億元)", f"{gov_net_buy:.2f} (統計日期: {gov_date_str})"])
+        writer.writerow([])
+        writer.writerow(["台積電 (2330) 三大法人買賣超 (單位: 張)"])
+        writer.writerow(["外資買賣超", f"{tsmc_foreign}"])
+        writer.writerow(["投信買賣超", f"{tsmc_trust}"])
+        writer.writerow(["自營商買賣超", f"{tsmc_dealer}"])
+        writer.writerow(["三大法人合計", f"{tsmc_total}"])
         writer.writerow([])
         writer.writerow(["三大法人買賣超金額統計 (單位: 億元)"])
         writer.writerow(["市場", "外資及陸資", "投信", "自營商", "合計"])

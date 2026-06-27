@@ -148,11 +148,40 @@ function renderDashboard(data) {
         valTotalVolume.className = "margin-value val-neutral";
     }
 
+    // 3.5 渲染台積電 (2330) 三大法人買賣超 (張數)
+    const tsmc = data.tsmc_chips || { foreign: 0, trust: 0, dealer: 0, total: 0 };
+    updateTsmcBox("tsmc-box-foreign", "val-tsmc-foreign", tsmc.foreign);
+    updateTsmcBox("tsmc-box-trust", "val-tsmc-trust", tsmc.trust);
+    updateTsmcBox("tsmc-box-dealer", "val-tsmc-dealer", tsmc.dealer);
+    updateTsmcBox("tsmc-box-total", "val-tsmc-total", tsmc.total);
+
     // 4. 渲染個股排行
     renderRankingsTable("table-foreign-buy-body", data.rankings.foreign_buy, "buy");
     renderRankingsTable("table-foreign-sell-body", data.rankings.foreign_sell, "sell");
     renderRankingsTable("table-trust-buy-body", data.rankings.trust_buy, "buy");
     renderRankingsTable("table-trust-sell-body", data.rankings.trust_sell, "sell");
+}
+
+/**
+ * 更新台積電買賣超個股統計 Box
+ * @param {string} boxId - 區塊元素 ID
+ * @param {string} valueId - 數值元素 ID
+ * @param {number} value - 張數
+ */
+function updateTsmcBox(boxId, valueId, value) {
+    const boxEl = document.getElementById(boxId);
+    const valueEl = document.getElementById(valueId);
+    
+    if (valueEl) {
+        const formatted = value > 0 ? `+${value.toLocaleString()} 張` : `${value.toLocaleString()} 張`;
+        valueEl.textContent = formatted;
+        valueEl.className = `tsmc-value ${getValueColorClass(value)}`;
+    }
+    
+    if (boxEl) {
+        boxEl.style.borderColor = value > 0 ? 'rgba(239, 68, 68, 0.3)' : (value < 0 ? 'rgba(16, 185, 129, 0.3)' : 'var(--border-color)');
+        boxEl.style.background = value > 0 ? 'rgba(239, 68, 68, 0.02)' : (value < 0 ? 'rgba(16, 185, 129, 0.02)' : 'rgba(255, 255, 255, 0.02)');
+    }
 }
 
 /**

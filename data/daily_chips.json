@@ -1,6 +1,12 @@
 {
   "date": "2026-06-26",
-  "updated_time": "2026-06-26 23:31:23",
+  "updated_time": "2026-06-27 11:44:03",
+  "tsmc_chips": {
+    "foreign": -14281,
+    "trust": 734,
+    "dealer": 1009,
+    "total": -12537
+  },
   "market_summary": {
     "tse": {
       "foreign": -1431.89,
@@ -22,8 +28,8 @@
     }
   },
   "gov_banks": {
-    "net_buy": 49.69,
-    "date": "2026-06-25"
+    "net_buy": 365.52,
+    "date": "2026-06-26"
   },
   "margin_trading": {
     "margin_balance_change": -200.75,

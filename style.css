@@ -102,7 +102,7 @@ body {
 /* 頂部 Header 樣式 */
 .app-header {
     position: relative;
-    padding: 60px 0 40px;
+    padding: 24px 0 16px;
     background: radial-gradient(circle at top, rgba(56, 189, 248, 0.08) 0%, rgba(15, 23, 42, 0) 60%);
     border-bottom: 1px solid var(--border-color);
     text-align: center;
@@ -125,7 +125,7 @@ body {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--border-color);
     border-radius: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     backdrop-filter: blur(10px);
 }
 
@@ -146,17 +146,17 @@ body {
 }
 
 .app-header h1 {
-    font-size: 38px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: -0.5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     background: linear-gradient(135deg, #ffffff 60%, var(--text-secondary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .subtitle {
-    font-size: 16px;
+    font-size: 13px;
     color: var(--text-secondary);
     max-width: 600px;
     margin: 0 auto;
@@ -165,10 +165,10 @@ body {
 
 /* 主版面配置 */
 .main-content {
-    padding: 40px 0 80px;
+    padding: 16px 0 32px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 16px;
 }
 
 /* 狀態與下載工具列 */
@@ -176,7 +176,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 24px;
+    padding: 8px 16px;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-md);
@@ -215,7 +215,7 @@ body {
 }
 
 .status-text {
-    font-size: 15px;
+    font-size: 13px;
     color: var(--text-secondary);
 }
 
@@ -235,9 +235,9 @@ body {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    padding: 10px 20px;
+    padding: 6px 14px;
     border-radius: var(--border-radius-sm);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     cursor: pointer;
     text-decoration: none;
@@ -245,8 +245,8 @@ body {
 }
 
 .btn-sm {
-    padding: 8px 16px;
-    font-size: 13px;
+    padding: 6px 12px;
+    font-size: 12px;
 }
 
 .btn-primary {
@@ -281,7 +281,7 @@ body {
     border-radius: var(--border-radius-md);
     backdrop-filter: blur(20px);
     box-shadow: var(--shadow-sm);
-    padding: 28px;
+    padding: 14px 18px;
     transition: var(--transition-normal);
 }
 
@@ -291,12 +291,12 @@ body {
 }
 
 .card-title {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     color: var(--text-primary);
 }
 
@@ -308,13 +308,13 @@ body {
 .summary-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 12px;
 }
 
 .stat-card {
     position: relative;
     overflow: hidden;
-    padding: 24px;
+    padding: 12px 16px;
 }
 
 .card-inner-flex {
@@ -324,15 +324,15 @@ body {
 }
 
 .stat-title {
-    font-size: 13px;
+    font-size: 11px;
     color: var(--text-secondary);
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     font-weight: 500;
 }
 
 .stat-value {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 700;
     font-family: 'Outfit', sans-serif;
     letter-spacing: -0.5px;
@@ -340,7 +340,7 @@ body {
 }
 
 .stat-card-icon {
-    font-size: 28px;
+    font-size: 22px;
     color: var(--text-muted);
     opacity: 0.25;
 }
@@ -380,18 +380,18 @@ body {
 .margin-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 12px;
 }
 
 .margin-box {
     background: rgba(15, 23, 42, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.04);
     border-radius: var(--border-radius-sm);
-    padding: 20px;
+    padding: 10px 14px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
     transition: var(--transition-fast);
 }
 
@@ -401,12 +401,12 @@ body {
 }
 
 .margin-label {
-    font-size: 14px;
+    font-size: 12px;
     color: var(--text-secondary);
 }
 
 .margin-value {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
     font-family: 'Outfit', sans-serif;
 }
@@ -421,9 +421,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 8px;
 }
 
 .ranking-header .card-title {
@@ -444,8 +444,8 @@ body {
     background: transparent;
     color: var(--text-secondary);
     border: none;
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 6px 12px;
+    font-size: 12px;
     font-weight: 600;
     border-radius: 6px;
     cursor: pointer;
@@ -480,22 +480,22 @@ body {
 .tables-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
+    gap: 16px;
 }
 
 .table-box {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 8px;
 }
 
 .table-subtitle {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     display: flex;
     align-items: center;
     gap: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
     border-bottom: 2px solid var(--border-color);
 }
 
@@ -518,8 +518,8 @@ body {
 
 .chips-table th, 
 .chips-table td {
-    padding: 12px 16px;
-    font-size: 14px;
+    padding: 6px 10px;
+    font-size: 12px;
 }
 
 .chips-table th {
@@ -555,10 +555,10 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 700;
     font-family: 'Outfit', sans-serif;
     background: rgba(255, 255, 255, 0.05);
@@ -823,6 +823,49 @@ body {
     .nav-link {
         flex: 1;
         justify-content: center;
+    }
+}
+
+/* ==========================================================================
+   台積電個股法人買賣超樣式
+   ========================================================================== */
+.tsmc-chips-card {
+    margin-top: 16px;
+}
+
+.tsmc-chips-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.tsmc-box {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-color);
+    padding: 10px 14px;
+    border-radius: var(--border-radius-sm);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    transition: var(--transition-fast);
+}
+
+.tsmc-label {
+    font-size: 11px;
+    color: var(--text-secondary);
+}
+
+.tsmc-value {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+}
+
+@media (max-width: 576px) {
+    .tsmc-chips-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
