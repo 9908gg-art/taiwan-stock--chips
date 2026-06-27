@@ -216,23 +216,23 @@ body {
 /* 主要雙欄版面 */
 .main-layout {
     display: grid;
-    grid-template-columns: 300px 1fr;
-    gap: 20px;
-    padding: 16px 0 32px;
+    grid-template-columns: 240px 1fr;
+    gap: 12px;
+    padding: 10px 0 20px;
 }
 
 /* 左側邊欄 */
 .sidebar-panel {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
 }
 
 .card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-md);
-    padding: 14px 18px;
+    padding: 10px 14px;
     box-shadow: var(--shadow-sm);
     transition: var(--transition-normal);
 }
@@ -243,15 +243,15 @@ body {
 }
 
 .section-title {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     display: flex;
     align-items: center;
     gap: 6px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    padding-bottom: 6px;
+    padding-bottom: 4px;
 }
 
 /* 系統監控樣式 */
@@ -264,7 +264,7 @@ body {
 .status-item {
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .status-label {
@@ -475,7 +475,7 @@ body {
 .news-panel {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
 }
 
 .news-header {
@@ -483,11 +483,11 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--border-color);
-    padding-bottom: 12px;
+    padding-bottom: 6px;
 }
 
 .main-title {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -498,7 +498,7 @@ body {
 .news-container {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
 }
 
 .news-loader, .news-error {
@@ -523,10 +523,10 @@ body {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-md);
-    padding: 10px 16px;
+    padding: 6px 12px;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 4px;
     box-shadow: var(--shadow-sm);
     transition: var(--transition-normal);
 }
@@ -542,7 +542,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;
+    font-size: 10px;
     color: var(--text-secondary);
 }
 
@@ -564,7 +564,7 @@ body {
 
 /* 標題與連結 */
 .news-title {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     line-height: 1.4;
 }
@@ -591,16 +591,16 @@ body {
 }
 
 .news-summary-wrapper.expanded {
-    padding: 12px 14px;
+    padding: 8px 10px;
     height: auto;
     opacity: 1;
     border: 1px solid rgba(255, 255, 255, 0.03);
 }
 
 .news-summary {
-    font-size: 13px;
+    font-size: 11px;
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 /* 卡片底部操作列 */
@@ -621,10 +621,10 @@ body {
 }
 
 .tag {
-    font-size: 10px;
+    font-size: 9px;
     color: var(--text-secondary);
     background: rgba(255, 255, 255, 0.04);
-    padding: 2px 8px;
+    padding: 1px 6px;
     border-radius: 20px;
 }
 
@@ -632,7 +632,7 @@ body {
     background: transparent;
     border: none;
     color: var(--color-accent);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
     cursor: pointer;
     display: flex;
