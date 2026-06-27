@@ -260,14 +260,15 @@ function showErrorState() {
     // 將卡片與信用交易欄位置為預設值
     const placeholders = [
         "val-foreign", "val-trust", "val-dealer", "val-gov",
-        "val-margin-buy", "val-margin-sell", "val-total-volume"
+        "val-margin-buy", "val-margin-sell", "val-total-volume",
+        "val-tsmc-foreign", "val-tsmc-trust", "val-tsmc-dealer", "val-tsmc-total"
     ];
     
     placeholders.forEach(id => {
         const el = document.getElementById(id);
         if (el) {
-            el.textContent = id.includes("sell") ? "0 張" : "0.0 億";
-            el.className = id.includes("volume") ? "margin-value val-neutral" : "stat-value val-neutral";
+            el.textContent = (id.includes("sell") || id.includes("tsmc")) ? "0 張" : "0.0 億";
+            el.className = id.includes("volume") ? "margin-value val-neutral" : (id.includes("tsmc") ? "tsmc-value val-neutral" : "stat-value val-neutral");
         }
     });
 
