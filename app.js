@@ -70,24 +70,126 @@ function getCardGlowClass(value) {
     return "card-neutral";
 }
 
+let allHistoryData = [];
+let todayData = null;
+
 /**
- * 載入並渲染盤後籌碼 JSON 數據
+ * 載入並渲染盤後籌碼 JSON 數據 (支援歷史數據與多日累計切換)
  */
 async function loadChipsData() {
-    const dataUrl = "data/daily_chips.json";
-    
     try {
-        const response = await fetch(dataUrl);
-        if (!response.ok) {
-            throw new Error(`HTTP 錯誤! 狀態碼: ${response.status}`);
+        // 1. 先嘗試載入今日最新數據
+        const todayResponse = await fetch("data/daily_chips.json");
+        if (todayResponse.ok) {
+            todayData = await todayResponse.json();
         }
         
-        const data = await response.json();
-        renderDashboard(data);
+        // 2. 嘗試載入歷史累計數據
+        const historyResponse = await fetch("data/daily_chips_history.json");
+        if (historyResponse.ok) {
+            const historyJson = await historyResponse.json();
+            allHistoryData = historyJson.history || [];
+        }
+        
+        // 3. 初始化並渲染日期下拉選單
+        populateDateSelector();
+        
+        // 4. 預設渲染今日數據，若今日無資料則渲染歷史數據中的最後一天
+        if (todayData) {
+            renderDashboard(todayData);
+        } else if (allHistoryData.length > 0) {
+            const latestHistory = allHistoryData[allHistoryData.length - 1];
+            renderDashboardFromHistory(latestHistory);
+        } else {
+            showErrorState();
+        }
     } catch (error) {
-        console.error("載入台股籌碼數據失敗，可能因當日未開盤或資料未產出:", error);
+        console.error("載入台股籌碼數據失敗:", error);
         showErrorState();
     }
+}
+
+/**
+ * 建立並監聽日期下拉選單
+ */
+function populateDateSelector() {
+    const selector = document.getElementById("date-select");
+    if (!selector) return;
+    
+    selector.innerHTML = "";
+    
+    // 如果有今日最新資料，優先加入選項
+    if (todayData) {
+        const opt = document.createElement("option");
+        opt.value = "today";
+        opt.textContent = `${todayData.date} (今日最新)`;
+        selector.appendChild(opt);
+    }
+    
+    const todayDateStr = todayData ? todayData.date : "";
+    
+    // 將歷史資料以日期從新到舊排序加入下拉選單 (避免重複今日日期)
+    for (let i = allHistoryData.length - 1; i >= 0; i--) {
+        const entry = allHistoryData[i];
+        if (entry.date === todayDateStr) continue;
+        
+        const opt = document.createElement("option");
+        opt.value = entry.date;
+        opt.textContent = entry.date;
+        selector.appendChild(opt);
+    }
+    
+    // 監聽日期切換事件
+    selector.addEventListener("change", (e) => {
+        const selectedValue = e.target.value;
+        if (selectedValue === "today") {
+            renderDashboard(todayData);
+        } else {
+            const foundEntry = allHistoryData.find(item => item.date === selectedValue);
+            if (foundEntry) {
+                renderDashboardFromHistory(foundEntry);
+            }
+        }
+    });
+}
+
+/**
+ * 將歷史條目轉換映射成 Render 格式進行儀表板渲染
+ * @param {Object} entry - 歷史資料條目
+ */
+function renderDashboardFromHistory(entry) {
+    const mappedData = {
+        date: entry.date,
+        market_summary: {
+            combined: entry.combined_summary,
+            tse: entry.tse_summary,
+            tpex: entry.tpex_summary
+        },
+        gov_banks: entry.gov_banks,
+        margin_trading: entry.margin_trading,
+        trading_volume: entry.trading_volume,
+        tsmc_chips: entry.tsmc_chips,
+        rankings: {
+            foreign_buy: [],
+            foreign_sell: [],
+            trust_buy: [],
+            trust_sell: []
+        }
+    };
+    
+    renderDashboard(mappedData);
+    
+    // 歷史數據不含個股前十名排行，提示使用者點選下載 CSV 檢視
+    const rankingTableIds = [
+        "table-foreign-buy-body", "table-foreign-sell-body",
+        "table-trust-buy-body", "table-trust-sell-body"
+    ];
+    rankingTableIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.innerHTML = `<tr><td colspan="3" class="text-center" style="color: var(--text-muted); padding: 15px;">歷史個股排行，請點選右上角下載每日 CSV 數據查看</td></tr>`;
+        }
+    });
 }
 
 /**

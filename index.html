@@ -49,7 +49,12 @@
         <section class="status-download-bar animate-fade-in">
             <div class="status-info">
                 <span class="pulse-indicator"></span>
-                <span class="status-text">最新資料日期：<strong id="data-date">加載中...</strong></span>
+                <span class="status-text" style="display: inline-flex; align-items: center; gap: 8px;">
+                    選擇日期：
+                    <select id="date-select" style="background: rgba(0,0,0,0.5); border: 1px solid var(--border-color); color: var(--text-primary); border-radius: 4px; padding: 2px 6px; font-size: 11px; cursor: pointer; outline: none;">
+                        <option value="today">加載中...</option>
+                    </select>
+                </span>
             </div>
             <div class="download-actions">
                 <a href="data/daily_chips.csv" download id="link-download-csv" class="btn btn-primary btn-sm">

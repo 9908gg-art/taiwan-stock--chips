@@ -12,6 +12,8 @@
     <!-- FontAwesome 圖示 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <!-- Busuanzi View Counter -->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </head>
 <body>
 
@@ -117,7 +119,14 @@
             <p>© 2026 TSMC NewsRadar. 即時新聞與股價推播訂閱面板。</p>
             <p class="github-badge">訂閱資訊自動備份於 GitHub 倉庫 data/subscribers.json</p>
         </div>
-    </footer>
+    
+            <p class="view-counter-box" id="busuanzi_container_site_pv" style="display:none; font-size: 0.85rem; color: var(--text-muted); margin-top: 5px; margin-bottom: 10px; text-align: center;">
+                <i class="fa-solid fa-eye" style="margin-right: 5px; color: var(--color-blue, #38bdf8);"></i> 
+                本站總瀏覽量：<span id="busuanzi_value_site_pv" style="font-weight: 600; color: var(--color-blue, #38bdf8);">...</span> 次 | 
+                <i class="fa-solid fa-user" style="margin-right: 5px; color: var(--color-green, #34d399);"></i> 
+                訪客數：<span id="busuanzi_value_site_uv" style="font-weight: 600; color: var(--color-green, #34d399);">...</span> 人
+            </p>
+</footer>
 
     <!-- JavaScript 邏輯 -->
     <script src="app.js"></script>
