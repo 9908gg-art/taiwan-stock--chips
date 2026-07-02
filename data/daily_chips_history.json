@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30 21:30:15",
+  "last_updated": "2026-07-02 21:20:53",
   "history": [
     {
       "date": "2026-06-24",
@@ -147,6 +147,46 @@
         "trust": -89,
         "dealer": 652,
         "total": -862
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "tse_summary": {
+        "foreign": -890.47,
+        "trust": 99.56,
+        "dealer": -43.28,
+        "total": -834.19
+      },
+      "tpex_summary": {
+        "foreign": 36.94,
+        "trust": -15.8,
+        "dealer": 8.7,
+        "total": 29.83
+      },
+      "combined_summary": {
+        "foreign": -853.53,
+        "trust": 83.76,
+        "dealer": -34.59,
+        "total": -804.36
+      },
+      "gov_banks": {
+        "net_buy": 9.46,
+        "date": "2026-07-01"
+      },
+      "margin_trading": {
+        "margin_balance_change": 113.35,
+        "margin_balance_total": 6208.37,
+        "short_balance_change": 3879,
+        "short_balance_total": 200271
+      },
+      "trading_volume": {
+        "tse_volume": 10835.83
+      },
+      "tsmc_chips": {
+        "foreign": -12253,
+        "trust": 1025,
+        "dealer": 216,
+        "total": -11010
       }
     }
   ]
