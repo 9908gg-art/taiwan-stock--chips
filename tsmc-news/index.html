@@ -152,28 +152,55 @@
 
         <!-- 右側面板：新聞主列表 -->
         <section class="news-panel animate-fade-in delay-100">
-            <!-- TradingView Chart Widget -->
-            <div class="tradingview-widget-container" style="height: 380px; margin-bottom: 24px; border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color, rgba(255, 255, 255, 0.15)); background: rgba(0, 0, 0, 0.2);">
-                <div id="tradingview_tsmc" style="height: 100%;"></div>
-                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-                <script type="text/javascript">
-                new TradingView.widget(
-                {
-                "autosize": true,
-                "symbol": "TWSE:2330",
-                "interval": "D",
-                "timezone": "Asia/Taipei",
-                "theme": "dark",
-                "style": "1",
-                "locale": "zh_TW",
-                "enable_publishing": false,
-                "hide_side_toolbar": false,
-                "allow_symbol_change": true,
-                "container_id": "tradingview_tsmc"
-                }
-                );
-                </script>
+            <!-- TradingView Chart Widget with Switch Tabs -->
+            <div class="tradingview-card card" style="margin-bottom: 24px; padding: 12px 16px;">
+                <div class="chart-tabs" style="display: flex; gap: 10px; margin-bottom: 12px;">
+                    <button class="chart-tab-btn active" onclick="loadTvChart('TAIEX:2330')" style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.2); color: var(--color-accent); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 600; outline: none; transition: all 0.2s;">台積電 2330 (台股)</button>
+                    <button class="chart-tab-btn" onclick="loadTvChart('NYSE:TSM')" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); color: var(--text-secondary); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 600; outline: none; transition: all 0.2s;">TSM ADR (美股)</button>
+                </div>
+                <div style="height: 340px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); background: rgba(0,0,0,0.2);">
+                    <div id="tradingview_chart" style="height: 100%;"></div>
+                </div>
             </div>
+            
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+            function loadTvChart(symbol) {
+                // Update tab buttons styles
+                const btns = document.querySelectorAll('.chart-tab-btn');
+                btns.forEach(btn => {
+                    if (btn.getAttribute('onclick').includes(symbol)) {
+                        btn.style.background = 'rgba(56, 189, 248, 0.08)';
+                        btn.style.borderColor = 'rgba(56, 189, 248, 0.2)';
+                        btn.style.color = 'var(--color-accent)';
+                    } else {
+                        btn.style.background = 'rgba(255, 255, 255, 0.03)';
+                        btn.style.borderColor = 'rgba(255, 255, 255, 0.05)';
+                        btn.style.color = 'var(--text-secondary)';
+                    }
+                });
+                
+                new TradingView.widget({
+                    "autosize": true,
+                    "symbol": symbol,
+                    "interval": "D",
+                    "timezone": "Asia/Taipei",
+                    "theme": "dark",
+                    "style": "1",
+                    "locale": "zh_TW",
+                    "enable_publishing": false,
+                    "hide_side_toolbar": false,
+                    "allow_symbol_change": true,
+                    "container_id": "tradingview_chart"
+                });
+            }
+            // Initial load
+            document.addEventListener("DOMContentLoaded", () => {
+                setTimeout(() => {
+                    loadTvChart('TAIEX:2330');
+                }, 500);
+            });
+            </script>
 
             <div class="news-header">
                 <h2 class="main-title"><i class="fa-solid fa-newspaper text-accent"></i> TSMC 即時新聞流 (時間由新到舊)</h2>
