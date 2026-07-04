@@ -47,17 +47,70 @@ def parse_number(val):
     except ValueError:
         return 0
 
-def run():
-    # 1. Determine Target Date (Taiwan Time UTC+8)
-    tz_tw = timezone(timedelta(hours=8))
-    now_tw = datetime.now(tz_tw)
-    
-    # If date is provided as first argument, use it. Otherwise use current date.
-    if len(sys.argv) > 1:
-        date_str = sys.argv[1] # Format: YYYYMMDD
-    else:
-        date_str = now_tw.strftime("%Y%m%d")
+def load_env():
+    # Try script directory
+    env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+    if not os.path.exists(env_path):
+        # Try repository root (parent directory)
+        env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
         
+    if os.path.exists(env_path):
+        try:
+            with open(env_path, "r", encoding="utf-8") as f_env:
+                for env_line in f_env:
+                    env_line = env_line.strip()
+                    if env_line and not env_line.startswith("#") and "=" in env_line:
+                        k, v = env_line.split("=", 1)
+                        os.environ[k.strip()] = v.strip().strip('"').strip("'")
+            print(f"Loaded environment from {env_path}")
+        except Exception as env_err:
+            print(f"⚠️ 讀取 .env 失敗: {env_err}")
+
+def generate_ai_summary(market_data):
+    api_key = os.environ.get("gemini_api_key") or os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("⚠️ GEMINI_API_KEY not found in environment. Skipping AI summary.")
+        return "無 AI 分析數據（請先於 .env 設定 gemini_api_key）"
+        
+    prompt = (
+        f"你是專業的台灣股市分析助手。請根據以下這一天（{market_data['date']}）的三大法人籌碼數據，"
+        f"寫一段 80-120 字的簡短專業分析（繁體中文），指出今天法人資金的動向重點（如外資是買是賣、投信態度、台積電籌碼、融資券增減等）。\n\n"
+        f"【本日數據】：\n"
+        f"- 大盤成交量：{market_data['trading_volume']['tse_volume']:.2f}億元\n"
+        f"- 三大法人合計買賣超（集中+櫃買）：{market_data['market_summary']['combined']['total']:.2f}億元 "
+        f"（外資：{market_data['market_summary']['combined']['foreign']:.2f}億元，"
+        f"投信：{market_data['market_summary']['combined']['trust']:.2f}億元，"
+        f"自營商：{market_data['market_summary']['combined']['dealer']:.2f}億元）\n"
+        f"- 台積電（2330）法人買賣超：{market_data['tsmc_chips']['total']}張 "
+        f"（外資：{market_data['tsmc_chips']['foreign']}張，投信：{market_data['tsmc_chips']['trust']}張）\n"
+        f"- 官股買賣超：{market_data['gov_banks']['net_buy']:.2f}億元\n"
+        f"- 融資增減：{market_data['margin_trading']['margin_balance_change']:.2f}億元\n"
+        f"- 融券增減：{market_data['margin_trading']['short_balance_change']}張\n"
+        f"請直接輸出分析，不要帶有任何標題或格式引導符。"
+    )
+    
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }]
+    }
+    
+    try:
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(req, timeout=15) as response:
+            res_data = json.loads(response.read().decode("utf-8"))
+            ai_text = res_data['candidates'][0]['content']['parts'][0]['text']
+            return ai_text.strip()
+    except Exception as e:
+        print(f"Error calling Gemini API: {e}")
+        return "AI 分析生成失敗"
+
+def crawl_date(date_str, history_entries, data_dir, history_file, tz_tw):
     year = int(date_str[0:4])
     month = date_str[4:6]
     day = date_str[6:8]
@@ -66,28 +119,6 @@ def run():
     minguo_date = f"{minguo_year}/{month}/{day}"
     
     print(f"Target Date: {formatted_date_dash} (Minguo: {minguo_date})")
-    
-    # Check-and-Skip: Check if history file already has today's date
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(script_dir, "data")
-    os.makedirs(data_dir, exist_ok=True)
-    history_file = os.path.join(data_dir, "daily_chips_history.json")
-    
-    history_entries = []
-    if os.path.exists(history_file):
-        try:
-            with open(history_file, "r", encoding="utf-8") as f:
-                history_data = json.load(f)
-                history_entries = history_data.get("history", [])
-        except Exception as e:
-            print(f"Error loading history file: {e}")
-            
-    # Check if target date is already in history (unless running manually with override)
-    if len(sys.argv) == 1:
-        for entry in history_entries:
-            if entry.get("date") == formatted_date_dash:
-                print(f"Data for {formatted_date_dash} already exists in history. Skipping crawl.")
-                sys.exit(0)
 
     # 2. Fetch TWSE BFI82U (三大法人買賣金額統計表)
     url_bfi = f"https://www.twse.com.tw/fund/BFI82U?response=json&dayDate={date_str}&type=day"
@@ -95,7 +126,7 @@ def run():
     bfi_data = fetch_json(url_bfi)
     if not bfi_data or 'data' not in bfi_data or len(bfi_data['data']) == 0:
         print(f"No BFI82U data for {formatted_date_dash} yet. It may be a non-trading day or not published yet.")
-        sys.exit(1) # Exit with error so script can retry later
+        return False
         
     # Process BFI82U
     # Row 0: 自營商(自行買賣), Row 1: 自營商(避險), Row 2: 投信, Row 3: 外資及陸資
@@ -320,10 +351,8 @@ def run():
     t86_data = fetch_json(url_tsmc_t86)
     
     if not t86_data or 'data' not in t86_data or len(t86_data['data']) == 0:
-        print("No T86 semiconductor data published yet.")
-        if len(sys.argv) == 1:
-            print("Exiting with status 1 to retry later.")
-            sys.exit(1)
+        print("No T86 semiconductor data published yet. Skipping this date.")
+        return False
             
     tsmc_foreign = 0
     tsmc_trust = 0
@@ -389,7 +418,9 @@ def run():
             "trust_buy": trust_buy_rankings,
             "trust_sell": trust_sell_rankings
         }
-    }
+    # 7.8 Generate AI Summary
+    ai_summary = generate_ai_summary(current_data)
+    current_data["ai_summary"] = ai_summary
     
     current_json_file = os.path.join(data_dir, "daily_chips.json")
     with open(current_json_file, "w", encoding="utf-8") as f:
@@ -409,7 +440,8 @@ def run():
         "gov_banks": current_data["gov_banks"],
         "margin_trading": current_data["margin_trading"],
         "trading_volume": current_data["trading_volume"],
-        "tsmc_chips": current_data["tsmc_chips"]
+        "tsmc_chips": current_data["tsmc_chips"],
+        "ai_summary": ai_summary
     }
     history_entries.append(history_entry)
     
@@ -470,6 +502,74 @@ def run():
             
     print(f"Generated CSV report at {csv_file}")
     print("All tasks completed successfully!")
+    return True
+
+def run():
+    load_env()
+    import time
+    tz_tw = timezone(timedelta(hours=8))
+    now_tw = datetime.now(tz_tw)
+    
+    # Generate list of target dates to check
+    target_dates = []
+    if len(sys.argv) > 1:
+        target_dates = [sys.argv[1]]
+    else:
+        # Check last 7 days to backfill any missing weekdays!
+        for i in range(7):
+            d = now_tw - timedelta(days=i)
+            if d.weekday() < 5:
+                target_dates.append(d.strftime("%Y%m%d"))
+        target_dates.sort()  # Sort older dates first!
+        
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(script_dir, "data")
+    os.makedirs(data_dir, exist_ok=True)
+    history_file = os.path.join(data_dir, "daily_chips_history.json")
+    
+    history_entries = []
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                history_data = json.load(f)
+                history_entries = history_data.get("history", [])
+        except Exception as e:
+            print(f"Error loading history file: {e}")
+            
+    crawled_any = False
+    for date_str in target_dates:
+        year = int(date_str[0:4])
+        month = date_str[4:6]
+        day = date_str[6:8]
+        formatted_date_dash = f"{year}-{month}-{day}"
+        
+        # Skip if already exists in history (unless running manually with arguments)
+        if len(sys.argv) == 1:
+            already_exists = False
+            for entry in history_entries:
+                if entry.get("date") == formatted_date_dash:
+                    already_exists = True
+                    break
+            if already_exists:
+                print(f"Data for {formatted_date_dash} already exists in history. Skipping backfill.")
+                continue
+                
+        print(f"⚡ Processing Date: {formatted_date_dash} ...")
+        try:
+            success = crawl_date(date_str, history_entries, data_dir, history_file, tz_tw)
+            if success:
+                crawled_any = True
+                # Reload history entries to keep it updated for the next date in loop!
+                if os.path.exists(history_file):
+                    with open(history_file, "r", encoding="utf-8") as f:
+                        history_data = json.load(f)
+                        history_entries = history_data.get("history", [])
+                time.sleep(3) # Polite crawl gap
+        except Exception as date_ex:
+            print(f"❌ Failed to crawl date {formatted_date_dash}: {date_ex}")
+            
+    if crawled_any:
+        print("🎉 Crawl and backfill session successfully completed!")
 
 if __name__ == "__main__":
     try:

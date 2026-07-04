@@ -197,6 +197,12 @@ function renderDashboardFromHistory(entry) {
  * @param {Object} data - 籌碼資料物件
  */
 function renderDashboard(data) {
+    // 0. 渲染 AI 盤後簡評
+    const aiSummaryEl = document.getElementById("val-ai-summary");
+    if (aiSummaryEl) {
+        aiSummaryEl.textContent = data.ai_summary || "無 AI 分析數據（今日可能為非交易日，或 API 未啟用）";
+    }
+
     // 1. 更新資料日期與更新時間
     const dataDateElement = document.getElementById("data-date");
     if (dataDateElement) {
