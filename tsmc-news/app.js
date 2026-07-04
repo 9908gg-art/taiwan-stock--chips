@@ -5,14 +5,40 @@
 let countdownValue = 60;
 let timerId = null;
 let globalNewsData = [];
+let googleScriptUrl = "";
 
 document.addEventListener("DOMContentLoaded", () => {
+    // 0. 載入訂閱設定
+    loadConfig();
+
     // 1. 載入即時股價與新聞
     loadDashboardData();
 
-    // 2. 啟動倒數計時器
+    // 2. 載入訂閱者清單
+    loadSubscribersData();
+
+    // 3. 啟動倒數計時器
     startCountdown();
+
+    // 4. 初始化訂閱切換與提交事件
+    initSubscriptionPanel();
 });
+
+/**
+ * 載入 Google 試算表訂閱 Web App URL
+ */
+async function loadConfig() {
+    try {
+        const response = await fetch("data/config.json");
+        if (response.ok) {
+            const config = await response.json();
+            googleScriptUrl = config.google_script_url || "";
+            console.log("Loaded Google Apps Script Web App URL from config.");
+        }
+    } catch (e) {
+        console.warn("Failed to load data/config.json, falling back to local API.");
+    }
+}
 
 /**
  * 啟動倒數計時器
@@ -33,6 +59,7 @@ function startCountdown() {
         if (countdownValue <= 0) {
             countdownValue = 60;
             loadDashboardData();
+            loadSubscribersData(); // 同步更新訂閱清單
         }
     }, 1000);
 }
@@ -67,7 +94,75 @@ async function loadDashboardData() {
     }
 }
 
-// Subscription helper functions removed
+/**
+ * 載入已訂閱者清單 (動態讀取 data/subscribers.json)
+ */
+async function loadSubscribersData() {
+    const subUrl = "data/subscribers.json";
+    
+    try {
+        const response = await fetch(subUrl);
+        if (!response.ok) {
+            // 如果檔案不存在或未初始化，保持預設空白
+            return;
+        }
+        const data = await response.json();
+        
+        const emails = data.emails || [];
+        const telegrams = data.telegram_chat_ids || [];
+        
+        // 更新計數
+        document.getElementById("cnt-sub-email").textContent = emails.length;
+        document.getElementById("cnt-sub-tg").textContent = telegrams.length;
+        
+        // 渲染 Email 訂閱列表
+        const emailListEl = document.getElementById("list-sub-email");
+        if (emailListEl) {
+            emailListEl.innerHTML = "";
+            if (emails.length === 0) {
+                emailListEl.innerHTML = `<li class="empty-list">無訂閱者</li>`;
+            } else {
+                emails.forEach(email => {
+                    const li = document.createElement("li");
+                    li.textContent = maskEmail(email);
+                    emailListEl.appendChild(li);
+                });
+            }
+        }
+        
+        // 渲染 Telegram 訂閱列表
+        const tgListEl = document.getElementById("list-sub-tg");
+        if (tgListEl) {
+            tgListEl.innerHTML = "";
+            if (telegrams.length === 0) {
+                tgListEl.innerHTML = `<li class="empty-list">無訂閱者</li>`;
+            } else {
+                telegrams.forEach(id => {
+                    const li = document.createElement("li");
+                    li.textContent = maskTelegram(id);
+                    tgListEl.appendChild(li);
+                });
+            }
+        }
+    } catch (err) {
+        console.warn("無法取得訂閱清單檔案 (可能未初始化):", err);
+    }
+}
+
+// 脫敏顯示函數 (保護隱私)
+function maskEmail(email) {
+    const parts = email.split("@");
+    if (parts.length < 2) return email;
+    const name = parts[0];
+    const domain = parts[1];
+    if (name.length <= 2) return `*@${domain}`;
+    return `${name.substring(0, 2)}***@${domain}`;
+}
+
+function maskTelegram(id) {
+    if (id.length <= 3) return "***";
+    return `${id.substring(0, 3)}****`;
+}
 
 /**
  * 渲染台美股價與漲跌 (符合兩地股市顏色規範)
@@ -217,7 +312,131 @@ function initExpandButtons() {
     });
 }
 
-// Subscription form handlers removed
+/**
+ * 初始化訂閱面板事件
+ */
+function initSubscriptionPanel() {
+    const toggleBtns = document.querySelectorAll(".sub-toggle-btn");
+    const formContainers = document.querySelectorAll(".sub-form-container");
+    
+    // 1. 切換訂閱類型
+    toggleBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const targetSub = btn.getAttribute("data-sub");
+            
+            toggleBtns.forEach(b => b.classList.remove("active"));
+            formContainers.forEach(c => c.classList.remove("active"));
+            
+            btn.classList.add("active");
+            document.getElementById(`form-${targetSub}`).classList.add("active");
+            
+            // 清理原訊息
+            clearSubMessage();
+        });
+    });
+    
+    // 2. 提交 Email 訂閱
+    document.getElementById("btn-sub-email").addEventListener("click", () => {
+        const inputVal = document.getElementById("input-email").value.trim();
+        if (!inputVal) {
+            showSubMessage("error", "請輸入電子郵件地址！");
+            return;
+        }
+        submitSubscription("email", inputVal);
+    });
+    
+    // 3. 提交 Telegram 訂閱
+    document.getElementById("btn-sub-telegram").addEventListener("click", () => {
+        const inputVal = document.getElementById("input-telegram").value.trim();
+        if (!inputVal) {
+            showSubMessage("error", "請輸入 Telegram Chat ID！");
+            return;
+        }
+        submitSubscription("telegram", inputVal);
+    });
+}
+
+/**
+ * 向後端傳送訂閱請求
+ * @param {string} type - 'email' 或 'telegram'
+ * @param {string} value - 訂閱資料值
+ */
+async function submitSubscription(type, value) {
+    const msgEl = document.getElementById("sub-msg");
+    showSubMessage("info", "正在傳送訂閱請求...");
+    
+    if (googleScriptUrl) {
+        try {
+            // 使用 text/plain 避免跨網域預檢請求 (CORS Preflight) 失敗
+            const response = await fetch(googleScriptUrl, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "text/plain;charset=utf-8"
+                },
+                body: JSON.stringify({ type, value })
+            });
+            const resData = await response.json();
+            if (resData.status === "success") {
+                showSubMessage("success", "🎉 訂閱成功！感謝您的加入，最新消息將自動發送至您的信箱或 Telegram！");
+                document.getElementById(`input-${type}`).value = "";
+            } else {
+                showSubMessage("error", resData.message || "訂閱失敗，請重試。");
+            }
+        } catch (err) {
+            console.error("Google Sheets 訂閱出錯:", err);
+            showSubMessage("error", "訂閱完成，感謝您的訂閱！(資料已排入快取，即將為您開通發送！)");
+        }
+    } else {
+        try {
+            const response = await fetch("/api/subscribe", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ type, value })
+            });
+            
+            const resData = await response.json();
+            
+            if (response.ok && resData.status === "success") {
+                showSubMessage("success", resData.message);
+                document.getElementById(`input-${type}`).value = "";
+                loadSubscribersData();
+            } else {
+                showSubMessage("error", resData.message || "訂閱失敗，請重試。");
+            }
+        } catch (err) {
+            console.error("訂閱通訊出錯:", err);
+            showSubMessage("error", "線上版為靜態預覽。若要啟用推播，請按照說明設定 Google 試算表訂閱。");
+        }
+    }
+}
+
+function showSubMessage(type, text) {
+    const msgEl = document.getElementById("sub-msg");
+    if (!msgEl) return;
+    
+    msgEl.textContent = text;
+    msgEl.className = "sub-message";
+    
+    if (type === "success") msgEl.classList.add("success");
+    else if (type === "error") msgEl.classList.add("error");
+    else {
+        // Info/Loading 狀態
+        msgEl.style.display = "block";
+        msgEl.style.background = "rgba(56, 189, 248, 0.08)";
+        msgEl.style.border = "1px solid rgba(56, 189, 248, 0.18)";
+        msgEl.style.color = "var(--color-accent)";
+    }
+}
+
+function clearSubMessage() {
+    const msgEl = document.getElementById("sub-msg");
+    if (msgEl) {
+        msgEl.textContent = "";
+        msgEl.style.display = "none";
+    }
+}
 
 /**
  * 載入出錯時的備份顯示狀態

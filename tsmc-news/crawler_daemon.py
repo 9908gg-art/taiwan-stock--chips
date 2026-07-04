@@ -6,6 +6,9 @@ import sys
 import os
 import ssl
 import time
+import smtplib
+from email.mime.text import MIMEText
+from email.header import Header
 from datetime import datetime, timezone, timedelta
 
 # Create SSL context to bypass SSL validation
@@ -17,7 +20,82 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
 }
 
-# Notification helpers removed
+def load_env():
+    env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+    if not os.path.exists(env_path):
+        env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+    if os.path.exists(env_path):
+        try:
+            with open(env_path, "r", encoding="utf-8") as f_env:
+                for env_line in f_env:
+                    env_line = env_line.strip()
+                    if env_line and not env_line.startswith("#") and "=" in env_line:
+                        k, v = env_line.split("=", 1)
+                        os.environ[k.strip()] = v.strip().strip('"').strip("'")
+            print(f"Loaded environment from {env_path}")
+        except Exception as env_err:
+            print(f"⚠️ 讀取 .env 失敗: {env_err}")
+
+# 1. Email notification helper
+def send_email_notification(to_addr, title, url):
+    smtp_server = os.environ.get("SMTP_SERVER")
+    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
+    smtp_user = os.environ.get("SMTP_USER")
+    smtp_password = os.environ.get("SMTP_PASSWORD")
+    smtp_from = os.environ.get("SMTP_FROM", smtp_user)
+    
+    if not (smtp_server and smtp_user and smtp_password):
+        print(f"[Mailer] SMTP variables not set. Cannot notify {to_addr}.")
+        return False
+        
+    msg_text = (
+        f"您好，您訂閱的台積電即時新聞有新消息：\n\n"
+        f"【{title}】\n\n"
+        f"點擊以下連結前往網站觀看詳細新聞：\n{url}\n\n"
+        f"---\nTSMC NewsRadar 機器人自動發送"
+    )
+    message = MIMEText(msg_text, 'plain', 'utf-8')
+    message['From'] = Header(f"TSMC NewsRadar <{smtp_from}>", 'utf-8')
+    message['To'] = Header(to_addr, 'utf-8')
+    message['Subject'] = Header(f"【台積電最新新聞】{title[:30]}...", 'utf-8')
+    
+    try:
+        if smtp_port == 465:
+            server = smtplib.SMTP_SSL(smtp_server, smtp_port, timeout=10)
+        else:
+            server = smtplib.SMTP(smtp_server, smtp_port, timeout=10)
+            server.starttls()
+            
+        server.login(smtp_user, smtp_password)
+        server.sendmail(smtp_from, [to_addr], message.as_string())
+        server.quit()
+        print(f"[Mailer] Email notification successfully sent to {to_addr}")
+        return True
+    except Exception as e:
+        print(f"[Mailer] Failed to send email to {to_addr}: {e}")
+        return False
+
+# 2. Telegram notification helper
+def send_telegram_notification(chat_id, title, url):
+    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    if not bot_token:
+        print(f"[Telegram] Bot token not set. Cannot notify chat_id {chat_id}.")
+        return False
+        
+    message = f"🔔 *台積電最新新聞*\n\n【{title}】\n\n🔗 [點擊連結前往觀看詳細新聞]({url})"
+    encoded_message = urllib.parse.quote(message)
+    tg_url = f"https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&text={encoded_message}&parse_mode=Markdown"
+    
+    req = urllib.request.Request(tg_url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, context=ctx, timeout=10) as response:
+            res_body = json.loads(response.read().decode('utf-8'))
+            if res_body.get("ok"):
+                print(f"[Telegram] TG message successfully sent to chat_id {chat_id}")
+                return True
+    except Exception as e:
+        print(f"[Telegram] Failed to send to chat_id {chat_id}: {e}")
+    return False
 
 # 3. Fetch stock prices from Yahoo Finance
 def fetch_stock_price(symbol):
@@ -60,12 +138,30 @@ def fetch_tsmc_news():
     for item in news_items:
         news_id = item.get('newsId')
         if news_id and news_id not in unique_news:
-            unique_news[news_id] = item
+            title = (item.get('title') or '').lower()
+            summary = (item.get('summary') or '').lower()
+            
+            # Strict relevance filter:
+            # 1. Does the title contain any of our key TSMC terms?
+            tsmc_terms = ["台積電", "tsmc", "2330", "魏哲家", "劉德音", "晶圓代工", "晶圓"]
+            has_term_in_title = any(term in title for term in tsmc_terms)
+            
+            # 2. Or does the title contain "台積" (short form)?
+            has_short_term = "台積" in title
+            
+            # 3. Or does the summary mention "台積電" or "tsmc" at least twice?
+            summary_count = summary.count("台積電") + summary.count("tsmc") + summary.count("2330")
+            
+            if has_term_in_title or has_short_term or summary_count >= 2:
+                unique_news[news_id] = item
+            else:
+                print(f"🧹 Filtered out unrelated news: {item.get('title')}")
             
     sorted_news = sorted(unique_news.values(), key=lambda x: x.get('publishAt', 0), reverse=True)
     return sorted_news
 
 def run_crawl():
+    load_env()
     tz_tw = timezone(timedelta(hours=8))
     now_tw = datetime.now(tz_tw)
     print(f"[{now_tw.strftime('%Y-%m-%d %H:%M:%S')}] Crawl started...")
@@ -78,8 +174,7 @@ def run_crawl():
     raw_news = fetch_tsmc_news()
     print(f"Fetched {len(raw_news)} unique news items.")
     
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(script_dir, "data")
+    data_dir = "/root/tsmc-news-dashboard/data"
     os.makedirs(data_dir, exist_ok=True)
     json_path = os.path.join(data_dir, "tsmc_news.json")
     subscribers_path = os.path.join(data_dir, "subscribers.json")
@@ -95,7 +190,39 @@ def run_crawl():
         except Exception as e:
             print("Error loading cached news:", e)
             
-    # Compile news list
+    # Load subscriber list
+    subscribers = {"emails": [], "telegram_chat_ids": []}
+    if os.path.exists(subscribers_path):
+        try:
+            with open(subscribers_path, "r", encoding="utf-8") as f:
+                subscribers = json.load(f)
+        except Exception as e:
+            print("Error loading subscribers list:", e)
+            
+    # Load and merge subscribers from Google Sheets CSV if configured
+    csv_url = os.environ.get("SUBSCRIBERS_CSV_URL")
+    if csv_url:
+        try:
+            # Clean quotes if any
+            csv_url = csv_url.strip().strip('"').strip("'")
+            req = urllib.request.Request(csv_url, headers=headers)
+            with urllib.request.urlopen(req, context=ctx, timeout=10) as resp:
+                csv_text = resp.read().decode('utf-8')
+                # CSV format: Timestamp, Type, Value
+                for line in csv_text.splitlines()[1:]: # Skip header
+                    parts = line.split(',')
+                    if len(parts) >= 3:
+                        sub_type = parts[1].strip().lower()
+                        sub_val = parts[2].strip()
+                        if sub_type == "email" and sub_val not in subscribers["emails"]:
+                            subscribers["emails"].append(sub_val)
+                        elif sub_type == "telegram" and sub_val not in subscribers["telegram_chat_ids"]:
+                            subscribers["telegram_chat_ids"].append(sub_val)
+            print(f"Successfully loaded and merged subscribers from Google Sheets CSV. Total: {len(subscribers['emails'])} emails, {len(subscribers['telegram_chat_ids'])} TG IDs.")
+        except Exception as csv_err:
+            print(f"Failed to fetch subscribers from Google Sheets CSV: {csv_err}")
+            
+    # Compile news list and trigger notification if new news detected
     new_news_count = 0
     compiled_news = []
     for item in raw_news:
@@ -121,9 +248,19 @@ def run_crawl():
             "keywords": item.get("keywordForTag", [])
         })
         
+        # If it's a completely new news item, trigger notifications!
+        # Note: If existing_news_ids is empty, it means first run. To avoid spamming, we only notify on subsequent runs.
         if len(existing_news_ids) > 0 and news_id not in existing_news_ids:
             new_news_count += 1
             print(f"🔥 New article detected [{news_id}]: {title}")
+            
+            # Send Email notifications
+            for email in subscribers.get("emails", []):
+                send_email_notification(email, title, news_url)
+                
+            # Send Telegram notifications
+            for chat_id in subscribers.get("telegram_chat_ids", []):
+                send_telegram_notification(chat_id, title, news_url)
                 
     # Sort by timestamp descending
     compiled_news = sorted(compiled_news, key=lambda x: x.get('publish_timestamp', 0), reverse=True)

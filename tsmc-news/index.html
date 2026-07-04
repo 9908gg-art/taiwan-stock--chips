@@ -21,15 +21,9 @@
     <header class="ticker-header">
         <div class="ticker-gradient"></div>
         <div class="container ticker-container">
-            <div class="brand-nav-group">
-                <div class="brand">
-                    <i class="fa-solid fa-microchip brand-icon"></i>
-                    <span class="brand-name">TSMC NewsRadar</span>
-                </div>
-                <div class="header-nav-links">
-                    <a href="../" class="header-nav-link"><i class="fa-solid fa-chart-line"></i> 籌碼下載</a>
-                    <a href="./" class="header-nav-link active"><i class="fa-solid fa-microchip"></i> 新聞追蹤</a>
-                </div>
+            <div class="brand">
+                <i class="fa-solid fa-microchip brand-icon"></i>
+                <span class="brand-name">TSMC NewsRadar</span>
             </div>
             
             <div class="ticker-wrapper">
@@ -78,27 +72,95 @@
                 </div>
             </div>
 
-            <!-- 系統說明卡片 -->
-            <div class="card info-card">
-                <h2 class="section-title"><i class="fa-solid fa-circle-info text-accent"></i> 系統說明</h2>
-                <div class="info-body">
-                    <p style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 10px;">
-                        本追蹤器由 GitHub Actions 每日定時自動更新。每分鐘為您同步鉅亨網的台積電即時財經新聞，並整合 Yahoo Finance 的台美兩地股價行情。
-                    </p>
-                    <div style="display: flex; flex-direction: column; gap: 6px;">
-                        <span style="font-size: 11px; color: var(--color-accent); background: rgba(56, 189, 248, 0.06); padding: 4px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 6px;">
-                            <i class="fa-solid fa-clock"></i> 每分鐘自動同步數據
-                        </span>
-                        <span style="font-size: 11px; color: #10b981; background: rgba(16, 185, 129, 0.06); padding: 4px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 6px;">
-                            <i class="fa-solid fa-shield-halved"></i> 100% 靜態安全性防護
-                        </span>
+            <!-- 新聞推播訂閱卡片 -->
+            <div class="card subscribe-card">
+                <h2 class="section-title"><i class="fa-solid fa-bell text-accent"></i> 新聞推播訂閱</h2>
+                
+                <!-- 訂閱類型選單 -->
+                <div class="sub-toggle-wrapper">
+                    <button class="sub-toggle-btn active" data-sub="email"><i class="fa-solid fa-envelope"></i> Email 訂閱</button>
+                    <button class="sub-toggle-btn" data-sub="telegram"><i class="fa-solid fa-paper-plane"></i> Telegram</button>
+                </div>
+                
+                <!-- Email 訂閱表單 -->
+                <div class="sub-form-container active" id="form-email">
+                    <p class="sub-desc">當有台積電最新新聞發布時，系統會自動寄信通知您。</p>
+                    <div class="input-group">
+                        <input type="email" id="input-email" placeholder="請輸入您的 Email 地址">
+                        <button class="btn btn-primary btn-block" id="btn-sub-email">確認訂閱</button>
                     </div>
+                </div>
+                
+                <!-- Telegram 訂閱表單 -->
+                <div class="sub-form-container" id="form-telegram">
+                    <p class="sub-desc">請先在 Telegram 搜尋 <a href="https://t.me/userinfobot" target="_blank" class="text-accent">@userinfobot</a> 獲取您的 **Chat ID**，並輸入在下方即可訂閱消息推播。</p>
+                    <div class="input-group">
+                        <input type="text" id="input-telegram" placeholder="請輸入您的 Telegram Chat ID">
+                        <button class="btn btn-primary btn-block" id="btn-sub-telegram">確認訂閱</button>
+                    </div>
+                </div>
+
+                <!-- 訂閱結果反饋 -->
+                <div id="sub-msg" class="sub-message"></div>
+
+                <!-- 線上版警示說明 -->
+                <p class="sub-warning-note">⚠️ 線上版 (GitHub Pages) 僅供瀏覽。若要啟用電子郵件與 Telegram 新聞訂閱推播，請在本地運行 `python3 start_dashboard.py`。</p>
+            </div>
+
+            <!-- 當前訂閱清單卡片 -->
+            <div class="card subscribers-list-card">
+                <h3 class="section-title"><i class="fa-solid fa-users text-accent"></i> 已訂閱清單 (儲存於 GitHub)</h3>
+                <div class="subscribers-wrapper">
+                    <div class="sub-list-section">
+                        <h4>信箱訂閱 (<span id="cnt-sub-email">0</span>)</h4>
+                        <ul id="list-sub-email" class="sub-ul">
+                            <li class="empty-list">無訂閱者</li>
+                        </ul>
+                    </div>
+                    <div class="sub-list-section">
+                        <h4>TG 訂閱 (<span id="cnt-sub-tg">0</span>)</h4>
+                        <ul id="list-sub-tg" class="sub-ul">
+                            <li class="empty-list">無訂閱者</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Twitter/X Widget -->
+            <div class="card twitter-widget-card" style="margin-top: 16px;">
+                <h3 class="section-title" style="font-family: 'Outfit', sans-serif;"><i class="fa-brands fa-x-twitter text-accent"></i> X (Twitter) 社群動態</h3>
+                <div style="max-height: 400px; overflow-y: auto; border-radius: 8px;">
+                    <a class="twitter-timeline" data-height="350" data-theme="dark" href="https://twitter.com/TSMC_Share?ref_src=twsrc%5Etfw">Tweets about TSMC</a> 
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
         </aside>
 
         <!-- 右側面板：新聞主列表 -->
         <section class="news-panel animate-fade-in delay-100">
+            <!-- TradingView Chart Widget -->
+            <div class="tradingview-widget-container" style="height: 380px; margin-bottom: 24px; border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color, rgba(255, 255, 255, 0.15)); background: rgba(0, 0, 0, 0.2);">
+                <div id="tradingview_tsmc" style="height: 100%;"></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                new TradingView.widget(
+                {
+                "autosize": true,
+                "symbol": "TWSE:2330",
+                "interval": "D",
+                "timezone": "Asia/Taipei",
+                "theme": "dark",
+                "style": "1",
+                "locale": "zh_TW",
+                "enable_publishing": false,
+                "hide_side_toolbar": false,
+                "allow_symbol_change": true,
+                "container_id": "tradingview_tsmc"
+                }
+                );
+                </script>
+            </div>
+
             <div class="news-header">
                 <h2 class="main-title"><i class="fa-solid fa-newspaper text-accent"></i> TSMC 即時新聞流 (時間由新到舊)</h2>
             </div>
