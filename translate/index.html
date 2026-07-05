@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>估購翻譯 | 專業義大利文翻譯與學習工具 (GuGo Translate)</title>
+    <meta name="description" content="免費且專業的義大利文與繁體中文雙向翻譯工具。支援即時語音朗讀、一鍵複製、常用義大利語學習，提供極佳的行動端體驗。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 頂部導覽列 -->
+    <nav class="top-nav">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <i class="fa-solid fa-language" style="color: var(--color-accent);"></i>
+                <span>估購網 (GuGo.com.tw)</span>
+            </div>
+            <div class="nav-links">
+                <a href="../" class="nav-link"><i class="fa-solid fa-chart-line"></i> 法人籌碼</a>
+                <a href="../tsmc-news/" class="nav-link"><i class="fa-solid fa-microchip"></i> TSMC 新聞</a>
+                <a href="./" class="nav-link active"><i class="fa-solid fa-language"></i> 義語翻譯</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主區塊 Header -->
+    <header class="app-header">
+        <div class="header-bg-gradient"></div>
+        <div class="container header-content">
+            <div class="logo animate-fade-in">
+                <i class="fa-solid fa-earth-europe logo-icon"></i>
+                <span class="logo-text">GuGo Translate</span>
+            </div>
+            <h1 class="animate-fade-in">估購義大利文翻譯</h1>
+            <p class="subtitle animate-fade-in delay-100">免 API 金鑰即時翻譯，支援雙向語音朗讀與實用義大利語學習</p>
+        </div>
+    </header>
+
+    <main class="container main-content animate-fade-in delay-100">
+        <!-- 翻譯核心容器 -->
+        <section class="translator-container card">
+            
+            <!-- 頂部語言切換欄 -->
+            <div class="lang-selector-bar">
+                <div class="lang-option active" id="source-lang-label">繁體中文</div>
+                <button class="swap-btn" id="swap-lang-btn" title="切換語言方向">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </button>
+                <div class="lang-option active" id="target-lang-label">義大利文 (Italiano)</div>
+            </div>
+
+            <!-- 輸入與輸出文字方塊區 -->
+            <div class="textarea-wrapper">
+                <!-- 輸入區 -->
+                <div class="input-card">
+                    <textarea id="source-text" placeholder="請輸入要翻譯的文字..."></textarea>
+                    <div class="card-action-bar">
+                        <span class="char-counter" id="char-counter">0 / 1000</span>
+                        <div class="action-buttons">
+                            <button class="icon-btn" id="clear-btn" title="清除文字"><i class="fa-solid fa-trash-can"></i></button>
+                            <button class="icon-btn" id="tts-source-btn" title="朗讀原文"><i class="fa-solid fa-volume-high"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 輸出區 -->
+                <div class="output-card">
+                    <div class="translated-output-placeholder" id="output-placeholder">翻譯結果將顯示在此處...</div>
+                    <textarea id="target-text" readonly placeholder=""></textarea>
+                    <div class="card-action-bar">
+                        <span class="translation-status" id="translation-status">Ready</span>
+                        <div class="action-buttons">
+                            <button class="icon-btn" id="copy-btn" title="複製翻譯結果"><i class="fa-solid fa-copy"></i></button>
+                            <button class="icon-btn" id="tts-target-btn" title="朗讀譯文"><i class="fa-solid fa-volume-high"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 翻譯按鈕 -->
+            <div class="translate-action-row">
+                <button class="btn btn-primary" id="translate-btn">
+                    <i class="fa-solid fa-language"></i> 立即翻譯
+                </button>
+            </div>
+        </section>
+
+        <!-- 額外實用區塊：常用義大利文學習卡片 -->
+        <section class="card learning-card animate-fade-in delay-200">
+            <h2 class="card-title">
+                <i class="fa-solid fa-graduation-cap text-accent"></i> 
+                常用義大利文日常對話 (聽力與學習)
+            </h2>
+            <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 16px;">
+                點擊右側的播放按鈕，即可聆聽標準的義大利文發音，開啟您的義語學習第一步！
+            </p>
+            <div class="phrase-grid">
+                <div class="phrase-item">
+                    <div class="phrase-left">
+                        <span class="phrase-it">Ciao!</span>
+                        <span class="phrase-zh">你好 / 再見 (非正式)</span>
+                    </div>
+                    <button class="play-phrase-btn" data-text="Ciao"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="phrase-item">
+                    <div class="phrase-left">
+                        <span class="phrase-it">Grazie!</span>
+                        <span class="phrase-zh">謝謝</span>
+                    </div>
+                    <button class="play-phrase-btn" data-text="Grazie"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="phrase-item">
+                    <div class="phrase-left">
+                        <span class="phrase-it">Buongiorno!</span>
+                        <span class="phrase-zh">早安 / 您好 (正式)</span>
+                    </div>
+                    <button class="play-phrase-btn" data-text="Buongiorno"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="phrase-item">
+                    <div class="phrase-left">
+                        <span class="phrase-it">Come stai?</span>
+                        <span class="phrase-zh">你好嗎？</span>
+                    </div>
+                    <button class="play-phrase-btn" data-text="Come stai?"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="phrase-item">
+                    <div class="phrase-left">
+                        <span class="phrase-it">Prego.</span>
+                        <span class="phrase-zh">不客氣 / 請</span>
+                    </div>
+                    <button class="play-phrase-btn" data-text="Prego"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <div class="phrase-item">
+                    <div class="phrase-left">
+                        <span class="phrase-it">Ti amo.</span>
+                        <span class="phrase-zh">我愛你</span>
+                    </div>
+                    <button class="play-phrase-btn" data-text="Ti amo"><i class="fa-solid fa-play"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p>&copy; 2026 估購網 (GuGo.com.tw) 版權所有</p>
+            <p style="font-size: 11px; margin-top: 4px; color: var(--text-muted);">
+                本頁面使用 MyMemory 免費翻譯服務。要獲得更精準、擬真、支援文法解析的專業翻譯，歡迎在後續升級為 AI (Gemini) 翻譯引擎！
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
