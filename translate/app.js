@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // 觸發輸入框的 input 事件以更新字數
         sourceText.dispatchEvent(new Event("input"));
         updatePlaceholderVisibility();
+        populateVoices();
     });
 
     // 3. 呼叫 MyMemory API 進行翻譯
@@ -136,40 +137,123 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // 5. 瀏覽器原生語音朗讀 (Text-to-Speech)
-    function speakText(text, lang) {
+    const sourceVoiceSelect = document.getElementById("source-voice");
+    const targetVoiceSelect = document.getElementById("target-voice");
+    let allVoices = [];
+
+    // 估算發音人性別
+    function guessGender(name) {
+        const maleNames = ['hanhan', 'danny', 'cosimo', 'david', 'karl', 'stefano', 'zhipeng', 'yunjian', 'male', 'enzo', 'giovanni'];
+        const femaleNames = ['yating', 'zhiyu', 'elsa', 'elene', 'isabella', 'huihui', 'yaoyao', 'google', 'xiaoxiao', 'xiaoyi', 'female', 'bianca', 'lucia'];
+        name = name.toLowerCase();
+        for (const m of maleNames) {
+            if (name.includes(m)) return "男聲";
+        }
+        for (const f of femaleNames) {
+            if (name.includes(f)) return "女聲";
+        }
+        return "預設";
+    }
+
+    // 載入系統可用的發音語音清單
+    function populateVoices() {
+        allVoices = window.speechSynthesis.getVoices();
+        
+        // 依據目前翻譯方向過濾語言
+        const sourceLangPrefix = isChineseToItalian ? "zh" : "it";
+        const targetLangPrefix = isChineseToItalian ? "it" : "zh";
+        
+        const filteredSource = allVoices.filter(v => v.lang.toLowerCase().startsWith(sourceLangPrefix));
+        const filteredTarget = allVoices.filter(v => v.lang.toLowerCase().startsWith(targetLangPrefix));
+        
+        // 填充來源語音下拉選單
+        sourceVoiceSelect.innerHTML = "";
+        if (filteredSource.length === 0) {
+            const opt = document.createElement("option");
+            opt.textContent = "系統預設發音";
+            opt.value = "";
+            sourceVoiceSelect.appendChild(opt);
+        } else {
+            filteredSource.forEach((voice, index) => {
+                const opt = document.createElement("option");
+                opt.value = index;
+                const gender = guessGender(voice.name);
+                const displayName = voice.name
+                    .replace(/Microsoft/g, "")
+                    .replace(/Google/g, "")
+                    .replace(/Apple/g, "")
+                    .replace(/Desktop/g, "")
+                    .trim();
+                opt.textContent = `${displayName} (${gender})`;
+                sourceVoiceSelect.appendChild(opt);
+            });
+        }
+
+        // 填充目標語音下拉選單
+        targetVoiceSelect.innerHTML = "";
+        if (filteredTarget.length === 0) {
+            const opt = document.createElement("option");
+            opt.textContent = "系統預設發音";
+            opt.value = "";
+            targetVoiceSelect.appendChild(opt);
+        } else {
+            filteredTarget.forEach((voice, index) => {
+                const opt = document.createElement("option");
+                opt.value = index;
+                const gender = guessGender(voice.name);
+                const displayName = voice.name
+                    .replace(/Microsoft/g, "")
+                    .replace(/Google/g, "")
+                    .replace(/Apple/g, "")
+                    .replace(/Desktop/g, "")
+                    .trim();
+                opt.textContent = `${displayName} (${gender})`;
+                targetVoiceSelect.appendChild(opt);
+            });
+        }
+    }
+
+    // 執行朗讀
+    function speakText(text, isSource) {
         if (!text) return;
         
-        // 取消目前正在播放的語音
         window.speechSynthesis.cancel();
         
         const utterance = new SpeechSynthesisUtterance(text);
+        const lang = isSource ? (isChineseToItalian ? "zh-TW" : "it-IT") : (isChineseToItalian ? "it-IT" : "zh-TW");
         utterance.lang = lang;
         
-        // 尋找對應語系的系統語音
-        const voices = window.speechSynthesis.getVoices();
-        const matchedVoice = voices.find(voice => voice.lang.startsWith(lang));
-        if (matchedVoice) {
-            utterance.voice = matchedVoice;
+        // 取得選擇的發音人
+        const selectEl = isSource ? sourceVoiceSelect : targetVoiceSelect;
+        const selectedVal = selectEl.value;
+        
+        if (selectedVal !== "") {
+            const langPrefix = isSource ? (isChineseToItalian ? "zh" : "it") : (isChineseToItalian ? "it" : "zh");
+            const filtered = allVoices.filter(v => v.lang.toLowerCase().startsWith(langPrefix));
+            const selectedVoice = filtered[parseInt(selectedVal)];
+            if (selectedVoice) {
+                utterance.voice = selectedVoice;
+            }
         }
-
+        
         window.speechSynthesis.speak(utterance);
     }
 
     ttsSourceBtn.addEventListener("click", () => {
-        const lang = isChineseToItalian ? "zh-TW" : "it-IT";
-        speakText(sourceText.value, lang);
+        speakText(sourceText.value, true);
     });
 
     ttsTargetBtn.addEventListener("click", () => {
-        const lang = isChineseToItalian ? "it-IT" : "zh-TW";
-        speakText(targetText.value, lang);
+        speakText(targetText.value, false);
     });
 
-    // 常用對話點擊播放語音
+    // 常用對話點擊播放語音 (使用對應的義大利文語音下拉設定)
     playPhraseBtns.forEach(btn => {
         btn.addEventListener("click", () => {
             const text = btn.getAttribute("data-text");
-            speakText(text, "it-IT");
+            // 義大利文在當前如果是來源就用 source，是目標就用 target
+            const isItalianSource = !isChineseToItalian;
+            speakText(text, isItalianSource);
         });
     });
 
@@ -182,13 +266,18 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // 7. 輔助函數：解碼 HTML Entities (例如 &quot; 轉為 ")
+    // 7. 輔助函數：解碼 HTML Entities
     function decodeHTMLEntities(text) {
         const textArea = document.createElement("textarea");
         textArea.innerHTML = text;
         return textArea.value;
     }
 
-    // 確保語音資源加載
-    window.speechSynthesis.onvoiceschanged = () => {};
+    // 語音資源加載事件監聽
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = populateVoices;
+    }
+    
+    // 初始化語音載入
+    setTimeout(populateVoices, 300);
 });

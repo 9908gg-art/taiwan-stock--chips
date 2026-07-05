@@ -63,7 +63,8 @@
                     <textarea id="source-text" placeholder="請輸入要翻譯的文字..."></textarea>
                     <div class="card-action-bar">
                         <span class="char-counter" id="char-counter">0 / 1000</span>
-                        <div class="action-buttons">
+                        <div class="action-buttons" style="display: flex; align-items: center; gap: 8px;">
+                            <select class="voice-select" id="source-voice" title="選擇朗讀語音/性別"></select>
                             <button class="icon-btn" id="clear-btn" title="清除文字"><i class="fa-solid fa-trash-can"></i></button>
                             <button class="icon-btn" id="tts-source-btn" title="朗讀原文"><i class="fa-solid fa-volume-high"></i></button>
                         </div>
@@ -76,7 +77,8 @@
                     <textarea id="target-text" readonly placeholder=""></textarea>
                     <div class="card-action-bar">
                         <span class="translation-status" id="translation-status">Ready</span>
-                        <div class="action-buttons">
+                        <div class="action-buttons" style="display: flex; align-items: center; gap: 8px;">
+                            <select class="voice-select" id="target-voice" title="選擇朗讀語音/性別"></select>
                             <button class="icon-btn" id="copy-btn" title="複製翻譯結果"><i class="fa-solid fa-copy"></i></button>
                             <button class="icon-btn" id="tts-target-btn" title="朗讀譯文"><i class="fa-solid fa-volume-high"></i></button>
                         </div>

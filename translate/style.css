@@ -434,6 +434,31 @@ textarea::placeholder {
     transform: scale(1.05);
 }
 
+/* 語音選擇器樣式 */
+.voice-select {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    outline: none;
+    max-width: 140px;
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.voice-select:hover, .voice-select:focus {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.voice-select option {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
 /* Footer */
 .app-footer {
     text-align: center;
