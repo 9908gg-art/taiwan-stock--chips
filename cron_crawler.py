@@ -418,6 +418,7 @@ def crawl_date(date_str, history_entries, data_dir, history_file, tz_tw):
             "trust_buy": trust_buy_rankings,
             "trust_sell": trust_sell_rankings
         }
+    }
     # 7.8 Generate AI Summary
     ai_summary = generate_ai_summary(current_data)
     current_data["ai_summary"] = ai_summary
