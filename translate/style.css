@@ -521,3 +521,18 @@ textarea::placeholder {
         grid-template-columns: 1fr;
     }
 }
+
+/* Amazon Affiliate Cards */
+.amazon-affiliate-card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.amz-item-card {
+    transition: var(--transition-fast);
+}
+.amz-item-card:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 153, 0, 0.05) !important;
+    border-color: rgba(255, 153, 0, 0.3) !important;
+    box-shadow: 0 8px 30px rgba(255, 153, 0, 0.08);
+}
