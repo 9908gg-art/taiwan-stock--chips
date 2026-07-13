@@ -892,3 +892,159 @@ body {
     box-shadow: 0 8px 30px rgba(255, 153, 0, 0.08);
 }
 
+/* ==========================================================================
+   表格響應式封裝
+   ========================================================================== */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 8px;
+    border-radius: var(--border-radius-sm);
+}
+
+/* ==========================================================================
+   三大法人連續買超追蹤樣式
+   ========================================================================== */
+.streak-card {
+    background: radial-gradient(circle at top right, rgba(239, 68, 68, 0.02) 0%, rgba(15, 23, 42, 0) 55%), var(--bg-card);
+}
+
+.streak-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.streak-box {
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid var(--border-color);
+    padding: 16px;
+    border-radius: var(--border-radius-sm);
+    display: flex;
+    flex-direction: column;
+}
+
+.streak-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.subtitle-foreign {
+    color: var(--color-buy);
+    border-bottom-color: rgba(239, 68, 68, 0.15);
+}
+
+.subtitle-trust {
+    color: var(--color-accent);
+    border-bottom-color: rgba(56, 189, 248, 0.15);
+}
+
+.streak-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.streak-sub-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.streak-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-align: center;
+    width: fit-content;
+}
+
+.badge-3d {
+    background: rgba(239, 68, 68, 0.12);
+    color: var(--color-buy);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.badge-2d {
+    background: rgba(251, 191, 36, 0.12);
+    color: #fbbf24;
+    border: 1px solid rgba(251, 191, 36, 0.25);
+}
+
+.streak-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.streak-empty {
+    font-size: 11px;
+    color: var(--text-muted);
+    padding: 8px 4px;
+    font-style: italic;
+}
+
+.streak-item {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 10px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 6px;
+    transition: var(--transition-fast);
+}
+
+.streak-item:hover {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.06);
+}
+
+.streak-name-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.streak-name-link:hover {
+    color: var(--color-accent);
+}
+
+.streak-days {
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    color: var(--color-buy);
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+@media (max-width: 900px) {
+    .streak-list-wrapper {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 650px) {
+    .streak-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+

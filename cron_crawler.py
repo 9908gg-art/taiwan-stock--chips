@@ -427,6 +427,9 @@ def crawl_date(date_str, history_entries, data_dir, history_file, tz_tw):
     with open(current_json_file, "w", encoding="utf-8") as f:
         json.dump(current_data, f, indent=2, ensure_ascii=False)
     print(f"Saved today's details to {current_json_file}")
+    
+    # 7.9 Update rankings history and calculate buying streaks
+    update_rankings_history_and_calculate_streaks(current_data, data_dir)
 
     # 9. Update History JSON
     # Remove existing entry for today if we are overwriting it
@@ -504,6 +507,105 @@ def crawl_date(date_str, history_entries, data_dir, history_file, tz_tw):
     print(f"Generated CSV report at {csv_file}")
     print("All tasks completed successfully!")
     return True
+
+def update_rankings_history_and_calculate_streaks(current_data, data_dir):
+    history_file = os.path.join(data_dir, "rankings_history.json")
+    
+    # 1. 載入已存檔的排行歷史記錄
+    rankings_history = []
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                rankings_history = json.load(f)
+        except Exception as e:
+            print(f"Error loading rankings history: {e}")
+            
+    # 2. 加入今日最新排行個股代號
+    today_entry = {
+        "date": current_data["date"],
+        "foreign_buy": [item["code"] for item in current_data["rankings"]["foreign_buy"]],
+        "foreign_sell": [item["code"] for item in current_data["rankings"]["foreign_sell"]],
+        "trust_buy": [item["code"] for item in current_data["rankings"]["trust_buy"]],
+        "trust_sell": [item["code"] for item in current_data["rankings"]["trust_sell"]]
+    }
+    
+    # 避免重複日期
+    rankings_history = [entry for entry in rankings_history if entry["date"] != today_entry["date"]]
+    rankings_history.append(today_entry)
+    
+    # 僅保留最近 5 天的歷史
+    rankings_history = sorted(rankings_history, key=lambda x: x["date"])[-5:]
+    
+    try:
+        with open(history_file, "w", encoding="utf-8") as f:
+            json.dump(rankings_history, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"Error saving rankings history: {e}")
+        
+    # 3. 計算連續買超的個股天數
+    consecutive_data = {
+        "date": current_data["date"],
+        "foreign_buy_streak_3d": [],
+        "foreign_buy_streak_2d": [],
+        "trust_buy_streak_3d": [],
+        "trust_buy_streak_2d": []
+    }
+    
+    # 至少要有兩天的數據才能計算連續買超
+    if len(rankings_history) >= 2:
+        today_rankings = rankings_history[-1]
+        
+        def calculate_streak(ranking_key):
+            streaks = {}
+            today_codes = today_rankings[ranking_key]
+            for code in today_codes:
+                name = ""
+                origin_key = "foreign_buy" if "foreign" in ranking_key else "trust_buy"
+                for item in current_data["rankings"][origin_key]:
+                    if item["code"] == code:
+                        name = item["name"]
+                        break
+                
+                streak_count = 1
+                for day_idx in range(len(rankings_history) - 2, -1, -1):
+                    prev_day = rankings_history[day_idx]
+                    if code in prev_day[ranking_key]:
+                        streak_count += 1
+                    else:
+                        break # 連續中斷
+                
+                if streak_count >= 2:
+                    streaks[code] = {
+                        "code": code,
+                        "name": name,
+                        "streak": streak_count
+                    }
+            return streaks
+            
+        foreign_streaks = calculate_streak("foreign_buy")
+        trust_streaks = calculate_streak("trust_buy")
+        
+        # 分組：連續 3 天（及以上）與連續 2 天
+        for code, info in foreign_streaks.items():
+            if info["streak"] >= 3:
+                consecutive_data["foreign_buy_streak_3d"].append(info)
+            else:
+                consecutive_data["foreign_buy_streak_2d"].append(info)
+                
+        for code, info in trust_streaks.items():
+            if info["streak"] >= 3:
+                consecutive_data["trust_buy_streak_3d"].append(info)
+            else:
+                consecutive_data["trust_buy_streak_2d"].append(info)
+                
+    # 存檔至 consecutive_buys.json
+    consecutive_file = os.path.join(data_dir, "consecutive_buys.json")
+    try:
+        with open(consecutive_file, "w", encoding="utf-8") as f:
+            json.dump(consecutive_data, f, indent=2, ensure_ascii=False)
+        print(f"Successfully calculated and saved consecutive buys to {consecutive_file}")
+    except Exception as e:
+        print(f"Error saving consecutive buys: {e}")
 
 def run():
     load_env()

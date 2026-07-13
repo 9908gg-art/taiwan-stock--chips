@@ -161,6 +161,50 @@
             </div>
         </section>
 
+        <!-- 新增部分：三大法人連續買超追蹤 -->
+        <section class="card streak-card animate-fade-in delay-200">
+            <h2 class="card-title" style="margin-bottom: 8px;"><i class="fa-solid fa-fire text-accent"></i> 三大法人連續買超飆股追蹤</h2>
+            <p class="subtitle" style="text-align: left; margin: 0 0 16px 0; font-size: 13px;">追蹤外資與投信連續買超 2 天及 3 天（含以上）之個股動向</p>
+            <div class="streak-grid">
+                <!-- 外資連續買超 -->
+                <div class="streak-box">
+                    <h3 class="streak-subtitle subtitle-foreign"><i class="fa-solid fa-earth-asia"></i> 外資連續買超</h3>
+                    <div class="streak-list-wrapper">
+                        <div class="streak-sub-box">
+                            <span class="streak-badge badge-3d">連買 3 天+</span>
+                            <ul class="streak-list" id="list-foreign-streak-3d">
+                                <li class="streak-empty">無連續買超資料</li>
+                            </ul>
+                        </div>
+                        <div class="streak-sub-box">
+                            <span class="streak-badge badge-2d">連買 2 天</span>
+                            <ul class="streak-list" id="list-foreign-streak-2d">
+                                <li class="streak-empty">無連續買超資料</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 投信連續買超 -->
+                <div class="streak-box">
+                    <h3 class="streak-subtitle subtitle-trust"><i class="fa-solid fa-building-columns"></i> 投信連續買超</h3>
+                    <div class="streak-list-wrapper">
+                        <div class="streak-sub-box">
+                            <span class="streak-badge badge-3d">連買 3 天+</span>
+                            <ul class="streak-list" id="list-trust-streak-3d">
+                                <li class="streak-empty">無連續買超資料</li>
+                            </ul>
+                        </div>
+                        <div class="streak-sub-box">
+                            <span class="streak-badge badge-2d">連買 2 天</span>
+                            <ul class="streak-list" id="list-trust-streak-2d">
+                                <li class="streak-empty">無連續買超資料</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- 第三部分：個股買賣超 Top 10 排行表 (Tabs 切換) -->
         <section class="card ranking-card animate-fade-in delay-200">
             <div class="ranking-header">
@@ -178,34 +222,38 @@
                     <!-- 買超 -->
                     <div class="table-box">
                         <h3 class="table-subtitle subtitle-buy"><i class="fa-solid fa-arrow-trend-up"></i> 外資買超前十名</h3>
-                        <table class="chips-table">
-                            <thead>
-                                <tr>
-                                    <th>排名</th>
-                                    <th>代號 / 名稱</th>
-                                    <th class="text-right">買超張數</th>
-                                </tr>
-                            </thead>
-                            <tbody id="table-foreign-buy-body">
-                                <tr><td colspan="3" class="text-center">讀取中...</td></tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="chips-table">
+                                <thead>
+                                    <tr>
+                                        <th>排名</th>
+                                        <th>代號 / 名稱</th>
+                                        <th class="text-right">買超張數</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table-foreign-buy-body">
+                                    <tr><td colspan="3" class="text-center">讀取中...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <!-- 賣超 -->
                     <div class="table-box">
                         <h3 class="table-subtitle subtitle-sell"><i class="fa-solid fa-arrow-trend-down"></i> 外資賣超前十名</h3>
-                        <table class="chips-table">
-                            <thead>
-                                <tr>
-                                    <th>排名</th>
-                                    <th>代號 / 名稱</th>
-                                    <th class="text-right">賣超張數</th>
-                                </tr>
-                            </thead>
-                            <tbody id="table-foreign-sell-body">
-                                <tr><td colspan="3" class="text-center">讀取中...</td></tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="chips-table">
+                                <thead>
+                                    <tr>
+                                        <th>排名</th>
+                                        <th>代號 / 名稱</th>
+                                        <th class="text-right">賣超張數</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table-foreign-sell-body">
+                                    <tr><td colspan="3" class="text-center">讀取中...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -216,34 +264,38 @@
                     <!-- 買超 -->
                     <div class="table-box">
                         <h3 class="table-subtitle subtitle-buy"><i class="fa-solid fa-arrow-trend-up"></i> 投信買超前十名</h3>
-                        <table class="chips-table">
-                            <thead>
-                                <tr>
-                                    <th>排名</th>
-                                    <th>代號 / 名稱</th>
-                                    <th class="text-right">買超張數</th>
-                                </tr>
-                            </thead>
-                            <tbody id="table-trust-buy-body">
-                                <tr><td colspan="3" class="text-center">讀取中...</td></tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="chips-table">
+                                <thead>
+                                    <tr>
+                                        <th>排名</th>
+                                        <th>代號 / 名稱</th>
+                                        <th class="text-right">買超張數</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table-trust-buy-body">
+                                    <tr><td colspan="3" class="text-center">讀取中...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <!-- 賣超 -->
                     <div class="table-box">
                         <h3 class="table-subtitle subtitle-sell"><i class="fa-solid fa-arrow-trend-down"></i> 投信賣超前十名</h3>
-                        <table class="chips-table">
-                            <thead>
-                                <tr>
-                                    <th>排名</th>
-                                    <th>代號 / 名稱</th>
-                                    <th class="text-right">賣超張數</th>
-                                </tr>
-                            </thead>
-                            <tbody id="table-trust-sell-body">
-                                <tr><td colspan="3" class="text-center">讀取中...</td></tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="chips-table">
+                                <thead>
+                                    <tr>
+                                        <th>排名</th>
+                                        <th>代號 / 名稱</th>
+                                        <th class="text-right">賣超張數</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table-trust-sell-body">
+                                    <tr><td colspan="3" class="text-center">讀取中...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

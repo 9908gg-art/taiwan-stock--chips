@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 2. 自伺服器/本地 JSON 載入資料
     loadChipsData();
+    
+    // 3. 載入並渲染連續買超飆股
+    loadAndRenderConsecutiveBuys();
 });
 
 /**
@@ -390,5 +393,50 @@ function showErrorState() {
         if (el) {
             el.innerHTML = `<tr><td colspan="3" class="text-center" style="color: var(--text-muted);">暫無今日籌碼數據</td></tr>`;
         }
+    });
+}
+
+/**
+ * 載入並渲染連續買超飆股資料
+ */
+async function loadAndRenderConsecutiveBuys() {
+    try {
+        const response = await fetch("data/consecutive_buys.json");
+        if (response.ok) {
+            const data = await response.json();
+            renderStreakList("list-foreign-streak-3d", data.foreign_buy_streak_3d);
+            renderStreakList("list-foreign-streak-2d", data.foreign_buy_streak_2d);
+            renderStreakList("list-trust-streak-3d", data.trust_buy_streak_3d);
+            renderStreakList("list-trust-streak-2d", data.trust_buy_streak_2d);
+        }
+    } catch (error) {
+        console.error("載入連續買超數據失敗:", error);
+    }
+}
+
+/**
+ * 渲染單個連續買超清單
+ */
+function renderStreakList(elementId, list) {
+    const el = document.getElementById(elementId);
+    if (!el) return;
+    
+    el.innerHTML = "";
+    if (!list || list.length === 0) {
+        el.innerHTML = `<li class="streak-empty">無連續買超資料</li>`;
+        return;
+    }
+    
+    list.forEach(item => {
+        const li = document.createElement("li");
+        li.className = "streak-item";
+        li.innerHTML = `
+            <a href="https://tw.stock.yahoo.com/quote/${item.code}" target="_blank" class="streak-name-link">
+                <span style="color: var(--text-secondary); font-family: 'Outfit'; margin-right: 4px;">${item.code}</span>
+                <strong>${item.name}</strong>
+            </a>
+            <span class="streak-days"><i class="fa-solid fa-fire"></i> ${item.streak}天</span>
+        `;
+        el.appendChild(li);
     });
 }

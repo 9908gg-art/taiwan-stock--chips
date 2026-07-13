@@ -1,0 +1,41 @@
+{
+  "date": "2026-07-09",
+  "foreign_buy_streak_3d": [
+    {
+      "code": "2409",
+      "name": "友達",
+      "streak": 3
+    },
+    {
+      "code": "2618",
+      "name": "長榮航",
+      "streak": 3
+    }
+  ],
+  "foreign_buy_streak_2d": [
+    {
+      "code": "2353",
+      "name": "宏碁",
+      "streak": 2
+    }
+  ],
+  "trust_buy_streak_3d": [
+    {
+      "code": "2887",
+      "name": "台新新光金",
+      "streak": 3
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "streak": 3
+    }
+  ],
+  "trust_buy_streak_2d": [
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "streak": 2
+    }
+  ]
+}
