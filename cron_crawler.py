@@ -675,8 +675,30 @@ def run():
         print("🎉 Crawl and backfill session successfully completed!")
 
 if __name__ == "__main__":
+    import traceback
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(script_dir, "data")
+    os.makedirs(data_dir, exist_ok=True)
+    status_file = os.path.join(data_dir, "crawler_status.json")
+    
     try:
         run()
+        status_data = {
+            "last_run": datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S"),
+            "status": "success",
+            "message": "Crawl session successfully completed."
+        }
+        with open(status_file, "w", encoding="utf-8") as sf:
+            json.dump(status_data, sf, indent=2, ensure_ascii=False)
     except Exception as ex:
+        err_msg = traceback.format_exc()
         print(f"Execution failed with error: {ex}")
+        status_data = {
+            "last_run": datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S"),
+            "status": "failed",
+            "message": str(ex),
+            "traceback": err_msg
+        }
+        with open(status_file, "w", encoding="utf-8") as sf:
+            json.dump(status_data, sf, indent=2, ensure_ascii=False)
         sys.exit(1)

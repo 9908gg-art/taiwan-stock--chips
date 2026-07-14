@@ -295,4 +295,29 @@ if __name__ == "__main__":
                 print(f"Crawl session failed: {e}")
             time.sleep(60)
     else:
-        run_crawl()
+        import traceback
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        data_dir = os.path.join(script_dir, "data")
+        os.makedirs(data_dir, exist_ok=True)
+        status_file = os.path.join(data_dir, "news_status.json")
+        try:
+            run_crawl()
+            status_data = {
+                "last_run": datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S"),
+                "status": "success",
+                "message": "TSMC news crawl session completed successfully."
+            }
+            with open(status_file, "w", encoding="utf-8") as sf:
+                json.dump(status_data, sf, indent=2, ensure_ascii=False)
+        except Exception as ex:
+            err_msg = traceback.format_exc()
+            print(f"Execution failed with error: {ex}")
+            status_data = {
+                "last_run": datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S"),
+                "status": "failed",
+                "message": str(ex),
+                "traceback": err_msg
+            }
+            with open(status_file, "w", encoding="utf-8") as sf:
+                json.dump(status_data, sf, indent=2, ensure_ascii=False)
+            sys.exit(1)
