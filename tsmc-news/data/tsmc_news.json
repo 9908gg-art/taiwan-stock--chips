@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14 19:13:21",
+  "last_updated": "2026-07-15 00:04:38",
   "stock_prices": {
     "tw_2330": {
       "price": 2420.0,
@@ -7,9 +7,9 @@
       "change_percent": -0.82
     },
     "us_tsm": {
-      "price": 421.58,
-      "change": -12.53,
-      "change_percent": -2.89
+      "price": 420.61,
+      "change": -0.97,
+      "change_percent": -0.23
     }
   },
   "news": [
@@ -58,20 +58,6 @@
         "營收",
         "財報",
         "TOP"
-      ]
-    },
-    {
-      "news_id": 6533161,
-      "title": "〈台股盤前要聞〉4萬6衝關不成恐回防4萬5、<mark>台積電</mark>上半年營收衝破2兆元創新高",
-      "summary": "台股盤前要聞",
-      "publish_time": "2026-07-14 05:10:04",
-      "publish_timestamp": 1783977004,
-      "url": "https://news.cnyes.com/news/id/6533161",
-      "keywords": [
-        "台股",
-        "台股盤前",
-        "台股盤前要聞",
-        "摘要"
       ]
     },
     {
