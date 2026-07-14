@@ -877,3 +877,110 @@ body {
     }
 }
 
+/* ==========================================================================
+   即時新聞列表美化與高對比色調
+   ========================================================================== */
+.news-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: 20px;
+    margin-bottom: 16px;
+    transition: var(--transition-normal);
+}
+
+.news-card:hover {
+    border-color: rgba(56, 189, 248, 0.25);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+}
+
+.news-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.meta-left {
+    display: flex;
+    gap: 12px;
+}
+
+.news-source {
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+.news-time {
+    color: var(--text-muted);
+}
+
+.news-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.news-link {
+    color: var(--text-primary) !important; /* Use bright text-primary (white) instead of browser dark blue link */
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.news-link:hover {
+    color: var(--color-accent) !important; /* Hover highlights with sky blue */
+    text-decoration: underline;
+}
+
+.news-summary {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    opacity: 0.9;
+}
+
+.news-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.news-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.news-tags .tag {
+    font-size: 11px;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 3px 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.expand-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: var(--transition-fast);
+}
+
+.expand-btn:hover {
+    color: var(--color-accent);
+}
+
+

@@ -86,59 +86,7 @@
                 </div>
             </div>
 
-            <!-- 新聞推播訂閱卡片 -->
-            <div class="card subscribe-card">
-                <h2 class="section-title"><i class="fa-solid fa-bell text-accent"></i> 新聞推播訂閱</h2>
-                
-                <!-- 訂閱類型選單 -->
-                <div class="sub-toggle-wrapper">
-                    <button class="sub-toggle-btn active" data-sub="email"><i class="fa-solid fa-envelope"></i> Email 訂閱</button>
-                    <button class="sub-toggle-btn" data-sub="telegram"><i class="fa-solid fa-paper-plane"></i> Telegram</button>
-                </div>
-                
-                <!-- Email 訂閱表單 -->
-                <div class="sub-form-container active" id="form-email">
-                    <p class="sub-desc">當有台積電最新新聞發布時，系統會自動寄信通知您。</p>
-                    <div class="input-group">
-                        <input type="email" id="input-email" placeholder="請輸入您的 Email 地址">
-                        <button class="btn btn-primary btn-block" id="btn-sub-email">確認訂閱</button>
-                    </div>
-                </div>
-                
-                <!-- Telegram 訂閱表單 -->
-                <div class="sub-form-container" id="form-telegram">
-                    <p class="sub-desc">請先在 Telegram 搜尋 <a href="https://t.me/userinfobot" target="_blank" class="text-accent">@userinfobot</a> 獲取您的 **Chat ID**，並輸入在下方即可訂閱消息推播。</p>
-                    <div class="input-group">
-                        <input type="text" id="input-telegram" placeholder="請輸入您的 Telegram Chat ID">
-                        <button class="btn btn-primary btn-block" id="btn-sub-telegram">確認訂閱</button>
-                    </div>
-                </div>
 
-                <!-- 訂閱結果反饋 -->
-                <div id="sub-msg" class="sub-message"></div>
-
-                <!-- 線上版警示說明 -->
-                <p class="sub-warning-note">⚠️ 線上版 (GitHub Pages) 僅供瀏覽。若要啟用電子郵件與 Telegram 新聞訂閱推播，請在本地運行 `python3 start_dashboard.py`。</p>
-            </div>
-
-            <!-- 當前訂閱清單卡片 -->
-            <div class="card subscribers-list-card">
-                <h3 class="section-title"><i class="fa-solid fa-users text-accent"></i> 已訂閱清單 (儲存於 GitHub)</h3>
-                <div class="subscribers-wrapper">
-                    <div class="sub-list-section">
-                        <h4>信箱訂閱 (<span id="cnt-sub-email">0</span>)</h4>
-                        <ul id="list-sub-email" class="sub-ul">
-                            <li class="empty-list">無訂閱者</li>
-                        </ul>
-                    </div>
-                    <div class="sub-list-section">
-                        <h4>TG 訂閱 (<span id="cnt-sub-tg">0</span>)</h4>
-                        <ul id="list-sub-tg" class="sub-ul">
-                            <li class="empty-list">無訂閱者</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
             <!-- Twitter/X Widget -->
             <div class="card twitter-widget-card" style="margin-top: 16px;">
@@ -155,8 +103,8 @@
             <!-- TradingView Chart Widget with Switch Tabs -->
             <div class="tradingview-card card" style="margin-bottom: 24px; padding: 12px 16px;">
                 <div class="chart-tabs" style="display: flex; gap: 10px; margin-bottom: 12px;">
-                    <button class="chart-tab-btn active" onclick="loadTvChart('TAIEX:2330')" style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.2); color: var(--color-accent); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 600; outline: none; transition: all 0.2s;">台積電 2330 (台股)</button>
-                    <button class="chart-tab-btn" onclick="loadTvChart('NYSE:TSM')" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); color: var(--text-secondary); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 600; outline: none; transition: all 0.2s;">TSM ADR (美股)</button>
+                    <button class="chart-tab-btn" onclick="loadTvChart('TAIEX:2330')" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); color: var(--text-secondary); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 600; outline: none; transition: all 0.2s;">台積電 2330 (台股)</button>
+                    <button class="chart-tab-btn active" onclick="loadTvChart('NYSE:TSM')" style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.2); color: var(--color-accent); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: 600; outline: none; transition: all 0.2s;">TSM ADR (美股)</button>
                 </div>
                 <div style="height: 340px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); background: rgba(0,0,0,0.2);">
                     <div id="tradingview_chart" style="height: 100%;"></div>
@@ -197,7 +145,7 @@
             // Initial load
             document.addEventListener("DOMContentLoaded", () => {
                 setTimeout(() => {
-                    loadTvChart('TAIEX:2330');
+                    loadTvChart('NYSE:TSM');
                 }, 500);
             });
             </script>
@@ -296,8 +244,7 @@
 
     <footer class="app-footer">
         <div class="container">
-            <p>© 2026 TSMC NewsRadar. 即時新聞與股價推播訂閱面板。</p>
-            <p class="github-badge">訂閱資訊自動備份於 GitHub 倉庫 data/subscribers.json</p>
+            <p>© 2026 TSMC NewsRadar. 即時新聞與股價推播面板。</p>
         </div>
     
             <p class="view-counter-box" id="busuanzi_container_site_pv" style="display:none; font-size: 0.85rem; color: var(--text-muted); margin-top: 5px; margin-bottom: 10px; text-align: center;">
