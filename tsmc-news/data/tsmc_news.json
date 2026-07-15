@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15 20:06:10",
+  "last_updated": "2026-07-16 00:55:18",
   "stock_prices": {
     "tw_2330": {
       "price": 2440.0,
@@ -7,9 +7,9 @@
       "change_percent": 0.83
     },
     "us_tsm": {
-      "price": 420.39,
-      "change": -1.19,
-      "change_percent": -0.28
+      "price": 414.66,
+      "change": -5.73,
+      "change_percent": -1.36
     }
   },
   "news": [
@@ -52,20 +52,6 @@
         "2奈米",
         "Nova Lake",
         "晶圓代工"
-      ]
-    },
-    {
-      "news_id": 6535006,
-      "title": "環遊世界｜不只是科技重鎮！　從博物館到街頭塗鴉，看見多面鳳凰城",
-      "summary": "近年來因為台積電（TSMC）在美國鳳凰城（Phoenix）這片巨大的仙人掌大地上安家落戶，所有新聞和媒體的目光焦點都被牽引到了亞利桑那州（Arizona）。",
-      "publish_time": "2026-07-15 07:54:11",
-      "publish_timestamp": 1784073251,
-      "url": "https://news.cnyes.com/news/id/6535006",
-      "keywords": [
-        "溫士凱",
-        "環遊世界",
-        "美國",
-        "鳳凰城"
       ]
     },
     {
