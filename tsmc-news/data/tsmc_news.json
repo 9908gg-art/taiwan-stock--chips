@@ -1,63 +1,71 @@
 {
-  "last_updated": "2026-07-15 00:04:38",
+  "last_updated": "2026-07-15 20:06:10",
   "stock_prices": {
     "tw_2330": {
-      "price": 2420.0,
-      "change": -20.0,
-      "change_percent": -0.82
+      "price": 2440.0,
+      "change": 20.0,
+      "change_percent": 0.83
     },
     "us_tsm": {
-      "price": 420.61,
-      "change": -0.97,
-      "change_percent": -0.23
+      "price": 420.39,
+      "change": -1.19,
+      "change_percent": -0.28
     }
   },
   "news": [
     {
-      "news_id": 6534268,
-      "title": "通寶董事會升級 延攬<mark>台積電</mark>前高層出任獨董",
-      "summary": "IC 設計業者通寶半導體 (7913-TW) 召開股臨會，完成董事改選，當中，通寶延攬前台積電 (2330-TW)(TSM-US) 中央專案管理處資深處長林俊吉出任獨立董事一職，加上其曾任創意 (3443-TW) 執行副總，可望強化公",
-      "publish_time": "2026-07-14 15:06:49",
-      "publish_timestamp": 1784012809,
-      "url": "https://news.cnyes.com/news/id/6534268",
+      "news_id": 6535886,
+      "title": "籌碼大清洗！<mark>台積電</mark>法說前夕，尾盤神秘調節透露什麼？",
+      "summary": "",
+      "publish_time": "2026-07-15 17:15:07",
+      "publish_timestamp": 1784106907,
+      "url": "https://news.cnyes.com/news/id/6535886",
       "keywords": [
-        "通寶",
-        "ASIC",
-        "董事會",
-        "台積電"
+        "台積電",
+        "欣興",
+        "長廣",
+        "光聖",
+        "CPI",
+        "海力士",
+        "光通訊",
+        "ABF載板",
+        "AI伺服器",
+        "半導體",
+        "凱旭投顧",
+        "陳智霖",
+        "趨勢分析"
       ]
     },
     {
-      "news_id": 6533218,
-      "title": "台灣AI供應鏈6月驗證：花旗估<mark>台積電</mark>增速上修至35%-40% CCL與測試接口領跑",
-      "summary": "花旗每月追蹤報告給出信號清晰：台灣 AI 供應鏈的增長已經從台積電 (TSM-US)(2330-TW) 先進製程擴散到測試接口、覆銅板、ABF 載板、伺服器 ODM、電源和液冷。6 月數據開始驗證此前的產能瓶頸判斷。",
-      "publish_time": "2026-07-14 10:00:02",
-      "publish_timestamp": 1783994402,
-      "url": "https://news.cnyes.com/news/id/6533218",
+      "news_id": 6535254,
+      "title": "雙代工策略生變！英特爾原定七成訂單給台積電 如今90%以上改自家生產",
+      "summary": "",
+      "publish_time": "2026-07-15 10:15:30",
+      "publish_timestamp": 1784081730,
+      "url": "https://news.cnyes.com/news/id/6535254",
       "keywords": [
+        "英特爾",
+        "外包",
         "台積電",
-        "花旗",
-        "AI",
-        "供應鏈",
-        "pcb",
-        "CCL",
-        "CPU",
-        "台灣"
+        "18A製程",
+        "良率",
+        "2奈米",
+        "Nova Lake",
+        "晶圓代工"
       ]
     },
     {
-      "news_id": 6533210,
-      "title": "<mark>台積電</mark>營收創新高 為何仍未提振AI股行情？",
-      "summary": "台積電 (TSM-US)(2330-TW) 周一 (13 日) 公布創紀錄的單月營收，但這仍不足以讓日益疲弱的人工智慧 (AI) 投資熱潮重新振作。",
-      "publish_time": "2026-07-14 06:30:06",
-      "publish_timestamp": 1783981806,
-      "url": "https://news.cnyes.com/news/id/6533210",
+      "news_id": 6535006,
+      "title": "環遊世界｜不只是科技重鎮！　從博物館到街頭塗鴉，看見多面鳳凰城",
+      "summary": "近年來因為台積電（TSMC）在美國鳳凰城（Phoenix）這片巨大的仙人掌大地上安家落戶，所有新聞和媒體的目光焦點都被牽引到了亞利桑那州（Arizona）。",
+      "publish_time": "2026-07-15 07:54:11",
+      "publish_timestamp": 1784073251,
+      "url": "https://news.cnyes.com/news/id/6535006",
       "keywords": [
-        "台積電",
-        "AI股",
-        "營收",
-        "財報",
-        "TOP"
+        "溫士凱",
+        "環遊世界",
+        "美國",
+        "鳳凰城"
       ]
     },
     {
