@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16 20:10:38",
+  "last_updated": "2026-07-17 00:52:17",
   "stock_prices": {
     "tw_2330": {
       "price": 2470.0,
@@ -7,12 +7,82 @@
       "change_percent": 1.23
     },
     "us_tsm": {
-      "price": 419.48,
-      "change": -0.91,
-      "change_percent": -0.22
+      "price": 405.53,
+      "change": -13.95,
+      "change_percent": -3.32
     }
   },
   "news": [
+    {
+      "news_id": 6537320,
+      "title": "鉅亨速報 - Factset 最新調查：<mark>台積電</mark>(2330-TW)目標價調升至3090元，幅度約3%",
+      "summary": "FactSet 最新調查：台積電(2330-TW)目標價調升，最高估值、最低估值、中位數、綜合評級、近5日股價、大盤表現、即時新聞資訊。",
+      "publish_time": "2026-07-16 22:10:23",
+      "publish_timestamp": 1784211023,
+      "url": "https://news.cnyes.com/news/id/6537320",
+      "keywords": [
+        "台股",
+        "市場預估",
+        "目標價"
+      ]
+    },
+    {
+      "news_id": 6537284,
+      "title": "Jim Cramer：半導體淪為「情緒賭場」 SK 海力士上市拖累台積電",
+      "summary": "CNBC 知名財經節目主持人 Jim Cramer 對當前半導體市場的亂象發出了嚴厲警告。他指出，儘管全球晶圓代工龍頭台積電 (TSM-US)(2330-TW) 第二季的業績表現「好得驚人」，但其股價卻不升反降，這背後反映出",
+      "publish_time": "2026-07-16 22:10:04",
+      "publish_timestamp": 1784211004,
+      "url": "https://news.cnyes.com/news/id/6537284",
+      "keywords": [
+        "台積電",
+        "半導體",
+        "記憶體",
+        "晶片",
+        "SK海力士"
+      ]
+    },
+    {
+      "news_id": 6536936,
+      "title": "〈美股早盤〉台積電財報利多失靈！晶片股續挫拖累 主要指數開低",
+      "summary": "美股周四 (16 日) 開低，晶片股再度遭遇賣壓，拖累標普 500 指數與那斯達克指數走弱。台積電雖公布優於預期的第二季財報，但上調全年資本支出預估，引發市場對 AI 投資回報與高估值的疑慮，半導體族群普遍承壓。同時，美國最新公布的零",
+      "publish_time": "2026-07-16 21:39:01",
+      "publish_timestamp": 1784209141,
+      "url": "https://news.cnyes.com/news/id/6536936",
+      "keywords": [
+        "美國經濟",
+        "聯準會",
+        "Fed",
+        "華許",
+        "升息",
+        "通膨",
+        "零售銷售",
+        "消費者",
+        "支出",
+        "物價",
+        "油價",
+        "美國",
+        "伊朗",
+        "美股早盤",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6537278,
+      "title": "AI浪潮助攻 多家機構看好<mark>台積電</mark> 目標價頻創新高",
+      "summary": "台積電 (TSM-US)(2330-TW) 公布 2026 年第二季財報後，其驚人的獲利表現與大幅上調的未來展望，再次向市場證明其在半導體先進製程領域的絕對領導地位。",
+      "publish_time": "2026-07-16 21:38:20",
+      "publish_timestamp": 1784209100,
+      "url": "https://news.cnyes.com/news/id/6537278",
+      "keywords": [
+        "台積電",
+        "法說",
+        "財報",
+        "資本支出",
+        "目標價",
+        "AI",
+        "賣鏟子"
+      ]
+    },
     {
       "news_id": 6537180,
       "title": "〈<mark>台積電</mark>法說〉利多卻票房失靈？ADR盤前挫逾4%、台指期夜盤崩逾千點",
@@ -113,32 +183,6 @@
       "publish_timestamp": 1784185951,
       "url": "https://news.cnyes.com/news/id/6536894",
       "keywords": []
-    },
-    {
-      "news_id": 6536855,
-      "title": "<mark>台積電</mark>Q2淨利年增77%創新高，大幅超越市場預期 AI需求持續推升成長",
-      "summary": "",
-      "publish_time": "2026-07-16 15:02:02",
-      "publish_timestamp": 1784185322,
-      "url": "https://news.cnyes.com/news/id/6536855",
-      "keywords": [
-        "半導體",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6536791,
-      "title": "〈<mark>台積電</mark>法說〉上調資本支出衝破600億美元 達600-640億美元",
-      "summary": "台積電 (2330-TW)(TSM-US) 今(16)日召開法說會，受惠 AI、HPC 需求持續強勁，公司宣布將 2026 年資本支出大幅上調至 600 億至 640 億美元，較原先規劃的中位數提升 15%，顯示台積電持續加速 2 奈米及後續先進",
-      "publish_time": "2026-07-16 14:23:50",
-      "publish_timestamp": 1784183030,
-      "url": "https://news.cnyes.com/news/id/6536791",
-      "keywords": [
-        "台積電",
-        "資本支出",
-        "上調",
-        "大增"
-      ]
     },
     {
       "news_id": 6532427,
