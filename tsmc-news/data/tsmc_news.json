@@ -1,57 +1,143 @@
 {
-  "last_updated": "2026-07-16 00:55:18",
+  "last_updated": "2026-07-16 20:10:38",
   "stock_prices": {
     "tw_2330": {
-      "price": 2440.0,
-      "change": 20.0,
-      "change_percent": 0.83
+      "price": 2470.0,
+      "change": 30.0,
+      "change_percent": 1.23
     },
     "us_tsm": {
-      "price": 414.66,
-      "change": -5.73,
-      "change_percent": -1.36
+      "price": 419.48,
+      "change": -0.91,
+      "change_percent": -0.22
     }
   },
   "news": [
     {
-      "news_id": 6535886,
-      "title": "籌碼大清洗！<mark>台積電</mark>法說前夕，尾盤神秘調節透露什麼？",
-      "summary": "",
-      "publish_time": "2026-07-15 17:15:07",
-      "publish_timestamp": 1784106907,
-      "url": "https://news.cnyes.com/news/id/6535886",
+      "news_id": 6537180,
+      "title": "〈<mark>台積電</mark>法說〉利多卻票房失靈？ADR盤前挫逾4%、台指期夜盤崩逾千點",
+      "summary": "台積電 (2330-TW)(TSM-US) 今 (16) 日召開法說會，釋出多項利多，不過市場不買單，台積電期貨開低表態，最低下探至 2,350 元，跌幅超過 4%，台積電 ADR 盤前也同樣重挫 4.5%，也干擾台指期電子盤暴跌超過千點。",
+      "publish_time": "2026-07-16 19:28:36",
+      "publish_timestamp": 1784201316,
+      "url": "https://news.cnyes.com/news/id/6537180",
       "keywords": [
         "台積電",
-        "欣興",
-        "長廣",
-        "光聖",
-        "CPI",
-        "海力士",
-        "光通訊",
-        "ABF載板",
-        "AI伺服器",
-        "半導體",
-        "凱旭投顧",
-        "陳智霖",
+        "法說",
+        "股價",
+        "下挫"
+      ]
+    },
+    {
+      "news_id": 6537162,
+      "title": "〈<mark>台積電</mark>法說〉二度上調全年展望、加碼美國投資 九大重點一文看懂",
+      "summary": "台積電 (2330-TW)(TSM-US) 今 (16) 日召開法說會，第二季 EPS 達 27.25 元創下新高，累計上半年大賺近 5 個股本，第三季美元營收中位數估再增 12%，資本支出大幅上調至 600-640 億美元，同",
+      "publish_time": "2026-07-16 18:59:51",
+      "publish_timestamp": 1784199591,
+      "url": "https://news.cnyes.com/news/id/6537162",
+      "keywords": [
+        "台積電",
+        "法說",
+        "先進製程",
+        "AI",
+        "先進封裝",
+        "資本支出",
+        "美國"
+      ]
+    },
+    {
+      "news_id": 6537157,
+      "title": "〈<mark>台積電</mark>法說〉魏哲家：AI需求一直增加 可能一路強勁至2029、2030年",
+      "summary": "台積電 (2330-TW)(TSM-US) 今 (16) 日召開法說會，董事長暨總裁魏哲家表示，AI 需求相當強勁，相關動能可能一路延續至 2029 年、2030 年。雖然目前無法確定屆時晶片市場是否仍處於供不應求，但從雲端服務供應商(",
+      "publish_time": "2026-07-16 18:30:45",
+      "publish_timestamp": 1784197845,
+      "url": "https://news.cnyes.com/news/id/6537157",
+      "keywords": [
+        "台積電",
+        "法說",
+        "AI"
+      ]
+    },
+    {
+      "news_id": 6536991,
+      "title": "【量大強漲股整理】 【<mark>台積電</mark>】大鬥ASML！「設備漲價」股價會崩嗎？破解晶圓霸主拒絕買單的背後真相！",
+      "summary": "",
+      "publish_time": "2026-07-16 17:14:33",
+      "publish_timestamp": 1784193273,
+      "url": "https://news.cnyes.com/news/id/6536991",
+      "keywords": [
+        "六月營收",
+        "台積電",
+        "莊佳螢分析師",
+        "摩爾投顧",
+        "三大法人",
         "趨勢分析"
       ]
     },
     {
-      "news_id": 6535254,
-      "title": "雙代工策略生變！英特爾原定七成訂單給台積電 如今90%以上改自家生產",
-      "summary": "",
-      "publish_time": "2026-07-15 10:15:30",
-      "publish_timestamp": 1784081730,
-      "url": "https://news.cnyes.com/news/id/6535254",
+      "news_id": 6536882,
+      "title": "〈<mark>台積電</mark>法說〉宣布追加美國1000億美元投資 魏哲家：再建4座新廠",
+      "summary": "台積電 (2330-TW)(TSM-US) 今 (16) 日召開法說會，針對美國擴產計畫，董事長暨總裁魏哲家表示，因應 AI 需求強勁，公司決定在美國追加 1,000 億美元投資，預計將再興建 4 座廠以上，包括前段晶圓製造及後段先進封裝，",
+      "publish_time": "2026-07-16 15:55:50",
+      "publish_timestamp": 1784188550,
+      "url": "https://news.cnyes.com/news/id/6536882",
       "keywords": [
-        "英特爾",
-        "外包",
         "台積電",
-        "18A製程",
-        "良率",
-        "2奈米",
-        "Nova Lake",
-        "晶圓代工"
+        "美國",
+        "投資",
+        "資本支出",
+        "法說"
+      ]
+    },
+    {
+      "news_id": 6536851,
+      "title": "〈<mark>台積電</mark>法說〉魏哲家又爆金句：選擇製程夥伴不是到7-11買牛奶 這三點才是關鍵",
+      "summary": "台積電 (2330-TW)(TSM-US) 今 (16) 日召開法說會，面對三星與英特爾 (INTC-US) 積極搶佔台積電市場，董事長魏哲家表示，政府支持與充裕資金固然重要，但先進晶圓代工產業沒有捷徑，真正決定競爭力的仍是技術、製",
+      "publish_time": "2026-07-16 15:14:49",
+      "publish_timestamp": 1784186089,
+      "url": "https://news.cnyes.com/news/id/6536851",
+      "keywords": [
+        "台積電",
+        "法說",
+        "先進製程",
+        "夥伴",
+        "英特爾",
+        "三星",
+        "競爭"
+      ]
+    },
+    {
+      "news_id": 6536894,
+      "title": "<mark>台積電</mark>:台積公司2026年第二季每股盈餘新台幣27.25元",
+      "summary": "台積電:台積公司2026年第二季每股盈餘新台幣27.25元",
+      "publish_time": "2026-07-16 15:12:31",
+      "publish_timestamp": 1784185951,
+      "url": "https://news.cnyes.com/news/id/6536894",
+      "keywords": []
+    },
+    {
+      "news_id": 6536855,
+      "title": "<mark>台積電</mark>Q2淨利年增77%創新高，大幅超越市場預期 AI需求持續推升成長",
+      "summary": "",
+      "publish_time": "2026-07-16 15:02:02",
+      "publish_timestamp": 1784185322,
+      "url": "https://news.cnyes.com/news/id/6536855",
+      "keywords": [
+        "半導體",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6536791,
+      "title": "〈<mark>台積電</mark>法說〉上調資本支出衝破600億美元 達600-640億美元",
+      "summary": "台積電 (2330-TW)(TSM-US) 今(16)日召開法說會，受惠 AI、HPC 需求持續強勁，公司宣布將 2026 年資本支出大幅上調至 600 億至 640 億美元，較原先規劃的中位數提升 15%，顯示台積電持續加速 2 奈米及後續先進",
+      "publish_time": "2026-07-16 14:23:50",
+      "publish_timestamp": 1784183030,
+      "url": "https://news.cnyes.com/news/id/6536791",
+      "keywords": [
+        "台積電",
+        "資本支出",
+        "上調",
+        "大增"
       ]
     },
     {

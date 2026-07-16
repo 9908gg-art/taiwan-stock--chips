@@ -1,13 +1,18 @@
 {
-  "date": "2026-07-15",
-  "foreign_buy_streak_3d": [
+  "date": "2026-07-16",
+  "foreign_buy_streak_3d": [],
+  "foreign_buy_streak_2d": [
     {
-      "code": "2618",
-      "name": "長榮航",
-      "streak": 5
+      "code": "6770",
+      "name": "力積電",
+      "streak": 2
+    },
+    {
+      "code": "2883",
+      "name": "凱基金",
+      "streak": 2
     }
   ],
-  "foreign_buy_streak_2d": [],
   "trust_buy_streak_3d": [
     {
       "code": "1303",
@@ -20,20 +25,15 @@
       "streak": 5
     },
     {
-      "code": "2313",
-      "name": "華通",
+      "code": "0050",
+      "name": "元大台灣50",
       "streak": 3
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "0050",
-      "name": "元大台灣50",
-      "streak": 2
-    },
-    {
-      "code": "2382",
-      "name": "廣達",
+      "code": "3037",
+      "name": "欣興",
       "streak": 2
     }
   ]
