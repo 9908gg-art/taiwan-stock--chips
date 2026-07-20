@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20 21:30:16",
+  "last_updated": "2026-07-21 03:17:05",
   "stock_prices": {
     "tw_2330": {
       "price": 2320.0,
@@ -7,9 +7,9 @@
       "change_percent": 1.31
     },
     "us_tsm": {
-      "price": 406.08,
-      "change": 7.85,
-      "change_percent": 1.97
+      "price": 401.71,
+      "change": 3.34,
+      "change_percent": 0.84
     }
   },
   "news": [
@@ -88,26 +88,6 @@
         "被動元件",
         "軍工概念股",
         "TOP"
-      ]
-    },
-    {
-      "news_id": 6538570,
-      "title": "<mark>台積電</mark>法說無用！？全球去槓桿引發多殺多，最後趕底？",
-      "summary": "",
-      "publish_time": "2026-07-20 08:30:08",
-      "publish_timestamp": 1784507408,
-      "url": "https://news.cnyes.com/news/id/6538570",
-      "keywords": [
-        "葉俊敏",
-        "台積電",
-        "中砂",
-        "昇陽半",
-        "京鼎",
-        "翔名",
-        "漢唐",
-        "崇越",
-        "趨勢分析",
-        "摩爾投顧"
       ]
     },
     {
