@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21 20:12:41",
+  "last_updated": "2026-07-22 01:02:19",
   "stock_prices": {
     "tw_2330": {
       "price": 2410.0,
@@ -7,12 +7,26 @@
       "change_percent": 3.88
     },
     "us_tsm": {
-      "price": 402.3,
-      "change": 3.93,
-      "change_percent": 0.99
+      "price": 422.58,
+      "change": 20.28,
+      "change_percent": 5.04
     }
   },
   "news": [
+    {
+      "news_id": 6541946,
+      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大漲5.03%，報422.55美元",
+      "summary": "台積電ADR(TSM-US)盤中上漲，漲跌幅、近日週月績效、相關指數表現、即時新聞資訊。",
+      "publish_time": "2026-07-22 00:43:14",
+      "publish_timestamp": 1784652194,
+      "url": "https://news.cnyes.com/news/id/6541946",
+      "keywords": [
+        "美股",
+        "美股盤中",
+        "盤中速報",
+        "台積電ADR"
+      ]
+    },
     {
       "news_id": 6541732,
       "title": "<mark>台積電</mark>傳明年起調漲晶圓代工價 漲幅最高10%",
