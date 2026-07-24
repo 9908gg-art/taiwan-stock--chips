@@ -1,59 +1,29 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "foreign_buy_streak_3d": [
     {
-      "code": "00981A",
-      "name": "主動統一台股增長",
+      "code": "3231",
+      "name": "緯創",
+      "streak": 3
+    },
+    {
+      "code": "2883",
+      "name": "凱基金",
       "streak": 3
     }
   ],
   "foreign_buy_streak_2d": [
     {
-      "code": "3231",
-      "name": "緯創",
-      "streak": 2
-    },
-    {
-      "code": "2883",
-      "name": "凱基金",
+      "code": "2002",
+      "name": "中鋼",
       "streak": 2
     }
   ],
   "trust_buy_streak_3d": [
     {
-      "code": "2887",
-      "name": "台新新光金",
-      "streak": 5
-    },
-    {
       "code": "2880",
       "name": "華南金",
       "streak": 5
-    },
-    {
-      "code": "2801",
-      "name": "彰銀",
-      "streak": 5
-    },
-    {
-      "code": "2892",
-      "name": "第一金",
-      "streak": 5
-    },
-    {
-      "code": "2890",
-      "name": "永豐金",
-      "streak": 5
-    },
-    {
-      "code": "2542",
-      "name": "興富發",
-      "streak": 5
-    },
-    {
-      "code": "2886",
-      "name": "兆豐金",
-      "streak": 4
     },
     {
       "code": "1216",
