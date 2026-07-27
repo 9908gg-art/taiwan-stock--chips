@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-27",
   "foreign_buy_streak_3d": [
     {
-      "code": "3231",
-      "name": "緯創",
-      "streak": 3
-    },
-    {
-      "code": "2883",
-      "name": "凱基金",
+      "code": "2002",
+      "name": "中鋼",
       "streak": 3
     }
   ],
   "foreign_buy_streak_2d": [
     {
-      "code": "2002",
-      "name": "中鋼",
+      "code": "2834",
+      "name": "臺企銀",
+      "streak": 2
+    },
+    {
+      "code": "2618",
+      "name": "長榮航",
       "streak": 2
     }
   ],
@@ -31,5 +31,21 @@
       "streak": 5
     }
   ],
-  "trust_buy_streak_2d": []
+  "trust_buy_streak_2d": [
+    {
+      "code": "3231",
+      "name": "緯創",
+      "streak": 2
+    },
+    {
+      "code": "1402",
+      "name": "遠東新",
+      "streak": 2
+    },
+    {
+      "code": "5876",
+      "name": "上海商銀",
+      "streak": 2
+    }
+  ]
 }

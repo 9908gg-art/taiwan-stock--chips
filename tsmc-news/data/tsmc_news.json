@@ -1,18 +1,87 @@
 {
-  "last_updated": "2026-07-24 22:46:58",
+  "last_updated": "2026-07-27 18:34:04",
   "stock_prices": {
     "tw_2330": {
       "price": 2350.0,
-      "change": -55.0,
-      "change_percent": -2.29
+      "change": 0.0,
+      "change_percent": 0.0
     },
     "us_tsm": {
-      "price": 404.0,
-      "change": -11.58,
-      "change_percent": -2.79
+      "price": 403.41,
+      "change": -12.17,
+      "change_percent": -2.93
     }
   },
   "news": [
+    {
+      "news_id": 6546952,
+      "title": "最後趕底黃金右腳？<mark>台積電</mark>、華邦電、大立光、上詮",
+      "summary": "",
+      "publish_time": "2026-07-27 17:42:44",
+      "publish_timestamp": 1785145364,
+      "url": "https://news.cnyes.com/news/id/6546952",
+      "keywords": [
+        "趨勢分析",
+        "倫元投顧",
+        "陳學進",
+        "台股",
+        "台積電",
+        "華邦電"
+      ]
+    },
+    {
+      "news_id": 6546643,
+      "title": "〈台股盤後〉台積電穩盤 回測4萬3止穩 量縮小跌20點仍未收復季線",
+      "summary": "台股今日多空交戰，早盤一度跌逾 600 點失守 4 萬 3，不過在台積電穩盤、金融類股力挺，盤中跌幅收斂，且一度翻紅，終場小跌 20.65 點或 0.05%，收 43634.19 點雖守住 4 萬 3，但未能收復季線，成交量 7176.87 億元。",
+      "publish_time": "2026-07-27 14:21:40",
+      "publish_timestamp": 1785133300,
+      "url": "https://news.cnyes.com/news/id/6546643",
+      "keywords": [
+        "台股盤後",
+        "台積電",
+        "金融",
+        "美伊衝突",
+        "台塑四寶",
+        "生技",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6546358,
+      "title": "〈台股開盤〉量能不濟 權值股難表現 <mark>台積電</mark>領跌逾600點回測4萬3",
+      "summary": "在近期台股量能萎縮且在高檔融資遞減之下，指標股台積電 (2330-TW) 今 (27) 日開盤下跌逾 0.64%，同時，權重股鴻海 (2317-TW)、聯發科 (2454-TW) 的下跌並造成早盤大盤指數的壓抑。",
+      "publish_time": "2026-07-27 09:59:36",
+      "publish_timestamp": 1785117576,
+      "url": "https://news.cnyes.com/news/id/6546358",
+      "keywords": [
+        "台積電",
+        "欣興",
+        "鴻海",
+        "台股開盤",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6545720,
+      "title": "<mark>台積電</mark>、美光壓力來了！韓美晶片同盟再加碼 三星SK海力士吞下9500億美元大餅",
+      "summary": "",
+      "publish_time": "2026-07-25 15:00:03",
+      "publish_timestamp": 1784962803,
+      "url": "https://news.cnyes.com/news/id/6545720",
+      "keywords": [
+        "晶片同盟",
+        "SK海力士",
+        "三星電子",
+        "輝達",
+        "MOU",
+        "HBM",
+        "博通",
+        "ASIC",
+        "先進製程",
+        "台積電",
+        "美光"
+      ]
+    },
     {
       "news_id": 6543073,
       "title": "台積電:公告本公司115年度第3期無擔保普通公司債(綠色債券)主要發行條件",
@@ -147,28 +216,6 @@
       "publish_time": "2026-07-08 19:34:35",
       "publish_timestamp": 1783510475,
       "url": "https://news.cnyes.com/news/id/6527927",
-      "keywords": []
-    },
-    {
-      "news_id": 6525091,
-      "title": "鉅亨速報 - Factset 最新調查：台積電(<mark>2330</mark>-TW)目標價調升至2888元，幅度約3.14%",
-      "summary": "FactSet 最新調查：台積電(2330-TW)目標價調升，最高估值、最低估值、中位數、綜合評級、近5日股價、大盤表現、即時新聞資訊。",
-      "publish_time": "2026-07-07 12:10:22",
-      "publish_timestamp": 1783397422,
-      "url": "https://news.cnyes.com/news/id/6525091",
-      "keywords": [
-        "台股",
-        "市場預估",
-        "目標價"
-      ]
-    },
-    {
-      "news_id": 6520776,
-      "title": "台積電:本公司代重要子公司TSMC Arizona Corporation公告其Treasurer異動",
-      "summary": "台積電:本公司代重要子公司TSMC Arizona Corporation公告其Treasurer異動",
-      "publish_time": "2026-07-02 17:36:13",
-      "publish_timestamp": 1782984973,
-      "url": "https://news.cnyes.com/news/id/6520776",
       "keywords": []
     }
   ]
