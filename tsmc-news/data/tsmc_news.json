@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27 21:33:12",
+  "last_updated": "2026-07-28 00:09:38",
   "stock_prices": {
     "tw_2330": {
       "price": 2350.0,
@@ -7,9 +7,9 @@
       "change_percent": 0.0
     },
     "us_tsm": {
-      "price": 403.74,
-      "change": 0.11,
-      "change_percent": 0.03
+      "price": 395.46,
+      "change": -7.95,
+      "change_percent": -1.97
     }
   },
   "news": [
@@ -59,27 +59,6 @@
         "鴻海",
         "台股開盤",
         "TOP"
-      ]
-    },
-    {
-      "news_id": 6545720,
-      "title": "<mark>台積電</mark>、美光壓力來了！韓美晶片同盟再加碼 三星SK海力士吞下9500億美元大餅",
-      "summary": "",
-      "publish_time": "2026-07-25 15:00:03",
-      "publish_timestamp": 1784962803,
-      "url": "https://news.cnyes.com/news/id/6545720",
-      "keywords": [
-        "晶片同盟",
-        "SK海力士",
-        "三星電子",
-        "輝達",
-        "MOU",
-        "HBM",
-        "博通",
-        "ASIC",
-        "先進製程",
-        "台積電",
-        "美光"
       ]
     },
     {
