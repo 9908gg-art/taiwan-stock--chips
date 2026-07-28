@@ -1,50 +1,50 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "foreign_buy_streak_3d": [
+    {
+      "code": "2618",
+      "name": "長榮航",
+      "streak": 3
+    },
     {
       "code": "2002",
       "name": "中鋼",
-      "streak": 3
+      "streak": 4
     }
   ],
   "foreign_buy_streak_2d": [
     {
-      "code": "2834",
-      "name": "臺企銀",
+      "code": "3481",
+      "name": "群創",
       "streak": 2
     },
     {
-      "code": "2618",
-      "name": "長榮航",
+      "code": "1101",
+      "name": "台泥",
       "streak": 2
     }
   ],
   "trust_buy_streak_3d": [
     {
-      "code": "2880",
-      "name": "華南金",
-      "streak": 5
+      "code": "3231",
+      "name": "緯創",
+      "streak": 3
     },
     {
-      "code": "1216",
-      "name": "統一",
+      "code": "2880",
+      "name": "華南金",
       "streak": 5
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "3231",
-      "name": "緯創",
+      "code": "2885",
+      "name": "元大金",
       "streak": 2
     },
     {
-      "code": "1402",
-      "name": "遠東新",
-      "streak": 2
-    },
-    {
-      "code": "5876",
-      "name": "上海商銀",
+      "code": "2886",
+      "name": "兆豐金",
       "streak": 2
     }
   ]
