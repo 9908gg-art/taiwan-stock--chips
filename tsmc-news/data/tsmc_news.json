@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28 21:44:15",
+  "last_updated": "2026-07-28 23:59:34",
   "stock_prices": {
     "tw_2330": {
       "price": 2280.0,
@@ -7,12 +7,51 @@
       "change_percent": -2.98
     },
     "us_tsm": {
-      "price": 384.29,
-      "change": -14.98,
-      "change_percent": -3.75
+      "price": 392.79,
+      "change": -6.3,
+      "change_percent": -1.58
     }
   },
   "news": [
+    {
+      "news_id": 6548969,
+      "title": "<mark>台積電</mark>熊本廠震後逐步恢復營運建廠工程未受影響",
+      "summary": "",
+      "publish_time": "2026-07-28 23:00:12",
+      "publish_timestamp": 1785250812,
+      "url": "https://news.cnyes.com/news/id/6548969",
+      "keywords": [
+        "半導體",
+        "地震",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6548952,
+      "title": "日本西南部強震衝擊產業鏈台積電熊本廠撤離員工、豐田本田暫停部分生產",
+      "summary": "",
+      "publish_time": "2026-07-28 22:30:09",
+      "publish_timestamp": 1785249009,
+      "url": "https://news.cnyes.com/news/id/6548952",
+      "keywords": [
+        "地震",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6548891,
+      "title": "<mark>台積電</mark>更新JASM近況  人員安全無虞已逐步回產線",
+      "summary": "台積電 (2330-TW)(TSM-US) 晚間更新熊本廠 JASM 情況，公司指出，目前廠區所有人員皆確認安全無虞，亦已完成 JASM 廠區建築震後損害檢查，確認結構安全無虞逐步回線。",
+      "publish_time": "2026-07-28 21:47:34",
+      "publish_timestamp": 1785246454,
+      "url": "https://news.cnyes.com/news/id/6548891",
+      "keywords": [
+        "台積電",
+        "日本",
+        "熊本",
+        "工地"
+      ]
+    },
     {
       "news_id": 6548757,
       "title": "〈美股早盤〉主要指數漲跌互現 半導體股續挫 <mark>台積電</mark>ADR跌近4%",
