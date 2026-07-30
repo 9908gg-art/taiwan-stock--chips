@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30 21:05:52",
+  "last_updated": "2026-07-30 23:29:37",
   "stock_prices": {
     "tw_2330": {
       "price": 2205.0,
@@ -7,12 +7,53 @@
       "change_percent": 0.23
     },
     "us_tsm": {
-      "price": 374.67,
-      "change": -17.64,
-      "change_percent": -4.5
+      "price": 398.98,
+      "change": 24.31,
+      "change_percent": 6.49
     }
   },
   "news": [
+    {
+      "news_id": 6553147,
+      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大漲5.02%，報393.46美元",
+      "summary": "台積電ADR(TSM-US)盤中上漲，漲跌幅、近日週月績效、相關指數表現、即時新聞資訊。",
+      "publish_time": "2026-07-30 21:50:36",
+      "publish_timestamp": 1785419436,
+      "url": "https://news.cnyes.com/news/id/6553147",
+      "keywords": [
+        "美股",
+        "美股盤中",
+        "盤中速報",
+        "台積電ADR"
+      ]
+    },
+    {
+      "news_id": 6552928,
+      "title": "〈美股早盤〉微軟財報送定心丸！主要指數開高 <mark>台積電</mark>ADR漲逾5%",
+      "summary": "美股主要指數周四 (30 日) 開高，擺脫前一日聯準會 (Fed) 維持利率不變後的賣壓。微軟 (Microsoft) 財報與展望優於預期，緩解市場對科技巨頭投入巨額資金發展人工智慧 (AI) 卻難以獲利的疑慮，帶動晶片股與科技股反彈。",
+      "publish_time": "2026-07-30 21:43:51",
+      "publish_timestamp": 1785419031,
+      "url": "https://news.cnyes.com/news/id/6552928",
+      "keywords": [
+        "美國經濟",
+        "經濟成長",
+        "GDP",
+        "第二季",
+        "通膨",
+        "消費支出",
+        "物價指數",
+        "PCE",
+        "聯準會",
+        "Fed",
+        "升息",
+        "利率",
+        "貨幣政策",
+        "科技股",
+        "財報",
+        "美股早盤",
+        "TOP"
+      ]
+    },
     {
       "news_id": 6552723,
       "title": "金管會核准彰銀赴美國鳳凰城設辦事處 瞄準神山帶動產業聚落",
