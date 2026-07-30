@@ -1,38 +1,33 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "foreign_buy_streak_3d": [
     {
       "code": "2618",
       "name": "長榮航",
-      "streak": 4
+      "streak": 5
     }
   ],
   "foreign_buy_streak_2d": [
     {
-      "code": "2409",
-      "name": "友達",
-      "streak": 2
-    },
-    {
-      "code": "2610",
-      "name": "華航",
-      "streak": 2
-    },
-    {
-      "code": "2412",
-      "name": "中華電",
-      "streak": 2
-    },
-    {
-      "code": "5876",
-      "name": "上海商銀",
+      "code": "5880",
+      "name": "合庫金",
       "streak": 2
     }
   ],
   "trust_buy_streak_3d": [
     {
+      "code": "0050",
+      "name": "元大台灣50",
+      "streak": 3
+    },
+    {
       "code": "2886",
       "name": "兆豐金",
+      "streak": 4
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
       "streak": 3
     },
     {
@@ -43,28 +38,13 @@
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "0050",
-      "name": "元大台灣50",
+      "code": "2027",
+      "name": "大成鋼",
       "streak": 2
     },
     {
-      "code": "2883",
-      "name": "凱基金",
-      "streak": 2
-    },
-    {
-      "code": "2882",
-      "name": "國泰金",
-      "streak": 2
-    },
-    {
-      "code": "2881",
-      "name": "富邦金",
-      "streak": 2
-    },
-    {
-      "code": "2887",
-      "name": "台新新光金",
+      "code": "3037",
+      "name": "欣興",
       "streak": 2
     }
   ]
