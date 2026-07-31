@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31 19:53:09",
+  "last_updated": "2026-07-31 21:44:27",
   "stock_prices": {
     "tw_2330": {
       "price": 2425.0,
@@ -7,12 +7,28 @@
       "change_percent": 9.98
     },
     "us_tsm": {
-      "price": 403.31,
-      "change": 28.64,
-      "change_percent": 7.64
+      "price": 406.41,
+      "change": 3.14,
+      "change_percent": 0.78
     }
   },
   "news": [
+    {
+      "news_id": 6555199,
+      "title": "台股史上最大漲點 三大法人買超千億元 齊買<mark>台積電</mark>逾2萬張",
+      "summary": "台股報復反彈 3186 點 土洋合買千億元攜手敲進台積電逾 2 萬張",
+      "publish_time": "2026-07-31 20:14:59",
+      "publish_timestamp": 1785500099,
+      "url": "https://news.cnyes.com/news/id/6555199",
+      "keywords": [
+        "台股",
+        "外資",
+        "投信",
+        "期貨",
+        "三大法人",
+        "TOP"
+      ]
+    },
     {
       "news_id": 6555020,
       "title": "假破底真穿頭？<mark>台積電</mark>⊕、華邦電⊕、國巨⊕",
