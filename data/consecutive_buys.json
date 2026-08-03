@@ -1,19 +1,55 @@
 {
-  "date": "2026-07-31",
-  "foreign_buy_streak_3d": [],
-  "foreign_buy_streak_2d": [
-    {
-      "code": "00992A",
-      "name": "主動群益科技創新",
-      "streak": 2
-    },
+  "date": "2026-08-03",
+  "foreign_buy_streak_3d": [
     {
       "code": "009816",
       "name": "凱基台灣TOP50",
+      "streak": 3
+    },
+    {
+      "code": "00992A",
+      "name": "主動群益科技創新",
+      "streak": 3
+    }
+  ],
+  "foreign_buy_streak_2d": [
+    {
+      "code": "00981A",
+      "name": "主動統一台股增長",
+      "streak": 2
+    },
+    {
+      "code": "00403A",
+      "name": "主動統一升級50",
+      "streak": 2
+    },
+    {
+      "code": "00991A",
+      "name": "主動復華未來50",
+      "streak": 2
+    },
+    {
+      "code": "0050",
+      "name": "元大台灣50",
+      "streak": 2
+    },
+    {
+      "code": "00405A",
+      "name": "主動富邦台灣龍耀",
+      "streak": 2
+    },
+    {
+      "code": "00400A",
+      "name": "主動國泰動能高息",
       "streak": 2
     }
   ],
   "trust_buy_streak_3d": [
+    {
+      "code": "00980A",
+      "name": "主動野村臺灣優選",
+      "streak": 3
+    },
     {
       "code": "2880",
       "name": "華南金",
@@ -27,8 +63,13 @@
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "00980A",
-      "name": "主動野村臺灣優選",
+      "code": "3231",
+      "name": "緯創",
+      "streak": 2
+    },
+    {
+      "code": "2881",
+      "name": "富邦金",
       "streak": 2
     }
   ]
