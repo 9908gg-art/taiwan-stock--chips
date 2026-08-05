@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05 17:30:51",
+  "last_updated": "2026-08-05 19:52:02",
   "stock_prices": {
     "tw_2330": {
       "price": 2405.0,
@@ -13,6 +13,22 @@
     }
   },
   "news": [
+    {
+      "news_id": 6560651,
+      "title": "韓媒：<mark>台積電</mark>擴大AI晶片CoW封裝外包 以解決產能瓶頸",
+      "summary": "據報導，台積電 (2330-TW)(TSM-US) 已決定將其核心封裝工序 CoW(Chip-on-Wafer) 大規模向專業封裝測試代工廠 (OSAT) 開放委外生產，這項轉變被視為緩解當前 AI 晶片供應瓶頸的關鍵舉措。",
+      "publish_time": "2026-08-05 19:10:03",
+      "publish_timestamp": 1785928203,
+      "url": "https://news.cnyes.com/news/id/6560651",
+      "keywords": [
+        "台積電",
+        "輝達",
+        "AI晶片",
+        "CoW",
+        "封裝外包",
+        "產能"
+      ]
+    },
     {
       "news_id": 6560292,
       "title": "台股強彈2.88%收復失土 美晶片股漲勢帶動台積電勁揚3%",
