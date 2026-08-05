@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05 19:52:02",
+  "last_updated": "2026-08-05 21:46:33",
   "stock_prices": {
     "tw_2330": {
       "price": 2405.0,
@@ -7,9 +7,9 @@
       "change_percent": 3.66
     },
     "us_tsm": {
-      "price": 417.17,
-      "change": 11.06,
-      "change_percent": 2.72
+      "price": 424.42,
+      "change": 7.25,
+      "change_percent": 1.74
     }
   },
   "news": [
@@ -70,21 +70,6 @@
         "3奈米",
         "2奈米",
         "晶圓",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6558965,
-      "title": "外資再提款57億元 賣超<mark>台積電</mark>1.2萬張 反手敲進三檔主動式ETF",
-      "summary": "台股在電子權值股漲跌互現下，終場跌 25.75 點或 0.06%，未能收復月線，成交量 1.04 兆元。外資再減碼 57.32 億元，反手加碼 00991A 主動復華未來 50、00403A 主動統一升級 50 及 00981A 主動統一台股增長。",
-      "publish_time": "2026-08-04 18:25:04",
-      "publish_timestamp": 1785839104,
-      "url": "https://news.cnyes.com/news/id/6558965",
-      "keywords": [
-        "三大法人",
-        "外資",
-        "主動式ETF",
-        "台積電",
         "TOP"
       ]
     },
