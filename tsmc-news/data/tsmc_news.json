@@ -1,18 +1,62 @@
 {
-  "last_updated": "2026-08-05 00:25:32",
+  "last_updated": "2026-08-05 17:30:51",
   "stock_prices": {
     "tw_2330": {
-      "price": 2320.0,
-      "change": -50.0,
-      "change_percent": -2.11
+      "price": 2405.0,
+      "change": 85.0,
+      "change_percent": 3.66
     },
     "us_tsm": {
-      "price": 416.2,
-      "change": 10.09,
-      "change_percent": 2.48
+      "price": 417.17,
+      "change": 11.06,
+      "change_percent": 2.72
     }
   },
   "news": [
+    {
+      "news_id": 6560292,
+      "title": "台股強彈2.88%收復失土 美晶片股漲勢帶動台積電勁揚3%",
+      "summary": "",
+      "publish_time": "2026-08-05 14:00:29",
+      "publish_timestamp": 1785909629,
+      "url": "https://news.cnyes.com/news/id/6560292",
+      "keywords": [
+        "台股",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6560270,
+      "title": "〈台股盤後〉台積電收2405元 大漲1250點一舉收復月、季線及4萬4大關",
+      "summary": "台股今 (5) 日早盤在電子權值股、ABF 載板、光通訊及 IPC 族群帶頭衝鋒下，指數一度狂飆 1619 點，最高攀升至 44980.31 點，高低震盪達 1170.48 點，一舉收復月線與季線關卡。終場收在 44587.",
+      "publish_time": "2026-08-05 13:52:25",
+      "publish_timestamp": 1785909145,
+      "url": "https://news.cnyes.com/news/id/6560270",
+      "keywords": [
+        "台股盤後",
+        "光通訊",
+        "IPC",
+        "ABF",
+        "記憶體",
+        "台積電",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6559595,
+      "title": "<mark>台積電</mark>ADR漲2.7% Wedbush：3奈米產能擴張可望提前達標",
+      "summary": "美國知名投行 Wedbush 表示，台積電 (TSM-US)(2330-TW) 的 3 奈米製程產能擴張進度可望較原先預期提前 2 至 3 個月。受到消息激勵，台積電 ADR 股價周二 (4 日) 上漲 2.7%。",
+      "publish_time": "2026-08-05 07:00:47",
+      "publish_timestamp": 1785884447,
+      "url": "https://news.cnyes.com/news/id/6559595",
+      "keywords": [
+        "台積電",
+        "3奈米",
+        "2奈米",
+        "晶圓",
+        "TOP"
+      ]
+    },
     {
       "news_id": 6558965,
       "title": "外資再提款57億元 賣超<mark>台積電</mark>1.2萬張 反手敲進三檔主動式ETF",
@@ -25,23 +69,6 @@
         "外資",
         "主動式ETF",
         "台積電",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6558179,
-      "title": "〈台股開盤〉權值股反彈續航弱 月線反壓下4萬3再啟攻防戰",
-      "summary": "台股大盤成交量能停滯不前，指標股權王台積電 (2330-TW) 今 (4) 日開盤下跌 1.9%，同時，權重股鴻海 (2317-TW)、廣達 (2382-TW) 早盤的下跌並造成大盤指數的壓抑，大盤指數今天早盤下跌近 400 點。",
-      "publish_time": "2026-08-04 09:43:47",
-      "publish_timestamp": 1785807827,
-      "url": "https://news.cnyes.com/news/id/6558179",
-      "keywords": [
-        "台積電",
-        "欣興",
-        "廣達",
-        "鴻海",
-        "聯發科",
-        "台股開盤",
         "TOP"
       ]
     },
