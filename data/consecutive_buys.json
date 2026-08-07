@@ -1,19 +1,7 @@
 {
-  "date": "2026-08-06",
-  "foreign_buy_streak_3d": [
-    {
-      "code": "00403A",
-      "name": "主動統一升級50",
-      "streak": 5
-    }
-  ],
-  "foreign_buy_streak_2d": [
-    {
-      "code": "2317",
-      "name": "鴻海",
-      "streak": 2
-    }
-  ],
+  "date": "2026-08-07",
+  "foreign_buy_streak_3d": [],
+  "foreign_buy_streak_2d": [],
   "trust_buy_streak_3d": [
     {
       "code": "2880",
@@ -24,17 +12,17 @@
       "code": "2886",
       "name": "兆豐金",
       "streak": 5
-    },
-    {
-      "code": "0050",
-      "name": "元大台灣50",
-      "streak": 3
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "2337",
-      "name": "旺宏",
+      "code": "2883",
+      "name": "凱基金",
+      "streak": 2
+    },
+    {
+      "code": "2892",
+      "name": "第一金",
       "streak": 2
     }
   ]
