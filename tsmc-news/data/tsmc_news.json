@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10 18:59:36",
+  "last_updated": "2026-08-10 19:50:42",
   "stock_prices": {
     "tw_2330": {
       "price": 2380.0,
@@ -13,6 +13,18 @@
     }
   },
   "news": [
+    {
+      "news_id": 6568804,
+      "title": "<mark>台積電</mark>7月營收年增44.68%！Q3達標不難，真正考驗在Q4",
+      "summary": "",
+      "publish_time": "2026-08-10 19:00:06",
+      "publish_timestamp": 1786359606,
+      "url": "https://news.cnyes.com/news/id/6568804",
+      "keywords": [
+        "半導體",
+        "優分析"
+      ]
+    },
     {
       "news_id": 6568564,
       "title": "【量大強漲股整理】台股站穩均線後，<mark>台積電</mark>營收創新高!下一個可鎖定誰?",
