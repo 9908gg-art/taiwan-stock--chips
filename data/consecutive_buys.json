@@ -1,8 +1,13 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-10",
   "foreign_buy_streak_3d": [],
   "foreign_buy_streak_2d": [],
   "trust_buy_streak_3d": [
+    {
+      "code": "2883",
+      "name": "凱基金",
+      "streak": 3
+    },
     {
       "code": "2880",
       "name": "華南金",
@@ -12,18 +17,12 @@
       "code": "2886",
       "name": "兆豐金",
       "streak": 5
-    }
-  ],
-  "trust_buy_streak_2d": [
-    {
-      "code": "2883",
-      "name": "凱基金",
-      "streak": 2
     },
     {
       "code": "2892",
       "name": "第一金",
-      "streak": 2
+      "streak": 3
     }
-  ]
+  ],
+  "trust_buy_streak_2d": []
 }
