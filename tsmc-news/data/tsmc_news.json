@@ -1,18 +1,153 @@
 {
-  "last_updated": "2026-08-10 23:29:20",
+  "last_updated": "2026-08-11 16:05:21",
   "stock_prices": {
     "tw_2330": {
-      "price": 2380.0,
-      "change": 10.0,
-      "change_percent": 0.42
+      "price": 2395.0,
+      "change": 15.0,
+      "change_percent": 0.63
     },
     "us_tsm": {
-      "price": 423.73,
-      "change": 3.69,
-      "change_percent": 0.88
+      "price": 418.47,
+      "change": -1.57,
+      "change_percent": -0.37
     }
   },
   "news": [
+    {
+      "news_id": 6570808,
+      "title": "Sony、<mark>台積電</mark>傳聯手投資1兆日圓！規模達Sony感測事業年營收46.5%",
+      "summary": "",
+      "publish_time": "2026-08-11 15:00:07",
+      "publish_timestamp": 1786431607,
+      "url": "https://news.cnyes.com/news/id/6570808",
+      "keywords": [
+        "感測器",
+        "CMOS",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6570754,
+      "title": "〈台股盤後〉追價謹慎 <mark>台積電</mark>撐住紅盤收漲191點 重回4萬5大關",
+      "summary": "台北股市今 (11) 日以基本面表現佳的台積電 (2330-TW) 終場上漲 15 元，以 2395 元作收，終場大盤上漲 191.96 點，站上 4 萬 5000 點以 45120.72 點作收，但成交值僅有 8690.17 億元。",
+      "publish_time": "2026-08-11 14:11:35",
+      "publish_timestamp": 1786428695,
+      "url": "https://news.cnyes.com/news/id/6570754",
+      "keywords": [
+        "PCB",
+        "健鼎",
+        "台積電",
+        "台股盤後",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6570120,
+      "title": "輝達打造AI大腦 <mark>台積電</mark>要讓它「看見」世界",
+      "summary": "台積電正在押注 AI 的下一波發展不只需要更強大的運算能力，也需要能夠看見並理解物理世界的機器。台積電與索尼計劃投資約 63 億美元成立合資企業，在日本生產次世代影像感測器，最快可能在 2029 年開始商業量產。",
+      "publish_time": "2026-08-11 11:30:09",
+      "publish_timestamp": 1786419009,
+      "url": "https://news.cnyes.com/news/id/6570120",
+      "keywords": [
+        "台積電",
+        "Sony",
+        "感測",
+        "影像",
+        "AI",
+        "輝達",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6570443,
+      "title": "索尼攜手<mark>台積電</mark>！砸1兆日元建廠攻蘋果iPhone、機器人、自駕車影像感測器",
+      "summary": "索尼與台積電傳評估在日本熊本成立合資企業，投資上看 1 兆日元、索尼持股 60%、台積電 40%，最快 2029 年量產次世代影像感測器，布局 iPhone 與實體 AI 市場。",
+      "publish_time": "2026-08-11 11:20:03",
+      "publish_timestamp": 1786418403,
+      "url": "https://news.cnyes.com/news/id/6570443",
+      "keywords": [
+        "索尼",
+        "台積電",
+        "日本",
+        "熊本",
+        "工廠",
+        "合資",
+        "企業",
+        "影像",
+        "感測器",
+        "iPhone",
+        "實體AI",
+        "AI",
+        "人工智慧",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6570440,
+      "title": "<mark>台積電</mark>砸640億美元擴產、英特爾增資150億美元拚翻身！AI半導體資本戰誰會勝出？",
+      "summary": "AI 需求推升半導體資本支出，台積電 2026 年資本支出上看 640 億美元，英特爾則增發 150 億美元拚先進製程與代工。兩大晶片巨頭正面交鋒，投資人關注誰能在 AI 浪潮中勝出。",
+      "publish_time": "2026-08-11 10:31:11",
+      "publish_timestamp": 1786415471,
+      "url": "https://news.cnyes.com/news/id/6570440",
+      "keywords": [
+        "AI",
+        "人工智慧",
+        "半導體",
+        "英特爾",
+        "台積電",
+        "晶片",
+        "代工",
+        "資本",
+        "支出",
+        "融資",
+        "投資",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6570049,
+      "title": "郭明錤：蘋果今年硬體出貨量確因記憶體短缺而下調",
+      "summary": "追蹤蘋果供應鏈多年的天風國際證券分析師郭明錤 11 日（周二）發布的產業調查顯示，蘋果今年的硬體出貨量確實因記憶體短缺而下調，但蘋果在台積電的處理器訂單，會在至少約三個月前依可取得的記憶體數量規劃生產，而不是讓台積電提前大量",
+      "publish_time": "2026-08-11 09:04:58",
+      "publish_timestamp": 1786410298,
+      "url": "https://news.cnyes.com/news/id/6570049",
+      "keywords": [
+        "記憶體",
+        "蘋果",
+        "台積電",
+        "郭明錤"
+      ]
+    },
+    {
+      "news_id": 6569971,
+      "title": "微軟自研AI晶片大擴產 傳<mark>台積電</mark>拿下逾30萬顆訂單",
+      "summary": "微軟 (Microsoft)(MSFT-US) 計劃大幅提高自家人工智慧 (AI) 晶片產量。報導引述知情人士指出，微軟最快可能在下個月推出 Maia 300 晶片。",
+      "publish_time": "2026-08-11 07:00:09",
+      "publish_timestamp": 1786402809,
+      "url": "https://news.cnyes.com/news/id/6569971",
+      "keywords": [
+        "微軟",
+        "AI",
+        "晶片",
+        "台積電",
+        "maia",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6569924,
+      "title": "〈台股盤前要聞〉4萬5關卡遇阻 外資期貨空單逼近9萬口、<mark>台積電</mark>7月營收再刷新高",
+      "summary": "台股盤前要聞",
+      "publish_time": "2026-08-11 05:10:03",
+      "publish_timestamp": 1786396203,
+      "url": "https://news.cnyes.com/news/id/6569924",
+      "keywords": [
+        "台股",
+        "台股盤前",
+        "台股盤前要聞",
+        "摘要"
+      ]
+    },
     {
       "news_id": 6569190,
       "title": "不想再看輝達臉色！微軟向<mark>台積電</mark>要產能 Maia 300大舉擴產",
@@ -53,84 +188,8 @@
       ]
     },
     {
-      "news_id": 6569169,
-      "title": "英特爾趁股價翻倍啟動150億美元募資 擴大晶圓代工與先進封裝投資",
-      "summary": "",
-      "publish_time": "2026-08-10 21:00:10",
-      "publish_timestamp": 1786366810,
-      "url": "https://news.cnyes.com/news/id/6569169",
-      "keywords": [
-        "半導體",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6569103,
-      "title": "挑戰<mark>台積電</mark>還要更多銀彈！英特爾發股募資150億美元",
-      "summary": "美國晶片大廠英特爾 (Intel)(INTC-US) 周一 (10 日) 宣布，計劃透過發行股票籌資 150 億美元，藉由今年來股價大幅上漲的機會，為成本高昂的晶圓代工事業擴張計畫補充資金。",
-      "publish_time": "2026-08-10 20:30:07",
-      "publish_timestamp": 1786365007,
-      "url": "https://news.cnyes.com/news/id/6569103",
-      "keywords": [
-        "英特爾",
-        "Intel",
-        "台積電",
-        "股價",
-        "盤前",
-        "股票發行",
-        "增資",
-        "募資",
-        "晶圓",
-        "代工",
-        "半導體",
-        "先進封裝",
-        "股權",
-        "稀釋",
-        "科技",
-        "產業",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6568804,
-      "title": "<mark>台積電</mark>7月營收年增44.68%！Q3達標不難，真正考驗在Q4",
-      "summary": "",
-      "publish_time": "2026-08-10 19:00:06",
-      "publish_timestamp": 1786359606,
-      "url": "https://news.cnyes.com/news/id/6568804",
-      "keywords": [
-        "半導體",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6568564,
-      "title": "【量大強漲股整理】台股站穩均線後，<mark>台積電</mark>營收創新高!下一個可鎖定誰?",
-      "summary": "",
-      "publish_time": "2026-08-10 18:21:48",
-      "publish_timestamp": 1786357308,
-      "url": "https://news.cnyes.com/news/id/6568564",
-      "keywords": [
-        "七月營收",
-        "台積電",
-        "莊佳螢分析師",
-        "摩爾投顧",
-        "三大法人",
-        "趨勢分析"
-      ]
-    },
-    {
-      "news_id": 6568495,
-      "title": "<mark>台積電</mark>7月營收4675.81億元年增44.69% 1—7月達28720.64億元",
-      "summary": "台積電7月營收4675.81億元年增44.69% 1—7月達28720.64億元",
-      "publish_time": "2026-08-10 17:41:54",
-      "publish_timestamp": 1786354914,
-      "url": "https://news.cnyes.com/news/id/6568495",
-      "keywords": []
-    },
-    {
       "news_id": 6568349,
-      "title": "營收速報  - <mark>台積電</mark>(2330)7月營收4,675.81億元年增率高達44.69％",
+      "title": "營收速報  - 台積電(<mark>2330</mark>)7月營收4,675.81億元年增率高達44.69％",
       "summary": "2026年7月台積電(2330-TW) 營收年增成長44.69% , 盤後股價為2380元",
       "publish_time": "2026-08-10 17:22:46",
       "publish_timestamp": 1786353766,
@@ -144,56 +203,13 @@
       ]
     },
     {
-      "news_id": 6567864,
-      "title": "<mark>台積電</mark>7月營收4675.8億新台幣，年增率增長44.7%",
-      "summary": "",
-      "publish_time": "2026-08-10 14:00:44",
-      "publish_timestamp": 1786341644,
-      "url": "https://news.cnyes.com/news/id/6567864",
-      "keywords": [
-        "律動財經",
-        " 加密貨幣",
-        " 虛擬貨幣",
-        " BTC"
-      ]
-    },
-    {
       "news_id": 6567937,
-      "title": "<mark>台積電</mark>:台積公司2026年7月營收報告",
+      "title": "台積電:台積公司2026年7月營收報告",
       "summary": "台積電:台積公司2026年7月營收報告",
       "publish_time": "2026-08-10 13:51:09",
       "publish_timestamp": 1786341069,
       "url": "https://news.cnyes.com/news/id/6567937",
       "keywords": []
-    },
-    {
-      "news_id": 6567837,
-      "title": "<mark>台積電</mark>7月營收4676億元 年增44%續創單月新高",
-      "summary": "台積電 (2330-TW)(TSM-US) 今 (10) 日公布 7 月營收，達新台幣 4,675.8 億元，月增 5.6%，年增 44.7%，累計前 7 月營收為新台幣 2 兆 8,720.64 億元，年增 37%；受惠 AI 需求強",
-      "publish_time": "2026-08-10 13:48:34",
-      "publish_timestamp": 1786340914,
-      "url": "https://news.cnyes.com/news/id/6567837",
-      "keywords": [
-        "台積電",
-        "營收",
-        "新高",
-        "手機",
-        "AI"
-      ]
-    },
-    {
-      "news_id": 6567818,
-      "title": "〈焦點股〉台積電買廠傳聞加持友達衝漲停 群創同步亮燈",
-      "summary": "市場傳出台積電 (2330-TW) 有意買下友達 (2409-TW) 台中中科廠、擴充先進封裝先進產能，並將依循與群創的合作模式，與友達發展先進封裝技術；友達今 (10) 日早盤爆量攻漲停，群創 (3481-TW) 也同步亮燈漲停。",
-      "publish_time": "2026-08-10 13:18:11",
-      "publish_timestamp": 1786339091,
-      "url": "https://news.cnyes.com/news/id/6567818",
-      "keywords": [
-        "友達",
-        "台積電",
-        "面板",
-        "先進封裝"
-      ]
     },
     {
       "news_id": 6554443,
