@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11 16:05:21",
+  "last_updated": "2026-08-11 17:28:33",
   "stock_prices": {
     "tw_2330": {
       "price": 2395.0,
@@ -13,6 +13,53 @@
     }
   },
   "news": [
+    {
+      "news_id": 6570949,
+      "title": "〈OCP峰會〉台積電CoWoS良率已達99% 2029年量產14倍光罩尺寸",
+      "summary": "AI 晶片持續朝更大規模、更高整合度發展，也推動先進封裝尺寸快速放大。台積電先進封裝技術暨服務副總經理何軍今（11）日在 OCP APAC 指出，台積電目前 5.5 倍光罩尺寸（reticle size）的 CoWoS 已進入大量生產",
+      "publish_time": "2026-08-11 16:51:44",
+      "publish_timestamp": 1786438304,
+      "url": "https://news.cnyes.com/news/id/6570949",
+      "keywords": [
+        "台積電",
+        "OCP",
+        "先進封裝",
+        "CoWoS",
+        "SoIC"
+      ]
+    },
+    {
+      "news_id": 6570957,
+      "title": "〈OCP峰會〉台積電SoIC進入高速成長期 2029年實現A14堆疊A14",
+      "summary": "AI 晶片正邁向 3D 堆疊，台積電 (2330-TW)(TSM-US) 先進封裝技術暨服務副總經理何軍今 (11) 日也指出，SoIC 正式進入高速成長期，目前混和鍵和間距 (Pitch) 最小可達 6 微米，並已進入量產，預計 2029 年進一",
+      "publish_time": "2026-08-11 16:41:30",
+      "publish_timestamp": 1786437690,
+      "url": "https://news.cnyes.com/news/id/6570957",
+      "keywords": [
+        "OCP APAC",
+        "台積電",
+        "何軍",
+        "先進封裝",
+        "SOIC",
+        "COWOS"
+      ]
+    },
+    {
+      "news_id": 6570846,
+      "title": "乘勝追擊！英特爾增資擴至200億美元 趁股價大漲籌銀彈挑戰台積電",
+      "summary": "",
+      "publish_time": "2026-08-11 16:40:04",
+      "publish_timestamp": 1786437604,
+      "url": "https://news.cnyes.com/news/id/6570846",
+      "keywords": [
+        "英特爾",
+        "募資",
+        "台積電",
+        "半導體",
+        "晶片",
+        "晶圓代工"
+      ]
+    },
     {
       "news_id": 6570808,
       "title": "Sony、<mark>台積電</mark>傳聯手投資1兆日圓！規模達Sony感測事業年營收46.5%",
@@ -146,45 +193,6 @@
         "台股盤前",
         "台股盤前要聞",
         "摘要"
-      ]
-    },
-    {
-      "news_id": 6569190,
-      "title": "不想再看輝達臉色！微軟向<mark>台積電</mark>要產能 Maia 300大舉擴產",
-      "summary": "微軟 (MSFT-US) 計劃大幅提高新一代自研人工智慧 (AI) 晶片產量，並爭取 Anthropic 等大型雲端客戶採用，以降低對輝達(NVDA-US)AI 加速器的依賴。",
-      "publish_time": "2026-08-10 22:00:32",
-      "publish_timestamp": 1786370432,
-      "url": "https://news.cnyes.com/news/id/6569190",
-      "keywords": [
-        "微軟",
-        "Maia 300",
-        "AI",
-        "晶片",
-        "人工智慧",
-        "自研晶片",
-        "半導體",
-        "台積電",
-        "輝達",
-        "加速器",
-        "產能",
-        "亞馬遜",
-        "Google",
-        "雲端運算",
-        "科技",
-        "產業",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6569212,
-      "title": "微軟Maia 300首波逾30萬顆、劍指100萬顆 <mark>台積電</mark>、創意ASIC供應鏈迎上修機會",
-      "summary": "",
-      "publish_time": "2026-08-10 22:00:31",
-      "publish_timestamp": 1786370431,
-      "url": "https://news.cnyes.com/news/id/6569212",
-      "keywords": [
-        "ASIC",
-        "優分析"
       ]
     },
     {
