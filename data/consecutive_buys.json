@@ -1,28 +1,50 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "foreign_buy_streak_3d": [],
-  "foreign_buy_streak_2d": [],
-  "trust_buy_streak_3d": [
+  "foreign_buy_streak_2d": [
     {
-      "code": "2883",
-      "name": "凱基金",
-      "streak": 3
+      "code": "2344",
+      "name": "華邦電",
+      "streak": 2
     },
+    {
+      "code": "2002",
+      "name": "中鋼",
+      "streak": 2
+    },
+    {
+      "code": "2408",
+      "name": "南亞科",
+      "streak": 2
+    },
+    {
+      "code": "1605",
+      "name": "華新",
+      "streak": 2
+    }
+  ],
+  "trust_buy_streak_3d": [
     {
       "code": "2880",
       "name": "華南金",
       "streak": 5
     },
     {
+      "code": "2883",
+      "name": "凱基金",
+      "streak": 4
+    },
+    {
       "code": "2886",
       "name": "兆豐金",
       "streak": 5
-    },
-    {
-      "code": "2892",
-      "name": "第一金",
-      "streak": 3
     }
   ],
-  "trust_buy_streak_2d": []
+  "trust_buy_streak_2d": [
+    {
+      "code": "2887",
+      "name": "台新新光金",
+      "streak": 2
+    }
+  ]
 }
