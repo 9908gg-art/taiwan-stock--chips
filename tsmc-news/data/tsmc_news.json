@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11 19:11:57",
+  "last_updated": "2026-08-11 20:05:49",
   "stock_prices": {
     "tw_2330": {
       "price": 2395.0,
@@ -13,6 +13,37 @@
     }
   },
   "news": [
+    {
+      "news_id": 6571575,
+      "title": "〈<mark>台積電</mark>董事會〉攜索尼成立合資公司 2029年生產下世代影像感測器",
+      "summary": "索尼半導體解決方案公司 (Sony) 與台積電 (2330-TW)(TSM-US) 今 (11) 日宣布，雙方簽署具法律效力之最終合作協議，於日本熊本縣合志市成立合資公司 Advanced Vision Semiconductor",
+      "publish_time": "2026-08-11 19:41:36",
+      "publish_timestamp": 1786448496,
+      "url": "https://news.cnyes.com/news/id/6571575",
+      "keywords": [
+        "台積電",
+        "董事會",
+        "索尼",
+        "日本",
+        "影像感測器"
+      ]
+    },
+    {
+      "news_id": 6571573,
+      "title": "〈<mark>台積電</mark>董事會〉Q2配息維持7元 首次提供外資美元股利選擇",
+      "summary": "台積電 (2330-TW)(TSM-US) 今 (11) 日召開董事會，共拍板四大議案，包括通過第二季財報、核准配發第二季現金股利 7 元、核准資本支出 294 億美元以及與索尼合資成立新公司，其中，第二季現金股利維持 7 元，預計 202",
+      "publish_time": "2026-08-11 19:26:32",
+      "publish_timestamp": 1786447592,
+      "url": "https://news.cnyes.com/news/id/6571573",
+      "keywords": [
+        "台積電",
+        "董事會",
+        "資本支出",
+        "美元",
+        "股利",
+        "現金"
+      ]
+    },
     {
       "news_id": 6571555,
       "title": "確定了！<mark>台積電</mark>攜手Sony砸46.9億美元！日本熊本攻次世代影像感測器、2029年量產",
@@ -47,6 +78,15 @@
         "囤積",
         "TOP"
       ]
+    },
+    {
+      "news_id": 6571614,
+      "title": "<mark>台積電</mark>:台積公司董事會決議",
+      "summary": "台積電:台積公司董事會決議",
+      "publish_time": "2026-08-11 18:03:01",
+      "publish_timestamp": 1786442581,
+      "url": "https://news.cnyes.com/news/id/6571614",
+      "keywords": []
     },
     {
       "news_id": 6570949,
@@ -137,30 +177,6 @@
         "影像",
         "AI",
         "輝達",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6570443,
-      "title": "索尼攜手<mark>台積電</mark>！砸1兆日元建廠攻蘋果iPhone、機器人、自駕車影像感測器",
-      "summary": "索尼與台積電傳評估在日本熊本成立合資企業，投資上看 1 兆日元、索尼持股 60%、台積電 40%，最快 2029 年量產次世代影像感測器，布局 iPhone 與實體 AI 市場。",
-      "publish_time": "2026-08-11 11:20:03",
-      "publish_timestamp": 1786418403,
-      "url": "https://news.cnyes.com/news/id/6570443",
-      "keywords": [
-        "索尼",
-        "台積電",
-        "日本",
-        "熊本",
-        "工廠",
-        "合資",
-        "企業",
-        "影像",
-        "感測器",
-        "iPhone",
-        "實體AI",
-        "AI",
-        "人工智慧",
         "TOP"
       ]
     },
@@ -256,19 +272,6 @@
       "publish_timestamp": 1784716367,
       "url": "https://news.cnyes.com/news/id/6543073",
       "keywords": []
-    },
-    {
-      "news_id": 6539415,
-      "title": "鉅亨速報 - Factset 最新調查：台積電(<mark>2330</mark>-TW)EPS預估上修至107.74元，預估目標價為3160元",
-      "summary": "FactSet 最新調查：台積電(2330-TW)EPS預估上修，預估EPS、預估營收、目標價、歷史獲利表現、即時新聞資訊。",
-      "publish_time": "2026-07-19 08:11:06",
-      "publish_timestamp": 1784419866,
-      "url": "https://news.cnyes.com/news/id/6539415",
-      "keywords": [
-        "台股",
-        "市場預估",
-        "eps"
-      ]
     }
   ]
 }
