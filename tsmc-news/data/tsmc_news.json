@@ -1,18 +1,97 @@
 {
-  "last_updated": "2026-08-11 22:50:57",
+  "last_updated": "2026-08-12 16:09:47",
   "stock_prices": {
     "tw_2330": {
-      "price": 2395.0,
-      "change": 15.0,
-      "change_percent": 0.63
+      "price": 2415.0,
+      "change": 20.0,
+      "change_percent": 0.84
     },
     "us_tsm": {
-      "price": 422.9,
-      "change": 4.43,
-      "change_percent": 1.06
+      "price": 422.06,
+      "change": 3.59,
+      "change_percent": 0.86
     }
   },
   "news": [
+    {
+      "news_id": 6572926,
+      "title": "中砂(1560)盈餘成長不只靠投片量 <mark>台積電</mark>A16增加CMP步驟、高階耗材價值提升",
+      "summary": "",
+      "publish_time": "2026-08-12 14:32:18",
+      "publish_timestamp": 1786516338,
+      "url": "https://news.cnyes.com/news/id/6572926",
+      "keywords": [
+        "CMP耗材",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6572854,
+      "title": "〈台股盤後〉台積電領軍鴻海、廣達齊揚 漲358點日K連3紅穩步攻上45500大關",
+      "summary": "費半 11 日收紅，台股今 (12) 日在台積電、鴻海等權值股支撐下，以及伺服器 ODM、ABF 載板及光通訊族群，矽晶圓股等族群集體走強震，指數最高來到 45478 點，上漲約 358 點，全日站穩 45000 點。終場收 45",
+      "publish_time": "2026-08-12 14:21:29",
+      "publish_timestamp": 1786515689,
+      "url": "https://news.cnyes.com/news/id/6572854",
+      "keywords": [
+        "台股盤後",
+        "ABF",
+        "伺服器",
+        "矽晶圓",
+        "光通訊",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6572504,
+      "title": "〈台股開盤〉台積電力守紅盤 由記憶體及PCB族群帶路 漲逾300點守穩4萬5",
+      "summary": "台股大盤成交量能停滯不前，指標股權王台積電 (2330-TW) 今 (12) 日開盤小漲 0.42%，同時，記憶體族群南亞科 (2408-TW) 等助攻，推升大盤早盤開盤上漲逾 300 點，指數可望站穩 4 萬 5000 點。",
+      "publish_time": "2026-08-12 09:43:42",
+      "publish_timestamp": 1786499022,
+      "url": "https://news.cnyes.com/news/id/6572504",
+      "keywords": [
+        "台積電",
+        "健鼎",
+        "金像電",
+        "PCB",
+        "記憶體",
+        "松川",
+        "台達電",
+        "台股開盤",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6572008,
+      "title": "〈台股盤前要聞〉站回4萬5大關 三大法人齊買超、<mark>台積電</mark>攜手索尼合資生產CIS",
+      "summary": "台股盤前要聞",
+      "publish_time": "2026-08-12 05:10:02",
+      "publish_timestamp": 1786482602,
+      "url": "https://news.cnyes.com/news/id/6572008",
+      "keywords": [
+        "台股",
+        "台股盤前",
+        "台股盤前要聞",
+        "摘要"
+      ]
+    },
+    {
+      "news_id": 6572179,
+      "title": "<mark>台積電</mark>:本公司董事會核准於日本投資設立合資公司",
+      "summary": "台積電:本公司董事會核准於日本投資設立合資公司",
+      "publish_time": "2026-08-11 20:00:53",
+      "publish_timestamp": 1786449653,
+      "url": "https://news.cnyes.com/news/id/6572179",
+      "keywords": []
+    },
+    {
+      "news_id": 6572178,
+      "title": "<mark>台積電</mark>:本公司董事會核准機器設備、不動產及資本化租賃資產資本預算案",
+      "summary": "台積電:本公司董事會核准機器設備、不動產及資本化租賃資產資本預算案",
+      "publish_time": "2026-08-11 19:58:54",
+      "publish_timestamp": 1786449534,
+      "url": "https://news.cnyes.com/news/id/6572178",
+      "keywords": []
+    },
     {
       "news_id": 6571575,
       "title": "〈<mark>台積電</mark>董事會〉攜索尼成立合資公司 2029年生產下世代影像感測器",
@@ -27,6 +106,15 @@
         "日本",
         "影像感測器"
       ]
+    },
+    {
+      "news_id": 6572176,
+      "title": "<mark>台積電</mark>:Sony與台積公司同意成立合資公司支援下一世代影像感測器",
+      "summary": "台積電:Sony與台積公司同意成立合資公司支援下一世代影像感測器",
+      "publish_time": "2026-08-11 19:38:43",
+      "publish_timestamp": 1786448323,
+      "url": "https://news.cnyes.com/news/id/6572176",
+      "keywords": []
     },
     {
       "news_id": 6571573,
@@ -46,7 +134,7 @@
     },
     {
       "news_id": 6571830,
-      "title": "<mark>台積電</mark>:本公司訂定民國115年第二季之現金股利除息交易日",
+      "title": "台積電:本公司訂定民國115年第二季之現金股利除息交易日",
       "summary": "台積電:本公司訂定民國115年第二季之現金股利除息交易日",
       "publish_time": "2026-08-11 19:01:29",
       "publish_timestamp": 1786446089,
@@ -54,20 +142,8 @@
       "keywords": []
     },
     {
-      "news_id": 6571555,
-      "title": "確定了！<mark>台積電</mark>攜手Sony砸46.9億美元！日本熊本攻次世代影像感測器、2029年量產",
-      "summary": "",
-      "publish_time": "2026-08-11 19:00:06",
-      "publish_timestamp": 1786446006,
-      "url": "https://news.cnyes.com/news/id/6571555",
-      "keywords": [
-        "CMOS",
-        "優分析"
-      ]
-    },
-    {
       "news_id": 6571829,
-      "title": "<mark>台積電</mark>:本公司董事會決議股利分派",
+      "title": "台積電:本公司董事會決議股利分派",
       "summary": "台積電:本公司董事會決議股利分派",
       "publish_time": "2026-08-11 18:53:34",
       "publish_timestamp": 1786445614,
@@ -76,7 +152,7 @@
     },
     {
       "news_id": 6571828,
-      "title": "<mark>台積電</mark>:本公司民國115年度第二季合併財務報告業經董事會決議通過",
+      "title": "台積電:本公司民國115年度第二季合併財務報告業經董事會決議通過",
       "summary": "台積電:本公司民國115年度第二季合併財務報告業經董事會決議通過",
       "publish_time": "2026-08-11 18:46:58",
       "publish_timestamp": 1786445218,
@@ -84,96 +160,13 @@
       "keywords": []
     },
     {
-      "news_id": 6570772,
-      "title": "<mark>台積電</mark>囤10億美元蘋果晶片？郭明錤駁斥：庫存上升是量產爬坡初期正常現象",
-      "summary": "儘管記憶體缺貨風暴持續衝擊蘋果 (AAPL-US) 硬體出貨規劃，但關於市場近期流傳「台積電 (2330-TW) 手上囤積價值十億美元蘋果處理器半成品」一說，卻遭到知名蘋果供應鏈分析師郭明錤公開駁斥。",
-      "publish_time": "2026-08-11 18:10:02",
-      "publish_timestamp": 1786443002,
-      "url": "https://news.cnyes.com/news/id/6570772",
-      "keywords": [
-        "蘋果",
-        "台積電",
-        "記憶體",
-        "晶片",
-        "晶圓",
-        "iPhone",
-        "Mac",
-        "iPad",
-        "DRAM",
-        "郭明錤",
-        "處理器",
-        "囤積",
-        "TOP"
-      ]
-    },
-    {
       "news_id": 6571614,
-      "title": "<mark>台積電</mark>:台積公司董事會決議",
+      "title": "台積電:台積公司董事會決議",
       "summary": "台積電:台積公司董事會決議",
       "publish_time": "2026-08-11 18:03:01",
       "publish_timestamp": 1786442581,
       "url": "https://news.cnyes.com/news/id/6571614",
       "keywords": []
-    },
-    {
-      "news_id": 6570949,
-      "title": "〈OCP峰會〉台積電CoWoS良率已達99% 2029年量產14倍光罩尺寸",
-      "summary": "AI 晶片持續朝更大規模、更高整合度發展，也推動先進封裝尺寸快速放大。台積電先進封裝技術暨服務副總經理何軍今（11）日在 OCP APAC 指出，台積電目前 5.5 倍光罩尺寸（reticle size）的 CoWoS 已進入大量生產",
-      "publish_time": "2026-08-11 16:51:44",
-      "publish_timestamp": 1786438304,
-      "url": "https://news.cnyes.com/news/id/6570949",
-      "keywords": [
-        "台積電",
-        "OCP",
-        "先進封裝",
-        "CoWoS",
-        "SoIC"
-      ]
-    },
-    {
-      "news_id": 6570957,
-      "title": "〈OCP峰會〉台積電SoIC進入高速成長期 2029年實現A14堆疊A14",
-      "summary": "AI 晶片正邁向 3D 堆疊，台積電 (2330-TW)(TSM-US) 先進封裝技術暨服務副總經理何軍今 (11) 日也指出，SoIC 正式進入高速成長期，目前混和鍵和間距 (Pitch) 最小可達 6 微米，並已進入量產，預計 2029 年進一",
-      "publish_time": "2026-08-11 16:41:30",
-      "publish_timestamp": 1786437690,
-      "url": "https://news.cnyes.com/news/id/6570957",
-      "keywords": [
-        "OCP APAC",
-        "台積電",
-        "何軍",
-        "先進封裝",
-        "SOIC",
-        "COWOS"
-      ]
-    },
-    {
-      "news_id": 6570846,
-      "title": "乘勝追擊！英特爾增資擴至200億美元 趁股價大漲籌銀彈挑戰台積電",
-      "summary": "",
-      "publish_time": "2026-08-11 16:40:04",
-      "publish_timestamp": 1786437604,
-      "url": "https://news.cnyes.com/news/id/6570846",
-      "keywords": [
-        "英特爾",
-        "募資",
-        "台積電",
-        "半導體",
-        "晶片",
-        "晶圓代工"
-      ]
-    },
-    {
-      "news_id": 6570808,
-      "title": "Sony、<mark>台積電</mark>傳聯手投資1兆日圓！規模達Sony感測事業年營收46.5%",
-      "summary": "",
-      "publish_time": "2026-08-11 15:00:07",
-      "publish_timestamp": 1786431607,
-      "url": "https://news.cnyes.com/news/id/6570808",
-      "keywords": [
-        "感測器",
-        "CMOS",
-        "優分析"
-      ]
     },
     {
       "news_id": 6568349,
