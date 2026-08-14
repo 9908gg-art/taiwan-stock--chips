@@ -1,23 +1,60 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "foreign_buy_streak_3d": [],
-  "foreign_buy_streak_2d": [],
+  "foreign_buy_streak_2d": [
+    {
+      "code": "6770",
+      "name": "力積電",
+      "streak": 2
+    },
+    {
+      "code": "00981A",
+      "name": "主動統一台股增長",
+      "streak": 2
+    },
+    {
+      "code": "00403A",
+      "name": "主動統一升級50",
+      "streak": 2
+    },
+    {
+      "code": "0050",
+      "name": "元大台灣50",
+      "streak": 2
+    },
+    {
+      "code": "00991A",
+      "name": "主動復華未來50",
+      "streak": 2
+    },
+    {
+      "code": "00407A",
+      "name": "主動凱基台灣",
+      "streak": 2
+    }
+  ],
   "trust_buy_streak_3d": [
     {
       "code": "2887",
       "name": "台新新光金",
-      "streak": 4
+      "streak": 5
     },
     {
       "code": "2883",
       "name": "凱基金",
       "streak": 5
-    },
-    {
-      "code": "2368",
-      "name": "金像電",
-      "streak": 3
     }
   ],
-  "trust_buy_streak_2d": []
+  "trust_buy_streak_2d": [
+    {
+      "code": "2885",
+      "name": "元大金",
+      "streak": 2
+    },
+    {
+      "code": "00900",
+      "name": "富邦特選高股息30",
+      "streak": 2
+    }
+  ]
 }
