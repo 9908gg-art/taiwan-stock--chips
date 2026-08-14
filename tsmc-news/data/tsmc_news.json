@@ -1,18 +1,53 @@
 {
-  "last_updated": "2026-08-13 23:28:53",
+  "last_updated": "2026-08-14 16:08:12",
   "stock_prices": {
     "tw_2330": {
-      "price": 2435.0,
-      "change": 20.0,
-      "change_percent": 0.83
+      "price": 2395.0,
+      "change": -40.0,
+      "change_percent": -1.64
     },
     "us_tsm": {
-      "price": 432.45,
-      "change": 3.3,
-      "change_percent": 0.77
+      "price": 430.49,
+      "change": 1.34,
+      "change_percent": 0.31
     }
   },
   "news": [
+    {
+      "news_id": 6576480,
+      "title": "劍指<mark>台積電</mark>與SK海力士！三星電子：已延攬兩名AI專家加強半導體研發能力",
+      "summary": "",
+      "publish_time": "2026-08-14 09:40:08",
+      "publish_timestamp": 1786671608,
+      "url": "https://news.cnyes.com/news/id/6576480",
+      "keywords": [
+        "三星電子",
+        "人才",
+        "AI",
+        "半導體",
+        "先進製程",
+        "HBM",
+        "SK海力士",
+        "資料工程",
+        "良率",
+        "台積電"
+      ]
+    },
+    {
+      "news_id": 6576459,
+      "title": "〈台股開盤〉台積電熄火聯發科、鴻海挺身  漲逾300點衝高至46402點",
+      "summary": "油價下跌 2% 以及市場對升息憂慮緩解，美股四大指數收紅，台股今 (14) 日以 46103.81 點開出，上漲 82.33 點，儘管台積電熄火，不過聯發科、廣達、鴻海等電子權值股走強，最高來到 46402.6 點",
+      "publish_time": "2026-08-14 09:37:14",
+      "publish_timestamp": 1786671434,
+      "url": "https://news.cnyes.com/news/id/6576459",
+      "keywords": [
+        "台股",
+        "IC設計",
+        "記憶體",
+        "伺服器",
+        "AI"
+      ]
+    },
     {
       "news_id": 6574894,
       "title": "〈台股開盤〉MSCI季調台股三升 <mark>台積電</mark>領權值股漲逾600點站上4萬6千點",
