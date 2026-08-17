@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17 19:47:37",
+  "last_updated": "2026-08-17 20:25:50",
   "stock_prices": {
     "tw_2330": {
       "price": 2400.0,
@@ -13,6 +13,15 @@
     }
   },
   "news": [
+    {
+      "news_id": 6579526,
+      "title": "<mark>台積電</mark>:本公司受邀參加機構投資人說明會",
+      "summary": "台積電:本公司受邀參加機構投資人說明會",
+      "publish_time": "2026-08-17 18:34:31",
+      "publish_timestamp": 1786962871,
+      "url": "https://news.cnyes.com/news/id/6579526",
+      "keywords": []
+    },
     {
       "news_id": 6579132,
       "title": "華爾街「聰明錢」搬風 避險基金巨頭拋售博通、轉向布局<mark>台積電</mark>",
