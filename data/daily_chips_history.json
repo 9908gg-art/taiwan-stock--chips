@@ -419,10 +419,10 @@
         "date": "2026-07-13"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -142.66,
+        "margin_balance_total": 6040.34,
+        "short_balance_change": -22526,
+        "short_balance_total": 180712
       },
       "trading_volume": {
         "tse_volume": 12452.07
@@ -460,10 +460,10 @@
         "date": "2026-07-14"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 113.34,
+        "margin_balance_total": 6153.68,
+        "short_balance_change": -7581,
+        "short_balance_total": 173131
       },
       "trading_volume": {
         "tse_volume": 10243.86
@@ -501,10 +501,10 @@
         "date": "2026-07-15"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 1.87,
+        "margin_balance_total": 6155.76,
+        "short_balance_change": 3489,
+        "short_balance_total": 176622
       },
       "trading_volume": {
         "tse_volume": 9331.81
@@ -542,10 +542,10 @@
         "date": "2026-07-16"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -276.13,
+        "margin_balance_total": 5879.63,
+        "short_balance_change": 59678,
+        "short_balance_total": 236300
       },
       "trading_volume": {
         "tse_volume": 13331.57
@@ -624,10 +624,10 @@
         "date": "2026-07-20"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 74.61,
+        "margin_balance_total": 5764.96,
+        "short_balance_change": 1752,
+        "short_balance_total": 212614
       },
       "trading_volume": {
         "tse_volume": 8662.52
@@ -665,10 +665,10 @@
         "date": "2026-07-22"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 63.27,
+        "margin_balance_total": 5828.24,
+        "short_balance_change": -6065,
+        "short_balance_total": 206549
       },
       "trading_volume": {
         "tse_volume": 10259.58
@@ -706,10 +706,10 @@
         "date": "2026-07-23"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -1.97,
+        "margin_balance_total": 5826.26,
+        "short_balance_change": 2098,
+        "short_balance_total": 208647
       },
       "trading_volume": {
         "tse_volume": 9306.12
@@ -747,10 +747,10 @@
         "date": "2026-07-23"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -55.67,
+        "margin_balance_total": 5770.6,
+        "short_balance_change": -3892,
+        "short_balance_total": 204754
       },
       "trading_volume": {
         "tse_volume": 8250.76
@@ -788,10 +788,10 @@
         "date": "2026-07-24"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -83.96,
+        "margin_balance_total": 5686.63,
+        "short_balance_change": -18521,
+        "short_balance_total": 186233
       },
       "trading_volume": {
         "tse_volume": 7476.47
@@ -829,10 +829,10 @@
         "date": "2026-07-27"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -231.29,
+        "margin_balance_total": 5455.35,
+        "short_balance_change": 33026,
+        "short_balance_total": 219259
       },
       "trading_volume": {
         "tse_volume": 8725.75
@@ -870,10 +870,10 @@
         "date": "2026-07-28"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -385.22,
+        "margin_balance_total": 5070.11,
+        "short_balance_change": -1774,
+        "short_balance_total": 217485
       },
       "trading_volume": {
         "tse_volume": 11491.85
@@ -911,10 +911,10 @@
         "date": "2026-07-29"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -131.43,
+        "margin_balance_total": 4938.67,
+        "short_balance_change": -13271,
+        "short_balance_total": 204214
       },
       "trading_volume": {
         "tse_volume": 11469.38
@@ -952,10 +952,10 @@
         "date": "2026-07-30"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 135.97,
+        "margin_balance_total": 5074.63,
+        "short_balance_change": -15890,
+        "short_balance_total": 188324
       },
       "trading_volume": {
         "tse_volume": 8877.32
@@ -993,10 +993,10 @@
         "date": "2026-07-31"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 72.93,
+        "margin_balance_total": 5147.55,
+        "short_balance_change": -3002,
+        "short_balance_total": 185322
       },
       "trading_volume": {
         "tse_volume": 8855.06
@@ -1034,10 +1034,10 @@
         "date": "2026-08-03"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 63.79,
+        "margin_balance_total": 5211.35,
+        "short_balance_change": 11648,
+        "short_balance_total": 196970
       },
       "trading_volume": {
         "tse_volume": 10870.46
@@ -1075,10 +1075,10 @@
         "date": "2026-08-04"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 23.58,
+        "margin_balance_total": 5234.92,
+        "short_balance_change": 252,
+        "short_balance_total": 197222
       },
       "trading_volume": {
         "tse_volume": 12002.13
@@ -1116,10 +1116,10 @@
         "date": "2026-08-05"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 93.13,
+        "margin_balance_total": 5328.05,
+        "short_balance_change": -5306,
+        "short_balance_total": 191897
       },
       "trading_volume": {
         "tse_volume": 9740.55
@@ -1157,10 +1157,10 @@
         "date": "2026-08-05"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 48.6,
+        "margin_balance_total": 5376.65,
+        "short_balance_change": 843,
+        "short_balance_total": 192740
       },
       "trading_volume": {
         "tse_volume": 8444.4
@@ -1198,10 +1198,10 @@
         "date": "2026-08-07"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 76.31,
+        "margin_balance_total": 5452.96,
+        "short_balance_change": 9892,
+        "short_balance_total": 202632
       },
       "trading_volume": {
         "tse_volume": 8762.39
@@ -1239,10 +1239,10 @@
         "date": "2026-08-10"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -11.44,
+        "margin_balance_total": 5441.52,
+        "short_balance_change": 2187,
+        "short_balance_total": 204819
       },
       "trading_volume": {
         "tse_volume": 9020.52
