@@ -186,8 +186,8 @@ def crawl_date(date_str, history_entries, data_dir, history_file, tz_tw):
     comb_dealer = tse_dealer + otc_dealer
     comb_total = tse_total + otc_total
 
-    # 4. Fetch TWSE MI_MARGN (信用交易統計 Table 0)
-    url_marg = f"https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date={date_str}&selectType=ALL"
+    # 4. Fetch TWSE MI_MARGN (信用交易統計)
+    url_marg = f"https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date={date_str}&selectType=MS"
     print(f"Fetching TWSE MI_MARGN from {url_marg}...")
     marg_data = fetch_json(url_marg)
     
@@ -197,28 +197,62 @@ def crawl_date(date_str, history_entries, data_dir, history_file, tz_tw):
     short_balance_total = 0
     
     if marg_data and 'tables' in marg_data and len(marg_data['tables']) > 0:
-        table0 = marg_data['tables'][0]
-        table0_data = table0.get('data', [])
-        # Row 0: 融資(交易單位), Row 1: 融券(交易單位), Row 2: 融資金額(仟元)
-        if len(table0_data) >= 3:
-            row_unit_short = table0_data[1] # 融券(交易單位)
-            row_money_margin = table0_data[2] # 融資金額(仟元)
-            
-            # Financing changes (converted to 億元)
-            margin_prev = parse_number(row_money_margin[4]) * 1000.0 / 100000000.0
-            margin_curr = parse_number(row_money_margin[5]) * 1000.0 / 100000000.0
-            margin_balance_total = margin_curr
-            margin_balance_change = margin_curr - margin_prev
-            
-            # Short changes (sheets/trading units)
-            short_prev = parse_number(row_unit_short[4])
-            short_curr = parse_number(row_unit_short[5])
-            short_balance_total = short_curr
-            short_balance_change = short_curr - short_prev
-            
-            print(f"Margin Trading: Margin Change={margin_balance_change:.2f}億 (Total={margin_balance_total:.2f}億), Short Change={short_balance_change}張 (Total={short_balance_total}張)")
+        # MI_MARGN with selectType=MS returns market summary
+        for table in marg_data['tables']:
+            table_data = table.get('data', [])
+            if not table_data:
+                continue
+            for row in table_data:
+                row_label = str(row[0]).strip() if row else ''
+                # 融資金額(仟元)
+                if '融資' in row_label and '金額' in row_label:
+                    try:
+                        margin_prev = parse_number(row[1]) * 1000.0 / 100000000.0
+                        margin_curr = parse_number(row[5]) * 1000.0 / 100000000.0
+                        if margin_curr == 0 and len(row) > 5:
+                            margin_curr = parse_number(row[4]) * 1000.0 / 100000000.0
+                        margin_balance_total = margin_curr
+                        margin_balance_change = margin_curr - margin_prev
+                    except Exception as me:
+                        print(f"  Error parsing margin amount: {me}")
+                # 融券(交易單位)
+                elif '融券' in row_label and '金額' not in row_label:
+                    try:
+                        short_prev = parse_number(row[1])
+                        short_curr = parse_number(row[5])
+                        if short_curr == 0 and len(row) > 5:
+                            short_curr = parse_number(row[4])
+                        short_balance_total = short_curr
+                        short_balance_change = short_curr - short_prev
+                    except Exception as se:
+                        print(f"  Error parsing short units: {se}")
+
+        if margin_balance_total == 0 and short_balance_total == 0:
+            # Fallback: try selectType=ALL
+            url_marg_all = f"https://www.twse.com.tw/exchangeReport/MI_MARGN?response=json&date={date_str}&selectType=ALL"
+            print(f"Fallback: Fetching MI_MARGN selectType=ALL...")
+            marg_data_all = fetch_json(url_marg_all)
+            if marg_data_all and 'tables' in marg_data_all and len(marg_data_all['tables']) > 0:
+                table0 = marg_data_all['tables'][0]
+                table0_data = table0.get('data', [])
+                for row in table0_data:
+                    label = str(row[0]).strip()
+                    if '融資' in label and '金額' in label:
+                        margin_prev = parse_number(row[1]) * 1000.0 / 100000000.0
+                        margin_curr = parse_number(row[5]) * 1000.0 / 100000000.0
+                        if margin_curr == 0: margin_curr = parse_number(row[4]) * 1000.0 / 100000000.0
+                        margin_balance_total = margin_curr
+                        margin_balance_change = margin_curr - margin_prev
+                    elif '融券' in label and '金額' not in label:
+                        short_prev = parse_number(row[1])
+                        short_curr = parse_number(row[5])
+                        if short_curr == 0: short_curr = parse_number(row[4])
+                        short_balance_total = short_curr
+                        short_balance_change = short_curr - short_prev
+
+        print(f"Margin Trading: Margin Change={margin_balance_change:.2f}億 (Total={margin_balance_total:.2f}億), Short Change={short_balance_change}張 (Total={short_balance_total}張)")
     else:
-        print("Could not fetch Margin data.")
+        print("Could not fetch Margin data. Will retry in next wave.")
 
     # 5. Fetch TWSE FMTQIK (大盤成交值統計)
     url_fmt = f"https://www.twse.com.tw/exchangeReport/FMTQIK?response=json&date={date_str}"
@@ -658,18 +692,33 @@ def run():
                 continue
                 
         print(f"⚡ Processing Date: {formatted_date_dash} ...")
-        try:
-            success = crawl_date(date_str, history_entries, data_dir, history_file, tz_tw)
-            if success:
-                crawled_any = True
-                # Reload history entries to keep it updated for the next date in loop!
-                if os.path.exists(history_file):
-                    with open(history_file, "r", encoding="utf-8") as f:
-                        history_data = json.load(f)
-                        history_entries = history_data.get("history", [])
-                time.sleep(3) # Polite crawl gap
-        except Exception as date_ex:
-            print(f"❌ Failed to crawl date {formatted_date_dash}: {date_ex}")
+        max_retries = 3
+        retry_delay = 60
+        success = False
+        for attempt in range(1, max_retries + 1):
+            try:
+                success = crawl_date(date_str, history_entries, data_dir, history_file, tz_tw)
+                if success:
+                    crawled_any = True
+                    if os.path.exists(history_file):
+                        with open(history_file, "r", encoding="utf-8") as f:
+                            history_data = json.load(f)
+                            history_entries = history_data.get("history", [])
+                    break
+                else:
+                    if attempt < max_retries:
+                        print(f"  ⏳ Data not available yet. Retry {attempt}/{max_retries} in {retry_delay}s...")
+                        time.sleep(retry_delay)
+                        retry_delay *= 2
+                    else:
+                        print(f"  ⚠️ Data still not available after {max_retries} retries. Will try in next scheduled wave.")
+            except Exception as date_ex:
+                print(f"  ❌ Attempt {attempt}/{max_retries} failed for {formatted_date_dash}: {date_ex}")
+                if attempt < max_retries:
+                    time.sleep(retry_delay)
+                    retry_delay *= 2
+        if success:
+            time.sleep(3)
             
     if crawled_any:
         print("🎉 Crawl and backfill session successfully completed!")

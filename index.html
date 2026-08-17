@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="style.css">
     <!-- Busuanzi View Counter -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <!-- Google Analytics 4 (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GF1DYLWMKX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-GF1DYLWMKX');
+    </script>
 </head>
 <body>
 
@@ -25,6 +33,7 @@
                 <span>台股投資人工具箱</span>
             </div>
             <div class="nav-links">
+                <a href="https://gugopro.com" class="nav-link" target="_blank"><i class="fa-solid fa-house"></i> GugoPro 首頁</a>
                 <a href="./" class="nav-link active"><i class="fa-solid fa-chart-line"></i> 法人籌碼下載</a>
                 <a href="tsmc-news/" class="nav-link"><i class="fa-solid fa-microchip"></i> TSMC 新聞追蹤</a>
             </div>
@@ -60,9 +69,7 @@
                 <a href="data/daily_chips.csv" download id="link-download-csv" class="btn btn-primary btn-sm">
                     <i class="fa-solid fa-file-excel"></i> 導出今日數據 (CSV)
                 </a>
-                <a href="data/daily_chips.json" target="_blank" class="btn btn-secondary btn-sm">
-                    <i class="fa-solid fa-code"></i> 檢視 API 資料 (JSON)
-                </a>
+
             </div>
         </section>
 

@@ -1,0 +1,53 @@
+name: Auto Crawl Stock Chips
+
+on:
+  schedule:
+    # Wave 1: First fetch after market close (Taiwan 15:30 = UTC 07:30)
+    - cron: '30 7 * * 1-5'
+    # Wave 2: Catch margin/short data (Taiwan 18:30 = UTC 10:30)
+    - cron: '30 10 * * 1-5'
+    # Wave 3: Late evening catch-all (Taiwan 21:30 = UTC 13:30)
+    - cron: '30 13 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Stock Chips Crawler
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          echo "🚀 Starting stock chips crawler (Wave triggered at $(date -u '+%Y-%m-%d %H:%M UTC'))..."
+          python cron_crawler.py || echo "⚠️ Stock chips crawler completed with warnings."
+
+      - name: Run TSMC News Crawler
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python tsmc-news/crawler_daemon.py once || echo "⚠️ TSMC news crawler skipped or failed."
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ tsmc-news/data/
+          if git diff --staged --quiet; then
+            echo "📋 No new data changes detected in this wave."
+          else
+            WAVE_TIME=$(TZ='Asia/Taipei' date '+%Y-%m-%d %H:%M')
+            git commit -m "auto(data): update stock chips & TSMC news [$WAVE_TIME TWN] [skip ci]"
+            git push
+            echo "✅ Data committed and pushed successfully!"
+          fi
