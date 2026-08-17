@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17 15:44:26",
+  "last_updated": "2026-08-17 16:33:18",
   "stock_prices": {
     "tw_2330": {
       "price": 2400.0,
@@ -108,20 +108,6 @@
       "publish_time": "2026-08-15 09:00:09",
       "publish_timestamp": 1786755609,
       "url": "https://news.cnyes.com/news/id/6577850",
-      "keywords": [
-        "律動財經",
-        " 加密貨幣",
-        " 虛擬貨幣",
-        " BTC"
-      ]
-    },
-    {
-      "news_id": 6577716,
-      "title": "軟銀集團大幅減持台積電ADR，持倉減少71.5%",
-      "summary": "",
-      "publish_time": "2026-08-15 01:00:26",
-      "publish_timestamp": 1786726826,
-      "url": "https://news.cnyes.com/news/id/6577716",
       "keywords": [
         "律動財經",
         " 加密貨幣",

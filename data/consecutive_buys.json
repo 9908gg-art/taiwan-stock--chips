@@ -1,38 +1,23 @@
 {
-  "date": "2026-08-14",
-  "foreign_buy_streak_3d": [],
-  "foreign_buy_streak_2d": [
+  "date": "2026-08-17",
+  "foreign_buy_streak_3d": [
     {
-      "code": "6770",
-      "name": "力積電",
-      "streak": 2
+      "code": "00403A",
+      "name": "主動統一升級50",
+      "streak": 3
     },
     {
       "code": "00981A",
       "name": "主動統一台股增長",
-      "streak": 2
-    },
-    {
-      "code": "00403A",
-      "name": "主動統一升級50",
-      "streak": 2
-    },
-    {
-      "code": "0050",
-      "name": "元大台灣50",
-      "streak": 2
+      "streak": 3
     },
     {
       "code": "00991A",
       "name": "主動復華未來50",
-      "streak": 2
-    },
-    {
-      "code": "00407A",
-      "name": "主動凱基台灣",
-      "streak": 2
+      "streak": 3
     }
   ],
+  "foreign_buy_streak_2d": [],
   "trust_buy_streak_3d": [
     {
       "code": "2887",
@@ -47,13 +32,28 @@
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "2885",
-      "name": "元大金",
+      "code": "2884",
+      "name": "玉山金",
       "streak": 2
     },
     {
-      "code": "00900",
-      "name": "富邦特選高股息30",
+      "code": "2890",
+      "name": "永豐金",
+      "streak": 2
+    },
+    {
+      "code": "2892",
+      "name": "第一金",
+      "streak": 2
+    },
+    {
+      "code": "2886",
+      "name": "兆豐金",
+      "streak": 2
+    },
+    {
+      "code": "2880",
+      "name": "華南金",
       "streak": 2
     }
   ]
