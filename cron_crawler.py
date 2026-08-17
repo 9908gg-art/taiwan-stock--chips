@@ -197,7 +197,7 @@ def crawl_date(date_str, history_entries, data_dir, history_file, tz_tw):
     short_balance_total = 0
     
     if marg_data and 'tables' in marg_data and len(marg_data['tables']) > 0:
-        # MI_MARGN with selectType=MS returns market summary
+        # MI_MARGN Table 0: ['項目', '買進', '賣出', '現金(券)償還', '前日餘額', '今日餘額']
         for table in marg_data['tables']:
             table_data = table.get('data', [])
             if not table_data:
@@ -207,23 +207,21 @@ def crawl_date(date_str, history_entries, data_dir, history_file, tz_tw):
                 # 融資金額(仟元)
                 if '融資' in row_label and '金額' in row_label:
                     try:
-                        margin_prev = parse_number(row[1]) * 1000.0 / 100000000.0
-                        margin_curr = parse_number(row[5]) * 1000.0 / 100000000.0
-                        if margin_curr == 0 and len(row) > 5:
-                            margin_curr = parse_number(row[4]) * 1000.0 / 100000000.0
+                        margin_prev = parse_number(row[4]) * 1000.0 / 100000000.0  # 前日餘額 -> 億元
+                        margin_curr = parse_number(row[5]) * 1000.0 / 100000000.0  # 今日餘額 -> 億元
                         margin_balance_total = margin_curr
                         margin_balance_change = margin_curr - margin_prev
+                        print(f"  [Margin Financing] Prev={margin_prev:.2f}億, Curr={margin_curr:.2f}億, Change={margin_balance_change:+.2f}億")
                     except Exception as me:
                         print(f"  Error parsing margin amount: {me}")
                 # 融券(交易單位)
-                elif '融券' in row_label and '金額' not in row_label:
+                elif '融券' in row_label and ('交易單位' in row_label or '張' in row_label or '金額' not in row_label):
                     try:
-                        short_prev = parse_number(row[1])
-                        short_curr = parse_number(row[5])
-                        if short_curr == 0 and len(row) > 5:
-                            short_curr = parse_number(row[4])
+                        short_prev = parse_number(row[4])  # 前日餘額 (張)
+                        short_curr = parse_number(row[5])  # 今日餘額 (張)
                         short_balance_total = short_curr
                         short_balance_change = short_curr - short_prev
+                        print(f"  [Short Selling] Prev={short_prev}張, Curr={short_curr}張, Change={short_balance_change:+d}張")
                     except Exception as se:
                         print(f"  Error parsing short units: {se}")
 
@@ -238,19 +236,17 @@ def crawl_date(date_str, history_entries, data_dir, history_file, tz_tw):
                 for row in table0_data:
                     label = str(row[0]).strip()
                     if '融資' in label and '金額' in label:
-                        margin_prev = parse_number(row[1]) * 1000.0 / 100000000.0
+                        margin_prev = parse_number(row[4]) * 1000.0 / 100000000.0
                         margin_curr = parse_number(row[5]) * 1000.0 / 100000000.0
-                        if margin_curr == 0: margin_curr = parse_number(row[4]) * 1000.0 / 100000000.0
                         margin_balance_total = margin_curr
                         margin_balance_change = margin_curr - margin_prev
                     elif '融券' in label and '金額' not in label:
-                        short_prev = parse_number(row[1])
+                        short_prev = parse_number(row[4])
                         short_curr = parse_number(row[5])
-                        if short_curr == 0: short_curr = parse_number(row[4])
                         short_balance_total = short_curr
                         short_balance_change = short_curr - short_prev
 
-        print(f"Margin Trading: Margin Change={margin_balance_change:.2f}億 (Total={margin_balance_total:.2f}億), Short Change={short_balance_change}張 (Total={short_balance_total}張)")
+        print(f"Margin Trading Summary: Margin Change={margin_balance_change:.2f}億 (Total={margin_balance_total:.2f}億), Short Change={short_balance_change}張 (Total={short_balance_total}張)")
     else:
         print("Could not fetch Margin data. Will retry in next wave.")
 
@@ -680,15 +676,19 @@ def run():
         day = date_str[6:8]
         formatted_date_dash = f"{year}-{month}-{day}"
         
-        # Skip if already exists in history (unless running manually with arguments)
-        if len(sys.argv) == 1:
-            already_exists = False
+        # Skip if already exists with complete data (unless running manually with arguments or date is today)
+        is_latest_date = (date_str == target_dates[-1])
+        if len(sys.argv) == 1 and not is_latest_date:
+            already_complete = False
             for entry in history_entries:
                 if entry.get("date") == formatted_date_dash:
-                    already_exists = True
+                    margin = entry.get("margin_trading", {})
+                    # If margin data is non-zero, it is complete
+                    if margin.get("margin_balance_total", 0) > 0:
+                        already_complete = True
                     break
-            if already_exists:
-                print(f"Data for {formatted_date_dash} already exists in history. Skipping backfill.")
+            if already_complete:
+                print(f"Complete data for {formatted_date_dash} already exists in history. Skipping backfill.")
                 continue
                 
         print(f"⚡ Processing Date: {formatted_date_dash} ...")

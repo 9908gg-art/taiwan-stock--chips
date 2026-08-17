@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17 16:33:15",
+  "last_updated": "2026-08-18 02:38:41",
   "history": [
     {
       "date": "2026-06-24",
@@ -1259,34 +1259,34 @@
       "date": "2026-08-12",
       "tse_summary": {
         "foreign": 110.21,
-        "trust": 28.01,
+        "trust": 22.76,
         "dealer": 87.01,
-        "total": 225.22
+        "total": 219.98
       },
       "tpex_summary": {
         "foreign": 63.52,
-        "trust": 19.32,
+        "trust": 19.39,
         "dealer": 11.66,
-        "total": 94.5
+        "total": 94.58
       },
       "combined_summary": {
         "foreign": 173.73,
-        "trust": 47.33,
+        "trust": 42.16,
         "dealer": 98.67,
-        "total": 319.72
+        "total": 314.55
       },
       "gov_banks": {
-        "net_buy": 0.95,
-        "date": "2026-08-11"
+        "net_buy": -84.59,
+        "date": "2026-08-17"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 39.32,
+        "margin_balance_total": 5480.84,
+        "short_balance_change": -2872,
+        "short_balance_total": 201947
       },
       "trading_volume": {
-        "tse_volume": 8888.36
+        "tse_volume": 8926.6
       },
       "tsmc_chips": {
         "foreign": 2626,
@@ -1294,78 +1294,78 @@
         "dealer": -290,
         "total": 2923
       },
-      "ai_summary": "無 AI 分析數據（請先於 .env 設定 gemini_api_key）"
+      "ai_summary": "AI 分析生成失敗"
     },
     {
       "date": "2026-08-13",
       "tse_summary": {
         "foreign": 756.95,
-        "trust": 0.01,
+        "trust": -15.02,
         "dealer": 150.61,
-        "total": 907.56
+        "total": 892.54
       },
       "tpex_summary": {
         "foreign": -130.61,
-        "trust": 69.91,
+        "trust": 75.83,
         "dealer": 10.47,
-        "total": -50.22
+        "total": -44.31
       },
       "combined_summary": {
         "foreign": 626.34,
-        "trust": 69.92,
+        "trust": 60.81,
         "dealer": 161.08,
-        "total": 857.34
+        "total": 848.22
       },
       "gov_banks": {
-        "net_buy": -82.33,
-        "date": "2026-08-12"
+        "net_buy": -84.59,
+        "date": "2026-08-17"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 16.97,
+        "margin_balance_total": 5497.81,
+        "short_balance_change": 12099,
+        "short_balance_total": 214046
       },
       "trading_volume": {
-        "tse_volume": 10933.28
+        "tse_volume": 11040.25
       },
       "tsmc_chips": {
         "foreign": 3972,
-        "trust": 736,
+        "trust": 735,
         "dealer": 93,
-        "total": 4802
+        "total": 4801
       },
-      "ai_summary": "無 AI 分析數據（請先於 .env 設定 gemini_api_key）"
+      "ai_summary": "AI 分析生成失敗"
     },
     {
       "date": "2026-08-14",
       "tse_summary": {
         "foreign": 453.51,
-        "trust": 71.96,
+        "trust": 79.73,
         "dealer": -16.61,
-        "total": 508.86
+        "total": 516.63
       },
       "tpex_summary": {
         "foreign": -108.91,
-        "trust": -8.77,
+        "trust": -8.04,
         "dealer": -34.35,
-        "total": -152.03
+        "total": -151.3
       },
       "combined_summary": {
         "foreign": 344.61,
-        "trust": 63.19,
+        "trust": 71.69,
         "dealer": -50.96,
-        "total": 356.84
+        "total": 365.33
       },
       "gov_banks": {
-        "net_buy": -189.55,
-        "date": "2026-08-13"
+        "net_buy": -84.59,
+        "date": "2026-08-17"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -27.21,
+        "margin_balance_total": 5470.59,
+        "short_balance_change": 8781,
+        "short_balance_total": 222827
       },
       "trading_volume": {
         "tse_volume": 11097.47
@@ -1374,50 +1374,50 @@
         "foreign": -3024,
         "trust": -380,
         "dealer": -372,
-        "total": -3778
+        "total": -3777
       },
-      "ai_summary": "無 AI 分析數據（請先於 .env 設定 gemini_api_key）"
+      "ai_summary": "AI 分析生成失敗"
     },
     {
       "date": "2026-08-17",
       "tse_summary": {
         "foreign": 454.47,
-        "trust": -177.47,
+        "trust": -177.77,
         "dealer": 14.05,
-        "total": 291.06
+        "total": 290.76
       },
       "tpex_summary": {
         "foreign": -46.59,
-        "trust": -15.36,
+        "trust": -13.1,
         "dealer": 0.94,
-        "total": -61.01
+        "total": -58.75
       },
       "combined_summary": {
         "foreign": 407.88,
-        "trust": -192.83,
+        "trust": -190.87,
         "dealer": 14.99,
-        "total": 230.05
+        "total": 232.01
       },
       "gov_banks": {
-        "net_buy": -93.05,
-        "date": "2026-08-14"
+        "net_buy": -84.59,
+        "date": "2026-08-17"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 30.42,
+        "margin_balance_total": 5501.02,
+        "short_balance_change": -4609,
+        "short_balance_total": 218218
       },
       "trading_volume": {
-        "tse_volume": 9794.07
+        "tse_volume": 9810.55
       },
       "tsmc_chips": {
         "foreign": 4441,
-        "trust": -2051,
+        "trust": -2058,
         "dealer": 142,
-        "total": 2532
+        "total": 2525
       },
-      "ai_summary": "無 AI 分析數據（請先於 .env 設定 gemini_api_key）"
+      "ai_summary": "AI 分析生成失敗"
     }
   ]
 }

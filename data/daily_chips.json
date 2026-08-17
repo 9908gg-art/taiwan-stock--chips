@@ -1,44 +1,44 @@
 {
   "date": "2026-08-17",
-  "updated_time": "2026-08-17 16:33:15",
+  "updated_time": "2026-08-18 02:38:41",
   "tsmc_chips": {
     "foreign": 4441,
-    "trust": -2051,
+    "trust": -2058,
     "dealer": 142,
-    "total": 2532
+    "total": 2525
   },
   "market_summary": {
     "tse": {
       "foreign": 454.47,
-      "trust": -177.47,
+      "trust": -177.77,
       "dealer": 14.05,
-      "total": 291.06
+      "total": 290.76
     },
     "tpex": {
       "foreign": -46.59,
-      "trust": -15.36,
+      "trust": -13.1,
       "dealer": 0.94,
-      "total": -61.01
+      "total": -58.75
     },
     "combined": {
       "foreign": 407.88,
-      "trust": -192.83,
+      "trust": -190.87,
       "dealer": 14.99,
-      "total": 230.05
+      "total": 232.01
     }
   },
   "gov_banks": {
-    "net_buy": -93.05,
-    "date": "2026-08-14"
+    "net_buy": -84.59,
+    "date": "2026-08-17"
   },
   "margin_trading": {
-    "margin_balance_change": 0.0,
-    "margin_balance_total": 0.0,
-    "short_balance_change": 0,
-    "short_balance_total": 0
+    "margin_balance_change": 30.42,
+    "margin_balance_total": 5501.02,
+    "short_balance_change": -4609,
+    "short_balance_total": 218218
   },
   "trading_volume": {
-    "tse_volume": 9794.07
+    "tse_volume": 9810.55
   },
   "rankings": {
     "foreign_buy": [
@@ -230,21 +230,21 @@
     "trust_sell": [
       {
         "rank": 1,
+        "code": "2303",
+        "name": "聯電",
+        "volume": 10402
+      },
+      {
+        "rank": 2,
         "code": "3231",
         "name": "緯創",
         "volume": 9905
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "2337",
         "name": "旺宏",
         "volume": 9252
-      },
-      {
-        "rank": 3,
-        "code": "2303",
-        "name": "聯電",
-        "volume": 7729
       },
       {
         "rank": 4,
@@ -286,9 +286,9 @@
         "rank": 10,
         "code": "2330",
         "name": "台積電",
-        "volume": 2051
+        "volume": 2058
       }
     ]
   },
-  "ai_summary": "無 AI 分析數據（請先於 .env 設定 gemini_api_key）"
+  "ai_summary": "AI 分析生成失敗"
 }
