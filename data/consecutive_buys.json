@@ -1,23 +1,39 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "foreign_buy_streak_3d": [
-    {
-      "code": "00403A",
-      "name": "主動統一升級50",
-      "streak": 4
-    },
     {
       "code": "00981A",
       "name": "主動統一台股增長",
       "streak": 5
     },
     {
+      "code": "00403A",
+      "name": "主動統一升級50",
+      "streak": 5
+    },
+    {
       "code": "00991A",
       "name": "主動復華未來50",
-      "streak": 3
+      "streak": 4
     }
   ],
-  "foreign_buy_streak_2d": [],
+  "foreign_buy_streak_2d": [
+    {
+      "code": "2603",
+      "name": "長榮",
+      "streak": 2
+    },
+    {
+      "code": "2609",
+      "name": "陽明",
+      "streak": 2
+    },
+    {
+      "code": "3037",
+      "name": "欣興",
+      "streak": 2
+    }
+  ],
   "trust_buy_streak_3d": [
     {
       "code": "2887",
@@ -28,32 +44,37 @@
       "code": "2883",
       "name": "凱基金",
       "streak": 5
-    }
-  ],
-  "trust_buy_streak_2d": [
+    },
     {
       "code": "2884",
       "name": "玉山金",
-      "streak": 2
+      "streak": 3
     },
     {
       "code": "2890",
       "name": "永豐金",
-      "streak": 2
+      "streak": 3
     },
     {
       "code": "2892",
       "name": "第一金",
-      "streak": 2
+      "streak": 3
     },
     {
       "code": "2886",
       "name": "兆豐金",
-      "streak": 2
+      "streak": 3
     },
     {
       "code": "2880",
       "name": "華南金",
+      "streak": 3
+    }
+  ],
+  "trust_buy_streak_2d": [
+    {
+      "code": "5880",
+      "name": "合庫金",
       "streak": 2
     }
   ]
