@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18 18:53:27",
+  "last_updated": "2026-08-18 22:07:43",
   "stock_prices": {
     "tw_2330": {
       "price": 2380.0,
@@ -7,9 +7,9 @@
       "change_percent": -0.83
     },
     "us_tsm": {
-      "price": 430.97,
-      "change": 4.62,
-      "change_percent": 1.08
+      "price": 415.74,
+      "change": -15.23,
+      "change_percent": -3.53
     }
   },
   "news": [
@@ -49,22 +49,6 @@
       "publish_timestamp": 1786962871,
       "url": "https://news.cnyes.com/news/id/6579526",
       "keywords": []
-    },
-    {
-      "news_id": 6579132,
-      "title": "華爾街「聰明錢」搬風 避險基金巨頭拋售博通、轉向布局<mark>台積電</mark>",
-      "summary": "根據最新披露的第二季 13F 持倉報告，華爾街頂尖避險基金在半導體領域正進行一場顯著的資產輪動",
-      "publish_time": "2026-08-17 17:10:03",
-      "publish_timestamp": 1786957803,
-      "url": "https://news.cnyes.com/news/id/6579132",
-      "keywords": [
-        "台積電",
-        "博通",
-        "13F",
-        "聰明錢",
-        "避險基金",
-        "AI"
-      ]
     },
     {
       "news_id": 6577682,

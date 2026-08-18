@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18 18:53:24",
+  "last_updated": "2026-08-18 22:07:40",
   "history": [
     {
       "date": "2026-06-24",
@@ -1423,31 +1423,31 @@
       "date": "2026-08-18",
       "tse_summary": {
         "foreign": -119.86,
-        "trust": 56.63,
+        "trust": 38.27,
         "dealer": -176.07,
-        "total": -239.3
+        "total": -257.66
       },
       "tpex_summary": {
-        "foreign": -79.22,
-        "trust": -9.58,
-        "dealer": -1.93,
-        "total": -90.73
+        "foreign": 0.0,
+        "trust": 0.0,
+        "dealer": 0.0,
+        "total": 0.0
       },
       "combined_summary": {
-        "foreign": -199.08,
-        "trust": 47.05,
-        "dealer": -178.0,
-        "total": -330.03
+        "foreign": -119.86,
+        "trust": 38.27,
+        "dealer": -176.07,
+        "total": -257.66
       },
       "gov_banks": {
-        "net_buy": -84.59,
-        "date": "2026-08-17"
+        "net_buy": 48.12,
+        "date": "2026-08-18"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -30.9,
+        "margin_balance_total": 5470.11,
+        "short_balance_change": -13763,
+        "short_balance_total": 204455
       },
       "trading_volume": {
         "tse_volume": 10078.82
