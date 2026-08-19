@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "updated_time": "2026-08-19 18:52:35",
+  "updated_time": "2026-08-19 22:08:05",
   "tsmc_chips": {
     "foreign": -7417,
     "trust": -668,
@@ -10,32 +10,32 @@
   "market_summary": {
     "tse": {
       "foreign": -416.39,
-      "trust": -120.91,
+      "trust": -166.01,
       "dealer": -171.18,
-      "total": -708.48
+      "total": -753.59
     },
     "tpex": {
       "foreign": -100.88,
-      "trust": -36.61,
+      "trust": -36.6,
       "dealer": -18.5,
-      "total": -155.99
+      "total": -155.98
     },
     "combined": {
       "foreign": -517.27,
-      "trust": -157.52,
+      "trust": -202.61,
       "dealer": -189.69,
-      "total": -864.47
+      "total": -909.56
     }
   },
   "gov_banks": {
-    "net_buy": 48.12,
-    "date": "2026-08-18"
+    "net_buy": 114.04,
+    "date": "2026-08-19"
   },
   "margin_trading": {
-    "margin_balance_change": 0.0,
-    "margin_balance_total": 0.0,
-    "short_balance_change": 0,
-    "short_balance_total": 0
+    "margin_balance_change": 11.78,
+    "margin_balance_total": 5481.9,
+    "short_balance_change": -16121,
+    "short_balance_total": 188334
   },
   "trading_volume": {
     "tse_volume": 8902.7
@@ -218,7 +218,7 @@
         "rank": 9,
         "code": "3450",
         "name": "聯鈞",
-        "volume": 1829
+        "volume": 2161
       },
       {
         "rank": 10,
@@ -238,7 +238,7 @@
         "rank": 2,
         "code": "2344",
         "name": "華邦電",
-        "volume": 17535
+        "volume": 17582
       },
       {
         "rank": 3,
@@ -266,27 +266,27 @@
       },
       {
         "rank": 7,
+        "code": "2327",
+        "name": "國巨*",
+        "volume": 2731
+      },
+      {
+        "rank": 8,
         "code": "6239",
         "name": "力成",
         "volume": 2339
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "00922",
         "name": "國泰台灣領袖50",
         "volume": 2000
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "3702",
         "name": "大聯大",
         "volume": 1829
-      },
-      {
-        "rank": 10,
-        "code": "6257",
-        "name": "矽格",
-        "volume": 1585
       }
     ]
   },
