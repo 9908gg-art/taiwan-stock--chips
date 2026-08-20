@@ -1,43 +1,29 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "foreign_buy_streak_3d": [
-    {
-      "code": "00981A",
-      "name": "主動統一台股增長",
-      "streak": 5
-    },
     {
       "code": "2609",
       "name": "陽明",
-      "streak": 3
-    },
-    {
-      "code": "2603",
-      "name": "長榮",
-      "streak": 3
+      "streak": 4
     }
   ],
-  "foreign_buy_streak_2d": [],
-  "trust_buy_streak_3d": [
+  "foreign_buy_streak_2d": [
     {
-      "code": "2884",
-      "name": "玉山金",
-      "streak": 4
+      "code": "2303",
+      "name": "聯電",
+      "streak": 2
     },
+    {
+      "code": "2886",
+      "name": "兆豐金",
+      "streak": 2
+    }
+  ],
+  "trust_buy_streak_3d": [
     {
       "code": "2887",
       "name": "台新新光金",
       "streak": 5
-    },
-    {
-      "code": "5880",
-      "name": "合庫金",
-      "streak": 3
-    },
-    {
-      "code": "2890",
-      "name": "永豐金",
-      "streak": 4
     },
     {
       "code": "2883",
@@ -45,13 +31,8 @@
       "streak": 5
     },
     {
-      "code": "2880",
-      "name": "華南金",
-      "streak": 4
-    },
-    {
-      "code": "2886",
-      "name": "兆豐金",
+      "code": "5880",
+      "name": "合庫金",
       "streak": 4
     }
   ],
