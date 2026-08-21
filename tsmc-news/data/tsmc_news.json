@@ -1,18 +1,41 @@
 {
-  "last_updated": "2026-08-20 22:10:06",
+  "last_updated": "2026-08-21 16:05:44",
   "stock_prices": {
     "tw_2330": {
-      "price": 2375.0,
-      "change": 25.0,
-      "change_percent": 1.06
+      "price": 2410.0,
+      "change": 35.0,
+      "change_percent": 1.47
     },
     "us_tsm": {
-      "price": 415.18,
-      "change": 3.09,
-      "change_percent": 0.75
+      "price": 416.0,
+      "change": 3.91,
+      "change_percent": 0.95
     }
   },
   "news": [
+    {
+      "news_id": 6583584,
+      "title": "【盤後贏指標】量縮重返 4 萬 5，<mark>台積電</mark>、傳產族群助攻",
+      "summary": "",
+      "publish_time": "2026-08-21 15:40:39",
+      "publish_timestamp": 1787298039,
+      "url": "https://news.cnyes.com/news/id/6583584",
+      "keywords": [
+        "台股",
+        "贏指標",
+        "資金流向",
+        "產業",
+        "族群",
+        "傳產",
+        "半導體",
+        "台積電",
+        "航運",
+        "長榮",
+        "AI",
+        "外資",
+        "投信"
+      ]
+    },
     {
       "news_id": 6582584,
       "title": "三星1.4奈米突延至2029年！2奈米良率成罩門，<mark>台積電</mark>埃米世代對手還剩誰？",
