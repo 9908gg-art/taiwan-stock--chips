@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_time": "2026-08-24 19:00:06",
+  "updated_time": "2026-08-24 22:12:21",
   "tsmc_chips": {
     "foreign": -1620,
     "trust": 157,
@@ -9,33 +9,33 @@
   },
   "market_summary": {
     "tse": {
-      "foreign": -157.51,
-      "trust": 37.05,
+      "foreign": -157.36,
+      "trust": 30.55,
       "dealer": -43.33,
-      "total": -163.78
+      "total": -170.14
     },
     "tpex": {
       "foreign": 35.87,
-      "trust": 1.66,
+      "trust": 2.31,
       "dealer": -0.76,
-      "total": 36.77
+      "total": 37.42
     },
     "combined": {
-      "foreign": -121.64,
-      "trust": 38.71,
+      "foreign": -121.49,
+      "trust": 32.86,
       "dealer": -44.08,
-      "total": -127.01
+      "total": -132.72
     }
   },
   "gov_banks": {
-    "net_buy": -25.13,
-    "date": "2026-08-21"
+    "net_buy": 62.43,
+    "date": "2026-08-24"
   },
   "margin_trading": {
-    "margin_balance_change": 0.0,
-    "margin_balance_total": 0.0,
-    "short_balance_change": 0,
-    "short_balance_total": 0
+    "margin_balance_change": -16.8,
+    "margin_balance_total": 5452.59,
+    "short_balance_change": 1515,
+    "short_balance_total": 201513
   },
   "trading_volume": {
     "tse_volume": 6562.81
@@ -170,7 +170,7 @@
         "rank": 1,
         "code": "2303",
         "name": "聯電",
-        "volume": 14763
+        "volume": 11914
       },
       {
         "rank": 2,
@@ -192,15 +192,15 @@
       },
       {
         "rank": 5,
-        "code": "3026",
-        "name": "禾伸堂",
-        "volume": 1665
-      },
-      {
-        "rank": 6,
         "code": "2845",
         "name": "遠東銀",
         "volume": 1523
+      },
+      {
+        "rank": 6,
+        "code": "2324",
+        "name": "仁寶",
+        "volume": 1408
       },
       {
         "rank": 7,
@@ -210,21 +210,21 @@
       },
       {
         "rank": 8,
+        "code": "3026",
+        "name": "禾伸堂",
+        "volume": 1328
+      },
+      {
+        "rank": 9,
         "code": "2855",
         "name": "統一證",
         "volume": 1324
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "3702",
         "name": "大聯大",
         "volume": 1280
-      },
-      {
-        "rank": 10,
-        "code": "3706",
-        "name": "神達",
-        "volume": 1197
       }
     ],
     "trust_sell": [
@@ -266,27 +266,27 @@
       },
       {
         "rank": 7,
+        "code": "6213",
+        "name": "聯茂",
+        "volume": 1285
+      },
+      {
+        "rank": 8,
         "code": "9945",
         "name": "潤泰新",
         "volume": 1189
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "2890",
         "name": "永豐金",
         "volume": 1126
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "6531",
         "name": "愛普*",
         "volume": 1036
-      },
-      {
-        "rank": 10,
-        "code": "6213",
-        "name": "聯茂",
-        "volume": 840
       }
     ]
   },
