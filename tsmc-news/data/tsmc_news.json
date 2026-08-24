@@ -1,77 +1,72 @@
 {
-  "last_updated": "2026-08-21 22:07:31",
+  "last_updated": "2026-08-24 16:09:01",
   "stock_prices": {
     "tw_2330": {
-      "price": 2410.0,
-      "change": 35.0,
-      "change_percent": 1.47
+      "price": 2375.0,
+      "change": -35.0,
+      "change_percent": -1.45
     },
     "us_tsm": {
-      "price": 419.44,
-      "change": 3.44,
-      "change_percent": 0.83
+      "price": 418.95,
+      "change": 2.95,
+      "change_percent": 0.71
     }
   },
   "news": [
     {
-      "news_id": 6583644,
-      "title": "台股量縮外資防禦、本土調節？ 下週進入關鍵期，<mark>台積電</mark>撐盤後資金輪動看「三大族群」！",
-      "summary": "",
-      "publish_time": "2026-08-21 16:25:59",
-      "publish_timestamp": 1787300759,
-      "url": "https://news.cnyes.com/news/id/6583644",
+      "news_id": 6585236,
+      "title": "小米發表新一代自研晶片Xring O3 傳<mark>台積電</mark>3奈米代工、鎖定旗艦折疊手機",
+      "summary": "小米(01810-HK)周一(24日)發表新一代自研旗艦手機處理器「Xring O3」，展現擴大自研晶片布局與深化供應鏈自主權的決心。",
+      "publish_time": "2026-08-24 15:00:07",
+      "publish_timestamp": 1787554807,
+      "url": "https://news.cnyes.com/news/id/6585236",
       "keywords": [
-        "華星光",
-        "光聖",
-        "波若威",
-        "聯亞",
+        "小米",
         "台積電",
-        "京元電子",
-        "光通訊",
-        "散熱",
-        "輝達",
-        "半導體設備",
-        "先進封裝",
-        "AI",
-        "半導體",
-        "凱旭投顧",
-        "陳智霖",
-        "趨勢分析"
+        "3奈米",
+        "Xring O3",
+        "自研晶片"
       ]
     },
     {
-      "news_id": 6583584,
-      "title": "【盤後贏指標】量縮重返 4 萬 5，<mark>台積電</mark>、傳產族群助攻",
+      "news_id": 6585229,
+      "title": "小米發表Xring O3晶片 傳<mark>台積電</mark>3奈米代工、出貨上看30萬顆",
       "summary": "",
-      "publish_time": "2026-08-21 15:40:39",
-      "publish_timestamp": 1787298039,
-      "url": "https://news.cnyes.com/news/id/6583584",
-      "keywords": [
-        "台股",
-        "贏指標",
-        "資金流向",
-        "產業",
-        "族群",
-        "傳產",
-        "半導體",
-        "台積電",
-        "航運",
-        "長榮",
-        "AI",
-        "外資",
-        "投信"
-      ]
-    },
-    {
-      "news_id": 6582584,
-      "title": "三星1.4奈米突延至2029年！2奈米良率成罩門，<mark>台積電</mark>埃米世代對手還剩誰？",
-      "summary": "",
-      "publish_time": "2026-08-20 16:00:17",
-      "publish_timestamp": 1787212817,
-      "url": "https://news.cnyes.com/news/id/6582584",
+      "publish_time": "2026-08-24 14:30:03",
+      "publish_timestamp": 1787553003,
+      "url": "https://news.cnyes.com/news/id/6585229",
       "keywords": [
         "半導體",
         "優分析"
+      ]
+    },
+    {
+      "news_id": 6584917,
+      "title": "〈台股開盤〉無量待變？<mark>台積電</mark>等權值股熄火 站穩4萬5小漲小跌整理",
+      "summary": "美債殖利率疑雲罩頂，美股三大指數走揚。台股今 (24) 日以45240.3點開出，早盤多空交戰，在台積電、聯發科及鴻海等電子權值股走弱下，加權指數於平盤附近震盪，盤面資金轉進記憶體、航運及被動元件族群。早盤估量7627億",
+      "publish_time": "2026-08-24 09:55:47",
+      "publish_timestamp": 1787536547,
+      "url": "https://news.cnyes.com/news/id/6584917",
+      "keywords": [
+        "大盤",
+        "航運",
+        "記憶體",
+        "被動元件",
+        "台股開盤",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6584775,
+      "title": "台股盤久必跌 <mark>台積電</mark>、聯發科、台達電、鴻海、廣達、緯創要先賣!?",
+      "summary": "",
+      "publish_time": "2026-08-24 08:33:12",
+      "publish_timestamp": 1787531592,
+      "url": "https://news.cnyes.com/news/id/6584775",
+      "keywords": [
+        "楊育華",
+        "摩爾投顧",
+        "趨勢分析"
       ]
     },
     {
@@ -211,20 +206,6 @@
         "台股盤中",
         "盤中速報",
         "盤中漲跌停"
-      ]
-    },
-    {
-      "news_id": 6553658,
-      "title": "盤中速報 - 台積電(<mark>2330</mark>)大漲7.03%，報2360元",
-      "summary": "台積電(2330-TW)盤中股價拉漲，近5日股價、大盤表現、三大法人買賣超、融資融券增減、即時新聞資訊。",
-      "publish_time": "2026-07-31 09:01:24",
-      "publish_timestamp": 1785459684,
-      "url": "https://news.cnyes.com/news/id/6553658",
-      "keywords": [
-        "台股",
-        "台股盤中",
-        "盤中速報",
-        "盤中漲跌幅"
       ]
     }
   ]
