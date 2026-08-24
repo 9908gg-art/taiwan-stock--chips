@@ -1,7 +1,29 @@
 {
   "date": "2026-08-24",
-  "foreign_buy_streak_3d": [],
-  "foreign_buy_streak_2d": [],
+  "foreign_buy_streak_3d": [
+    {
+      "code": "2609",
+      "name": "陽明",
+      "streak": 5
+    },
+    {
+      "code": "2886",
+      "name": "兆豐金",
+      "streak": 4
+    },
+    {
+      "code": "2615",
+      "name": "萬海",
+      "streak": 3
+    }
+  ],
+  "foreign_buy_streak_2d": [
+    {
+      "code": "2892",
+      "name": "第一金",
+      "streak": 2
+    }
+  ],
   "trust_buy_streak_3d": [
     {
       "code": "1402",
