@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25 18:57:38",
+  "last_updated": "2026-08-25 22:21:48",
   "stock_prices": {
     "tw_2330": {
       "price": 2400.0,
@@ -7,12 +7,39 @@
       "change_percent": 1.05
     },
     "us_tsm": {
-      "price": 410.12,
-      "change": -8.83,
-      "change_percent": -2.11
+      "price": 416.4,
+      "change": 6.28,
+      "change_percent": 1.53
     }
   },
   "news": [
+    {
+      "news_id": 6586684,
+      "title": "蘋果桌機全面升級！Mac mini首搭台積電2奈米M6晶片",
+      "summary": "蘋果(AAPL-US)周二(25日)發表新一代Mac mini與Mac Studio桌上型電腦，全面升級處理器、無線連線及人工智慧(AI)運算能力。其中，Mac mini首度搭載M6晶片，Mac Studio則可選配目前",
+      "publish_time": "2026-08-25 22:09:51",
+      "publish_timestamp": 1787666991,
+      "url": "https://news.cnyes.com/news/id/6586684",
+      "keywords": [
+        "蘋果",
+        "Apple",
+        "Mac mini",
+        "Mac Studio",
+        "M6",
+        "晶片",
+        "台積電",
+        "M5 Pro",
+        "M5 Max",
+        "M5 Ultra",
+        "2奈米",
+        "製程",
+        "AI",
+        "人工智慧",
+        "科技",
+        "產業",
+        "TOP"
+      ]
+    },
     {
       "news_id": 6586482,
       "title": "外資現貨、期貨都做空 但買超富邦金、凱基金及國泰金等大型金控股",
@@ -61,40 +88,6 @@
         "國巨",
         "華新科",
         "記憶體"
-      ]
-    },
-    {
-      "news_id": 6585590,
-      "title": "1兆美元AI晶片大戰開打！輝達霸主地位遭挑戰 <mark>台積電</mark>成勝負關鍵",
-      "summary": "人工智慧(AI)晶片市場規模正朝1兆美元邁進，輝達(NVDA-US)目前仍占據主導地位，但競爭者正從四面八方逼近。傳統晶片大廠、新創公司、雲端服務巨頭乃至OpenAI、Anthropic等AI實驗室，都在試圖降低對輝達的",
-      "publish_time": "2026-08-24 23:50:03",
-      "publish_timestamp": 1787586603,
-      "url": "https://news.cnyes.com/news/id/6585590",
-      "keywords": [
-        "輝達",
-        "Nvidia",
-        "AI",
-        "人工智慧",
-        "晶片",
-        "加速器",
-        "GPU",
-        "模型訓練",
-        "資料中心",
-        "亞馬遜",
-        "Google",
-        "TPU",
-        "張量處理器",
-        "OpenAI",
-        "Anthropic",
-        "Meta",
-        "超微",
-        "英特爾",
-        "博通",
-        "邁威爾",
-        "台積電",
-        "科技",
-        "產業",
-        "TOP"
       ]
     },
     {
