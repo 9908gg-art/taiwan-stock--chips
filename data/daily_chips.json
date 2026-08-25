@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_time": "2026-08-25 16:05:16",
+  "updated_time": "2026-08-25 18:57:35",
   "tsmc_chips": {
     "foreign": -1151,
     "trust": 324,
@@ -38,11 +38,133 @@
     "short_balance_total": 0
   },
   "trading_volume": {
-    "tse_volume": 7185.7
+    "tse_volume": 7242.58
   },
   "rankings": {
-    "foreign_buy": [],
-    "foreign_sell": [],
+    "foreign_buy": [
+      {
+        "rank": 1,
+        "code": "2883",
+        "name": "凱基金",
+        "volume": 24668
+      },
+      {
+        "rank": 2,
+        "code": "2881",
+        "name": "富邦金",
+        "volume": 18667
+      },
+      {
+        "rank": 3,
+        "code": "2409",
+        "name": "友達",
+        "volume": 16759
+      },
+      {
+        "rank": 4,
+        "code": "2892",
+        "name": "第一金",
+        "volume": 14366
+      },
+      {
+        "rank": 5,
+        "code": "2886",
+        "name": "兆豐金",
+        "volume": 13560
+      },
+      {
+        "rank": 6,
+        "code": "2882",
+        "name": "國泰金",
+        "volume": 13018
+      },
+      {
+        "rank": 7,
+        "code": "2606",
+        "name": "裕民",
+        "volume": 12871
+      },
+      {
+        "rank": 8,
+        "code": "2884",
+        "name": "玉山金",
+        "volume": 12135
+      },
+      {
+        "rank": 9,
+        "code": "1216",
+        "name": "統一",
+        "volume": 9982
+      },
+      {
+        "rank": 10,
+        "code": "3481",
+        "name": "群創",
+        "volume": 9717
+      }
+    ],
+    "foreign_sell": [
+      {
+        "rank": 1,
+        "code": "6770",
+        "name": "力積電",
+        "volume": 53685
+      },
+      {
+        "rank": 2,
+        "code": "009816",
+        "name": "凱基台灣TOP50",
+        "volume": 34128
+      },
+      {
+        "rank": 3,
+        "code": "00403A",
+        "name": "主動統一升級50",
+        "volume": 28076
+      },
+      {
+        "rank": 4,
+        "code": "0050",
+        "name": "元大台灣50",
+        "volume": 26792
+      },
+      {
+        "rank": 5,
+        "code": "00981A",
+        "name": "主動統一台股增長",
+        "volume": 20435
+      },
+      {
+        "rank": 6,
+        "code": "2317",
+        "name": "鴻海",
+        "volume": 15521
+      },
+      {
+        "rank": 7,
+        "code": "00407A",
+        "name": "主動凱基台灣",
+        "volume": 12985
+      },
+      {
+        "rank": 8,
+        "code": "2303",
+        "name": "聯電",
+        "volume": 11797
+      },
+      {
+        "rank": 9,
+        "code": "2324",
+        "name": "仁寶",
+        "volume": 11552
+      },
+      {
+        "rank": 10,
+        "code": "00631L",
+        "name": "元大台灣50正2",
+        "volume": 10351
+      }
+    ],
     "trust_buy": [
       {
         "rank": 1,
