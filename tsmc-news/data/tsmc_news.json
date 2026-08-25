@@ -1,18 +1,69 @@
 {
-  "last_updated": "2026-08-24 22:12:25",
+  "last_updated": "2026-08-25 16:05:19",
   "stock_prices": {
     "tw_2330": {
-      "price": 2375.0,
-      "change": -35.0,
-      "change_percent": -1.45
+      "price": 2400.0,
+      "change": 25.0,
+      "change_percent": 1.05
     },
     "us_tsm": {
-      "price": 405.81,
-      "change": -13.14,
-      "change_percent": -3.14
+      "price": 410.12,
+      "change": -8.83,
+      "change_percent": -2.11
     }
   },
   "news": [
+    {
+      "news_id": 6586199,
+      "title": "〈台股盤後〉震盪近千點 <mark>台積電</mark>尾盤拉升收漲407點 收復季線站上4萬5",
+      "summary": "台北股市今 (25) 日 由台積電(2330-TW)在盤中沈穩走高帶動電子股矽光子、CCL及金融保險類股穩穩走強，終場大盤上漲407.14點，站上 4 萬 5000 點以 45169.46點作收。",
+      "publish_time": "2026-08-25 14:11:15",
+      "publish_timestamp": 1787638275,
+      "url": "https://news.cnyes.com/news/id/6586199",
+      "keywords": [
+        "台積電",
+        "CCL",
+        "IC",
+        "欣興",
+        "國巨",
+        "華新科",
+        "記憶體"
+      ]
+    },
+    {
+      "news_id": 6585590,
+      "title": "1兆美元AI晶片大戰開打！輝達霸主地位遭挑戰 <mark>台積電</mark>成勝負關鍵",
+      "summary": "人工智慧(AI)晶片市場規模正朝1兆美元邁進，輝達(NVDA-US)目前仍占據主導地位，但競爭者正從四面八方逼近。傳統晶片大廠、新創公司、雲端服務巨頭乃至OpenAI、Anthropic等AI實驗室，都在試圖降低對輝達的",
+      "publish_time": "2026-08-24 23:50:03",
+      "publish_timestamp": 1787586603,
+      "url": "https://news.cnyes.com/news/id/6585590",
+      "keywords": [
+        "輝達",
+        "Nvidia",
+        "AI",
+        "人工智慧",
+        "晶片",
+        "加速器",
+        "GPU",
+        "模型訓練",
+        "資料中心",
+        "亞馬遜",
+        "Google",
+        "TPU",
+        "張量處理器",
+        "OpenAI",
+        "Anthropic",
+        "Meta",
+        "超微",
+        "英特爾",
+        "博通",
+        "邁威爾",
+        "台積電",
+        "科技",
+        "產業",
+        "TOP"
+      ]
+    },
     {
       "news_id": 6585367,
       "title": "<mark>台積電</mark>最新永續報告書出爐 魏哲家宣示利潤分配加大ESG資源投入",
@@ -39,47 +90,6 @@
         "3奈米",
         "Xring O3",
         "自研晶片"
-      ]
-    },
-    {
-      "news_id": 6585229,
-      "title": "小米發表Xring O3晶片 傳<mark>台積電</mark>3奈米代工、出貨上看30萬顆",
-      "summary": "",
-      "publish_time": "2026-08-24 14:30:03",
-      "publish_timestamp": 1787553003,
-      "url": "https://news.cnyes.com/news/id/6585229",
-      "keywords": [
-        "半導體",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6584917,
-      "title": "〈台股開盤〉無量待變？<mark>台積電</mark>等權值股熄火 站穩4萬5小漲小跌整理",
-      "summary": "美債殖利率疑雲罩頂，美股三大指數走揚。台股今 (24) 日以45240.3點開出，早盤多空交戰，在台積電、聯發科及鴻海等電子權值股走弱下，加權指數於平盤附近震盪，盤面資金轉進記憶體、航運及被動元件族群。早盤估量7627億",
-      "publish_time": "2026-08-24 09:55:47",
-      "publish_timestamp": 1787536547,
-      "url": "https://news.cnyes.com/news/id/6584917",
-      "keywords": [
-        "大盤",
-        "航運",
-        "記憶體",
-        "被動元件",
-        "台股開盤",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6584775,
-      "title": "台股盤久必跌 <mark>台積電</mark>、聯發科、台達電、鴻海、廣達、緯創要先賣!?",
-      "summary": "",
-      "publish_time": "2026-08-24 08:33:12",
-      "publish_timestamp": 1787531592,
-      "url": "https://news.cnyes.com/news/id/6584775",
-      "keywords": [
-        "楊育華",
-        "摩爾投顧",
-        "趨勢分析"
       ]
     },
     {
