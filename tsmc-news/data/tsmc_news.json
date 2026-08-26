@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-08-25 22:21:48",
+  "last_updated": "2026-08-26 16:05:11",
   "stock_prices": {
     "tw_2330": {
-      "price": 2400.0,
-      "change": 25.0,
-      "change_percent": 1.05
+      "price": 2415.0,
+      "change": 15.0,
+      "change_percent": 0.62
     },
     "us_tsm": {
-      "price": 416.4,
-      "change": 6.28,
-      "change_percent": 1.53
+      "price": 417.41,
+      "change": 7.29,
+      "change_percent": 1.78
     }
   },
   "news": [
@@ -71,23 +71,6 @@
         "三星電子",
         "SK海力士",
         "過度集中"
-      ]
-    },
-    {
-      "news_id": 6586199,
-      "title": "〈台股盤後〉震盪近千點 <mark>台積電</mark>尾盤拉升收漲407點 收復季線站上4萬5",
-      "summary": "台北股市今 (25) 日 由台積電(2330-TW)在盤中沈穩走高帶動電子股矽光子、CCL及金融保險類股穩穩走強，終場大盤上漲407.14點，站上 4 萬 5000 點以 45169.46點作收。",
-      "publish_time": "2026-08-25 14:11:15",
-      "publish_timestamp": 1787638275,
-      "url": "https://news.cnyes.com/news/id/6586199",
-      "keywords": [
-        "台積電",
-        "CCL",
-        "IC",
-        "欣興",
-        "國巨",
-        "華新科",
-        "記憶體"
       ]
     },
     {

@@ -1,39 +1,33 @@
 {
-  "date": "2026-08-25",
-  "foreign_buy_streak_3d": [
-    {
-      "code": "2892",
-      "name": "第一金",
-      "streak": 3
-    },
-    {
-      "code": "2886",
-      "name": "兆豐金",
-      "streak": 5
-    }
-  ],
+  "date": "2026-08-26",
+  "foreign_buy_streak_3d": [],
   "foreign_buy_streak_2d": [],
   "trust_buy_streak_3d": [
     {
-      "code": "1402",
-      "name": "遠東新",
-      "streak": 4
+      "code": "3702",
+      "name": "大聯大",
+      "streak": 3
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "2303",
-      "name": "聯電",
+      "code": "2884",
+      "name": "玉山金",
       "streak": 2
     },
     {
-      "code": "3702",
-      "name": "大聯大",
+      "code": "1303",
+      "name": "南亞",
       "streak": 2
     },
     {
-      "code": "2855",
-      "name": "統一證",
+      "code": "2301",
+      "name": "光寶科",
+      "streak": 2
+    },
+    {
+      "code": "2313",
+      "name": "華通",
       "streak": 2
     }
   ]
