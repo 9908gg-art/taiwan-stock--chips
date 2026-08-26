@@ -1,41 +1,41 @@
 {
   "date": "2026-08-26",
-  "updated_time": "2026-08-26 18:59:00",
+  "updated_time": "2026-08-26 22:14:48",
   "tsmc_chips": {
     "foreign": 5204,
-    "trust": -626,
+    "trust": -520,
     "dealer": 226,
-    "total": 4804
+    "total": 4910
   },
   "market_summary": {
     "tse": {
-      "foreign": 365.98,
-      "trust": 48.55,
+      "foreign": 366.13,
+      "trust": 33.66,
       "dealer": 179.34,
-      "total": 593.87
+      "total": 579.13
     },
     "tpex": {
       "foreign": -61.2,
-      "trust": 30.42,
+      "trust": 55.83,
       "dealer": 21.28,
-      "total": -9.51
+      "total": 15.9
     },
     "combined": {
-      "foreign": 304.78,
-      "trust": 78.97,
+      "foreign": 304.93,
+      "trust": 89.49,
       "dealer": 200.61,
-      "total": 584.36
+      "total": 595.03
     }
   },
   "gov_banks": {
-    "net_buy": 26.86,
-    "date": "2026-08-25"
+    "net_buy": -126.43,
+    "date": "2026-08-26"
   },
   "margin_trading": {
-    "margin_balance_change": 0.0,
-    "margin_balance_total": 0.0,
-    "short_balance_change": 0,
-    "short_balance_total": 0
+    "margin_balance_change": 78.65,
+    "margin_balance_total": 5548.03,
+    "short_balance_change": 6305,
+    "short_balance_total": 206809
   },
   "trading_volume": {
     "tse_volume": 8430.92
@@ -170,7 +170,7 @@
         "rank": 1,
         "code": "2884",
         "name": "玉山金",
-        "volume": 3984
+        "volume": 4620
       },
       {
         "rank": 2,
@@ -186,45 +186,45 @@
       },
       {
         "rank": 4,
+        "code": "2313",
+        "name": "華通",
+        "volume": 2523
+      },
+      {
+        "rank": 5,
         "code": "3189",
         "name": "景碩",
         "volume": 2146
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "8046",
         "name": "南電",
         "volume": 1523
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "1303",
         "name": "南亞",
         "volume": 1453
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "2542",
         "name": "興富發",
         "volume": 1347
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "2301",
         "name": "光寶科",
         "volume": 1186
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "3450",
         "name": "聯鈞",
         "volume": 989
-      },
-      {
-        "rank": 10,
-        "code": "2313",
-        "name": "華通",
-        "volume": 967
       }
     ],
     "trust_sell": [
@@ -242,51 +242,51 @@
       },
       {
         "rank": 3,
+        "code": "2308",
+        "name": "台達電",
+        "volume": 1706
+      },
+      {
+        "rank": 4,
         "code": "2892",
         "name": "第一金",
         "volume": 1669
       },
       {
-        "rank": 4,
+        "rank": 5,
         "code": "2376",
         "name": "技嘉",
         "volume": 1236
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "9945",
         "name": "潤泰新",
         "volume": 1110
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "2880",
         "name": "華南金",
         "volume": 1089
       },
       {
-        "rank": 7,
+        "rank": 8,
+        "code": "2882",
+        "name": "國泰金",
+        "volume": 1026
+      },
+      {
+        "rank": 9,
         "code": "2428",
         "name": "興勤",
         "volume": 933
       },
       {
-        "rank": 8,
+        "rank": 10,
         "code": "3711",
         "name": "日月光投控",
         "volume": 801
-      },
-      {
-        "rank": 9,
-        "code": "4958",
-        "name": "臻鼎-KY",
-        "volume": 642
-      },
-      {
-        "rank": 10,
-        "code": "2330",
-        "name": "台積電",
-        "volume": 626
       }
     ]
   },
