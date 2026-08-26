@@ -1,7 +1,13 @@
 {
   "date": "2026-08-26",
   "foreign_buy_streak_3d": [],
-  "foreign_buy_streak_2d": [],
+  "foreign_buy_streak_2d": [
+    {
+      "code": "2883",
+      "name": "凱基金",
+      "streak": 2
+    }
+  ],
   "trust_buy_streak_3d": [
     {
       "code": "3702",

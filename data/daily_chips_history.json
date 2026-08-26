@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26 16:05:08",
+  "last_updated": "2026-08-26 18:59:00",
   "history": [
     {
       "date": "2026-06-24",
@@ -1674,16 +1674,16 @@
         "total": 593.87
       },
       "tpex_summary": {
-        "foreign": -61.01,
+        "foreign": -61.2,
         "trust": 30.42,
         "dealer": 21.28,
-        "total": -9.32
+        "total": -9.51
       },
       "combined_summary": {
-        "foreign": 304.97,
+        "foreign": 304.78,
         "trust": 78.97,
         "dealer": 200.61,
-        "total": 584.56
+        "total": 584.36
       },
       "gov_banks": {
         "net_buy": 26.86,
@@ -1696,7 +1696,7 @@
         "short_balance_total": 0
       },
       "trading_volume": {
-        "tse_volume": 8362.44
+        "tse_volume": 8430.92
       },
       "tsmc_chips": {
         "foreign": 5204,

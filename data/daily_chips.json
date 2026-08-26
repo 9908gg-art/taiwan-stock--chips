@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updated_time": "2026-08-26 16:05:08",
+  "updated_time": "2026-08-26 18:59:00",
   "tsmc_chips": {
     "foreign": 5204,
     "trust": -626,
@@ -15,16 +15,16 @@
       "total": 593.87
     },
     "tpex": {
-      "foreign": -61.01,
+      "foreign": -61.2,
       "trust": 30.42,
       "dealer": 21.28,
-      "total": -9.32
+      "total": -9.51
     },
     "combined": {
-      "foreign": 304.97,
+      "foreign": 304.78,
       "trust": 78.97,
       "dealer": 200.61,
-      "total": 584.56
+      "total": 584.36
     }
   },
   "gov_banks": {
@@ -38,11 +38,133 @@
     "short_balance_total": 0
   },
   "trading_volume": {
-    "tse_volume": 8362.44
+    "tse_volume": 8430.92
   },
   "rankings": {
-    "foreign_buy": [],
-    "foreign_sell": [],
+    "foreign_buy": [
+      {
+        "rank": 1,
+        "code": "00403A",
+        "name": "主動統一升級50",
+        "volume": 74869
+      },
+      {
+        "rank": 2,
+        "code": "2883",
+        "name": "凱基金",
+        "volume": 31980
+      },
+      {
+        "rank": 3,
+        "code": "00406A",
+        "name": "主動中信台灣收益",
+        "volume": 31951
+      },
+      {
+        "rank": 4,
+        "code": "00981A",
+        "name": "主動統一台股增長",
+        "volume": 30773
+      },
+      {
+        "rank": 5,
+        "code": "6770",
+        "name": "力積電",
+        "volume": 30443
+      },
+      {
+        "rank": 6,
+        "code": "0050",
+        "name": "元大台灣50",
+        "volume": 23585
+      },
+      {
+        "rank": 7,
+        "code": "2610",
+        "name": "華航",
+        "volume": 19177
+      },
+      {
+        "rank": 8,
+        "code": "1301",
+        "name": "台塑",
+        "volume": 16341
+      },
+      {
+        "rank": 9,
+        "code": "1802",
+        "name": "台玻",
+        "volume": 15449
+      },
+      {
+        "rank": 10,
+        "code": "1326",
+        "name": "台化",
+        "volume": 14581
+      }
+    ],
+    "foreign_sell": [
+      {
+        "rank": 1,
+        "code": "2609",
+        "name": "陽明",
+        "volume": 30814
+      },
+      {
+        "rank": 2,
+        "code": "2303",
+        "name": "聯電",
+        "volume": 16315
+      },
+      {
+        "rank": 3,
+        "code": "1101",
+        "name": "台泥",
+        "volume": 15078
+      },
+      {
+        "rank": 4,
+        "code": "3481",
+        "name": "群創",
+        "volume": 14315
+      },
+      {
+        "rank": 5,
+        "code": "009816",
+        "name": "凱基台灣TOP50",
+        "volume": 12458
+      },
+      {
+        "rank": 6,
+        "code": "2834",
+        "name": "臺企銀",
+        "volume": 11472
+      },
+      {
+        "rank": 7,
+        "code": "2884",
+        "name": "玉山金",
+        "volume": 11247
+      },
+      {
+        "rank": 8,
+        "code": "2489",
+        "name": "瑞軒",
+        "volume": 9978
+      },
+      {
+        "rank": 9,
+        "code": "00712",
+        "name": "復華富時不動產",
+        "volume": 9024
+      },
+      {
+        "rank": 10,
+        "code": "3702",
+        "name": "大聯大",
+        "volume": 7415
+      }
+    ],
     "trust_buy": [
       {
         "rank": 1,
