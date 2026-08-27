@@ -1,40 +1,39 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "foreign_buy_streak_3d": [],
   "foreign_buy_streak_2d": [
     {
-      "code": "2883",
-      "name": "凱基金",
+      "code": "00403A",
+      "name": "主動統一升級50",
+      "streak": 2
+    },
+    {
+      "code": "00981A",
+      "name": "主動統一台股增長",
+      "streak": 2
+    },
+    {
+      "code": "1301",
+      "name": "台塑",
       "streak": 2
     }
   ],
   "trust_buy_streak_3d": [
     {
-      "code": "3702",
-      "name": "大聯大",
-      "streak": 3
-    }
-  ],
-  "trust_buy_streak_2d": [
-    {
-      "code": "2884",
-      "name": "玉山金",
-      "streak": 2
-    },
-    {
-      "code": "2313",
-      "name": "華通",
-      "streak": 2
-    },
-    {
       "code": "1303",
       "name": "南亞",
-      "streak": 2
+      "streak": 3
     },
     {
       "code": "2301",
       "name": "光寶科",
-      "streak": 2
+      "streak": 3
+    },
+    {
+      "code": "2884",
+      "name": "玉山金",
+      "streak": 3
     }
-  ]
+  ],
+  "trust_buy_streak_2d": []
 }

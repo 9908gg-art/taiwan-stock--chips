@@ -1,59 +1,61 @@
 {
-  "last_updated": "2026-08-26 22:14:51",
+  "last_updated": "2026-08-28 02:23:22",
   "stock_prices": {
     "tw_2330": {
-      "price": 2415.0,
-      "change": 15.0,
-      "change_percent": 0.62
+      "price": 2410.0,
+      "change": -5.0,
+      "change_percent": -0.21
     },
     "us_tsm": {
-      "price": 417.54,
-      "change": 0.13,
-      "change_percent": 0.03
+      "price": 426.49,
+      "change": 8.8,
+      "change_percent": 2.11
     }
   },
   "news": [
     {
-      "news_id": 6586684,
-      "title": "蘋果桌機全面升級！Mac mini首搭台積電2奈米M6晶片",
-      "summary": "蘋果(AAPL-US)周二(25日)發表新一代Mac mini與Mac Studio桌上型電腦，全面升級處理器、無線連線及人工智慧(AI)運算能力。其中，Mac mini首度搭載M6晶片，Mac Studio則可選配目前",
-      "publish_time": "2026-08-25 22:09:51",
-      "publish_timestamp": 1787666991,
-      "url": "https://news.cnyes.com/news/id/6586684",
+      "news_id": 6589005,
+      "title": "利多出盡的真相  <mark>台積電</mark>財報亮眼 為何市場不買單？",
+      "summary": "台積電第二季財報的營收與毛利率雙雙超越自家財測，股價卻在法說會隔天重挫逾7%。其實在財報公布前，好消息大多已提前反映在股價裡，投資人在意的，早從「賺了多少」轉向「成長能否延續」。",
+      "publish_time": "2026-08-27 15:16:58",
+      "publish_timestamp": 1787815018,
+      "url": "https://news.cnyes.com/news/id/6589005",
       "keywords": [
-        "蘋果",
-        "Apple",
-        "Mac mini",
-        "Mac Studio",
-        "M6",
-        "晶片",
+        "黃士育",
+        "台股",
+        "趨勢分析",
+        "台積電"
+      ]
+    },
+    {
+      "news_id": 6588957,
+      "title": "〈台股盤後〉台積電翻黑雖有塑化及光學撐盤 未能站穩4萬6收45975點",
+      "summary": "台股早盤在輝達財報亮麗帶動下，一度大漲逾500點，最高漲至46401.78點，但尾盤台積電翻黑，雖有塑化及光學族群撐盤，漲幅仍收斂，終場漲142.6點，收45975.22點，未能站穩4萬6，成交量9246.84億元。",
+      "publish_time": "2026-08-27 14:05:57",
+      "publish_timestamp": 1787810757,
+      "url": "https://news.cnyes.com/news/id/6588957",
+      "keywords": [
+        "台股盤後",
         "台積電",
-        "M5 Pro",
-        "M5 Max",
-        "M5 Ultra",
-        "2奈米",
-        "製程",
-        "AI",
-        "人工智慧",
-        "科技",
-        "產業",
+        "輝達",
+        "光學",
+        "塑化",
+        "無人載具",
         "TOP"
       ]
     },
     {
-      "news_id": 6586482,
-      "title": "外資現貨、期貨都做空 但買超富邦金、凱基金及國泰金等大型金控股",
-      "summary": "台股今 (25) 日由台積電(2330-TW)在盤中沈穩走高帶動電子股矽光子、CCL及金融保險類股穩穩走強，終場大盤上漲407.14點，外資賣超7.87億元，投信賣超46.09億元，自營商買超0.6億元。",
-      "publish_time": "2026-08-25 18:40:32",
-      "publish_timestamp": 1787654432,
-      "url": "https://news.cnyes.com/news/id/6586482",
+      "news_id": 6587112,
+      "title": "台股盤前｜大漲407點站回45,169點！台積電重回2,400元 RS動能與投本比鎖碼瀚荃、聯一光、富喬",
+      "summary": "",
+      "publish_time": "2026-08-26 09:19:57",
+      "publish_timestamp": 1787707197,
+      "url": "https://news.cnyes.com/news/id/6587112",
       "keywords": [
-        "三大法人",
-        "台積電",
-        "金控",
-        "富邦金",
-        "第一金",
-        "國泰金"
+        "永豐金證券",
+        "趨勢分析",
+        "台股",
+        "盤前"
       ]
     },
     {
@@ -180,20 +182,6 @@
       "publish_timestamp": 1786341069,
       "url": "https://news.cnyes.com/news/id/6567937",
       "keywords": []
-    },
-    {
-      "news_id": 6554443,
-      "title": "盤中速報 - 台積電(<mark>2330</mark>)股價拉至漲停，漲停價2425.0元，成交35,847張",
-      "summary": "台積電(2330-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
-      "publish_time": "2026-07-31 12:33:40",
-      "publish_timestamp": 1785472420,
-      "url": "https://news.cnyes.com/news/id/6554443",
-      "keywords": [
-        "台股",
-        "台股盤中",
-        "盤中速報",
-        "盤中漲跌停"
-      ]
     }
   ]
 }
