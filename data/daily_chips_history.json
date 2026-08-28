@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29 05:12:19",
+  "last_updated": "2026-08-29 07:10:02",
   "history": [
     {
       "date": "2026-06-24",
@@ -1756,16 +1756,16 @@
         "total": 458.28
       },
       "tpex_summary": {
-        "foreign": 61.22,
-        "trust": -24.32,
-        "dealer": 3.93,
-        "total": 40.83
+        "foreign": 0.0,
+        "trust": 0.0,
+        "dealer": 0.0,
+        "total": 0.0
       },
       "combined_summary": {
-        "foreign": 478.76,
-        "trust": -26.29,
-        "dealer": 46.63,
-        "total": 499.11
+        "foreign": 417.54,
+        "trust": -1.97,
+        "dealer": 42.71,
+        "total": 458.28
       },
       "gov_banks": {
         "net_buy": -109.22,
