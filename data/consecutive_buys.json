@@ -1,45 +1,45 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-31",
   "foreign_buy_streak_3d": [
     {
       "code": "00403A",
       "name": "主動統一升級50",
-      "streak": 3
-    },
-    {
-      "code": "00981A",
-      "name": "主動統一台股增長",
-      "streak": 3
+      "streak": 4
     }
   ],
   "foreign_buy_streak_2d": [
     {
-      "code": "00992A",
-      "name": "主動群益科技創新",
-      "streak": 2
-    },
-    {
-      "code": "00400A",
-      "name": "主動國泰動能高息",
+      "code": "2892",
+      "name": "第一金",
       "streak": 2
     }
   ],
   "trust_buy_streak_3d": [
     {
-      "code": "1303",
-      "name": "南亞",
-      "streak": 4
+      "code": "2449",
+      "name": "京元電子",
+      "streak": 3
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "2887",
-      "name": "台新新光金",
+      "code": "2303",
+      "name": "聯電",
       "streak": 2
     },
     {
-      "code": "2449",
-      "name": "京元電子",
+      "code": "1717",
+      "name": "長興",
+      "streak": 2
+    },
+    {
+      "code": "2891",
+      "name": "中信金",
+      "streak": 2
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
       "streak": 2
     }
   ]
