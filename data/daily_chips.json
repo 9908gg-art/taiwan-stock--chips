@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updated_time": "2026-09-01 20:38:12",
+  "updated_time": "2026-09-01 23:00:08",
   "tsmc_chips": {
     "foreign": 5730,
     "trust": 103,
@@ -32,10 +32,10 @@
     "date": "2026-09-01"
   },
   "margin_trading": {
-    "margin_balance_change": 0.0,
-    "margin_balance_total": 0.0,
-    "short_balance_change": 0,
-    "short_balance_total": 0
+    "margin_balance_change": 82.39,
+    "margin_balance_total": 5781.15,
+    "short_balance_change": 3117,
+    "short_balance_total": 220835
   },
   "trading_volume": {
     "tse_volume": 11875.72
