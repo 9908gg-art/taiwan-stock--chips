@@ -1,60 +1,156 @@
 {
-  "last_updated": "2026-09-01 03:37:44",
+  "last_updated": "2026-09-01 20:38:15",
   "stock_prices": {
     "tw_2330": {
-      "price": 2405.0,
-      "change": -15.0,
-      "change_percent": -0.62
+      "price": 2440.0,
+      "change": 35.0,
+      "change_percent": 1.46
     },
     "us_tsm": {
-      "price": 415.13,
-      "change": -2.38,
-      "change_percent": -0.57
+      "price": 415.32,
+      "change": -2.2,
+      "change_percent": -0.53
     }
   },
   "news": [
     {
-      "news_id": 6592719,
-      "title": "<mark>台積電</mark>供應鏈志聖迎60周年慶  AI核心業務占上半年營收已占70%",
-      "summary": "志聖今年成立達60年，志聖並指出，2026年上半年，半導體占營收46%，加計先進PCB後，AI核心成長，其業務占比達70%。同時，志聖目前已訂未銷訂單中，先進封裝占54%、先進PCB占38%，兩者合計達92%。",
-      "publish_time": "2026-08-31 16:27:36",
-      "publish_timestamp": 1788164856,
-      "url": "https://news.cnyes.com/news/id/6592719",
+      "news_id": 6594311,
+      "title": "台歐半導體合作升溫！總統賴清德籲建立戰略聯盟，<mark>台積電</mark>德國廠預計2027年底量產",
+      "summary": "",
+      "publish_time": "2026-09-01 19:00:13",
+      "publish_timestamp": 1788260413,
+      "url": "https://news.cnyes.com/news/id/6594311",
       "keywords": [
-        "志聖",
-        "東捷",
-        "均豪",
-        "均華"
-      ]
-    },
-    {
-      "news_id": 6592509,
-      "title": "〈SEMICON〉徐國晉：矽光子2027年滲透率破5成 CPO今年下半年量產",
-      "summary": "台積電(2330-TW)(TSM-US)先進封裝技術發展副總經理徐國晉今(31)日出席SEMI論壇表示，矽光子已逐步成為高階光通訊主流技術，預估2027年市場滲透率將突破5成；另一方面，隨著產業驗證持續成熟，CPO也將自",
-      "publish_time": "2026-08-31 12:42:09",
-      "publish_timestamp": 1788151329,
-      "url": "https://news.cnyes.com/news/id/6592509",
-      "keywords": [
-        "台積電",
-        "COUPE",
-        "矽光子",
-        "滲透率"
-      ]
-    },
-    {
-      "news_id": 6592347,
-      "title": "「卡位」神山供應鏈！帆宣、達欣等25家聯合徵才職缺一表看！月薪衝8.5萬",
-      "summary": "半導體已成台灣重要產業之一，完整供應鏈除了上游IC設計、中游製造與下游封測外，建構半導體軟硬體設施的協力廠商亦扮演關鍵角色。由台積電 (2330-TW) (TSM-US)主辦、104人力銀行協辦的「半導體基礎技術人才博覽",
-      "publish_time": "2026-08-31 10:46:00",
-      "publish_timestamp": 1788144360,
-      "url": "https://news.cnyes.com/news/id/6592347",
-      "keywords": [
-        "104",
-        "人力銀行",
-        "台積電",
-        "徵才",
         "半導體",
-        "供應鏈"
+        "歐盟",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6594293,
+      "title": "〈SEMICON〉台積電侯永清：歐洲7奈米需求大增還不夠！30萬片僅撐一座廠",
+      "summary": "台積電(2330-TW)(TSM-US)近年持續深化歐洲布局，資深副總經理暨副共同營運長侯永清表示，很高興看到歐洲7奈米需求已大幅增加，但以目前掌握的數字估算，到2040年一年的需求約30萬片，對先進製程而言仍相對有限，",
+      "publish_time": "2026-09-01 18:39:17",
+      "publish_timestamp": 1788259157,
+      "url": "https://news.cnyes.com/news/id/6594293",
+      "keywords": [
+        "台積電",
+        "歐洲",
+        "先進製程",
+        "7奈米",
+        "車用",
+        "SEMICON"
+      ]
+    },
+    {
+      "news_id": 6594239,
+      "title": "天虹先進製程實驗室開幕 <mark>台積電</mark>來助陣",
+      "summary": "半導體設備廠天虹科技(6937-TW)今(1)日舉行「先進製程實驗室」開幕啟用儀式，並於會中邀請台積電(2330-TW)(TSM-US)研究發展先進設備暨模組發展副總經理章勳明代表出席，期盼透過此實驗室運作，加速全球下一",
+      "publish_time": "2026-09-01 18:20:33",
+      "publish_timestamp": 1788258033,
+      "url": "https://news.cnyes.com/news/id/6594239",
+      "keywords": [
+        "天虹",
+        "半導體",
+        "設備",
+        "台積電"
+      ]
+    },
+    {
+      "news_id": 6594167,
+      "title": "<mark>台積電</mark>供應鏈迅得8月營收6.11億元改寫歷年同期新高 年增15%",
+      "summary": "迅得 (6438-TW)最新營收推進一如預期，迅得8月營收也將維持在6億元以上高檔區，今(1)日公布8月營收6.11億元，改寫歷年同期新高，月減4.19%，年增15.54%，1-8月營收48.18億元，年增11.5%。",
+      "publish_time": "2026-09-01 17:26:48",
+      "publish_timestamp": 1788254808,
+      "url": "https://news.cnyes.com/news/id/6594167",
+      "keywords": [
+        "迅得",
+        "台積電",
+        "臻鼎-KY",
+        "景碩",
+        "營收"
+      ]
+    },
+    {
+      "news_id": 6594046,
+      "title": "台股大漲1.77%創兩個月新高，聯發科漲停、<mark>台積電</mark>與鴻海同步走強",
+      "summary": "",
+      "publish_time": "2026-09-01 15:30:03",
+      "publish_timestamp": 1788247803,
+      "url": "https://news.cnyes.com/news/id/6594046",
+      "keywords": [
+        "台股",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6593954,
+      "title": "〈台股盤後〉聯發科漲停領權值股大漲820點收最高 直逼4萬7關前",
+      "summary": "台股開高走高，包括電子權值股及千金股表現強勢，加上光通訊、IC設計、晶圓等族群各擁題材激勵下，盤中強漲超過700點，最後一盤在台積電(2330-TW)、聯電(2303-TW)等晶圓雙雄大單敲進下，大漲820.25點。",
+      "publish_time": "2026-09-01 14:43:46",
+      "publish_timestamp": 1788245026,
+      "url": "https://news.cnyes.com/news/id/6593954",
+      "keywords": [
+        "台股盤後",
+        "台積電",
+        "鴻海",
+        "聯發科",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6593975,
+      "title": "〈SEMICON〉台積電：AI功耗大增6倍 供電、散熱成下世代系統兩大關鍵",
+      "summary": "AI算力持續擴張，也讓高功耗問題快速浮上檯面。台積電(2330-TW)(TSM-US)處長陳燕銘今(1)日出席論壇時表示，隨著AI運算能力持續提升，加上3D堆疊與異質整合深化，未來單一封裝晶片的總功將增加約6倍，供電與散",
+      "publish_time": "2026-09-01 14:13:42",
+      "publish_timestamp": 1788243222,
+      "url": "https://news.cnyes.com/news/id/6593975",
+      "keywords": [
+        "台積電",
+        "IVR",
+        "TIM",
+        "散熱",
+        "供電",
+        "SEMICON"
+      ]
+    },
+    {
+      "news_id": 6594030,
+      "title": "<mark>台積電</mark>:公告本公司調整民國115年第一季每股現金股利金額",
+      "summary": "台積電:公告本公司調整民國115年第一季每股現金股利金額",
+      "publish_time": "2026-09-01 14:05:23",
+      "publish_timestamp": 1788242723,
+      "url": "https://news.cnyes.com/news/id/6594030",
+      "keywords": []
+    },
+    {
+      "news_id": 6593970,
+      "title": "〈SEMICON〉台積電、AMD齊推新一代水冷板 傳最快明年中量產",
+      "summary": "AI晶片功耗持續攀升，散熱已成為關鍵瓶頸。台積電(2330-TW)(TSM-US)與超微(AMD-US)今(1)日雙雙揭示下一代水冷技術藍圖，同時釋出將封裝與水冷板整合的技術(TIM less)。業界傳出，包括雙鴻(33",
+      "publish_time": "2026-09-01 13:37:34",
+      "publish_timestamp": 1788241054,
+      "url": "https://news.cnyes.com/news/id/6593970",
+      "keywords": [
+        "SEMICON",
+        "台積電",
+        "雙鴻",
+        "奇鋐",
+        "健策",
+        "竑騰"
+      ]
+    },
+    {
+      "news_id": 6593530,
+      "title": "盤中速報 - 貿聯-KY(3665)大漲7.37%，報<mark>2330</mark>元",
+      "summary": "貿聯-KY(3665-TW)盤中股價拉漲，近5日股價、大盤表現、三大法人買賣超、融資融券增減、即時新聞資訊。",
+      "publish_time": "2026-09-01 09:06:24",
+      "publish_timestamp": 1788224784,
+      "url": "https://news.cnyes.com/news/id/6593530",
+      "keywords": [
+        "台股",
+        "台股盤中",
+        "盤中速報",
+        "盤中漲跌幅"
       ]
     },
     {
@@ -184,30 +280,6 @@
       "publish_time": "2026-08-11 18:03:01",
       "publish_timestamp": 1786442581,
       "url": "https://news.cnyes.com/news/id/6571614",
-      "keywords": []
-    },
-    {
-      "news_id": 6568349,
-      "title": "營收速報  - 台積電(<mark>2330</mark>)7月營收4,675.81億元年增率高達44.69％",
-      "summary": "2026年7月台積電(2330-TW) 營收年增成長44.69% , 盤後股價為2380元",
-      "publish_time": "2026-08-10 17:22:46",
-      "publish_timestamp": 1786353766,
-      "url": "https://news.cnyes.com/news/id/6568349",
-      "keywords": [
-        "台股",
-        "台股營收",
-        "營收速報",
-        "7月營收",
-        "台積電"
-      ]
-    },
-    {
-      "news_id": 6567937,
-      "title": "台積電:台積公司2026年7月營收報告",
-      "summary": "台積電:台積公司2026年7月營收報告",
-      "publish_time": "2026-08-10 13:51:09",
-      "publish_timestamp": 1786341069,
-      "url": "https://news.cnyes.com/news/id/6567937",
       "keywords": []
     }
   ]
