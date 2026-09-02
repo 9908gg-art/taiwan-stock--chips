@@ -1,40 +1,33 @@
 {
-  "date": "2026-09-01",
-  "foreign_buy_streak_3d": [
-    {
-      "code": "00403A",
-      "name": "主動統一升級50",
-      "streak": 5
-    }
-  ],
-  "foreign_buy_streak_2d": [
-    {
-      "code": "1326",
-      "name": "台化",
-      "streak": 2
-    }
-  ],
+  "date": "2026-09-02",
+  "foreign_buy_streak_3d": [],
+  "foreign_buy_streak_2d": [],
   "trust_buy_streak_3d": [
     {
-      "code": "2303",
-      "name": "聯電",
+      "code": "2884",
+      "name": "玉山金",
       "streak": 3
     },
     {
       "code": "2891",
       "name": "中信金",
-      "streak": 3
+      "streak": 4
     },
     {
       "code": "2882",
       "name": "國泰金",
-      "streak": 3
+      "streak": 4
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "2884",
-      "name": "玉山金",
+      "code": "2887",
+      "name": "台新新光金",
+      "streak": 2
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
       "streak": 2
     }
   ]
