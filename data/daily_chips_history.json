@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02 20:10:13",
+  "last_updated": "2026-09-02 22:35:25",
   "history": [
     {
       "date": "2026-06-24",
@@ -1891,14 +1891,14 @@
         "total": -1251.46
       },
       "gov_banks": {
-        "net_buy": -101.59,
-        "date": "2026-09-01"
+        "net_buy": 178.68,
+        "date": "2026-09-02"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": 75.6,
+        "margin_balance_total": 5856.75,
+        "short_balance_change": -6520,
+        "short_balance_total": 214315
       },
       "trading_volume": {
         "tse_volume": 9765.0
