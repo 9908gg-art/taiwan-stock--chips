@@ -1,53 +1,48 @@
 {
-  "last_updated": "2026-09-03 01:18:53",
+  "last_updated": "2026-09-03 20:09:55",
   "stock_prices": {
     "tw_2330": {
-      "price": 2385.0,
-      "change": -55.0,
-      "change_percent": -2.25
+      "price": 2390.0,
+      "change": 5.0,
+      "change_percent": 0.21
     },
     "us_tsm": {
-      "price": 411.98,
-      "change": -2.02,
-      "change_percent": -0.49
+      "price": 415.5,
+      "change": 1.5,
+      "change_percent": 0.36
     }
   },
   "news": [
     {
-      "news_id": 6595372,
-      "title": "〈SEMICON〉侯永清：AI需求短短半年就翻倍 供應鏈合作必須重構",
-      "summary": "AI需求持續高速成長，半導體供應鏈面臨前所未見的擴產壓力。台積電(2330-TW)(TSM-US)資深副總經理暨副共同營運長侯永清今(2)日表示，AI需求不只是規模龐大，更大的挑戰在於需求變化速度遠超過去產業經驗，以台積",
-      "publish_time": "2026-09-02 17:01:29",
-      "publish_timestamp": 1788339689,
-      "url": "https://news.cnyes.com/news/id/6595372",
+      "news_id": 6596425,
+      "title": "〈SEMICON〉帆宣在手訂單1351億美元創新高 訂單看到2028年",
+      "summary": "半導體設備廠帆宣(6196-TW)今(3)日舉辦與Mennens合作20周年活動，董事長高新明表示，目前在手訂單金額新台幣1351億元，能見度至少達到2028年，目前已全力備料支援客戶，包括台積電(2330-TW)(TS",
+      "publish_time": "2026-09-03 17:23:34",
+      "publish_timestamp": 1788427414,
+      "url": "https://news.cnyes.com/news/id/6596425",
       "keywords": [
+        "帆宣",
         "台積電",
-        "SEMICON",
-        "擴產",
-        "供不應求"
+        "美國",
+        "荷蘭",
+        "SEMICON"
       ]
     },
     {
-      "news_id": 6595116,
-      "title": "挑戰<mark>台積電</mark>！英特爾14A製程進展加速、缺陷密度改善創22奈米以來最快",
-      "summary": "英特爾14A製程改善速度創2012年22奈米以來最快，首批14A產品已啟動設計，預計2027年風險試產、2028年量產，並同步開發14A2正反面供電架構。",
-      "publish_time": "2026-09-02 12:32:25",
-      "publish_timestamp": 1788323545,
-      "url": "https://news.cnyes.com/news/id/6595116",
+      "news_id": 6595996,
+      "title": "<mark>台積電</mark>憑什麼牢牢抓住蘋果？英特爾最難追的不是製程",
+      "summary": "蘋果為何選台積電、不信英特爾？關鍵不只製程技術",
+      "publish_time": "2026-09-03 11:10:04",
+      "publish_timestamp": 1788405004,
+      "url": "https://news.cnyes.com/news/id/6595996",
       "keywords": [
-        "英特爾",
-        "14A",
-        "量產",
+        "蘋果",
         "台積電",
-        "製程",
-        "14A2",
+        "英特爾",
+        "製程技術",
         "晶片",
-        "晶圓",
-        "代工",
-        "Intel",
-        "缺陷",
-        "良率",
-        "TOP"
+        "AI",
+        "Apple Silicon"
       ]
     },
     {
@@ -191,15 +186,6 @@
       "publish_time": "2026-08-11 18:46:58",
       "publish_timestamp": 1786445218,
       "url": "https://news.cnyes.com/news/id/6571828",
-      "keywords": []
-    },
-    {
-      "news_id": 6571614,
-      "title": "台積電:台積公司董事會決議",
-      "summary": "台積電:台積公司董事會決議",
-      "publish_time": "2026-08-11 18:03:01",
-      "publish_timestamp": 1786442581,
-      "url": "https://news.cnyes.com/news/id/6571614",
       "keywords": []
     }
   ]
