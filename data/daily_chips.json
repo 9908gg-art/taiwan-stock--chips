@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updated_time": "2026-09-04 20:11:00",
+  "updated_time": "2026-09-04 22:26:26",
   "tsmc_chips": {
     "foreign": 1885,
     "trust": -322,
@@ -28,14 +28,14 @@
     }
   },
   "gov_banks": {
-    "net_buy": 117.9,
-    "date": "2026-09-03"
+    "net_buy": -98.15,
+    "date": "2026-09-04"
   },
   "margin_trading": {
-    "margin_balance_change": 0.0,
-    "margin_balance_total": 0.0,
-    "short_balance_change": 0,
-    "short_balance_total": 0
+    "margin_balance_change": 31.55,
+    "margin_balance_total": 5818.95,
+    "short_balance_change": -3683,
+    "short_balance_total": 219160
   },
   "trading_volume": {
     "tse_volume": 8582.45
