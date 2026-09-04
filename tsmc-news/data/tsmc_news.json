@@ -1,18 +1,38 @@
 {
-  "last_updated": "2026-09-04 01:10:29",
+  "last_updated": "2026-09-04 20:11:04",
   "stock_prices": {
     "tw_2330": {
-      "price": 2390.0,
-      "change": 5.0,
-      "change_percent": 0.21
+      "price": 2410.0,
+      "change": 20.0,
+      "change_percent": 0.84
     },
     "us_tsm": {
-      "price": 414.41,
-      "change": -1.09,
-      "change_percent": -0.26
+      "price": 417.01,
+      "change": 1.51,
+      "change_percent": 0.36
     }
   },
   "news": [
+    {
+      "news_id": 6597542,
+      "title": "目標價320元！小摩重申「增持」輝達：瓶頸在「供給」 先進晶圓與HBM是緊箍咒",
+      "summary": "",
+      "publish_time": "2026-09-04 17:32:00",
+      "publish_timestamp": 1788514320,
+      "url": "https://news.cnyes.com/news/id/6597542",
+      "keywords": [
+        "輝達",
+        "需求",
+        "供給",
+        "小摩",
+        "摩根大通",
+        "目標價",
+        "neoclouds",
+        "Blackwell",
+        "先進晶圓",
+        "HBM"
+      ]
+    },
     {
       "news_id": 6596425,
       "title": "〈SEMICON〉帆宣在手訂單1351億美元創新高 訂單看到2028年",
@@ -26,23 +46,6 @@
         "美國",
         "荷蘭",
         "SEMICON"
-      ]
-    },
-    {
-      "news_id": 6595996,
-      "title": "<mark>台積電</mark>憑什麼牢牢抓住蘋果？英特爾最難追的不是製程",
-      "summary": "蘋果為何選台積電、不信英特爾？關鍵不只製程技術",
-      "publish_time": "2026-09-03 11:10:04",
-      "publish_timestamp": 1788405004,
-      "url": "https://news.cnyes.com/news/id/6595996",
-      "keywords": [
-        "蘋果",
-        "台積電",
-        "英特爾",
-        "製程技術",
-        "晶片",
-        "AI",
-        "Apple Silicon"
       ]
     },
     {
