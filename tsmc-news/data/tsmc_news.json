@@ -1,51 +1,123 @@
 {
-  "last_updated": "2026-09-05 00:59:30",
+  "last_updated": "2026-09-07 21:34:46",
   "stock_prices": {
     "tw_2330": {
-      "price": 2410.0,
-      "change": 20.0,
-      "change_percent": 0.84
+      "price": 2460.0,
+      "change": 50.0,
+      "change_percent": 2.07
     },
     "us_tsm": {
-      "price": 428.34,
-      "change": 11.33,
-      "change_percent": 2.72
+      "price": 428.91,
+      "change": 11.9,
+      "change_percent": 2.85
     }
   },
   "news": [
     {
-      "news_id": 6597542,
-      "title": "目標價320元！小摩重申「增持」輝達：瓶頸在「供給」 先進晶圓與HBM是緊箍咒",
-      "summary": "",
-      "publish_time": "2026-09-04 17:32:00",
-      "publish_timestamp": 1788514320,
-      "url": "https://news.cnyes.com/news/id/6597542",
+      "news_id": 6599413,
+      "title": "外資史上第四大買超883億元 大舉加碼友達、<mark>台積電</mark> 減碼鎖定電子五哥",
+      "summary": "台股在台積電走揚、聯發科漲逾半根停板，聯電強攻漲停助攻下，終場大漲775.14點收47326.27點，成交量9399.26億元。外資加碼883.07億元，創台股歷史第四大買超，台積電及聯電同獲青睞。",
+      "publish_time": "2026-09-07 17:23:57",
+      "publish_timestamp": 1788773037,
+      "url": "https://news.cnyes.com/news/id/6599413",
       "keywords": [
-        "輝達",
-        "需求",
-        "供給",
-        "小摩",
-        "摩根大通",
-        "目標價",
-        "neoclouds",
-        "Blackwell",
-        "先進晶圓",
-        "HBM"
+        "三大法人",
+        "外資",
+        "台積電",
+        "聯電",
+        "主動式ETF",
+        "TOP"
       ]
     },
     {
-      "news_id": 6596425,
-      "title": "〈SEMICON〉帆宣在手訂單1351億美元創新高 訂單看到2028年",
-      "summary": "半導體設備廠帆宣(6196-TW)今(3)日舉辦與Mennens合作20周年活動，董事長高新明表示，目前在手訂單金額新台幣1351億元，能見度至少達到2028年，目前已全力備料支援客戶，包括台積電(2330-TW)(TS",
-      "publish_time": "2026-09-03 17:23:34",
-      "publish_timestamp": 1788427414,
-      "url": "https://news.cnyes.com/news/id/6596425",
+      "news_id": 6599536,
+      "title": "<mark>台積電</mark>:本公司受邀參加機構投資人說明會",
+      "summary": "台積電:本公司受邀參加機構投資人說明會",
+      "publish_time": "2026-09-07 16:35:36",
+      "publish_timestamp": 1788770136,
+      "url": "https://news.cnyes.com/news/id/6599536",
+      "keywords": []
+    },
+    {
+      "news_id": 6599318,
+      "title": "【台股收盤】加權指數大漲775點 創兩個半月新高、<mark>台積電</mark>領軍半導體走強",
+      "summary": "",
+      "publish_time": "2026-09-07 16:00:04",
+      "publish_timestamp": 1788768004,
+      "url": "https://news.cnyes.com/news/id/6599318",
       "keywords": [
-        "帆宣",
+        "台股",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6599341,
+      "title": "<mark>台積電</mark>:本公司受邀參加機構投資人說明會",
+      "summary": "台積電:本公司受邀參加機構投資人說明會",
+      "publish_time": "2026-09-07 14:39:30",
+      "publish_timestamp": 1788763170,
+      "url": "https://news.cnyes.com/news/id/6599341",
+      "keywords": []
+    },
+    {
+      "news_id": 6599248,
+      "title": "〈台股盤後〉<mark>台積電</mark>串「聯」多頭部隊強漲775點收47326點",
+      "summary": "電子權值股今(7)日漲勢凌厲，在台積電走揚、聯發科漲逾半根停板，聯電強攻漲停助攻下，盤中最高漲至47429.58，創近期以來新高，終場大漲775.14點或1.67%，收47326.27點，成交量9399.26億元。",
+      "publish_time": "2026-09-07 14:16:16",
+      "publish_timestamp": 1788761776,
+      "url": "https://news.cnyes.com/news/id/6599248",
+      "keywords": [
+        "台股盤後",
         "台積電",
-        "美國",
-        "荷蘭",
-        "SEMICON"
+        "聯發科",
+        "聯電",
+        "被動元件",
+        "光學",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6599124,
+      "title": "〈工研院新院士〉秦永沛：<mark>台積電</mark>卓越製造沒有捷徑 近40年靠團隊一步一腳印",
+      "summary": "台積電(2330-TW)(TSM-US)執行副總經理暨共同營運長秦永沛今(7)日獲選第15屆工研院院士。他在致詞時表示，工研院長年扮演台灣科技產業「開路先鋒」與人才培育的重要角色，當年正是透過工研院的人才培育與技術轉移，",
+      "publish_time": "2026-09-07 11:40:51",
+      "publish_timestamp": 1788752451,
+      "url": "https://news.cnyes.com/news/id/6599124",
+      "keywords": [
+        "工研院",
+        "台積電",
+        "秦永沛"
+      ]
+    },
+    {
+      "news_id": 6599069,
+      "title": "〈工研院新院士〉3位新院士出爐 秦永沛、邱順建、陳威明獲獎",
+      "summary": "工研院今(7)日舉辦「第15屆工研院院士授證典禮」，今年共有3位新科院士獲頒殊榮，分別為台積電(2330-TW)(TSM-US)執行副總經理暨共同營運長秦永沛、瑞昱(2379-TW)董事長邱順建，以及臺北榮民總醫院院長陳",
+      "publish_time": "2026-09-07 10:38:15",
+      "publish_timestamp": 1788748695,
+      "url": "https://news.cnyes.com/news/id/6599069",
+      "keywords": [
+        "工研院",
+        "新竹",
+        "台積電",
+        "瑞昱",
+        "榮總"
+      ]
+    },
+    {
+      "news_id": 6599043,
+      "title": "〈台股開盤〉台積電帶權值股奮力攻堅開盤漲逾700點跳空漲站上4萬7",
+      "summary": "台股成交量能有回升的趨勢激勵之下，台股指標股權王台積電 (2330-TW) 今 (7) 日開盤上漲25元，貢獻大盤指數200.8點，同時，台達電及聯發科等權值股上漲， 台股開盤跳空大漲，一度上漲超過700點。",
+      "publish_time": "2026-09-07 09:31:08",
+      "publish_timestamp": 1788744668,
+      "url": "https://news.cnyes.com/news/id/6599043",
+      "keywords": [
+        "台股開盤",
+        "台積電",
+        "聯電",
+        "欣興",
+        "國巨",
+        "TOP"
       ]
     },
     {
@@ -171,24 +243,6 @@
       "publish_time": "2026-08-11 19:01:29",
       "publish_timestamp": 1786446089,
       "url": "https://news.cnyes.com/news/id/6571830",
-      "keywords": []
-    },
-    {
-      "news_id": 6571829,
-      "title": "台積電:本公司董事會決議股利分派",
-      "summary": "台積電:本公司董事會決議股利分派",
-      "publish_time": "2026-08-11 18:53:34",
-      "publish_timestamp": 1786445614,
-      "url": "https://news.cnyes.com/news/id/6571829",
-      "keywords": []
-    },
-    {
-      "news_id": 6571828,
-      "title": "台積電:本公司民國115年度第二季合併財務報告業經董事會決議通過",
-      "summary": "台積電:本公司民國115年度第二季合併財務報告業經董事會決議通過",
-      "publish_time": "2026-08-11 18:46:58",
-      "publish_timestamp": 1786445218,
-      "url": "https://news.cnyes.com/news/id/6571828",
       "keywords": []
     }
   ]
