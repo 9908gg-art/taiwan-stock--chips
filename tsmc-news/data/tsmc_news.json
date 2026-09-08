@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-08 02:23:38",
+  "last_updated": "2026-09-08 20:12:26",
   "stock_prices": {
     "tw_2330": {
-      "price": 2460.0,
-      "change": 50.0,
-      "change_percent": 2.07
+      "price": 2470.0,
+      "change": 10.0,
+      "change_percent": 0.41
     },
     "us_tsm": {
       "price": 428.91,
@@ -14,24 +14,127 @@
   },
   "news": [
     {
-      "news_id": 6599413,
-      "title": "外資史上第四大買超883億元 大舉加碼友達、<mark>台積電</mark> 減碼鎖定電子五哥",
-      "summary": "台股在台積電走揚、聯發科漲逾半根停板，聯電強攻漲停助攻下，終場大漲775.14點收47326.27點，成交量9399.26億元。外資加碼883.07億元，創台股歷史第四大買超，台積電及聯電同獲青睞。",
-      "publish_time": "2026-09-07 17:23:57",
-      "publish_timestamp": 1788773037,
-      "url": "https://news.cnyes.com/news/id/6599413",
+      "news_id": 6600750,
+      "title": "ASML攜手晶圓巨頭研發新一代大光罩技術 突破High-NA EUV晶片面積限制",
+      "summary": "荷蘭半導體設備巨頭艾司摩爾(ASML)宣布，計畫與英特爾(INTC-US)、台積電(2330-TW)(TSM-US)、",
+      "publish_time": "2026-09-08 19:40:02",
+      "publish_timestamp": 1788867602,
+      "url": "https://news.cnyes.com/news/id/6600750",
       "keywords": [
-        "三大法人",
-        "外資",
+        "光罩",
+        "ASML",
+        "euv",
         "台積電",
-        "聯電",
-        "主動式ETF",
+        "英特爾",
+        "三星電子",
+        "晶圓"
+      ]
+    },
+    {
+      "news_id": 6600577,
+      "title": "挑戰<mark>台積電</mark>代工霸主地位！三星泰勒廠月底試產 2奈米訂單已接滿",
+      "summary": "",
+      "publish_time": "2026-09-08 19:00:03",
+      "publish_timestamp": 1788865203,
+      "url": "https://news.cnyes.com/news/id/6600577",
+      "keywords": [
+        "三星",
+        "台積電",
+        "2奈米",
+        "良率",
+        "泰勒廠",
+        "德州",
+        "晶圓代工",
+        "英特爾"
+      ]
+    },
+    {
+      "news_id": 6600401,
+      "title": "三星、<mark>台積電</mark>、英特爾齊點頭：艾司摩爾High NA EUV拿下頂級訂單承諾",
+      "summary": "",
+      "publish_time": "2026-09-08 17:00:04",
+      "publish_timestamp": 1788858004,
+      "url": "https://news.cnyes.com/news/id/6600401",
+      "keywords": [
+        "High NA EUV",
+        "ASML",
+        "艾司摩爾",
+        "三星",
+        "台積電",
+        "英特爾",
+        "半導體設備",
+        "光罩",
+        "AI晶片",
+        "DRAM"
+      ]
+    },
+    {
+      "news_id": 6600429,
+      "title": "英特爾、三星不落隊！宣布參與ASML下一代12吋光罩技術",
+      "summary": "繼台積電(2330-TW)(TSM-US)之後，全球半導體大廠英特爾(INTC-US)、三星也相繼表態投入下一代12吋光罩技術，並進一步擴大與ASML在高數值孔徑極紫外光(High NA EUV)領域合作。英特爾持續推進",
+      "publish_time": "2026-09-08 16:05:52",
+      "publish_timestamp": 1788854752,
+      "url": "https://news.cnyes.com/news/id/6600429",
+      "keywords": [
+        "台積電",
+        "ASML",
+        "三星",
+        "英特爾",
+        "微影",
+        "曝光"
+      ]
+    },
+    {
+      "news_id": 6600387,
+      "title": "<mark>台積電</mark>宣布2030年起導入ASML High NA EUV、微影光罩尺寸擴大一倍",
+      "summary": "艾司摩爾(ASML-US)台積電(2330-TW)(TSM-US)今(8)日共同宣布，台積電將自2030年起在先進製程量產中導入艾司摩爾的High NA EUV技術，並進一步擴大微影光罩尺寸，從現有的6吋光罩擴大至12吋",
+      "publish_time": "2026-09-08 14:26:23",
+      "publish_timestamp": 1788848783,
+      "url": "https://news.cnyes.com/news/id/6600387",
+      "keywords": [
+        "台積電",
+        "ASML",
+        "High NA EUV",
+        "量產"
+      ]
+    },
+    {
+      "news_id": 6600365,
+      "title": "〈台股盤後〉台積電獨撐大局 權值股熄火 跌220點守住4萬7",
+      "summary": "美股7日那指下跌約 0.3%，費半則大漲逾 3%。台股今 (8) 日開高後震盪加劇，指數一度上漲逾 250 點至 47578 點，隨後翻黑下探 47119 點，高低震盪超過 450 點。終場收47105.78點，下跌22",
+      "publish_time": "2026-09-08 13:51:27",
+      "publish_timestamp": 1788846687,
+      "url": "https://news.cnyes.com/news/id/6600365",
+      "keywords": [
+        "台股盤後",
+        "台積電",
+        "設備",
+        "記憶體",
         "TOP"
       ]
     },
     {
+      "news_id": 6600276,
+      "title": "AI推進AGI，算力需求猛增！提前卡位台積電OIP商機的黑馬名單！",
+      "summary": "",
+      "publish_time": "2026-09-08 11:01:36",
+      "publish_timestamp": 1788836496,
+      "url": "https://news.cnyes.com/news/id/6600276",
+      "keywords": [
+        "葉俊敏",
+        "日月光",
+        "精材",
+        "友達",
+        "群創",
+        "旺矽",
+        "穎崴",
+        "趨勢分析",
+        "摩爾投顧"
+      ]
+    },
+    {
       "news_id": 6599536,
-      "title": "<mark>台積電</mark>:本公司受邀參加機構投資人說明會",
+      "title": "台積電:本公司受邀參加機構投資人說明會",
       "summary": "台積電:本公司受邀參加機構投資人說明會",
       "publish_time": "2026-09-07 16:35:36",
       "publish_timestamp": 1788770136,
@@ -39,86 +142,13 @@
       "keywords": []
     },
     {
-      "news_id": 6599318,
-      "title": "【台股收盤】加權指數大漲775點 創兩個半月新高、<mark>台積電</mark>領軍半導體走強",
-      "summary": "",
-      "publish_time": "2026-09-07 16:00:04",
-      "publish_timestamp": 1788768004,
-      "url": "https://news.cnyes.com/news/id/6599318",
-      "keywords": [
-        "台股",
-        "優分析"
-      ]
-    },
-    {
       "news_id": 6599341,
-      "title": "<mark>台積電</mark>:本公司受邀參加機構投資人說明會",
+      "title": "台積電:本公司受邀參加機構投資人說明會",
       "summary": "台積電:本公司受邀參加機構投資人說明會",
       "publish_time": "2026-09-07 14:39:30",
       "publish_timestamp": 1788763170,
       "url": "https://news.cnyes.com/news/id/6599341",
       "keywords": []
-    },
-    {
-      "news_id": 6599248,
-      "title": "〈台股盤後〉<mark>台積電</mark>串「聯」多頭部隊強漲775點收47326點",
-      "summary": "電子權值股今(7)日漲勢凌厲，在台積電走揚、聯發科漲逾半根停板，聯電強攻漲停助攻下，盤中最高漲至47429.58，創近期以來新高，終場大漲775.14點或1.67%，收47326.27點，成交量9399.26億元。",
-      "publish_time": "2026-09-07 14:16:16",
-      "publish_timestamp": 1788761776,
-      "url": "https://news.cnyes.com/news/id/6599248",
-      "keywords": [
-        "台股盤後",
-        "台積電",
-        "聯發科",
-        "聯電",
-        "被動元件",
-        "光學",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6599124,
-      "title": "〈工研院新院士〉秦永沛：<mark>台積電</mark>卓越製造沒有捷徑 近40年靠團隊一步一腳印",
-      "summary": "台積電(2330-TW)(TSM-US)執行副總經理暨共同營運長秦永沛今(7)日獲選第15屆工研院院士。他在致詞時表示，工研院長年扮演台灣科技產業「開路先鋒」與人才培育的重要角色，當年正是透過工研院的人才培育與技術轉移，",
-      "publish_time": "2026-09-07 11:40:51",
-      "publish_timestamp": 1788752451,
-      "url": "https://news.cnyes.com/news/id/6599124",
-      "keywords": [
-        "工研院",
-        "台積電",
-        "秦永沛"
-      ]
-    },
-    {
-      "news_id": 6599069,
-      "title": "〈工研院新院士〉3位新院士出爐 秦永沛、邱順建、陳威明獲獎",
-      "summary": "工研院今(7)日舉辦「第15屆工研院院士授證典禮」，今年共有3位新科院士獲頒殊榮，分別為台積電(2330-TW)(TSM-US)執行副總經理暨共同營運長秦永沛、瑞昱(2379-TW)董事長邱順建，以及臺北榮民總醫院院長陳",
-      "publish_time": "2026-09-07 10:38:15",
-      "publish_timestamp": 1788748695,
-      "url": "https://news.cnyes.com/news/id/6599069",
-      "keywords": [
-        "工研院",
-        "新竹",
-        "台積電",
-        "瑞昱",
-        "榮總"
-      ]
-    },
-    {
-      "news_id": 6599043,
-      "title": "〈台股開盤〉台積電帶權值股奮力攻堅開盤漲逾700點跳空漲站上4萬7",
-      "summary": "台股成交量能有回升的趨勢激勵之下，台股指標股權王台積電 (2330-TW) 今 (7) 日開盤上漲25元，貢獻大盤指數200.8點，同時，台達電及聯發科等權值股上漲， 台股開盤跳空大漲，一度上漲超過700點。",
-      "publish_time": "2026-09-07 09:31:08",
-      "publish_timestamp": 1788744668,
-      "url": "https://news.cnyes.com/news/id/6599043",
-      "keywords": [
-        "台股開盤",
-        "台積電",
-        "聯電",
-        "欣興",
-        "國巨",
-        "TOP"
-      ]
     },
     {
       "news_id": 6594030,
