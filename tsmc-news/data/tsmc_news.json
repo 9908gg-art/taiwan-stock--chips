@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08 22:40:01",
+  "last_updated": "2026-09-09 01:25:32",
   "stock_prices": {
     "tw_2330": {
       "price": 2470.0,
@@ -7,10 +7,254 @@
       "change_percent": 0.41
     },
     "us_tsm": {
-      "price": 434.51,
-      "change": 5.6,
-      "change_percent": 1.31
+      "price": 441.33,
+      "change": 12.42,
+      "change_percent": 2.9
     }
   },
-  "news": []
+  "news": [
+    {
+      "news_id": 6600750,
+      "title": "ASML攜手晶圓巨頭研發新一代大光罩技術 突破High-NA EUV晶片面積限制",
+      "summary": "荷蘭半導體設備巨頭艾司摩爾(ASML)宣布，計畫與英特爾(INTC-US)、台積電(2330-TW)(TSM-US)、",
+      "publish_time": "2026-09-08 19:40:02",
+      "publish_timestamp": 1788867602,
+      "url": "https://news.cnyes.com/news/id/6600750",
+      "keywords": [
+        "光罩",
+        "ASML",
+        "euv",
+        "台積電",
+        "英特爾",
+        "三星電子",
+        "晶圓"
+      ]
+    },
+    {
+      "news_id": 6600577,
+      "title": "挑戰<mark>台積電</mark>代工霸主地位！三星泰勒廠月底試產 2奈米訂單已接滿",
+      "summary": "",
+      "publish_time": "2026-09-08 19:00:03",
+      "publish_timestamp": 1788865203,
+      "url": "https://news.cnyes.com/news/id/6600577",
+      "keywords": [
+        "三星",
+        "台積電",
+        "2奈米",
+        "良率",
+        "泰勒廠",
+        "德州",
+        "晶圓代工",
+        "英特爾"
+      ]
+    },
+    {
+      "news_id": 6600401,
+      "title": "三星、<mark>台積電</mark>、英特爾齊點頭：艾司摩爾High NA EUV拿下頂級訂單承諾",
+      "summary": "",
+      "publish_time": "2026-09-08 17:00:04",
+      "publish_timestamp": 1788858004,
+      "url": "https://news.cnyes.com/news/id/6600401",
+      "keywords": [
+        "High NA EUV",
+        "ASML",
+        "艾司摩爾",
+        "三星",
+        "台積電",
+        "英特爾",
+        "半導體設備",
+        "光罩",
+        "AI晶片",
+        "DRAM"
+      ]
+    },
+    {
+      "news_id": 6600429,
+      "title": "英特爾、三星不落隊！宣布參與ASML下一代12吋光罩技術",
+      "summary": "繼台積電(2330-TW)(TSM-US)之後，全球半導體大廠英特爾(INTC-US)、三星也相繼表態投入下一代12吋光罩技術，並進一步擴大與ASML在高數值孔徑極紫外光(High NA EUV)領域合作。英特爾持續推進",
+      "publish_time": "2026-09-08 16:05:52",
+      "publish_timestamp": 1788854752,
+      "url": "https://news.cnyes.com/news/id/6600429",
+      "keywords": [
+        "台積電",
+        "ASML",
+        "三星",
+        "英特爾",
+        "微影",
+        "曝光"
+      ]
+    },
+    {
+      "news_id": 6600387,
+      "title": "<mark>台積電</mark>宣布2030年起導入ASML High NA EUV、微影光罩尺寸擴大一倍",
+      "summary": "艾司摩爾(ASML-US)台積電(2330-TW)(TSM-US)今(8)日共同宣布，台積電將自2030年起在先進製程量產中導入艾司摩爾的High NA EUV技術，並進一步擴大微影光罩尺寸，從現有的6吋光罩擴大至12吋",
+      "publish_time": "2026-09-08 14:26:23",
+      "publish_timestamp": 1788848783,
+      "url": "https://news.cnyes.com/news/id/6600387",
+      "keywords": [
+        "台積電",
+        "ASML",
+        "High NA EUV",
+        "量產"
+      ]
+    },
+    {
+      "news_id": 6600365,
+      "title": "〈台股盤後〉台積電獨撐大局 權值股熄火 跌220點守住4萬7",
+      "summary": "美股7日那指下跌約 0.3%，費半則大漲逾 3%。台股今 (8) 日開高後震盪加劇，指數一度上漲逾 250 點至 47578 點，隨後翻黑下探 47119 點，高低震盪超過 450 點。終場收47105.78點，下跌22",
+      "publish_time": "2026-09-08 13:51:27",
+      "publish_timestamp": 1788846687,
+      "url": "https://news.cnyes.com/news/id/6600365",
+      "keywords": [
+        "台股盤後",
+        "台積電",
+        "設備",
+        "記憶體",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6599536,
+      "title": "台積電:本公司受邀參加機構投資人說明會",
+      "summary": "台積電:本公司受邀參加機構投資人說明會",
+      "publish_time": "2026-09-07 16:35:36",
+      "publish_timestamp": 1788770136,
+      "url": "https://news.cnyes.com/news/id/6599536",
+      "keywords": []
+    },
+    {
+      "news_id": 6599341,
+      "title": "台積電:本公司受邀參加機構投資人說明會",
+      "summary": "台積電:本公司受邀參加機構投資人說明會",
+      "publish_time": "2026-09-07 14:39:30",
+      "publish_timestamp": 1788763170,
+      "url": "https://news.cnyes.com/news/id/6599341",
+      "keywords": []
+    },
+    {
+      "news_id": 6594030,
+      "title": "台積電:公告本公司調整民國115年第一季每股現金股利金額",
+      "summary": "台積電:公告本公司調整民國115年第一季每股現金股利金額",
+      "publish_time": "2026-09-01 14:05:23",
+      "publish_timestamp": 1788242723,
+      "url": "https://news.cnyes.com/news/id/6594030",
+      "keywords": []
+    },
+    {
+      "news_id": 6593530,
+      "title": "盤中速報 - 貿聯-KY(3665)大漲7.37%，報<mark>2330</mark>元",
+      "summary": "貿聯-KY(3665-TW)盤中股價拉漲，近5日股價、大盤表現、三大法人買賣超、融資融券增減、即時新聞資訊。",
+      "publish_time": "2026-09-01 09:06:24",
+      "publish_timestamp": 1788224784,
+      "url": "https://news.cnyes.com/news/id/6593530",
+      "keywords": [
+        "台股",
+        "台股盤中",
+        "盤中速報",
+        "盤中漲跌幅"
+      ]
+    },
+    {
+      "news_id": 6589005,
+      "title": "利多出盡的真相  台積電財報亮眼 為何市場不買單？",
+      "summary": "台積電第二季財報的營收與毛利率雙雙超越自家財測，股價卻在法說會隔天重挫逾7%。其實在財報公布前，好消息大多已提前反映在股價裡，投資人在意的，早從「賺了多少」轉向「成長能否延續」。",
+      "publish_time": "2026-08-27 15:16:58",
+      "publish_timestamp": 1787815018,
+      "url": "https://news.cnyes.com/news/id/6589005",
+      "keywords": [
+        "黃士育",
+        "台股",
+        "趨勢分析",
+        "台積電"
+      ]
+    },
+    {
+      "news_id": 6587112,
+      "title": "台股盤前｜大漲407點站回45,169點！台積電重回2,400元 RS動能與投本比鎖碼瀚荃、聯一光、富喬",
+      "summary": "",
+      "publish_time": "2026-08-26 09:19:57",
+      "publish_timestamp": 1787707197,
+      "url": "https://news.cnyes.com/news/id/6587112",
+      "keywords": [
+        "永豐金證券",
+        "趨勢分析",
+        "台股",
+        "盤前"
+      ]
+    },
+    {
+      "news_id": 6579526,
+      "title": "台積電:本公司受邀參加機構投資人說明會",
+      "summary": "台積電:本公司受邀參加機構投資人說明會",
+      "publish_time": "2026-08-17 18:34:31",
+      "publish_timestamp": 1786962871,
+      "url": "https://news.cnyes.com/news/id/6579526",
+      "keywords": []
+    },
+    {
+      "news_id": 6577682,
+      "title": "盤中速報 - 費城半導體大跌1.01%，報1<mark>2330</mark>.31點",
+      "summary": "費城半導體盤中下跌，近日週月績效、成分股表現、即時新聞資訊。",
+      "publish_time": "2026-08-14 23:37:36",
+      "publish_timestamp": 1786721856,
+      "url": "https://news.cnyes.com/news/id/6577682",
+      "keywords": [
+        "美股",
+        "美股盤中",
+        "美股指數",
+        "盤中速報",
+        "費城半導體"
+      ]
+    },
+    {
+      "news_id": 6573259,
+      "title": "台股盤後｜鴻海法說與權值股發力 台股大漲397點重返45.5K IC載板與矽晶圓狂飆 外本比策略鎖定金居、至上、新盛力",
+      "summary": "",
+      "publish_time": "2026-08-12 17:32:07",
+      "publish_timestamp": 1786527127,
+      "url": "https://news.cnyes.com/news/id/6573259",
+      "keywords": [
+        "永豐金證券",
+        "趨勢分析",
+        "台股",
+        "鴻海"
+      ]
+    },
+    {
+      "news_id": 6572179,
+      "title": "台積電:本公司董事會核准於日本投資設立合資公司",
+      "summary": "台積電:本公司董事會核准於日本投資設立合資公司",
+      "publish_time": "2026-08-11 20:00:53",
+      "publish_timestamp": 1786449653,
+      "url": "https://news.cnyes.com/news/id/6572179",
+      "keywords": []
+    },
+    {
+      "news_id": 6572178,
+      "title": "台積電:本公司董事會核准機器設備、不動產及資本化租賃資產資本預算案",
+      "summary": "台積電:本公司董事會核准機器設備、不動產及資本化租賃資產資本預算案",
+      "publish_time": "2026-08-11 19:58:54",
+      "publish_timestamp": 1786449534,
+      "url": "https://news.cnyes.com/news/id/6572178",
+      "keywords": []
+    },
+    {
+      "news_id": 6572176,
+      "title": "台積電:Sony與台積公司同意成立合資公司支援下一世代影像感測器",
+      "summary": "台積電:Sony與台積公司同意成立合資公司支援下一世代影像感測器",
+      "publish_time": "2026-08-11 19:38:43",
+      "publish_timestamp": 1786448323,
+      "url": "https://news.cnyes.com/news/id/6572176",
+      "keywords": []
+    },
+    {
+      "news_id": 6571830,
+      "title": "台積電:本公司訂定民國115年第二季之現金股利除息交易日",
+      "summary": "台積電:本公司訂定民國115年第二季之現金股利除息交易日",
+      "publish_time": "2026-08-11 19:01:29",
+      "publish_timestamp": 1786446089,
+      "url": "https://news.cnyes.com/news/id/6571830",
+      "keywords": []
+    }
+  ]
 }
