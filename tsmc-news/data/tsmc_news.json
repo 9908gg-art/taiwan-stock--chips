@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09 22:42:10",
+  "last_updated": "2026-09-10 01:17:20",
   "stock_prices": {
     "tw_2330": {
       "price": 2465.0,
@@ -7,9 +7,9 @@
       "change_percent": -0.2
     },
     "us_tsm": {
-      "price": 435.84,
-      "change": -3.16,
-      "change_percent": -0.72
+      "price": 435.11,
+      "change": -3.89,
+      "change_percent": -0.89
     }
   },
   "news": [
@@ -109,18 +109,6 @@
         "趨勢分析",
         "台股",
         "台積電"
-      ]
-    },
-    {
-      "news_id": 6601256,
-      "title": "美股盤後：油價、美債殖利率雙升壓抑大盤，AI硬體逆勢吸金、<mark>台積電</mark>漲2.35%",
-      "summary": "",
-      "publish_time": "2026-09-09 08:01:53",
-      "publish_timestamp": 1788912113,
-      "url": "https://news.cnyes.com/news/id/6601256",
-      "keywords": [
-        "美股",
-        "優分析"
       ]
     },
     {
