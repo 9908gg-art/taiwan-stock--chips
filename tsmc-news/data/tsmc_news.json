@@ -1,21 +1,149 @@
 {
-  "last_updated": "2026-09-10 01:17:20",
+  "last_updated": "2026-09-10 20:17:18",
   "stock_prices": {
     "tw_2330": {
-      "price": 2465.0,
-      "change": -5.0,
-      "change_percent": -0.2
+      "price": 2450.0,
+      "change": -15.0,
+      "change_percent": -0.61
     },
     "us_tsm": {
-      "price": 435.11,
-      "change": -3.89,
-      "change_percent": -0.89
+      "price": 435.36,
+      "change": -3.64,
+      "change_percent": -0.83
     }
   },
   "news": [
     {
+      "news_id": 6603227,
+      "title": "<mark>台積電</mark>8月營收5148.05億元年增53.32% 1—8月達33868.70億元",
+      "summary": "台積電8月營收5148.05億元年增53.32% 1—8月達33868.70億元",
+      "publish_time": "2026-09-10 18:02:20",
+      "publish_timestamp": 1789034540,
+      "url": "https://news.cnyes.com/news/id/6603227",
+      "keywords": []
+    },
+    {
+      "news_id": 6603121,
+      "title": "快訊！<mark>台積電</mark>(2330)8月營收首破5000億！回推財測更驚人，第三季有望挑戰財測高標",
+      "summary": "",
+      "publish_time": "2026-09-10 17:31:25",
+      "publish_timestamp": 1789032685,
+      "url": "https://news.cnyes.com/news/id/6603121",
+      "keywords": [
+        "財測",
+        "先進製程",
+        "AI晶片",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6603050,
+      "title": "營收速報  - <mark>台積電</mark>(2330)8月營收5,148.05億元年增率高達53.32％",
+      "summary": "2026年8月台積電(2330-TW) 營收年增成長53.32% , 盤後股價為2450元",
+      "publish_time": "2026-09-10 17:24:28",
+      "publish_timestamp": 1789032268,
+      "url": "https://news.cnyes.com/news/id/6603050",
+      "keywords": [
+        "台股",
+        "台股營收",
+        "營收速報",
+        "8月營收",
+        "台積電"
+      ]
+    },
+    {
+      "news_id": 6602646,
+      "title": "蘋果改寫晶片封裝：A20 Pro攜<mark>台積電</mark>2奈米登場　棄PoP轉WMCM",
+      "summary": "",
+      "publish_time": "2026-09-10 16:00:08",
+      "publish_timestamp": 1789027208,
+      "url": "https://news.cnyes.com/news/id/6602646",
+      "keywords": [
+        "記憶體",
+        "2奈米",
+        "台積電",
+        "AI運算",
+        "A20 Pro",
+        "POP",
+        "WMCM",
+        "GPU",
+        "CPU",
+        "先進封裝",
+        "散熱",
+        "N1無線晶片",
+        "C2",
+        "手機晶片"
+      ]
+    },
+    {
+      "news_id": 6602882,
+      "title": "<mark>台積電</mark>8月營收首度衝破5字頭 達5,148億元再攀峰",
+      "summary": "台積電(2330-TW)(TSM-US)今(10)日公佈 8 月營收新台幣 5,148 億 600 萬元，月增 10.1%，年增 53.3%，累計前 8 月營收為新台幣 3 兆 3,868 億 7,000 萬元，年增 3",
+      "publish_time": "2026-09-10 15:28:05",
+      "publish_timestamp": 1789025285,
+      "url": "https://news.cnyes.com/news/id/6602882",
+      "keywords": [
+        "台積電",
+        "營收",
+        "創新高"
+      ]
+    },
+    {
+      "news_id": 6602862,
+      "title": "〈台股盤後〉<mark>台積電</mark>、台達電壓盤 量縮下跌242點失守4萬7",
+      "summary": "隨著市場對日本升息預期增加，市場觀望氣氛濃厚，台股今(10)日下挫表態，一度下挫超過600點，終場跌幅略為收斂、下挫242.87點，收在46,940.49點，接連失守4萬7千點大關以及5日線，成交量也明顯縮至7139億元",
+      "publish_time": "2026-09-10 14:27:14",
+      "publish_timestamp": 1789021634,
+      "url": "https://news.cnyes.com/news/id/6602862",
+      "keywords": [
+        "台股盤後",
+        "台積電",
+        "聯電",
+        "國巨",
+        "被動元件"
+      ]
+    },
+    {
+      "news_id": 6602857,
+      "title": "<mark>台積電</mark>：8月營收5148.0億元台幣，年增率增長53.3%",
+      "summary": "",
+      "publish_time": "2026-09-10 14:00:45",
+      "publish_timestamp": 1789020045,
+      "url": "https://news.cnyes.com/news/id/6602857",
+      "keywords": [
+        "律動財經",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
+      ]
+    },
+    {
+      "news_id": 6602919,
+      "title": "<mark>台積電</mark>:台積公司2026年8月營收報告",
+      "summary": "台積電:台積公司2026年8月營收報告",
+      "publish_time": "2026-09-10 13:51:47",
+      "publish_timestamp": 1789019507,
+      "url": "https://news.cnyes.com/news/id/6602919",
+      "keywords": []
+    },
+    {
+      "news_id": 6602619,
+      "title": "蘋果A20 Pro首發<mark>台積電</mark>2奈米 封裝與散熱成關鍵",
+      "summary": "蘋果周三(9日)發表A20 Pro，這是iPhone首次採用2奈米晶片。A20 Pro採用台積電N2製程，配備6核心CPU、7核心GPU及雙神經網路引擎，記憶體頻寬提升50%。",
+      "publish_time": "2026-09-10 10:10:07",
+      "publish_timestamp": 1789006207,
+      "url": "https://news.cnyes.com/news/id/6602619",
+      "keywords": [
+        "蘋果",
+        "台積電",
+        "2奈米",
+        "A20",
+        "N2"
+      ]
+    },
+    {
       "news_id": 6601673,
-      "title": "盤後速報 - <mark>台積電</mark>(2330)下週(9月16日)除息7元，預估參考價2458.0元",
+      "title": "盤後速報 - 台積電(<mark>2330</mark>)下週(9月16日)除息7元，預估參考價2458.0元",
       "summary": "台積電(2330)將進行除權息交易，預估參考價2458.0元，股票股利、現金股利、參考價、權息值、股息殖利率、歷史股利發放、即時新聞資訊。",
       "publish_time": "2026-09-09 17:05:20",
       "publish_timestamp": 1788944720,
@@ -28,78 +156,8 @@
       ]
     },
     {
-      "news_id": 6601570,
-      "title": "【優分析即時新聞】家登(3680)跳空漲停！<mark>台積電</mark>、ASML推12吋High-NA光罩，何時貢獻營收？",
-      "summary": "",
-      "publish_time": "2026-09-09 16:30:04",
-      "publish_timestamp": 1788942604,
-      "url": "https://news.cnyes.com/news/id/6601570",
-      "keywords": [
-        "股市",
-        "家登",
-        "台積電",
-        "ASML",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6601483,
-      "title": "〈台股盤後〉開高震盪走低守住4萬7  量縮小漲77點市場觀望態度濃厚",
-      "summary": "台股今日開盤在電子權值股領軍下，開高走高上漲超過442點，盤中在權王台積電(2330-TW)由紅翻黑下，指數一度翻黑，盤面上以面板、光學、塑化表現較佳，金融股則表現較為疲軟，尾盤在權值股回神下，終場小漲77.58點。",
-      "publish_time": "2026-09-09 14:31:03",
-      "publish_timestamp": 1788935463,
-      "url": "https://news.cnyes.com/news/id/6601483",
-      "keywords": [
-        "塑化股",
-        "台積電",
-        "大立光",
-        "廣達",
-        "聯電",
-        "台股盤後",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6601364,
-      "title": "【40萬GPU風暴】<mark>台積電</mark>竟非首選？ AGI翻倍潛力股曝光？",
-      "summary": "",
-      "publish_time": "2026-09-09 09:57:28",
-      "publish_timestamp": 1788919048,
-      "url": "https://news.cnyes.com/news/id/6601364",
-      "keywords": [
-        "江國中",
-        "點股成金",
-        "摩爾投顧",
-        "趨勢分析",
-        "台積電",
-        "聯發科",
-        "輝達"
-      ]
-    },
-    {
-      "news_id": 6601325,
-      "title": "趨勢未變！瑞銀喊記憶體缺貨延至明年　點名最愛11檔：輝達領銜<mark>台積電</mark>等5台廠入列",
-      "summary": "",
-      "publish_time": "2026-09-09 09:40:03",
-      "publish_timestamp": 1788918003,
-      "url": "https://news.cnyes.com/news/id/6601325",
-      "keywords": [
-        "記憶體",
-        "缺貨",
-        "瑞銀",
-        "UBS",
-        "台積電",
-        "輝達",
-        "日月光",
-        "半導體產業",
-        "DRAM",
-        "NAND",
-        "銷售額"
-      ]
-    },
-    {
       "news_id": 6601312,
-      "title": "【台股盤前】台股尾盤急扣220點！權王<mark>台積電</mark>逆勢撐盤 記憶體與營收創高股獲買盤卡位",
+      "title": "【台股盤前】台股尾盤急扣220點！權王台積電逆勢撐盤 記憶體與營收創高股獲買盤卡位",
       "summary": "",
       "publish_time": "2026-09-09 09:03:34",
       "publish_timestamp": 1788915814,
@@ -179,53 +237,6 @@
         "台股",
         "盤前"
       ]
-    },
-    {
-      "news_id": 6579526,
-      "title": "台積電:本公司受邀參加機構投資人說明會",
-      "summary": "台積電:本公司受邀參加機構投資人說明會",
-      "publish_time": "2026-08-17 18:34:31",
-      "publish_timestamp": 1786962871,
-      "url": "https://news.cnyes.com/news/id/6579526",
-      "keywords": []
-    },
-    {
-      "news_id": 6577682,
-      "title": "盤中速報 - 費城半導體大跌1.01%，報1<mark>2330</mark>.31點",
-      "summary": "費城半導體盤中下跌，近日週月績效、成分股表現、即時新聞資訊。",
-      "publish_time": "2026-08-14 23:37:36",
-      "publish_timestamp": 1786721856,
-      "url": "https://news.cnyes.com/news/id/6577682",
-      "keywords": [
-        "美股",
-        "美股盤中",
-        "美股指數",
-        "盤中速報",
-        "費城半導體"
-      ]
-    },
-    {
-      "news_id": 6573259,
-      "title": "台股盤後｜鴻海法說與權值股發力 台股大漲397點重返45.5K IC載板與矽晶圓狂飆 外本比策略鎖定金居、至上、新盛力",
-      "summary": "",
-      "publish_time": "2026-08-12 17:32:07",
-      "publish_timestamp": 1786527127,
-      "url": "https://news.cnyes.com/news/id/6573259",
-      "keywords": [
-        "永豐金證券",
-        "趨勢分析",
-        "台股",
-        "鴻海"
-      ]
-    },
-    {
-      "news_id": 6572179,
-      "title": "台積電:本公司董事會核准於日本投資設立合資公司",
-      "summary": "台積電:本公司董事會核准於日本投資設立合資公司",
-      "publish_time": "2026-08-11 20:00:53",
-      "publish_timestamp": 1786449653,
-      "url": "https://news.cnyes.com/news/id/6572179",
-      "keywords": []
     }
   ]
 }
