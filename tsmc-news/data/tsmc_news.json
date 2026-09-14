@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15 00:28:11",
+  "last_updated": "2026-09-15 02:52:38",
   "stock_prices": {
     "tw_2330": {
       "price": 2380.0,
@@ -7,12 +7,24 @@
       "change_percent": -1.24
     },
     "us_tsm": {
-      "price": 419.73,
-      "change": -13.51,
-      "change_percent": -3.12
+      "price": 423.0,
+      "change": -10.25,
+      "change_percent": -2.36
     }
   },
   "news": [
+    {
+      "news_id": 6606327,
+      "title": "【預期差】CoWoS 上修機會藏在哪？片數之外，面積、材料與非台積電陣營才是下一個預期差",
+      "summary": "",
+      "publish_time": "2026-09-15 00:30:03",
+      "publish_timestamp": 1789403403,
+      "url": "https://news.cnyes.com/news/id/6606327",
+      "keywords": [
+        "CoWos",
+        "優分析"
+      ]
+    },
     {
       "news_id": 6605864,
       "title": "台股痛失4萬6 外資賣超369億元撤出半導體股 自<mark>台積電</mark>提款266億元",
