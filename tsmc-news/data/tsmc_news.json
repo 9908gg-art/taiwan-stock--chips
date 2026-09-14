@@ -1,61 +1,82 @@
 {
-  "last_updated": "2026-09-12 01:06:48",
+  "last_updated": "2026-09-14 22:16:13",
   "stock_prices": {
     "tw_2330": {
-      "price": 2410.0,
-      "change": -40.0,
-      "change_percent": -1.63
+      "price": 2380.0,
+      "change": -30.0,
+      "change_percent": -1.24
     },
     "us_tsm": {
-      "price": 432.94,
-      "change": 4.91,
-      "change_percent": 1.15
+      "price": 423.64,
+      "change": -9.6,
+      "change_percent": -2.21
     }
   },
   "news": [
     {
-      "news_id": 6603670,
-      "title": "AI大趨勢尚處極早期！<mark>台積電</mark>高盛大會最新研判：智能體將把算力需求擴至CPU  N3、CoWoS產能仍非常吃緊",
-      "summary": "",
-      "publish_time": "2026-09-11 06:20:05",
-      "publish_timestamp": 1789078805,
-      "url": "https://news.cnyes.com/news/id/6603670",
+      "news_id": 6605864,
+      "title": "台股痛失4萬6 外資賣超369億元撤出半導體股 自<mark>台積電</mark>提款266億元",
+      "summary": "台股今終場大盤下殺322.33點，收盤指數報45862.52點，大盤宣告失守4萬6，三大法人合計賣超497.03億元。外資今賣超台積電1萬1191張也爲7月30日以來賣超張數大，單就台積電提款266的74億元。&#10;&#10;",
+      "publish_time": "2026-09-14 18:21:30",
+      "publish_timestamp": 1789381290,
+      "url": "https://news.cnyes.com/news/id/6605864",
       "keywords": [
+        "華邦電",
         "台積電",
-        "黃仁昭",
-        "AI Agent",
-        "先進製程",
-        "CPU",
-        "N3",
-        "CoWoS",
-        "算力",
-        "Token",
-        "token",
-        "N2"
+        "外資",
+        "三大法人",
+        "TOP"
       ]
     },
     {
-      "news_id": 6604161,
-      "title": "〈台股盤前要聞〉台指期夜盤險守4萬6、<mark>台積電</mark>8月營收首度突破5000億元",
-      "summary": "台股盤前要聞",
-      "publish_time": "2026-09-11 05:10:02",
-      "publish_timestamp": 1789074602,
-      "url": "https://news.cnyes.com/news/id/6604161",
+      "news_id": 6605743,
+      "title": "台股創第三低量！5千億資金解凍倒數，<mark>台積電</mark>找買點「這族群」迎補漲！",
+      "summary": "",
+      "publish_time": "2026-09-14 16:40:34",
+      "publish_timestamp": 1789375234,
+      "url": "https://news.cnyes.com/news/id/6605743",
+      "keywords": [
+        "聯準會",
+        "殖利率",
+        "台積電",
+        "華城",
+        "漢測申購",
+        "漢測",
+        "ASML重電",
+        "半導體",
+        "帆宣",
+        "2奈米",
+        "AI伺服器",
+        "凱旭投顧",
+        "陳智霖",
+        "趨勢分析"
+      ]
+    },
+    {
+      "news_id": 6605489,
+      "title": "蘋果新機點火 法人：這檔小台積ETF「蘋概含量」意外不低",
+      "summary": "蘋果秋季發表會重磅登場，新機與AI功能升級成為市場焦點，帶動 Apple股價逆風大漲。隨新機拉貨潮啟動，台灣蘋果供應鏈再度受到關注",
+      "publish_time": "2026-09-14 10:39:20",
+      "publish_timestamp": 1789353560,
+      "url": "https://news.cnyes.com/news/id/6605489",
+      "keywords": [
+        "0052",
+        "apple",
+        "新機",
+        "台積電"
+      ]
+    },
+    {
+      "news_id": 6605482,
+      "title": "台股早盤重挫逾760點！<mark>台積電</mark>跌破2,400元，賣壓不只集中權值股",
+      "summary": "",
+      "publish_time": "2026-09-14 10:00:34",
+      "publish_timestamp": 1789351234,
+      "url": "https://news.cnyes.com/news/id/6605482",
       "keywords": [
         "台股",
-        "台股盤前",
-        "台股盤前要聞",
-        "摘要"
+        "優分析"
       ]
-    },
-    {
-      "news_id": 6603227,
-      "title": "<mark>台積電</mark>8月營收5148.05億元年增53.32% 1—8月達33868.70億元",
-      "summary": "台積電8月營收5148.05億元年增53.32% 1—8月達33868.70億元",
-      "publish_time": "2026-09-10 18:02:20",
-      "publish_timestamp": 1789034540,
-      "url": "https://news.cnyes.com/news/id/6603227",
-      "keywords": []
     },
     {
       "news_id": 6603121,
