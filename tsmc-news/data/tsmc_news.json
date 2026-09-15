@@ -1,92 +1,132 @@
 {
-  "last_updated": "2026-09-15 02:52:38",
+  "last_updated": "2026-09-15 20:45:12",
   "stock_prices": {
     "tw_2330": {
-      "price": 2380.0,
-      "change": -30.0,
-      "change_percent": -1.24
+      "price": 2385.0,
+      "change": 5.0,
+      "change_percent": 0.21
     },
     "us_tsm": {
-      "price": 423.0,
-      "change": -10.25,
-      "change_percent": -2.36
+      "price": 418.01,
+      "change": -15.23,
+      "change_percent": -3.52
     }
   },
   "news": [
     {
-      "news_id": 6606327,
-      "title": "【預期差】CoWoS 上修機會藏在哪？片數之外，面積、材料與非台積電陣營才是下一個預期差",
-      "summary": "",
-      "publish_time": "2026-09-15 00:30:03",
-      "publish_timestamp": 1789403403,
-      "url": "https://news.cnyes.com/news/id/6606327",
+      "news_id": 6606991,
+      "title": "<mark>台積電</mark>等3檔除息秀明登場 大盤估蒸發逾56點",
+      "summary": "台股明(16)日將迎來重量級除息秀！證交所表示，包含台積電(2330-TW)、材料*-KY(4763-TW)、利奇(1517-TW)等3檔加權股價指數成分股票，將於9月16日進行除息交易。",
+      "publish_time": "2026-09-15 17:58:42",
+      "publish_timestamp": 1789466322,
+      "url": "https://news.cnyes.com/news/id/6606991",
       "keywords": [
-        "CoWos",
-        "優分析"
+        "證交所",
+        "台股",
+        "台積電",
+        "除息"
       ]
     },
     {
-      "news_id": 6605864,
-      "title": "台股痛失4萬6 外資賣超369億元撤出半導體股 自<mark>台積電</mark>提款266億元",
-      "summary": "台股今終場大盤下殺322.33點，收盤指數報45862.52點，大盤宣告失守4萬6，三大法人合計賣超497.03億元。外資今賣超台積電1萬1191張也爲7月30日以來賣超張數大，單就台積電提款266的74億元。&#10;&#10;",
-      "publish_time": "2026-09-14 18:21:30",
-      "publish_timestamp": 1789381290,
-      "url": "https://news.cnyes.com/news/id/6605864",
+      "news_id": 6606970,
+      "title": "兩樣情！<mark>台積電</mark>赴美增資200億美元推升前8月僑外投資近「倍增」陸資來台縮水91%",
+      "summary": "經濟部投審司今(15)日公布前8月僑外來台投資與台灣對外投資金額均呈現爆發性成長。僑外投資受惠美光、沃旭等大廠增資，金額達161.81億美元，年增90.93%；對外投資在台積電舉挹注美國與維京群島子公司帶動下，金額達623.89億美元，年增98.37%。陸資來台與對中國投資均呈下滑趨勢。",
+      "publish_time": "2026-09-15 17:56:10",
+      "publish_timestamp": 1789466170,
+      "url": "https://news.cnyes.com/news/id/6606970",
       "keywords": [
-        "華邦電",
+        "經濟部",
+        "投審司",
+        "外資來台",
+        "中國",
+        "對外投資",
         "台積電",
-        "外資",
-        "三大法人",
-        "TOP"
+        "美光"
       ]
     },
     {
-      "news_id": 6605743,
-      "title": "台股創第三低量！5千億資金解凍倒數，<mark>台積電</mark>找買點「這族群」迎補漲！",
+      "news_id": 6606849,
+      "title": "SK海力士3D DRAM新架構曝光 <mark>台積電</mark>合作可能性備受矚目",
       "summary": "",
-      "publish_time": "2026-09-14 16:40:34",
-      "publish_timestamp": 1789375234,
-      "url": "https://news.cnyes.com/news/id/6605743",
+      "publish_time": "2026-09-15 17:11:45",
+      "publish_timestamp": 1789463505,
+      "url": "https://news.cnyes.com/news/id/6606849",
       "keywords": [
-        "聯準會",
-        "殖利率",
         "台積電",
-        "華城",
-        "漢測申購",
-        "漢測",
-        "ASML重電",
+        "SK海力士",
         "半導體",
-        "帆宣",
-        "2奈米",
-        "AI伺服器",
-        "凱旭投顧",
-        "陳智霖",
-        "趨勢分析"
+        "3D DRAM",
+        "3D技術",
+        "儲存資料",
+        "記憶體"
       ]
     },
     {
-      "news_id": 6605489,
-      "title": "蘋果新機點火 法人：這檔小台積ETF「蘋概含量」意外不低",
-      "summary": "蘋果秋季發表會重磅登場，新機與AI功能升級成為市場焦點，帶動 Apple股價逆風大漲。隨新機拉貨潮啟動，台灣蘋果供應鏈再度受到關注",
-      "publish_time": "2026-09-14 10:39:20",
-      "publish_timestamp": 1789353560,
-      "url": "https://news.cnyes.com/news/id/6605489",
-      "keywords": [
-        "0052",
-        "apple",
-        "新機",
-        "台積電"
-      ]
-    },
-    {
-      "news_id": 6605482,
-      "title": "台股早盤重挫逾760點！<mark>台積電</mark>跌破2,400元，賣壓不只集中權值股",
-      "summary": "",
-      "publish_time": "2026-09-14 10:00:34",
-      "publish_timestamp": 1789351234,
-      "url": "https://news.cnyes.com/news/id/6605482",
+      "news_id": 6606965,
+      "title": "盤後速報 - <mark>台積電</mark>(2330)次交易(16)日除息7元，參考價2378.0元",
+      "summary": "台積電(2330)次交易日除息7元，參考價2378.0元，股票股利、現金股利、參考價、權息值、股息殖利率、歷史股利發放、即時新聞資訊。",
+      "publish_time": "2026-09-15 17:05:48",
+      "publish_timestamp": 1789463148,
+      "url": "https://news.cnyes.com/news/id/6606965",
       "keywords": [
         "台股",
+        "台股除權息",
+        "台股盤後",
+        "盤後速報"
+      ]
+    },
+    {
+      "news_id": 6606891,
+      "title": "米玉傑回應AI巨頭：AI像3歲超人 很強大但也可能帶來未知結果",
+      "summary": "台積電(2330-TW)(TSM-US)執行副總經理暨共同營運長米玉傑今(15)日與台大學生進行對談講座，會中談及人工智慧(AI)發展與風險。他形容，現階段AI「就像一個3歲的超人」，能力非常強大，但同樣也可能帶來未知結果。近期包括Anthropic、OpenAI等AI公司執行長也接連對AI快速",
+      "publish_time": "2026-09-15 16:51:56",
+      "publish_timestamp": 1789462316,
+      "url": "https://news.cnyes.com/news/id/6606891",
+      "keywords": [
+        "米玉傑",
+        "台積電",
+        "對談"
+      ]
+    },
+    {
+      "news_id": 6606829,
+      "title": "聯發科2奈米天璣9600 Pro亮相 對決蘋果A20、最快10月手機上市",
+      "summary": "聯發科(2454-TW)今(15)日正式發布新一代旗艦手機晶片天璣9600系列，最高階天璣9600 Pro首度採用台積電(2330-TW)(TSM-US)2奈米製程，並導入全大核CPU與AI原生架構，正式跨入2奈米世代。隨著蘋果日前也發表採2奈米製程的A20 Pro，搭載於新一代iPhone 18",
+      "publish_time": "2026-09-15 16:18:11",
+      "publish_timestamp": 1789460291,
+      "url": "https://news.cnyes.com/news/id/6606829",
+      "keywords": [
+        "聯發科",
+        "手機",
+        "2奈米",
+        "台積電",
+        "旗艦級",
+        "晶片"
+      ]
+    },
+    {
+      "news_id": 6606730,
+      "title": "Binance將通過bStocks支持台積電和Salesforce派發現金股息",
+      "summary": "",
+      "publish_time": "2026-09-15 13:30:08",
+      "publish_timestamp": 1789450208,
+      "url": "https://news.cnyes.com/news/id/6606730",
+      "keywords": [
+        "律動財經",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
+      ]
+    },
+    {
+      "news_id": 6606599,
+      "title": "CoWoS 上修機會藏在哪？片數之外，面積、材料與非台積電陣營才是下一個預期差",
+      "summary": "",
+      "publish_time": "2026-09-15 10:30:42",
+      "publish_timestamp": 1789439442,
+      "url": "https://news.cnyes.com/news/id/6606599",
+      "keywords": [
+        "CoWos",
         "優分析"
       ]
     },
