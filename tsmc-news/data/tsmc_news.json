@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15 20:45:12",
+  "last_updated": "2026-09-15 23:07:35",
   "stock_prices": {
     "tw_2330": {
       "price": 2385.0,
@@ -7,9 +7,9 @@
       "change_percent": 0.21
     },
     "us_tsm": {
-      "price": 418.01,
-      "change": -15.23,
-      "change_percent": -3.52
+      "price": 413.9,
+      "change": -4.11,
+      "change_percent": -0.98
     }
   },
   "news": [
@@ -116,18 +116,6 @@
         " 加密貨幣",
         " 虛擬貨幣",
         " BTC"
-      ]
-    },
-    {
-      "news_id": 6606599,
-      "title": "CoWoS 上修機會藏在哪？片數之外，面積、材料與非台積電陣營才是下一個預期差",
-      "summary": "",
-      "publish_time": "2026-09-15 10:30:42",
-      "publish_timestamp": 1789439442,
-      "url": "https://news.cnyes.com/news/id/6606599",
-      "keywords": [
-        "CoWos",
-        "優分析"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15 20:45:09",
+  "last_updated": "2026-09-15 23:07:31",
   "history": [
     {
       "date": "2026-06-24",
@@ -2264,10 +2264,10 @@
         "date": "2026-09-15"
       },
       "margin_trading": {
-        "margin_balance_change": 0.0,
-        "margin_balance_total": 0.0,
-        "short_balance_change": 0,
-        "short_balance_total": 0
+        "margin_balance_change": -16.37,
+        "margin_balance_total": 5822.4,
+        "short_balance_change": -3434,
+        "short_balance_total": 198052
       },
       "trading_volume": {
         "tse_volume": 6347.07
