@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21 22:22:02",
+  "last_updated": "2026-09-22 00:34:33",
   "stock_prices": {
     "tw_2330": {
       "price": 2480.0,
@@ -7,12 +7,27 @@
       "change_percent": 0.81
     },
     "us_tsm": {
-      "price": 438.14,
-      "change": 3.47,
-      "change_percent": 0.8
+      "price": 442.32,
+      "change": 7.65,
+      "change_percent": 1.76
     }
   },
   "news": [
+    {
+      "news_id": 6612483,
+      "title": "盤中速報 - 費城半導體大漲3.43%，報1<mark>2330</mark>.91點",
+      "summary": "費城半導體盤中上漲，近日週月績效、成分股表現、即時新聞資訊。",
+      "publish_time": "2026-09-22 00:23:55",
+      "publish_timestamp": 1790007835,
+      "url": "https://news.cnyes.com/news/id/6612483",
+      "keywords": [
+        "美股",
+        "美股盤中",
+        "美股指數",
+        "盤中速報",
+        "費城半導體"
+      ]
+    },
     {
       "news_id": 6612099,
       "title": "【量大強漲股整理】「<mark>台積電</mark> OIP 引爆矽光子！下一個接棒的是誰?",
