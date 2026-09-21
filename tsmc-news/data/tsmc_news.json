@@ -1,53 +1,137 @@
 {
-  "last_updated": "2026-09-19 01:09:48",
+  "last_updated": "2026-09-21 22:22:02",
   "stock_prices": {
     "tw_2330": {
-      "price": 2460.0,
-      "change": 35.0,
-      "change_percent": 1.44
+      "price": 2480.0,
+      "change": 20.0,
+      "change_percent": 0.81
     },
     "us_tsm": {
-      "price": 429.85,
-      "change": -0.41,
-      "change_percent": -0.1
+      "price": 438.14,
+      "change": 3.47,
+      "change_percent": 0.8
     }
   },
   "news": [
     {
-      "news_id": 6610169,
-      "title": "英特爾陳立武：全球晶圓代工無法95%依賴單一廠商 CPU需求僅能滿足一半客戶",
-      "summary": "陳立武稱接掌英特爾後才發現內部問題比董事會時看到的嚴重大十倍，推動問責、傾聽客戶與扁平化管理。&#10;他指AI競賽已成GPU、CPU、HBM、網路、儲存與先進封裝的系統級競爭。&#10;陳立武警告95%依賴單一台灣供應商風險，並稱18A量產、14A明年首季投產，EMIB與CoWoS對標。",
-      "publish_time": "2026-09-18 18:40:04",
-      "publish_timestamp": 1789728004,
-      "url": "https://news.cnyes.com/news/id/6610169",
+      "news_id": 6612099,
+      "title": "【量大強漲股整理】「<mark>台積電</mark> OIP 引爆矽光子！下一個接棒的是誰?",
+      "summary": "台股開高走高，終場漲538.09點至47718.84點，成交8202.16億，三大法人合計買超470.37億&#10;台積電8月營收5150億，聯發科漲6.37%至5010元，與NVIDIA合作擴及AI資料中心、AI PC、車用與實體AI",
+      "publish_time": "2026-09-21 17:41:56",
+      "publish_timestamp": 1789983716,
+      "url": "https://news.cnyes.com/news/id/6612099",
       "keywords": [
-        "intel",
-        "陳立武",
-        "晶圓代工",
-        "思科",
-        "輝達",
-        "生產週期",
-        "供應商",
-        "先進封裝"
+        "友達",
+        "英特爾",
+        "台積電",
+        "莊佳螢分析師",
+        "摩爾投顧",
+        "三大法人",
+        "趨勢分析"
       ]
     },
     {
-      "news_id": 6609756,
-      "title": "〈台股開盤〉台積電領軍電權股上攻 早盤漲近800點站上47000點",
+      "news_id": 6611771,
+      "title": "友達(2409)賣三廠狂賺347億！傳<mark>台積電</mark>也搶著買？非顯示營收首度破五成、Micro LED CPO卡位AI",
       "summary": "",
-      "publish_time": "2026-09-18 09:38:21",
-      "publish_timestamp": 1789695501,
-      "url": "https://news.cnyes.com/news/id/6609756",
+      "publish_time": "2026-09-21 11:00:17",
+      "publish_timestamp": 1789959617,
+      "url": "https://news.cnyes.com/news/id/6611771",
+      "keywords": [
+        "友達(2409)",
+        "CPO/矽光子",
+        "AI ASIC",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6611753,
+      "title": "【優分析即時新聞】新應材(4749)8月營收創高年增41.95%，N2放量接棒、<mark>台積電</mark>獨供地位穩固",
+      "summary": "",
+      "publish_time": "2026-09-21 10:30:08",
+      "publish_timestamp": 1789957808,
+      "url": "https://news.cnyes.com/news/id/6611753",
+      "keywords": [
+        "新應材",
+        "KrF光阻卡",
+        "台積電N2",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6611702,
+      "title": "〈台股開盤〉台積電翻紅拉高 聯發科、PCB領軍上攻 漲逾400點穩步挑戰4萬8",
+      "summary": "台股今早開高走高，盤中漲逾300點、最高47538.67點，挑戰前高，預估成交量9100億元&#10;聯發科大漲逾半根停板；台積電、鴻海平盤附近震盪，台達電、日月光走揚&#10;AI GPU與ASIC伺服器需求強勁，帶動ABF載板與PCB族群走高，友達也因先進封裝與合作傳聞大漲",
+      "publish_time": "2026-09-21 09:44:32",
+      "publish_timestamp": 1789955072,
+      "url": "https://news.cnyes.com/news/id/6611702",
       "keywords": [
         "台股開盤",
-        "ASIC",
-        "成熟製程",
-        "記憶體"
+        "台積電",
+        "聯發科",
+        "PCB",
+        "友達",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6611636,
+      "title": "中秋連假將到 <mark>台積電</mark>、聯發科、台達電、鴻海、廣達、緯創要先賣一趟?",
+      "summary": "",
+      "publish_time": "2026-09-21 08:38:32",
+      "publish_timestamp": 1789951112,
+      "url": "https://news.cnyes.com/news/id/6611636",
+      "keywords": [
+        "趨勢分析",
+        "楊育華",
+        "摩爾投顧"
+      ]
+    },
+    {
+      "news_id": 6610964,
+      "title": "科技巨頭尋找台積電替代方案！Piper Sandler：英特爾14A獲亞馬遜、蘋果、Google等公司評估",
+      "summary": "英特爾14A製程尚未敲定主要客戶，但亞馬遜、蘋果、AMD、Google、特斯拉、微軟、輝達與高通正評估&#10;Piper Sandler看好14A進展，D0已於2026年6月降至0.5，目標2027年第一季前降至0.1至0.2&#10;在台積電產能吃緊、業者尋找替代方案下，英特爾稱14A若取得確定訂單才會擴張",
+      "publish_time": "2026-09-20 13:10:05",
+      "publish_timestamp": 1789881005,
+      "url": "https://news.cnyes.com/news/id/6610964",
+      "keywords": [
+        "英特爾",
+        "14A",
+        "製程",
+        "台積電",
+        "代工",
+        "晶片",
+        "陳立武",
+        "晶圓",
+        "三星",
+        "半導體",
+        "亞馬遜",
+        "蘋果",
+        "輝達",
+        "超微",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6610631,
+      "title": "央行不跟進聯準會升息、<mark>台積電</mark>除息秀、華邦電收購英飛凌記憶體事業 本周大事回顧",
+      "summary": "",
+      "publish_time": "2026-09-19 09:18:01",
+      "publish_timestamp": 1789780681,
+      "url": "https://news.cnyes.com/news/id/6610631",
+      "keywords": [
+        "本周大事",
+        "央行理監事會議",
+        "利率",
+        "聯準會",
+        "升息",
+        "台積電",
+        "華邦電"
       ]
     },
     {
       "news_id": 6609204,
-      "title": "0918台股盤前｜<mark>台積電</mark>狂飆、台塑四寶暴衝，加權指數大漲 439.10 點強登月線！塑膠原料與貨櫃航運強勢領攻，CCL 銅箔基板重挫回檔，法人目標價鎖定禾榮科、南亞、昇達科",
+      "title": "0918台股盤前｜台積電狂飆、台塑四寶暴衝，加權指數大漲 439.10 點強登月線！塑膠原料與貨櫃航運強勢領攻，CCL 銅箔基板重挫回檔，法人目標價鎖定禾榮科、南亞、昇達科",
       "summary": "",
       "publish_time": "2026-09-18 08:10:06",
       "publish_timestamp": 1789690206,
@@ -56,22 +140,6 @@
         "台股",
         "投資",
         "趨勢分析"
-      ]
-    },
-    {
-      "news_id": 6609532,
-      "title": "<mark>台積電</mark>傳漲價10% AMD Q4晶片傳漲10% Ryzen仍未確認",
-      "summary": "",
-      "publish_time": "2026-09-18 05:00:05",
-      "publish_timestamp": 1789678805,
-      "url": "https://news.cnyes.com/news/id/6609532",
-      "keywords": [
-        "amd",
-        "ryzen",
-        "處理器",
-        "記憶體",
-        "科技",
-        "AI"
       ]
     },
     {
@@ -195,34 +263,6 @@
       "publish_timestamp": 1788242723,
       "url": "https://news.cnyes.com/news/id/6594030",
       "keywords": []
-    },
-    {
-      "news_id": 6593530,
-      "title": "盤中速報 - 貿聯-KY(3665)大漲7.37%，報<mark>2330</mark>元",
-      "summary": "貿聯-KY(3665-TW)盤中股價拉漲，近5日股價、大盤表現、三大法人買賣超、融資融券增減、即時新聞資訊。",
-      "publish_time": "2026-09-01 09:06:24",
-      "publish_timestamp": 1788224784,
-      "url": "https://news.cnyes.com/news/id/6593530",
-      "keywords": [
-        "台股",
-        "台股盤中",
-        "盤中速報",
-        "盤中漲跌幅"
-      ]
-    },
-    {
-      "news_id": 6589005,
-      "title": "利多出盡的真相  台積電財報亮眼 為何市場不買單？",
-      "summary": "台積電第二季財報的營收與毛利率雙雙超越自家財測，股價卻在法說會隔天重挫逾7%。其實在財報公布前，好消息大多已提前反映在股價裡，投資人在意的，早從「賺了多少」轉向「成長能否延續」。",
-      "publish_time": "2026-08-27 15:16:58",
-      "publish_timestamp": 1787815018,
-      "url": "https://news.cnyes.com/news/id/6589005",
-      "keywords": [
-        "黃士育",
-        "台股",
-        "趨勢分析",
-        "台積電"
-      ]
     }
   ]
 }
