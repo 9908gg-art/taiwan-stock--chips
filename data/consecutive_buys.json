@@ -1,21 +1,26 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "foreign_buy_streak_3d": [
     {
       "code": "00403A",
       "name": "主動統一升級50",
-      "streak": 3
+      "streak": 4
     },
     {
-      "code": "00631L",
-      "name": "元大台灣50正2",
+      "code": "00981A",
+      "name": "主動統一台股增長",
       "streak": 3
     }
   ],
   "foreign_buy_streak_2d": [
     {
-      "code": "00981A",
-      "name": "主動統一台股增長",
+      "code": "2409",
+      "name": "友達",
+      "streak": 2
+    },
+    {
+      "code": "3481",
+      "name": "群創",
       "streak": 2
     }
   ],
@@ -23,13 +28,28 @@
     {
       "code": "2303",
       "name": "聯電",
-      "streak": 3
+      "streak": 4
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "2382",
-      "name": "廣達",
+      "code": "8028",
+      "name": "昇陽半導體",
+      "streak": 2
+    },
+    {
+      "code": "2449",
+      "name": "京元電子",
+      "streak": 2
+    },
+    {
+      "code": "00947",
+      "name": "台新臺灣IC設計",
+      "streak": 2
+    },
+    {
+      "code": "2308",
+      "name": "台達電",
       "streak": 2
     }
   ]

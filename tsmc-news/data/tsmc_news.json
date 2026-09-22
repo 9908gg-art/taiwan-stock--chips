@@ -1,18 +1,47 @@
 {
-  "last_updated": "2026-09-22 02:55:32",
+  "last_updated": "2026-09-22 20:41:55",
   "stock_prices": {
     "tw_2330": {
-      "price": 2480.0,
-      "change": 20.0,
-      "change_percent": 0.81
+      "price": 2460.0,
+      "change": -20.0,
+      "change_percent": -0.81
     },
     "us_tsm": {
-      "price": 443.68,
-      "change": 9.01,
-      "change_percent": 2.07
+      "price": 445.14,
+      "change": 10.47,
+      "change_percent": 2.41
     }
   },
   "news": [
+    {
+      "news_id": 6612977,
+      "title": "<mark>台積電</mark>供應鏈迅得將持續南下建立生產基地 將發行5億元無擔保CB籌資",
+      "summary": "迅得8月營收6.11億元，年增11.5%，創歷年同期新高；2026年1-8月營收48.18億元。&#10;擬發行以5億元無擔保可轉換公司債籌資，22日獲金管會申報生效，預計10月中旬完成募集。&#10;營運總部產能已滿載，全年營收估年增10-15%；半導體及PCB設備需求續強。",
+      "publish_time": "2026-09-22 14:15:20",
+      "publish_timestamp": 1790057720,
+      "url": "https://news.cnyes.com/news/id/6612977",
+      "keywords": [
+        "迅得",
+        "台積電",
+        "營收",
+        "CB",
+        "PCB",
+        "半導體"
+      ]
+    },
+    {
+      "news_id": 6612689,
+      "title": "0922台股盤前｜<mark>台積電</mark>、聯發科與台達電三雄領軍，加權大漲 538.09 點收 47,718.84 點！綠能網通全面噴發，策略鎖定豪勉、聯傑、華經",
+      "summary": "",
+      "publish_time": "2026-09-22 08:47:10",
+      "publish_timestamp": 1790038030,
+      "url": "https://news.cnyes.com/news/id/6612689",
+      "keywords": [
+        "永豐證券",
+        "趨勢分析",
+        "台股盤前"
+      ]
+    },
     {
       "news_id": 6612483,
       "title": "盤中速報 - 費城半導體大漲3.43%，報1<mark>2330</mark>.91點",
@@ -46,22 +75,8 @@
       ]
     },
     {
-      "news_id": 6611771,
-      "title": "友達(2409)賣三廠狂賺347億！傳<mark>台積電</mark>也搶著買？非顯示營收首度破五成、Micro LED CPO卡位AI",
-      "summary": "",
-      "publish_time": "2026-09-21 11:00:17",
-      "publish_timestamp": 1789959617,
-      "url": "https://news.cnyes.com/news/id/6611771",
-      "keywords": [
-        "友達(2409)",
-        "CPO/矽光子",
-        "AI ASIC",
-        "優分析"
-      ]
-    },
-    {
       "news_id": 6611753,
-      "title": "【優分析即時新聞】新應材(4749)8月營收創高年增41.95%，N2放量接棒、<mark>台積電</mark>獨供地位穩固",
+      "title": "【優分析即時新聞】新應材(4749)8月營收創高年增41.95%，N2放量接棒、台積電獨供地位穩固",
       "summary": "",
       "publish_time": "2026-09-21 10:30:08",
       "publish_timestamp": 1789957808,
@@ -71,77 +86,6 @@
         "KrF光阻卡",
         "台積電N2",
         "優分析"
-      ]
-    },
-    {
-      "news_id": 6611702,
-      "title": "〈台股開盤〉台積電翻紅拉高 聯發科、PCB領軍上攻 漲逾400點穩步挑戰4萬8",
-      "summary": "台股今早開高走高，盤中漲逾300點、最高47538.67點，挑戰前高，預估成交量9100億元&#10;聯發科大漲逾半根停板；台積電、鴻海平盤附近震盪，台達電、日月光走揚&#10;AI GPU與ASIC伺服器需求強勁，帶動ABF載板與PCB族群走高，友達也因先進封裝與合作傳聞大漲",
-      "publish_time": "2026-09-21 09:44:32",
-      "publish_timestamp": 1789955072,
-      "url": "https://news.cnyes.com/news/id/6611702",
-      "keywords": [
-        "台股開盤",
-        "台積電",
-        "聯發科",
-        "PCB",
-        "友達",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6611636,
-      "title": "中秋連假將到 <mark>台積電</mark>、聯發科、台達電、鴻海、廣達、緯創要先賣一趟?",
-      "summary": "",
-      "publish_time": "2026-09-21 08:38:32",
-      "publish_timestamp": 1789951112,
-      "url": "https://news.cnyes.com/news/id/6611636",
-      "keywords": [
-        "趨勢分析",
-        "楊育華",
-        "摩爾投顧"
-      ]
-    },
-    {
-      "news_id": 6610964,
-      "title": "科技巨頭尋找台積電替代方案！Piper Sandler：英特爾14A獲亞馬遜、蘋果、Google等公司評估",
-      "summary": "英特爾14A製程尚未敲定主要客戶，但亞馬遜、蘋果、AMD、Google、特斯拉、微軟、輝達與高通正評估&#10;Piper Sandler看好14A進展，D0已於2026年6月降至0.5，目標2027年第一季前降至0.1至0.2&#10;在台積電產能吃緊、業者尋找替代方案下，英特爾稱14A若取得確定訂單才會擴張",
-      "publish_time": "2026-09-20 13:10:05",
-      "publish_timestamp": 1789881005,
-      "url": "https://news.cnyes.com/news/id/6610964",
-      "keywords": [
-        "英特爾",
-        "14A",
-        "製程",
-        "台積電",
-        "代工",
-        "晶片",
-        "陳立武",
-        "晶圓",
-        "三星",
-        "半導體",
-        "亞馬遜",
-        "蘋果",
-        "輝達",
-        "超微",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6610631,
-      "title": "央行不跟進聯準會升息、<mark>台積電</mark>除息秀、華邦電收購英飛凌記憶體事業 本周大事回顧",
-      "summary": "",
-      "publish_time": "2026-09-19 09:18:01",
-      "publish_timestamp": 1789780681,
-      "url": "https://news.cnyes.com/news/id/6610631",
-      "keywords": [
-        "本周大事",
-        "央行理監事會議",
-        "利率",
-        "聯準會",
-        "升息",
-        "台積電",
-        "華邦電"
       ]
     },
     {
@@ -268,15 +212,6 @@
       "publish_time": "2026-09-07 14:39:30",
       "publish_timestamp": 1788763170,
       "url": "https://news.cnyes.com/news/id/6599341",
-      "keywords": []
-    },
-    {
-      "news_id": 6594030,
-      "title": "台積電:公告本公司調整民國115年第一季每股現金股利金額",
-      "summary": "台積電:公告本公司調整民國115年第一季每股現金股利金額",
-      "publish_time": "2026-09-01 14:05:23",
-      "publish_timestamp": 1788242723,
-      "url": "https://news.cnyes.com/news/id/6594030",
       "keywords": []
     }
   ]
