@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24 20:47:05",
+  "last_updated": "2026-09-24 23:18:54",
   "stock_prices": {
     "tw_2330": {
       "price": 2475.0,
@@ -7,9 +7,9 @@
       "change_percent": -1.0
     },
     "us_tsm": {
-      "price": 446.57,
-      "change": -5.43,
-      "change_percent": -1.2
+      "price": 443.37,
+      "change": -3.2,
+      "change_percent": -0.72
     }
   },
   "news": [
@@ -70,20 +70,6 @@
         "鴻海",
         "聯發科",
         "TOP"
-      ]
-    },
-    {
-      "news_id": 6614619,
-      "title": "<mark>台積電</mark>明年起上調晶圓代工價格3%至6%，訂單能見度延伸至2030年",
-      "summary": "",
-      "publish_time": "2026-09-24 06:00:04",
-      "publish_timestamp": 1790200804,
-      "url": "https://news.cnyes.com/news/id/6614619",
-      "keywords": [
-        "律動財經",
-        " 加密貨幣",
-        " 虛擬貨幣",
-        " BTC"
       ]
     },
     {
