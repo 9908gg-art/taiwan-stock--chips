@@ -1,79 +1,89 @@
 {
-  "last_updated": "2026-09-24 01:58:30",
+  "last_updated": "2026-09-24 20:47:05",
   "stock_prices": {
     "tw_2330": {
-      "price": 2500.0,
-      "change": 40.0,
-      "change_percent": 1.63
+      "price": 2475.0,
+      "change": -25.0,
+      "change_percent": -1.0
     },
     "us_tsm": {
-      "price": 446.4,
-      "change": -5.6,
-      "change_percent": -1.24
+      "price": 446.57,
+      "change": -5.43,
+      "change_percent": -1.2
     }
   },
   "news": [
     {
-      "news_id": 6614210,
-      "title": "imec IC-Link擴大與台積電合作 支援夥伴混合式EDA",
-      "summary": "imec旗下IC-Link攜手台積電擴大合作，成為OIP雲端聯盟最新成員，首提供雲端管理晶片設計服務。&#10;透過安全雲端環境取得台積電PDK與可擴充運算資源，支援多方夥伴混合式EDA流程。&#10;雙方盼降低AI、通訊、汽車、工業等先進晶片設計複雜度，加速產品上市與商品化。",
-      "publish_time": "2026-09-23 18:22:15",
-      "publish_timestamp": 1790158935,
-      "url": "https://news.cnyes.com/news/id/6614210",
-      "keywords": [
-        "imec",
-        "台積電",
-        "OIP",
-        "EDA"
-      ]
-    },
-    {
-      "news_id": 6614209,
-      "title": "挺台股上4萬8外資買超373億元連5買 狂敲主動式ETF <mark>台積電</mark>與台泥同獲青睞",
-      "summary": "台股今漲357.12點收48157.29點，站上4萬8，成交量縮至8559.53億元。&#10;外資買超373.13億元連5買，主動式ETF成加碼重點，並買超台泥、南亞科、力積電與台積電。&#10;外資轉賣友達15.3萬張，投信改賣42.16億元，減碼兆豐金、華邦電、緯創等。",
-      "publish_time": "2026-09-23 18:19:40",
-      "publish_timestamp": 1790158780,
-      "url": "https://news.cnyes.com/news/id/6614209",
-      "keywords": [
-        "三大法人",
-        "外資",
-        "台積電",
-        "台泥",
-        "主動式ETF"
-      ]
-    },
-    {
-      "news_id": 6613958,
-      "title": "〈台股盤後〉<mark>台積電</mark>、鴻海領漲成功站上4萬8 漲357點收48157點",
+      "news_id": 6615287,
+      "title": "中鋼斥資3.37億元加碼台積電158張 買進均價2135.31元",
       "summary": "",
-      "publish_time": "2026-09-23 14:25:26",
-      "publish_timestamp": 1790144726,
-      "url": "https://news.cnyes.com/news/id/6613958",
+      "publish_time": "2026-09-24 19:33:20",
+      "publish_timestamp": 1790249600,
+      "url": "https://news.cnyes.com/news/id/6615287",
+      "keywords": [
+        "中鋼",
+        "台積電",
+        "投資"
+      ]
+    },
+    {
+      "news_id": 6614974,
+      "title": "〈台股盤後〉台積電熄火 長假前觀望量縮跌132點險守4萬8大關 周漲843點",
+      "summary": "",
+      "publish_time": "2026-09-24 14:04:27",
+      "publish_timestamp": 1790229867,
+      "url": "https://news.cnyes.com/news/id/6614974",
       "keywords": [
         "台股盤後",
-        "台積電",
-        "鴻海",
-        "台泥",
-        "功率元件",
-        "生技",
+        "CCL",
+        "ABF",
+        "散熱",
         "TOP"
       ]
     },
     {
-      "news_id": 6613754,
-      "title": "〈台股開盤〉長假前拚站穩4萬8  <mark>台積電</mark>率高人氣電子股衝鋒漲500點",
-      "summary": "",
-      "publish_time": "2026-09-23 09:44:13",
-      "publish_timestamp": 1790127853,
-      "url": "https://news.cnyes.com/news/id/6613754",
+      "news_id": 6614852,
+      "title": "M31攜手Ambiq推台積電N12e超低功耗IP 搶AI邊緣商機",
+      "summary": "M31與Ambiq宣布推出台積電N12e超低功耗Foundation IP。&#10;方案整合SPSRAM記憶體編譯器與超低漏電標準元件庫，鎖定AIoT、穿戴式與Always-on邊緣應用。&#10;M31稱可縮短設計週期、降低面積與漏電，標準元件庫約可節省50%漏電功耗。",
+      "publish_time": "2026-09-24 10:49:52",
+      "publish_timestamp": 1790218192,
+      "url": "https://news.cnyes.com/news/id/6614852",
+      "keywords": [
+        "M31",
+        "台積電",
+        "Ambiq",
+        "IP",
+        "AI",
+        "邊緣"
+      ]
+    },
+    {
+      "news_id": 6614762,
+      "title": "〈台股開盤〉中秋連假前4萬8拉鋸戰 跌403點回測5日線 <mark>台積電</mark>2500元失守",
+      "summary": "美股四大指數同步下跌、10年美債殖利率衝2007年7月來新高，台股24日開低走低，早盤一度重跌403點&#10;台積電失守2,500元，聯發科漲3%撐盤；聯電跌4.69%，鴻海、廣達走弱&#10;IC設計、載板、資安股逆勢強；DRAM族群受「記憶體不缺貨」說法拖累，法人看短線震盪、慎防節前賣壓",
+      "publish_time": "2026-09-24 10:24:31",
+      "publish_timestamp": 1790216671,
+      "url": "https://news.cnyes.com/news/id/6614762",
       "keywords": [
         "台股開盤",
         "台積電",
-        "今國光",
-        "大立光",
-        "欣興",
-        "南電",
+        "鴻海",
+        "聯發科",
         "TOP"
+      ]
+    },
+    {
+      "news_id": 6614619,
+      "title": "<mark>台積電</mark>明年起上調晶圓代工價格3%至6%，訂單能見度延伸至2030年",
+      "summary": "",
+      "publish_time": "2026-09-24 06:00:04",
+      "publish_timestamp": 1790200804,
+      "url": "https://news.cnyes.com/news/id/6614619",
+      "keywords": [
+        "律動財經",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "foreign_buy_streak_3d": [
     {
       "code": "00403A",
@@ -9,36 +9,52 @@
     {
       "code": "00981A",
       "name": "主動統一台股增長",
-      "streak": 4
-    }
-  ],
-  "foreign_buy_streak_2d": [
-    {
-      "code": "009828",
-      "name": "中信台日韓PCB",
-      "streak": 2
+      "streak": 5
     },
     {
       "code": "00409A",
       "name": "主動復華全球50",
-      "streak": 2
-    },
+      "streak": 3
+    }
+  ],
+  "foreign_buy_streak_2d": [
     {
-      "code": "00405A",
-      "name": "主動富邦台灣龍耀",
+      "code": "00402A",
+      "name": "主動安聯美國科技",
       "streak": 2
     }
   ],
-  "trust_buy_streak_3d": [],
-  "trust_buy_streak_2d": [
-    {
-      "code": "2618",
-      "name": "長榮航",
-      "streak": 2
-    },
+  "trust_buy_streak_3d": [
     {
       "code": "2610",
       "name": "華航",
+      "streak": 3
+    },
+    {
+      "code": "2618",
+      "name": "長榮航",
+      "streak": 3
+    }
+  ],
+  "trust_buy_streak_2d": [
+    {
+      "code": "2884",
+      "name": "玉山金",
+      "streak": 2
+    },
+    {
+      "code": "2542",
+      "name": "興富發",
+      "streak": 2
+    },
+    {
+      "code": "2891",
+      "name": "中信金",
+      "streak": 2
+    },
+    {
+      "code": "00929",
+      "name": "復華台灣科技優息",
       "streak": 2
     }
   ]
