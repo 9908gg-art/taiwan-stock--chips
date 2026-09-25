@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25 20:53:21",
+  "last_updated": "2026-09-25 23:25:09",
   "stock_prices": {
     "tw_2330": {
       "price": 2475.0,
@@ -7,9 +7,9 @@
       "change_percent": -1.0
     },
     "us_tsm": {
-      "price": 451.15,
-      "change": 4.58,
-      "change_percent": 1.03
+      "price": 451.06,
+      "change": -0.09,
+      "change_percent": -0.02
     }
   },
   "news": [
@@ -52,22 +52,6 @@
         "ABF",
         "散熱",
         "TOP"
-      ]
-    },
-    {
-      "news_id": 6614852,
-      "title": "M31攜手Ambiq推台積電N12e超低功耗IP 搶AI邊緣商機",
-      "summary": "M31與Ambiq宣布推出台積電N12e超低功耗Foundation IP。&#10;方案整合SPSRAM記憶體編譯器與超低漏電標準元件庫，鎖定AIoT、穿戴式與Always-on邊緣應用。&#10;M31稱可縮短設計週期、降低面積與漏電，標準元件庫約可節省50%漏電功耗。",
-      "publish_time": "2026-09-24 10:49:52",
-      "publish_timestamp": 1790218192,
-      "url": "https://news.cnyes.com/news/id/6614852",
-      "keywords": [
-        "M31",
-        "台積電",
-        "Ambiq",
-        "IP",
-        "AI",
-        "邊緣"
       ]
     },
     {
