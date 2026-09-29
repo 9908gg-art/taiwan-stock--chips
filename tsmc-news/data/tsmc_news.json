@@ -1,116 +1,107 @@
 {
-  "last_updated": "2026-09-29 04:21:10",
+  "last_updated": "2026-09-29 22:16:09",
   "stock_prices": {
     "tw_2330": {
       "price": 2475.0,
-      "change": -25.0,
-      "change_percent": -1.0
+      "change": 0.0,
+      "change_percent": 0.0
     },
     "us_tsm": {
-      "price": 452.88,
-      "change": 2.27,
-      "change_percent": 0.5
+      "price": 453.29,
+      "change": 0.41,
+      "change_percent": 0.09
     }
   },
   "news": [
     {
-      "news_id": 6617042,
-      "title": "〈VSMC開幕〉12吋廠正式啟用 方略感謝NXP、<mark>台積電</mark> 莊子壽現身典禮",
-      "summary": "世界先進與恩智浦合資VSMC今在新加坡舉辦新廠開幕，已成具量產能力的12吋晶圓廠&#10;方略稱新廠歷經約兩年建設，未來將服務全球客戶並強化半導體供應鏈韌性&#10;台積電莊子壽到場見證，並在建設、技術移轉與員工培訓提供關鍵支持",
-      "publish_time": "2026-09-28 11:00:16",
-      "publish_timestamp": 1790564416,
-      "url": "https://news.cnyes.com/news/id/6617042",
+      "news_id": 6617867,
+      "title": "「小台積」0052見證台灣科技黃金20年 報酬翻24倍、規模逾1600億元",
+      "summary": "0052掛牌20周年，累積報酬率逾2,400%，資產規模突破1,600億元。&#10;台積電權重自20%升至64%，0052涵蓋72檔科技電子股，完整布局台灣科技供應鏈。&#10;AI硬體需求強勁、CSP資本支出擴張，訂單能見度上看2028年，AI支撐長線成長。",
+      "publish_time": "2026-09-29 17:31:17",
+      "publish_timestamp": 1790674277,
+      "url": "https://news.cnyes.com/news/id/6617867",
       "keywords": [
-        "世界先進",
-        "NXP",
-        "VSMC",
-        "新加坡"
+        "0052",
+        "富邦投信",
+        "證交所",
+        "投資報酬率"
       ]
     },
     {
-      "news_id": 6616743,
-      "title": "輝達評估導入玻璃基板！最快2028年前應用於下一代GPU、與<mark>台積電</mark>等合作",
-      "summary": "輝達評估採用玻璃基板封裝AI晶片，並與SCHMID等合作，最快2028年前導入&#10;黃仁勳曾與SK集團崔泰源會面，並推動台積電開發玻璃基板技術&#10;玻璃基板可望提升速度約40%、降功耗近半；康寧已獲輝達最高27億美元投資",
-      "publish_time": "2026-09-27 17:10:04",
-      "publish_timestamp": 1790500204,
-      "url": "https://news.cnyes.com/news/id/6616743",
-      "keywords": [
-        "輝達",
-        "玻璃基板",
-        "AI",
-        "人工智慧",
-        "晶片",
-        "HBM",
-        "記憶體",
-        "台積電",
-        "台灣",
-        "南韓",
-        "日本",
-        "GPU",
-        "半導體",
-        "封裝",
-        "TGV",
-        "SCHMID",
-        "英特爾",
-        "先進封裝",
-        "AMD",
-        "CPO",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6615805,
-      "title": "<mark>台積電</mark>又有漲價題材！「含積量」成焦點 00881包下AI四大電子族群",
+      "news_id": 6617813,
+      "title": "<mark>台積電</mark>:公告本公司115年第三季法人說明會將於115年10月15日召開",
       "summary": "",
-      "publish_time": "2026-09-27 11:25:07",
-      "publish_timestamp": 1790479507,
-      "url": "https://news.cnyes.com/news/id/6615805",
+      "publish_time": "2026-09-29 14:39:16",
+      "publish_timestamp": 1790663956,
+      "url": "https://news.cnyes.com/news/id/6617813",
+      "keywords": []
+    },
+    {
+      "news_id": 6617749,
+      "title": "一路抱到明年5月！杜金龍公開「第4季必買口袋名單」：除了<mark>台積電</mark>、富邦金，傳產「這檔」竟暴賺170%！",
+      "summary": "",
+      "publish_time": "2026-09-29 14:30:04",
+      "publish_timestamp": 1790663404,
+      "url": "https://news.cnyes.com/news/id/6617749",
       "keywords": [
+        "南亞",
+        "台塑",
+        "台化",
+        "富邦金",
         "台積電",
-        "電子股",
-        "台股ETF",
-        "00881"
+        "優分析"
       ]
     },
     {
-      "news_id": 6616246,
-      "title": "英特爾14A製程來勢洶洶 與<mark>台積電</mark>A14性能差距曝光",
-      "summary": "英特爾代工負責人稱14A性能估計在台積電A14「5%以內」，引發外界對兩家製程競爭力的討論。&#10;英特爾稱14A較18A同功耗提升15%至20%；台積電估A14較N2同功耗快10%至15%，公開數據看14A未必只領先5%。&#10;分析認為英特爾或採「少承諾、多交付」策略，實際差距仍待兩款製程量產產品上市驗證。",
-      "publish_time": "2026-09-26 06:53:10",
-      "publish_timestamp": 1790376790,
-      "url": "https://news.cnyes.com/news/id/6616246",
+      "news_id": 6617739,
+      "title": "天虹(6937)訂單能見度看至2027Q2！下半年ALD占比拉升與PLP交機雙輪驅動，卡位<mark>台積電</mark>先進製程實驗室",
+      "summary": "",
+      "publish_time": "2026-09-29 14:00:07",
+      "publish_timestamp": 1790661607,
+      "url": "https://news.cnyes.com/news/id/6617739",
       "keywords": [
-        "英特爾",
-        "台積電",
-        "14A",
+        "PLP",
+        "ALD",
+        "PVD",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6617650,
+      "title": "台積聯發科等14大企業搶先進駐！國發會矽谷辦公室揭牌 攬才湧進3千人次",
+      "summary": "國發會主委葉俊顯率團赴矽谷，啟用Talent Taiwan首個海外據點。&#10;台灣Career Day帶上千職缺，台積電、聯發科等14家企業與學研機構參與。&#10;活動吸引逾3000人次，國發會將續整合跨部會資源深化國際攬才。",
+      "publish_time": "2026-09-29 11:46:34",
+      "publish_timestamp": 1790653594,
+      "url": "https://news.cnyes.com/news/id/6617650",
+      "keywords": [
+        "國發會",
+        "矽谷",
+        "辦公室",
+        "首個",
+        "據點",
+        "年會",
+        "軟體",
+        "Taiwan Career Day",
+        "Talent Taiwan"
+      ]
+    },
+    {
+      "news_id": 6617586,
+      "title": "對<mark>台積電</mark>下戰書！三星電子：2029年晶圓代工客戶將增至2017年的4倍左右",
+      "summary": "三星電子晶圓代工客戶數以2017年獨立法人為基準已增至約3倍，目標2029年達約4倍。&#10;HPC營收比重由2017年5%升至28%，目標2029年衝到66%，客戶將逾半。&#10;三星將把AI加速器、伺服器CPU/GPU與5奈米以下、GAA及先進封裝推向HPC客戶。",
+      "publish_time": "2026-09-29 10:55:32",
+      "publish_timestamp": 1790650532,
+      "url": "https://news.cnyes.com/news/id/6617586",
+      "keywords": [
+        "三星電子",
         "製程",
-        "A14"
-      ]
-    },
-    {
-      "news_id": 6615236,
-      "title": "下周最值得留意的5大族群重點分析整理、以及該注意提防的風險",
-      "summary": "下周聚焦AI伺服器、CCL/PCB、散熱、ASIC/先進製程與記憶體輪動，留意台積電、台達電、鴻海、聯發科、台光電等&#10;盤面關鍵看48,600能否站穩、47,800是否守住，若台積電休息，AI子族群需接棒帶動指數&#10;",
-      "publish_time": "2026-09-25 08:50:03",
-      "publish_timestamp": 1790297403,
-      "url": "https://news.cnyes.com/news/id/6615236",
-      "keywords": [
-        "台股",
-        "投資",
-        "趨勢分析"
-      ]
-    },
-    {
-      "news_id": 6615287,
-      "title": "中鋼斥資3.37億元加碼台積電158張 買進均價2135.31元",
-      "summary": "",
-      "publish_time": "2026-09-24 19:33:20",
-      "publish_timestamp": 1790249600,
-      "url": "https://news.cnyes.com/news/id/6615287",
-      "keywords": [
-        "中鋼",
+        "良率",
+        "HPC",
+        "晶圓代工",
         "台積電",
-        "投資"
+        "GAA",
+        "先進封裝",
+        "CoWos"
       ]
     },
     {
@@ -270,15 +261,6 @@
       "publish_time": "2026-09-07 16:35:36",
       "publish_timestamp": 1788770136,
       "url": "https://news.cnyes.com/news/id/6599536",
-      "keywords": []
-    },
-    {
-      "news_id": 6599341,
-      "title": "台積電:本公司受邀參加機構投資人說明會",
-      "summary": "台積電:本公司受邀參加機構投資人說明會",
-      "publish_time": "2026-09-07 14:39:30",
-      "publish_timestamp": 1788763170,
-      "url": "https://news.cnyes.com/news/id/6599341",
       "keywords": []
     }
   ]
