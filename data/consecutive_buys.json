@@ -1,34 +1,48 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "foreign_buy_streak_3d": [],
   "foreign_buy_streak_2d": [
+    {
+      "code": "2409",
+      "name": "友達",
+      "streak": 2
+    },
+    {
+      "code": "6770",
+      "name": "力積電",
+      "streak": 2
+    },
+    {
+      "code": "2002",
+      "name": "中鋼",
+      "streak": 2
+    },
+    {
+      "code": "2344",
+      "name": "華邦電",
+      "streak": 2
+    }
+  ],
+  "trust_buy_streak_3d": [],
+  "trust_buy_streak_2d": [
     {
       "code": "1303",
       "name": "南亞",
       "streak": 2
     },
     {
-      "code": "3231",
-      "name": "緯創",
-      "streak": 2
-    }
-  ],
-  "trust_buy_streak_3d": [
-    {
-      "code": "2618",
-      "name": "長榮航",
-      "streak": 4
-    }
-  ],
-  "trust_buy_streak_2d": [
-    {
-      "code": "8028",
-      "name": "昇陽半導體",
+      "code": "6505",
+      "name": "台塑化",
       "streak": 2
     },
     {
-      "code": "3042",
-      "name": "晶技",
+      "code": "0050",
+      "name": "元大台灣50",
+      "streak": 2
+    },
+    {
+      "code": "2303",
+      "name": "聯電",
       "streak": 2
     }
   ]
