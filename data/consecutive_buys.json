@@ -1,45 +1,40 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "foreign_buy_streak_3d": [
     {
-      "code": "2344",
-      "name": "華邦電",
+      "code": "00403A",
+      "name": "主動統一升級50",
+      "streak": 3
+    },
+    {
+      "code": "00981A",
+      "name": "主動統一台股增長",
       "streak": 3
     }
   ],
   "foreign_buy_streak_2d": [
     {
-      "code": "00403A",
-      "name": "主動統一升級50",
-      "streak": 2
-    },
-    {
-      "code": "00981A",
-      "name": "主動統一台股增長",
+      "code": "00991A",
+      "name": "主動復華未來50",
       "streak": 2
     }
   ],
   "trust_buy_streak_3d": [
     {
-      "code": "6505",
-      "name": "台塑化",
+      "code": "2884",
+      "name": "玉山金",
+      "streak": 3
+    },
+    {
+      "code": "2892",
+      "name": "第一金",
       "streak": 3
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "2884",
-      "name": "玉山金",
-      "streak": 2
-    },
-    {
-      "code": "2892",
-      "name": "第一金",
-      "streak": 2
-    },
-    {
-      "code": "2610",
-      "name": "華航",
+      "code": "2883",
+      "name": "凱基金",
       "streak": 2
     }
   ]

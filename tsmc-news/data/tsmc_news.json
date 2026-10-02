@@ -1,18 +1,48 @@
 {
-  "last_updated": "2026-10-02 03:05:08",
+  "last_updated": "2026-10-02 22:00:54",
   "stock_prices": {
     "tw_2330": {
-      "price": 2510.0,
-      "change": 30.0,
-      "change_percent": 1.21
+      "price": 2500.0,
+      "change": -10.0,
+      "change_percent": -0.4
     },
     "us_tsm": {
-      "price": 458.45,
-      "change": 2.26,
-      "change_percent": 0.5
+      "price": 470.87,
+      "change": 11.67,
+      "change_percent": 2.54
     }
   },
   "news": [
+    {
+      "news_id": 6620604,
+      "title": "<mark>台積電</mark>加碼美國德州？經部表態協助全球布局 但核心技術「根留台灣」",
+      "summary": "",
+      "publish_time": "2026-10-02 19:27:28",
+      "publish_timestamp": 1790940448,
+      "url": "https://news.cnyes.com/news/id/6620604",
+      "keywords": [
+        "德州",
+        "根留台灣",
+        "經濟部",
+        "赴美",
+        "基地",
+        "前瞻"
+      ]
+    },
+    {
+      "news_id": 6620226,
+      "title": "漢唐(2404)、帆宣(6196)卡位<mark>台積電</mark>赴美大單！美國P2、P3發包時程與在手訂單營運能見度全解析",
+      "summary": "",
+      "publish_time": "2026-10-02 11:00:04",
+      "publish_timestamp": 1790910004,
+      "url": "https://news.cnyes.com/news/id/6620226",
+      "keywords": [
+        "廠務工程",
+        "台積電",
+        "半導體設備",
+        "優分析"
+      ]
+    },
     {
       "news_id": 6619758,
       "title": "一座至少200億美元！<mark>台積電</mark>德州擴產構想曝光 租稅優惠成關鍵",
@@ -39,20 +69,6 @@
         "科技",
         "產業",
         "TOP"
-      ]
-    },
-    {
-      "news_id": 6619520,
-      "title": "〈台股盤後〉<mark>台積電</mark>、聯發科尾盤拉抬 上漲413點收最高48353點",
-      "summary": "",
-      "publish_time": "2026-10-01 14:36:56",
-      "publish_timestamp": 1790836616,
-      "url": "https://news.cnyes.com/news/id/6619520",
-      "keywords": [
-        "台股",
-        "台積電",
-        "聯發科",
-        "被動元件"
       ]
     },
     {
