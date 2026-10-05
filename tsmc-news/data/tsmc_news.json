@@ -1,74 +1,97 @@
 {
-  "last_updated": "2026-10-03 02:41:28",
+  "last_updated": "2026-10-06 00:16:14",
   "stock_prices": {
     "tw_2330": {
-      "price": 2500.0,
-      "change": -10.0,
-      "change_percent": -0.4
+      "price": 2575.0,
+      "change": 75.0,
+      "change_percent": 3.0
     },
     "us_tsm": {
-      "price": 471.42,
-      "change": 12.22,
-      "change_percent": 2.66
+      "price": 484.6,
+      "change": 11.82,
+      "change_percent": 2.5
     }
   },
   "news": [
     {
-      "news_id": 6620604,
-      "title": "<mark>台積電</mark>加碼美國德州？經部表態協助全球布局 但核心技術「根留台灣」",
+      "news_id": 6622063,
+      "title": "馬斯克晶片計畫找上台積電！英特爾股價承壓",
       "summary": "",
-      "publish_time": "2026-10-02 19:27:28",
-      "publish_timestamp": 1790940448,
-      "url": "https://news.cnyes.com/news/id/6620604",
-      "keywords": [
-        "德州",
-        "根留台灣",
-        "經濟部",
-        "赴美",
-        "基地",
-        "前瞻"
-      ]
-    },
-    {
-      "news_id": 6620226,
-      "title": "漢唐(2404)、帆宣(6196)卡位<mark>台積電</mark>赴美大單！美國P2、P3發包時程與在手訂單營運能見度全解析",
-      "summary": "",
-      "publish_time": "2026-10-02 11:00:04",
-      "publish_timestamp": 1790910004,
-      "url": "https://news.cnyes.com/news/id/6620226",
-      "keywords": [
-        "廠務工程",
-        "台積電",
-        "半導體設備",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6619758,
-      "title": "一座至少200億美元！<mark>台積電</mark>德州擴產構想曝光 租稅優惠成關鍵",
-      "summary": "台積電評估在德州興建含多座晶圓廠新園區，每座至少200億美元，可能再投資數百億美元。&#10;德州計畫取決於美國延長先進製造投資租稅抵減；2022年晶片法案優惠今年底到期。&#10;AI晶片需求推動擴產，台積電海外布局續擴大至德州、亞利桑那、日本、德國與新加坡。",
-      "publish_time": "2026-10-01 19:15:55",
-      "publish_timestamp": 1790853355,
-      "url": "https://news.cnyes.com/news/id/6619758",
+      "publish_time": "2026-10-05 22:30:07",
+      "publish_timestamp": 1791210607,
+      "url": "https://news.cnyes.com/news/id/6622063",
       "keywords": [
         "台積電",
-        "德州",
-        "晶圓廠",
-        "半導體",
-        "晶圓",
-        "代工",
+        "馬斯克",
+        "英特爾",
+        "Terafab",
         "AI",
         "人工智慧",
         "晶片",
-        "先進製程",
-        "海外擴產",
-        "美國投資",
-        "租稅優惠",
-        "投資抵減",
-        "晶片法案",
+        "半導體",
+        "特斯拉",
         "科技",
         "產業",
         "TOP"
+      ]
+    },
+    {
+      "news_id": 6621760,
+      "title": "AI榮景才走到半路！蔡明興看好台股站上5萬點 「<mark>台積電</mark>一跳就過了」",
+      "summary": "",
+      "publish_time": "2026-10-05 16:59:36",
+      "publish_timestamp": 1791190776,
+      "url": "https://news.cnyes.com/news/id/6621760",
+      "keywords": [
+        "蔡明興",
+        "台股",
+        "富邦金控"
+      ]
+    },
+    {
+      "news_id": 6621672,
+      "title": "〈台股盤後〉台積電攜低軌衛星、PCB狂歡 收漲1236點續創新高叩關5萬點",
+      "summary": "",
+      "publish_time": "2026-10-05 14:08:36",
+      "publish_timestamp": 1791180516,
+      "url": "https://news.cnyes.com/news/id/6621672",
+      "keywords": [
+        "台股盤後",
+        "台積電",
+        "PCB",
+        "ABF",
+        "低軌衛星",
+        "千金股"
+      ]
+    },
+    {
+      "news_id": 6621505,
+      "title": "〈台股開盤〉台積電率高人氣電子股衝鋒 飆漲逾1200點再刷新高",
+      "summary": "日經大漲帶動台股早盤強攻，台積電站上2580元，台股一度衝上49644.8點創新高。&#10;美國9月非農僅增2.9萬人、Fed 10月升息1碼機率降至22.7%，激勵美股與費半走揚。&#10;法人看好AI資料中心升級，800G、1.6T光模組與ABF載板需求升溫，留意台積電法說及9月營收。",
+      "publish_time": "2026-10-05 09:45:15",
+      "publish_timestamp": 1791164715,
+      "url": "https://news.cnyes.com/news/id/6621505",
+      "keywords": [
+        "台積電",
+        "大立光",
+        "營收",
+        "法說",
+        "今國光",
+        "台光電",
+        "台股開盤"
+      ]
+    },
+    {
+      "news_id": 6621446,
+      "title": "非農意外爆冷但本週又遇到國慶連假 <mark>台積電</mark>、聯發科、鴻海、緯創、廣達需要小心什麼???",
+      "summary": "",
+      "publish_time": "2026-10-05 08:32:14",
+      "publish_timestamp": 1791160334,
+      "url": "https://news.cnyes.com/news/id/6621446",
+      "keywords": [
+        "楊育華",
+        "摩爾投顧",
+        "趨勢分析"
       ]
     },
     {
@@ -201,20 +224,6 @@
       "publish_timestamp": 1789019507,
       "url": "https://news.cnyes.com/news/id/6602919",
       "keywords": []
-    },
-    {
-      "news_id": 6601673,
-      "title": "盤後速報 - 台積電(<mark>2330</mark>)下週(9月16日)除息7元，預估參考價2458.0元",
-      "summary": "台積電(2330)將進行除權息交易，預估參考價2458.0元，股票股利、現金股利、參考價、權息值、股息殖利率、歷史股利發放、即時新聞資訊。",
-      "publish_time": "2026-09-09 17:05:20",
-      "publish_timestamp": 1788944720,
-      "url": "https://news.cnyes.com/news/id/6601673",
-      "keywords": [
-        "台股",
-        "台股除權息",
-        "台股盤後",
-        "盤後速報"
-      ]
     }
   ]
 }

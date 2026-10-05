@@ -1,40 +1,43 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-05",
   "foreign_buy_streak_3d": [
     {
       "code": "00403A",
       "name": "主動統一升級50",
-      "streak": 3
+      "streak": 4
     },
     {
       "code": "00981A",
       "name": "主動統一台股增長",
-      "streak": 3
-    }
-  ],
-  "foreign_buy_streak_2d": [
+      "streak": 4
+    },
     {
       "code": "00991A",
       "name": "主動復華未來50",
-      "streak": 2
-    }
-  ],
-  "trust_buy_streak_3d": [
-    {
-      "code": "2884",
-      "name": "玉山金",
-      "streak": 3
-    },
-    {
-      "code": "2892",
-      "name": "第一金",
       "streak": 3
     }
   ],
+  "foreign_buy_streak_2d": [],
+  "trust_buy_streak_3d": [],
   "trust_buy_streak_2d": [
     {
-      "code": "2883",
-      "name": "凱基金",
+      "code": "2492",
+      "name": "華新科",
+      "streak": 2
+    },
+    {
+      "code": "2327",
+      "name": "國巨*",
+      "streak": 2
+    },
+    {
+      "code": "2801",
+      "name": "彰銀",
+      "streak": 2
+    },
+    {
+      "code": "4958",
+      "name": "臻鼎-KY",
       "streak": 2
     }
   ]
