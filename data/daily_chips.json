@@ -1,44 +1,44 @@
 {
-  "date": "2026-10-05",
-  "updated_time": "2026-10-06 00:13:06",
+  "date": "2026-10-06",
+  "updated_time": "2026-10-06 22:17:40",
   "tsmc_chips": {
-    "foreign": 9770,
-    "trust": 589,
-    "dealer": 491,
-    "total": 10851
+    "foreign": -1672,
+    "trust": 154,
+    "dealer": 395,
+    "total": -1121
   },
   "market_summary": {
     "tse": {
-      "foreign": 718.97,
-      "trust": -52.93,
-      "dealer": 109.48,
-      "total": 775.52
+      "foreign": -66.57,
+      "trust": -142.65,
+      "dealer": 17.21,
+      "total": -192.01
     },
     "tpex": {
-      "foreign": 12.88,
-      "trust": 14.84,
-      "dealer": 14.85,
-      "total": 42.57
+      "foreign": -35.61,
+      "trust": 2.51,
+      "dealer": -7.47,
+      "total": -40.57
     },
     "combined": {
-      "foreign": 731.85,
-      "trust": -38.09,
-      "dealer": 124.34,
-      "total": 818.09
+      "foreign": -102.18,
+      "trust": -140.14,
+      "dealer": 9.74,
+      "total": -232.58
     }
   },
   "gov_banks": {
-    "net_buy": -144.93,
-    "date": "2026-10-05"
+    "net_buy": 42.46,
+    "date": "2026-10-06"
   },
   "margin_trading": {
-    "margin_balance_change": -17.53,
-    "margin_balance_total": 6333.52,
-    "short_balance_change": -13528,
-    "short_balance_total": 218458
+    "margin_balance_change": 43.05,
+    "margin_balance_total": 6376.57,
+    "short_balance_change": -3929,
+    "short_balance_total": 214529
   },
   "trading_volume": {
-    "tse_volume": 12110.41
+    "tse_volume": 10262.05
   },
   "rankings": {
     "foreign_buy": [
@@ -46,61 +46,61 @@
         "rank": 1,
         "code": "00403A",
         "name": "主動統一升級50",
-        "volume": 150917
+        "volume": 32000
       },
       {
         "rank": 2,
-        "code": "00406A",
-        "name": "主動中信台灣收益",
-        "volume": 128492
+        "code": "00981A",
+        "name": "主動統一台股增長",
+        "volume": 19367
       },
       {
         "rank": 3,
-        "code": "00981A",
-        "name": "主動統一台股增長",
-        "volume": 110265
+        "code": "2313",
+        "name": "華通",
+        "volume": 18381
       },
       {
         "rank": 4,
-        "code": "00991A",
-        "name": "主動復華未來50",
-        "volume": 87616
+        "code": "1326",
+        "name": "台化",
+        "volume": 13370
       },
       {
         "rank": 5,
-        "code": "00405A",
-        "name": "主動富邦台灣龍耀",
-        "volume": 72355
+        "code": "2886",
+        "name": "兆豐金",
+        "volume": 12514
       },
       {
         "rank": 6,
-        "code": "00407A",
-        "name": "主動凱基台灣",
-        "volume": 25745
+        "code": "00988A",
+        "name": "主動統一全球創新",
+        "volume": 10119
       },
       {
         "rank": 7,
-        "code": "3231",
-        "name": "緯創",
-        "volume": 24878
+        "code": "2605",
+        "name": "新興",
+        "volume": 9995
       },
       {
         "rank": 8,
-        "code": "2344",
-        "name": "華邦電",
-        "volume": 22053
+        "code": "00961",
+        "name": "FT臺灣永續高息",
+        "volume": 9571
       },
       {
         "rank": 9,
-        "code": "0050",
-        "name": "元大台灣50",
-        "volume": 19566
+        "code": "2891",
+        "name": "中信金",
+        "volume": 9406
       },
       {
         "rank": 10,
-        "code": "00409A",
-        "name": "主動復華全球50",
-        "volume": 19343
+        "code": "8150",
+        "name": "南茂",
+        "volume": 7948
       }
     ],
     "foreign_sell": [
@@ -108,123 +108,123 @@
         "rank": 1,
         "code": "2409",
         "name": "友達",
-        "volume": 212135
+        "volume": 87053
       },
       {
         "rank": 2,
-        "code": "2303",
-        "name": "聯電",
-        "volume": 81562
+        "code": "00712",
+        "name": "復華富時不動產",
+        "volume": 20448
       },
       {
         "rank": 3,
-        "code": "6116",
-        "name": "彩晶",
-        "volume": 27574
+        "code": "2317",
+        "name": "鴻海",
+        "volume": 19982
       },
       {
         "rank": 4,
-        "code": "2324",
-        "name": "仁寶",
-        "volume": 25066
+        "code": "0050",
+        "name": "元大台灣50",
+        "volume": 15986
       },
       {
         "rank": 5,
-        "code": "2812",
-        "name": "台中銀",
-        "volume": 19205
+        "code": "00406A",
+        "name": "主動中信台灣收益",
+        "volume": 15739
       },
       {
         "rank": 6,
-        "code": "1314",
-        "name": "中石化",
-        "volume": 19051
+        "code": "00992A",
+        "name": "主動群益科技創新",
+        "volume": 15576
       },
       {
         "rank": 7,
-        "code": "2834",
-        "name": "臺企銀",
-        "volume": 17675
+        "code": "6770",
+        "name": "力積電",
+        "volume": 15521
       },
       {
         "rank": 8,
-        "code": "6770",
-        "name": "力積電",
-        "volume": 15614
+        "code": "00685L",
+        "name": "群益臺灣加權正2",
+        "volume": 15413
       },
       {
         "rank": 9,
-        "code": "2327",
-        "name": "國巨*",
-        "volume": 12365
+        "code": "6116",
+        "name": "彩晶",
+        "volume": 9810
       },
       {
         "rank": 10,
-        "code": "1101",
-        "name": "台泥",
-        "volume": 11976
+        "code": "00400A",
+        "name": "主動國泰動能高息",
+        "volume": 9181
       }
     ],
     "trust_buy": [
       {
         "rank": 1,
-        "code": "2492",
-        "name": "華新科",
-        "volume": 3126
+        "code": "00935",
+        "name": "野村臺灣新科技50",
+        "volume": 4268
       },
       {
         "rank": 2,
-        "code": "2327",
-        "name": "國巨*",
-        "volume": 3094
+        "code": "1303",
+        "name": "南亞",
+        "volume": 3486
       },
       {
         "rank": 3,
-        "code": "0050",
-        "name": "元大台灣50",
-        "volume": 2100
+        "code": "2313",
+        "name": "華通",
+        "volume": 3285
       },
       {
         "rank": 4,
-        "code": "2801",
-        "name": "彰銀",
-        "volume": 1411
+        "code": "2368",
+        "name": "金像電",
+        "volume": 2644
       },
       {
         "rank": 5,
-        "code": "4958",
-        "name": "臻鼎-KY",
-        "volume": 1322
+        "code": "6505",
+        "name": "台塑化",
+        "volume": 2265
       },
       {
         "rank": 6,
-        "code": "3189",
-        "name": "景碩",
-        "volume": 1150
+        "code": "2890",
+        "name": "永豐金",
+        "volume": 2166
       },
       {
         "rank": 7,
-        "code": "2882",
-        "name": "國泰金",
-        "volume": 1061
+        "code": "00929",
+        "name": "復華台灣科技優息",
+        "volume": 2000
       },
       {
         "rank": 8,
-        "code": "2891",
-        "name": "中信金",
-        "volume": 1017
+        "code": "2882",
+        "name": "國泰金",
+        "volume": 1994
       },
       {
         "rank": 9,
-        "code": "00923",
-        "name": "群益台ESG低碳50",
-        "volume": 1000
+        "code": "1216",
+        "name": "統一",
+        "volume": 1681
       },
       {
         "rank": 10,
-        "code": "8046",
-        "name": "南電",
-        "volume": 883
+        "code": "1709",
+        "name": "和益",
+        "volume": 1355
       }
     ],
     "trust_sell": [
@@ -232,61 +232,61 @@
         "rank": 1,
         "code": "2303",
         "name": "聯電",
-        "volume": 35930
+        "volume": 67563
       },
       {
         "rank": 2,
-        "code": "00947",
-        "name": "台新臺灣IC設計",
-        "volume": 6950
+        "code": "2344",
+        "name": "華邦電",
+        "volume": 10812
       },
       {
         "rank": 3,
         "code": "2886",
         "name": "兆豐金",
-        "volume": 5455
+        "volume": 5472
       },
       {
         "rank": 4,
-        "code": "2412",
-        "name": "中華電",
-        "volume": 1874
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "volume": 4162
       },
       {
         "rank": 5,
-        "code": "2344",
-        "name": "華邦電",
-        "volume": 1848
+        "code": "2327",
+        "name": "國巨*",
+        "volume": 2283
       },
       {
         "rank": 6,
-        "code": "2408",
-        "name": "南亞科",
-        "volume": 1817
+        "code": "00980A",
+        "name": "主動野村臺灣優選",
+        "volume": 2186
       },
       {
         "rank": 7,
-        "code": "3665",
-        "name": "貿聯-KY",
-        "volume": 1759
+        "code": "2892",
+        "name": "第一金",
+        "volume": 2036
       },
       {
         "rank": 8,
-        "code": "2481",
-        "name": "強茂",
-        "volume": 1440
+        "code": "3037",
+        "name": "欣興",
+        "volume": 1901
       },
       {
         "rank": 9,
-        "code": "3037",
-        "name": "欣興",
-        "volume": 1274
+        "code": "2542",
+        "name": "興富發",
+        "volume": 1721
       },
       {
         "rank": 10,
-        "code": "4904",
-        "name": "遠傳",
-        "volume": 1152
+        "code": "3711",
+        "name": "日月光投控",
+        "volume": 1526
       }
     ]
   },
