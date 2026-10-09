@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09 22:29:51",
+  "last_updated": "2026-10-10 01:08:49",
   "stock_prices": {
     "tw_2330": {
       "price": 2550.0,
@@ -7,9 +7,9 @@
       "change_percent": -1.35
     },
     "us_tsm": {
-      "price": 453.07,
-      "change": -4.92,
-      "change_percent": -1.07
+      "price": 450.75,
+      "change": -7.24,
+      "change_percent": -1.58
     }
   },
   "news": [
@@ -103,18 +103,6 @@
         "營收速報",
         "9月營收",
         "台積電"
-      ]
-    },
-    {
-      "news_id": 6624798,
-      "title": "<mark>台積電</mark>第三季營收創新高、年增50%超越預期，AI需求持續推升先進製程成長",
-      "summary": "",
-      "publish_time": "2026-10-08 15:00:41",
-      "publish_timestamp": 1791442841,
-      "url": "https://news.cnyes.com/news/id/6624798",
-      "keywords": [
-        "半導體",
-        "優分析"
       ]
     },
     {
