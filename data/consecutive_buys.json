@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-12",
   "foreign_buy_streak_3d": [
     {
       "code": "00403A",
@@ -9,27 +9,42 @@
   ],
   "foreign_buy_streak_2d": [
     {
-      "code": "1314",
-      "name": "中石化",
+      "code": "1101",
+      "name": "台泥",
       "streak": 2
     },
     {
-      "code": "1301",
-      "name": "台塑",
+      "code": "2002",
+      "name": "中鋼",
+      "streak": 2
+    },
+    {
+      "code": "00961",
+      "name": "FT臺灣永續高息",
       "streak": 2
     }
   ],
   "trust_buy_streak_3d": [
     {
+      "code": "1301",
+      "name": "台塑",
+      "streak": 3
+    },
+    {
       "code": "6505",
       "name": "台塑化",
-      "streak": 3
+      "streak": 4
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "1301",
-      "name": "台塑",
+      "code": "2891",
+      "name": "中信金",
+      "streak": 2
+    },
+    {
+      "code": "1216",
+      "name": "統一",
       "streak": 2
     }
   ]
