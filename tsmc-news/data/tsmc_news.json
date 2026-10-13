@@ -1,99 +1,107 @@
 {
-  "last_updated": "2026-10-13 05:55:38",
+  "last_updated": "2026-10-13 23:12:37",
   "stock_prices": {
     "tw_2330": {
-      "price": 2540.0,
-      "change": -10.0,
-      "change_percent": -0.39
+      "price": 2490.0,
+      "change": -50.0,
+      "change_percent": -1.97
     },
     "us_tsm": {
-      "price": 444.35,
-      "change": -8.96,
-      "change_percent": -1.98
+      "price": 441.72,
+      "change": -2.63,
+      "change_percent": -0.59
     }
   },
   "news": [
     {
-      "news_id": 6628826,
-      "title": "微軟自研AI晶片Maia 300亮相2027年部署上看百萬顆，<mark>台積電</mark>2奈米與3奈米製程助攻",
+      "news_id": 6629455,
+      "title": "外資單日賣超1653億元創史上第三大 <mark>台積電</mark>、記憶體族群成提款重心",
       "summary": "",
-      "publish_time": "2026-10-12 21:30:11",
-      "publish_timestamp": 1791811811,
-      "url": "https://news.cnyes.com/news/id/6628826",
+      "publish_time": "2026-10-13 17:17:44",
+      "publish_timestamp": 1791883064,
+      "url": "https://news.cnyes.com/news/id/6629455",
       "keywords": [
-        "ASIC",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6628768,
-      "title": "台股小跌11點外資再賣522億元 調節台塑四寶、晶圓代工族群",
-      "summary": "",
-      "publish_time": "2026-10-12 20:12:54",
-      "publish_timestamp": 1791807174,
-      "url": "https://news.cnyes.com/news/id/6628768",
-      "keywords": [
-        "台股",
+        "三大法人",
         "外資",
-        "台塑四寶",
-        "晶圓代工"
+        "期貨",
+        "南亞科",
+        "華邦電",
+        "力積電"
       ]
     },
     {
-      "news_id": 6628194,
-      "title": "<mark>台積電</mark>利多將出！誰是下一匹黑馬？",
-      "summary": "台股受美股震盪與台積電ADR下跌壓力，市場聚焦台積電法說與2026、2027年營收及資本支出展望。&#10;AI估值偏高引發美股修正，但雲端業者資本支出續增，半導體、先進封裝與資料中心供應鏈仍受惠。&#10;CPO、HBM帶動光通訊與記憶體新循環，台積電、萬潤、南亞科等相關族群成市場焦點。",
-      "publish_time": "2026-10-12 17:33:18",
-      "publish_timestamp": 1791797598,
-      "url": "https://news.cnyes.com/news/id/6628194",
-      "keywords": [
-        "趨勢分析",
-        "摩爾投顧",
-        "謝晨彥",
-        "台股",
-        "AI"
-      ]
-    },
-    {
-      "news_id": 6628078,
-      "title": "家碩(6953) 合約負債創近期新高！<mark>台積電</mark>N2放量與EUV光罩需求暴增！",
+      "news_id": 6629365,
+      "title": "〈台股盤後〉台積電領跌！股匯雙殺急挫960點 CCL、記憶體成重災區",
       "summary": "",
-      "publish_time": "2026-10-12 15:30:14",
-      "publish_timestamp": 1791790214,
-      "url": "https://news.cnyes.com/news/id/6628078",
+      "publish_time": "2026-10-13 14:18:05",
+      "publish_timestamp": 1791872285,
+      "url": "https://news.cnyes.com/news/id/6629365",
       "keywords": [
-        "半導體設備",
-        "先進封裝",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6627926,
-      "title": "<mark>台積電</mark>週四法說會登場！第三季淨利估年增65%，美國擴產布局成焦點",
-      "summary": "",
-      "publish_time": "2026-10-12 10:30:09",
-      "publish_timestamp": 1791772209,
-      "url": "https://news.cnyes.com/news/id/6627926",
-      "keywords": [
-        "半導體",
-        "CoWoS先進封裝",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6627913,
-      "title": "<mark>台積電</mark>、聯發科該賣？AI四大黃金產業、12檔潛力股一次看！",
-      "summary": "亞馬遜入股金像電約15.89億元，金像電另核准79億元投資計畫，凸顯高階伺服器PCB需求。&#10;AI供應鏈可追四大族群：光通訊、PCB/ABF載板、被動元件、散熱液冷，重點看訂單、產能與營收轉獲利。&#10;奇鋐、雙鴻營收續創高；國巨9月營收170.68億元、第三季495.31億元，同創高，反映AI需求強勁。",
-      "publish_time": "2026-10-12 10:16:39",
-      "publish_timestamp": 1791771399,
-      "url": "https://news.cnyes.com/news/id/6627913",
-      "keywords": [
-        "江國中",
-        "點股成金",
-        "摩爾投顧",
-        "趨勢分析",
+        "欣興",
         "台積電",
-        "聯發科"
+        "台股盤後",
+        "鴻海",
+        "台達電",
+        "聯發科",
+        "萬海",
+        "南電"
+      ]
+    },
+    {
+      "news_id": 6629247,
+      "title": "台股重挫千點 這4檔電子股造成過半跌點 等待<mark>台積電</mark>法說注強心針",
+      "summary": "",
+      "publish_time": "2026-10-13 11:08:05",
+      "publish_timestamp": 1791860885,
+      "url": "https://news.cnyes.com/news/id/6629247",
+      "keywords": [
+        "台積電",
+        "台達電",
+        "聯發科",
+        "台股重挫"
+      ]
+    },
+    {
+      "news_id": 6629155,
+      "title": "〈台股開盤〉電子權值承壓台積電陷2500元保衛戰 早盤挫逾900點",
+      "summary": "台股受日經、韓股及美半導體股走弱拖累，早盤一度跌逾900點，台積電跌1.57%，2500元關卡待觀察。&#10;電子股成交占比逾74%，台達電、聯發科及欣興、南電、景碩走弱，金融股上漲0.22%撐盤。&#10;本週聚焦台積電法說；統一證券看好AI、業績題材股，建議逢回布局。",
+      "publish_time": "2026-10-13 09:44:36",
+      "publish_timestamp": 1791855876,
+      "url": "https://news.cnyes.com/news/id/6629155",
+      "keywords": [
+        "台積電",
+        "欣興",
+        "營收",
+        "台股開盤"
+      ]
+    },
+    {
+      "news_id": 6629161,
+      "title": "<mark>台積電</mark>法說倒數，資金轉進二線晶圓代工？聯電(2303)、世界(5347)早盤受矚",
+      "summary": "",
+      "publish_time": "2026-10-13 09:30:06",
+      "publish_timestamp": 1791855006,
+      "url": "https://news.cnyes.com/news/id/6629161",
+      "keywords": [
+        "台積電",
+        "聯電",
+        "世界",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6628181,
+      "title": "【股市焦點】<mark>台積電</mark>目標價喊到4,410元！新光證券：這3大條件缺一不可",
+      "summary": "台積電10月15日將法說會，市場聚焦第三季獲利與第四季展望。&#10;外資與本土法人目標價分歧，從3,088元到4,410元，差距42.8%。&#10;新光證券指高標需2027年營收上修、毛利率站上69%，且本益比近30倍。",
+      "publish_time": "2026-10-13 09:00:04",
+      "publish_timestamp": 1791853204,
+      "url": "https://news.cnyes.com/news/id/6628181",
+      "keywords": [
+        "新光證券",
+        "台積電",
+        "券商動態",
+        "趨勢分析",
+        "CSR"
       ]
     },
     {
