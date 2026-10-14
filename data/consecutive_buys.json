@@ -1,20 +1,16 @@
 {
-  "date": "2026-10-13",
-  "foreign_buy_streak_3d": [],
-  "foreign_buy_streak_2d": [
-    {
-      "code": "00919",
-      "name": "群益台灣精選高息",
-      "streak": 2
-    },
-    {
-      "code": "2887",
-      "name": "台新新光金",
-      "streak": 2
-    },
+  "date": "2026-10-14",
+  "foreign_buy_streak_3d": [
     {
       "code": "2609",
       "name": "陽明",
+      "streak": 3
+    }
+  ],
+  "foreign_buy_streak_2d": [
+    {
+      "code": "2885",
+      "name": "元大金",
       "streak": 2
     }
   ],
@@ -27,18 +23,14 @@
     {
       "code": "1301",
       "name": "台塑",
-      "streak": 4
-    },
-    {
-      "code": "2891",
-      "name": "中信金",
-      "streak": 3
-    },
-    {
-      "code": "1216",
-      "name": "統一",
-      "streak": 3
+      "streak": 5
     }
   ],
-  "trust_buy_streak_2d": []
+  "trust_buy_streak_2d": [
+    {
+      "code": "2027",
+      "name": "大成鋼",
+      "streak": 2
+    }
+  ]
 }
