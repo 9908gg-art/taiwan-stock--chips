@@ -1,10 +1,15 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "foreign_buy_streak_3d": [],
   "foreign_buy_streak_2d": [
     {
-      "code": "00712",
-      "name": "復華富時不動產",
+      "code": "5880",
+      "name": "合庫金",
+      "streak": 2
+    },
+    {
+      "code": "2886",
+      "name": "兆豐金",
       "streak": 2
     }
   ],
@@ -13,23 +18,12 @@
       "code": "6505",
       "name": "台塑化",
       "streak": 5
-    }
-  ],
-  "trust_buy_streak_2d": [
-    {
-      "code": "1303",
-      "name": "南亞",
-      "streak": 2
     },
     {
       "code": "0056",
       "name": "元大高股息",
-      "streak": 2
-    },
-    {
-      "code": "1402",
-      "name": "遠東新",
-      "streak": 2
+      "streak": 3
     }
-  ]
+  ],
+  "trust_buy_streak_2d": []
 }
