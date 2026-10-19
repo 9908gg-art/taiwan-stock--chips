@@ -1,29 +1,24 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-19",
   "foreign_buy_streak_3d": [],
   "foreign_buy_streak_2d": [
     {
-      "code": "5880",
-      "name": "合庫金",
+      "code": "2002",
+      "name": "中鋼",
       "streak": 2
     },
     {
-      "code": "2886",
-      "name": "兆豐金",
+      "code": "2409",
+      "name": "友達",
       "streak": 2
     }
   ],
-  "trust_buy_streak_3d": [
+  "trust_buy_streak_3d": [],
+  "trust_buy_streak_2d": [
     {
-      "code": "6505",
-      "name": "台塑化",
-      "streak": 5
-    },
-    {
-      "code": "0056",
-      "name": "元大高股息",
-      "streak": 3
+      "code": "0050",
+      "name": "元大台灣50",
+      "streak": 2
     }
-  ],
-  "trust_buy_streak_2d": []
+  ]
 }
