@@ -1,124 +1,57 @@
 {
-  "last_updated": "2026-10-20 03:28:42",
+  "last_updated": "2026-10-20 20:48:34",
   "stock_prices": {
     "tw_2330": {
-      "price": 2420.0,
-      "change": 0.0,
-      "change_percent": 0.0
+      "price": 2405.0,
+      "change": -15.0,
+      "change_percent": -0.62
     },
     "us_tsm": {
-      "price": 423.32,
-      "change": 10.71,
-      "change_percent": 2.6
+      "price": 420.22,
+      "change": 7.61,
+      "change_percent": 1.84
     }
   },
   "news": [
     {
-      "news_id": 6633498,
-      "title": "<mark>台積電</mark>熊本二廠2028年底生產3奈米 JASM設備投資總額將超過230億美元",
+      "news_id": 6634455,
+      "title": "<mark>台積電</mark>高雄廠工安事故4人墜落送醫 相關工程已自主停工",
       "summary": "",
-      "publish_time": "2026-10-19 17:36:23",
-      "publish_timestamp": 1792402583,
-      "url": "https://news.cnyes.com/news/id/6633498",
+      "publish_time": "2026-10-20 20:33:27",
+      "publish_timestamp": 1792499607,
+      "url": "https://news.cnyes.com/news/id/6634455",
       "keywords": [
         "台積電",
-        "晶圓代工",
-        "晶片",
-        "AI"
+        "工安",
+        "晶圓代工"
       ]
     },
     {
-      "news_id": 6633504,
-      "title": "外資再提款767億元連九賣 瞄準<mark>台積電</mark>與記憶體族群減碼",
-      "summary": "台股終場跌289.18點收46822.08點、守住季線。&#10;外資賣超767.42億元連9賣，連8賣台積電9834張，並大砍力積電4.6萬張、旺宏1.3萬張、華邦電1.1萬張。&#10;三大法人合計賣超899.54億元；投信買超230.51億元連7買。",
-      "publish_time": "2026-10-19 17:35:13",
-      "publish_timestamp": 1792402513,
-      "url": "https://news.cnyes.com/news/id/6633504",
-      "keywords": [
-        "三大法人",
-        "外資",
-        "台積電",
-        "記憶體"
-      ]
-    },
-    {
-      "news_id": 6633354,
-      "title": "〈台股盤後〉台積電尾盤急拉 跌289點收46822點守住季線關",
+      "news_id": 6634460,
+      "title": "蘋果砸1億美元採購美國鈦金屬！首款摺疊iPhone導入，<mark>台積電</mark>亞利桑那廠今年供應逾億顆晶片",
       "summary": "",
-      "publish_time": "2026-10-19 14:35:37",
-      "publish_timestamp": 1792391737,
-      "url": "https://news.cnyes.com/news/id/6633354",
+      "publish_time": "2026-10-20 20:30:05",
+      "publish_timestamp": 1792499405,
+      "url": "https://news.cnyes.com/news/id/6634460",
       "keywords": [
-        "台股",
-        "台股盤後",
+        "智慧手機",
+        "蘋果供應鏈",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6633967,
+      "title": "〈台股開盤〉台積電續挫力守2400元 大盤跌逾400點後V轉翻紅",
+      "summary": "台股早盤受國際半導體股走弱、日韓股下跌拖累，一度跌282點；台積電跌0.83%，2400元關卡受關注。&#10;電子股成交比重逾7成、量能萎縮，分析師估台股短線恐陷高檔盤整，季線附近築底。&#10;TPCA2026、IMPACT、NVIDIA GTC柏林登場，PCB、AI題材股可望活絡；外資期空單逾9萬口仍需留意。",
+      "publish_time": "2026-10-20 09:56:55",
+      "publish_timestamp": 1792461415,
+      "url": "https://news.cnyes.com/news/id/6633967",
+      "keywords": [
         "台積電",
-        "台塑四寶",
-        "記憶體",
-        "被動元件",
-        "生技"
-      ]
-    },
-    {
-      "news_id": 6633368,
-      "title": "一次打包<mark>台積電</mark>、三星、SK海力士？00735台韓科技ETF和00935、009829差在哪？",
-      "summary": "AI算力需求續熱，台韓半導體供應鏈成焦點。&#10;00735國泰臺韓科技ETF追蹤臺韓資訊科技指數，前三大持股為台積電、三星、SK海力士。&#10;受惠AI與記憶體景氣，00735績效受關注，但高集中度也放大股價波動風險。",
-      "publish_time": "2026-10-19 14:28:28",
-      "publish_timestamp": 1792391308,
-      "url": "https://news.cnyes.com/news/id/6633368",
-      "keywords": [
-        "趨勢分析",
-        "永豐金證券",
-        "台股",
-        "AI",
-        "ETF"
-      ]
-    },
-    {
-      "news_id": 6633217,
-      "title": "〈台股開盤〉開低一度挫逾800點 <mark>台積電</mark>失守2400元、川湖跌破萬元",
-      "summary": "",
-      "publish_time": "2026-10-19 09:48:40",
-      "publish_timestamp": 1792374520,
-      "url": "https://news.cnyes.com/news/id/6633217",
-      "keywords": [
-        "台股",
-        "台積電",
-        "川湖",
-        "被動元件",
-        "記憶體"
-      ]
-    },
-    {
-      "news_id": 6633147,
-      "title": "期指夜盤重挫1144點 <mark>台積電</mark>、聯發科、國巨、南亞科、南亞等AI要賣嗎?",
-      "summary": "",
-      "publish_time": "2026-10-19 08:40:15",
-      "publish_timestamp": 1792370415,
-      "url": "https://news.cnyes.com/news/id/6633147",
-      "keywords": [
-        "楊育華",
-        "摩爾投顧",
-        "趨勢分析"
-      ]
-    },
-    {
-      "news_id": 6631900,
-      "title": "台股暴跌3000點是危險還是機會？ASML與台積電指引半導體大趨勢，必看『關鍵供應鏈』名單！",
-      "summary": "ASML Q3毛利率57.5%、EPS 12.95歐元優於預期，Q4營收估142億至152億歐元。&#10;2026全年營收上修至440億至450億歐元，毛利率上修至56%，訂單能見度直達2030年。",
-      "publish_time": "2026-10-19 08:30:07",
-      "publish_timestamp": 1792369807,
-      "url": "https://news.cnyes.com/news/id/6631900",
-      "keywords": [
-        "葉俊敏",
-        "台積電",
-        "京元電",
         "欣興",
-        "聯電",
-        "臻鼎-KY",
-        "德宏",
-        "友達",
-        "趨勢分析",
-        "摩爾投顧"
+        "鴻海",
+        "開盤",
+        "台股"
       ]
     },
     {
