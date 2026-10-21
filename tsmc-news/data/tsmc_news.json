@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21 21:01:23",
+  "last_updated": "2026-10-21 23:26:42",
   "stock_prices": {
     "tw_2330": {
       "price": 2420.0,
@@ -7,25 +7,12 @@
       "change_percent": 0.62
     },
     "us_tsm": {
-      "price": 425.08,
-      "change": 4.86,
-      "change_percent": 1.16
+      "price": 426.75,
+      "change": 1.67,
+      "change_percent": 0.39
     }
   },
   "news": [
-    {
-      "news_id": 6634455,
-      "title": "<mark>台積電</mark>高雄廠工安事故4人墜落送醫 相關工程已自主停工",
-      "summary": "",
-      "publish_time": "2026-10-20 20:33:27",
-      "publish_timestamp": 1792499607,
-      "url": "https://news.cnyes.com/news/id/6634455",
-      "keywords": [
-        "台積電",
-        "工安",
-        "晶圓代工"
-      ]
-    },
     {
       "news_id": 6632423,
       "title": "鉅亨速報 - Factset 最新調查：台積電(<mark>2330</mark>-TW)目標價調升至3300元，幅度約3.13%",
