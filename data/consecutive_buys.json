@@ -1,34 +1,44 @@
 {
-  "date": "2026-10-20",
-  "foreign_buy_streak_3d": [
-    {
-      "code": "2002",
-      "name": "中鋼",
-      "streak": 3
-    }
-  ],
+  "date": "2026-10-21",
+  "foreign_buy_streak_3d": [],
   "foreign_buy_streak_2d": [
     {
-      "code": "4938",
-      "name": "和碩",
+      "code": "3231",
+      "name": "緯創",
       "streak": 2
     },
     {
-      "code": "2542",
-      "name": "興富發",
+      "code": "2324",
+      "name": "仁寶",
+      "streak": 2
+    },
+    {
+      "code": "6505",
+      "name": "台塑化",
       "streak": 2
     }
   ],
-  "trust_buy_streak_3d": [],
-  "trust_buy_streak_2d": [
-    {
-      "code": "6770",
-      "name": "力積電",
-      "streak": 2
-    },
+  "trust_buy_streak_3d": [
     {
       "code": "2409",
       "name": "友達",
+      "streak": 3
+    }
+  ],
+  "trust_buy_streak_2d": [
+    {
+      "code": "2002",
+      "name": "中鋼",
+      "streak": 2
+    },
+    {
+      "code": "3231",
+      "name": "緯創",
+      "streak": 2
+    },
+    {
+      "code": "1101",
+      "name": "台泥",
       "streak": 2
     }
   ]

@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-10-21 02:07:39",
+  "last_updated": "2026-10-21 21:01:23",
   "stock_prices": {
     "tw_2330": {
-      "price": 2405.0,
-      "change": -15.0,
-      "change_percent": -0.62
+      "price": 2420.0,
+      "change": 15.0,
+      "change_percent": 0.62
     },
     "us_tsm": {
-      "price": 427.76,
-      "change": 7.54,
-      "change_percent": 1.79
+      "price": 425.08,
+      "change": 4.86,
+      "change_percent": 1.16
     }
   },
   "news": [
@@ -24,34 +24,6 @@
         "台積電",
         "工安",
         "晶圓代工"
-      ]
-    },
-    {
-      "news_id": 6634460,
-      "title": "蘋果砸1億美元採購美國鈦金屬！首款摺疊iPhone導入，<mark>台積電</mark>亞利桑那廠今年供應逾億顆晶片",
-      "summary": "",
-      "publish_time": "2026-10-20 20:30:05",
-      "publish_timestamp": 1792499405,
-      "url": "https://news.cnyes.com/news/id/6634460",
-      "keywords": [
-        "智慧手機",
-        "蘋果供應鏈",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6633967,
-      "title": "〈台股開盤〉台積電續挫力守2400元 大盤跌逾400點後V轉翻紅",
-      "summary": "台股早盤受國際半導體股走弱、日韓股下跌拖累，一度跌282點；台積電跌0.83%，2400元關卡受關注。&#10;電子股成交比重逾7成、量能萎縮，分析師估台股短線恐陷高檔盤整，季線附近築底。&#10;TPCA2026、IMPACT、NVIDIA GTC柏林登場，PCB、AI題材股可望活絡；外資期空單逾9萬口仍需留意。",
-      "publish_time": "2026-10-20 09:56:55",
-      "publish_timestamp": 1792461415,
-      "url": "https://news.cnyes.com/news/id/6633967",
-      "keywords": [
-        "台積電",
-        "欣興",
-        "鴻海",
-        "開盤",
-        "台股"
       ]
     },
     {
