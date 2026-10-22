@@ -1,41 +1,57 @@
 {
-  "last_updated": "2026-10-22 02:15:29",
+  "last_updated": "2026-10-22 21:03:27",
   "stock_prices": {
     "tw_2330": {
-      "price": 2420.0,
-      "change": 15.0,
-      "change_percent": 0.62
+      "price": 2385.0,
+      "change": -35.0,
+      "change_percent": -1.45
     },
     "us_tsm": {
-      "price": 430.48,
-      "change": 5.4,
-      "change_percent": 1.27
+      "price": 431.89,
+      "change": 6.81,
+      "change_percent": 1.6
     }
   },
   "news": [
     {
-      "news_id": 6635389,
-      "title": "<mark>台積電</mark>產能太搶手！英特爾擴廠向前 能接住AI商機？",
-      "summary": "Fab 62已開始裝機，預計2028年營運；Fab 52將於2025年底量產18A晶片。&#10;俄亥俄州新廠仍在結構施工，首座廠房改目標2030年完工，較原規劃至少落後五年。&#10;英特爾盼AI需求與台積電產能吃緊帶動外部代工訂單，但18A尚未拿下大型客戶。",
-      "publish_time": "2026-10-22 01:00:05",
-      "publish_timestamp": 1792602005,
-      "url": "https://news.cnyes.com/news/id/6635389",
+      "news_id": 6635999,
+      "title": "路透：<mark>台積電</mark>尋求使用無稀土馬達 擺脫中國稀土壟斷控制",
+      "summary": "台積電已經向供應商徵詢在工廠自動化設備中使用無稀土馬達事宜。&#10;中國對稀土的控制已成為全球半導體產業隱憂。&#10;稀土磁鐵常用於工業設備馬達，包括台積電等高度自動化工廠使用的機械設備。",
+      "publish_time": "2026-10-22 20:27:04",
+      "publish_timestamp": 1792672024,
+      "url": "https://news.cnyes.com/news/id/6635999",
       "keywords": [
-        "英特爾",
-        "Intel",
-        "陳立武",
-        "晶圓代工",
-        "晶圓廠",
-        "美國",
-        "半導體",
-        "18A製程",
-        "資本支出",
-        "AI",
-        "人工智慧",
         "台積電",
-        "SK海力士",
-        "科技",
-        "產業",
+        "稀土",
+        "中國",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6636099,
+      "title": "薔琵颱風影響 <mark>台積電</mark>宣布10/24運動會取消",
+      "summary": "",
+      "publish_time": "2026-10-22 20:22:57",
+      "publish_timestamp": 1792671777,
+      "url": "https://news.cnyes.com/news/id/6636099",
+      "keywords": [
+        "台積電",
+        "運動會",
+        "颱風"
+      ]
+    },
+    {
+      "news_id": 6635609,
+      "title": "先進封裝進度分歧 <mark>台積電</mark>CoPoS拚2028年量產、三星玻璃基板卡關",
+      "summary": "英特爾2026年1月宣布玻璃核心載板量產，Xeon 6+首度採用；台積電CoPoS規劃2027年試產、2028年下半年量產。&#10;三星電機GlaSSEM因樣品未過客戶可靠性認證，量產時程三度延後至2028年後。&#10;華天科技、華潤微、京東方A等中國業者推進面板級封裝與玻璃載板，部分已生產或小量出貨。",
+      "publish_time": "2026-10-22 13:30:10",
+      "publish_timestamp": 1792647010,
+      "url": "https://news.cnyes.com/news/id/6635609",
+      "keywords": [
+        "先進封裝",
+        "玻璃基板",
+        "CoPoS",
+        "客戶驗證",
         "TOP"
       ]
     },
