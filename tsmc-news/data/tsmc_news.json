@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23 02:10:21",
+  "last_updated": "2026-10-23 20:45:13",
   "stock_prices": {
     "tw_2330": {
       "price": 2385.0,
@@ -7,12 +7,74 @@
       "change_percent": -1.45
     },
     "us_tsm": {
-      "price": 411.21,
-      "change": -20.68,
-      "change_percent": -4.79
+      "price": 412.35,
+      "change": -19.54,
+      "change_percent": -4.52
     }
   },
   "news": [
+    {
+      "news_id": 6636737,
+      "title": "<mark>台積電</mark>運動會因颱風喊卡 「小禮物」特別獎金正常發放加碼到3萬元",
+      "summary": "",
+      "publish_time": "2026-10-23 20:13:03",
+      "publish_timestamp": 1792757583,
+      "url": "https://news.cnyes.com/news/id/6636737",
+      "keywords": [
+        "台積電",
+        "運動會",
+        "獎金"
+      ]
+    },
+    {
+      "news_id": 6636451,
+      "title": "Jay Goldberg：「英特爾+馬斯克」組合對<mark>台積電</mark>構成的威脅  可能大於Terafab單打獨鬥",
+      "summary": "Goldberg稱英特爾若幫馬斯克蓋Terafab，台積電面對的將是「英特爾＋馬斯克」的大威脅。&#10;馬斯克4月稱Terafab擬採英特爾下一代14A製程；但主控權與IP歸屬未明，恐與英特爾代工模式衝突。&#10;Goldberg估Terafab後年才可能運作、量產恐拖至2030年；若成功，最大輸家是台積電。",
+      "publish_time": "2026-10-23 14:00:08",
+      "publish_timestamp": 1792735208,
+      "url": "https://news.cnyes.com/news/id/6636451",
+      "keywords": [
+        "馬斯克",
+        "terafab",
+        "台積電",
+        "Jay Goldberg",
+        "英特爾",
+        "14A製程",
+        "晶圓代工",
+        "SpaceX",
+        "特斯拉"
+      ]
+    },
+    {
+      "news_id": 6636334,
+      "title": "〈美股盤後〉Meta重燃AI交易恐慌 費半狂瀉近7% <mark>台積電</mark>ADR跌超4.5%",
+      "summary": "Meta財報後AI交易恐慌升溫，費半跌6.72%、那指跌2.6%，科技股與晶片股遭拋售&#10;中東局勢緊張推升油價至5個月高點，10年期美債殖利率跌破5%，資金湧向避險&#10;Meta上季營收優於預期但首見負自由現金流，CDS利差創高；威騰、科林研發等AI概念股重挫",
+      "publish_time": "2026-10-23 06:06:09",
+      "publish_timestamp": 1792706769,
+      "url": "https://news.cnyes.com/news/id/6636334",
+      "keywords": [
+        "美股盤後",
+        "美股",
+        "TOP",
+        "川普",
+        "半導體",
+        "記憶體"
+      ]
+    },
+    {
+      "news_id": 6636323,
+      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大跌5%，報410.29美元",
+      "summary": "",
+      "publish_time": "2026-10-23 03:17:41",
+      "publish_timestamp": 1792696661,
+      "url": "https://news.cnyes.com/news/id/6636323",
+      "keywords": [
+        "美股",
+        "美股盤中",
+        "盤中速報",
+        "台積電ADR"
+      ]
+    },
     {
       "news_id": 6636199,
       "title": "<mark>台積電</mark>評估赴美德州擴產 同步尋求無稀土馬達降低中國供應風險",
@@ -52,21 +114,6 @@
         "台積電",
         "運動會",
         "颱風"
-      ]
-    },
-    {
-      "news_id": 6635609,
-      "title": "先進封裝進度分歧 <mark>台積電</mark>CoPoS拚2028年量產、三星玻璃基板卡關",
-      "summary": "英特爾2026年1月宣布玻璃核心載板量產，Xeon 6+首度採用；台積電CoPoS規劃2027年試產、2028年下半年量產。&#10;三星電機GlaSSEM因樣品未過客戶可靠性認證，量產時程三度延後至2028年後。&#10;華天科技、華潤微、京東方A等中國業者推進面板級封裝與玻璃載板，部分已生產或小量出貨。",
-      "publish_time": "2026-10-22 13:30:10",
-      "publish_timestamp": 1792647010,
-      "url": "https://news.cnyes.com/news/id/6635609",
-      "keywords": [
-        "先進封裝",
-        "玻璃基板",
-        "CoPoS",
-        "客戶驗證",
-        "TOP"
       ]
     },
     {
