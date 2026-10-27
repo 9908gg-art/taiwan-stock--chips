@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22 23:25:17",
+  "last_updated": "2026-10-27 21:30:04",
   "history": [
     {
       "date": "2026-06-24",
@@ -3261,6 +3261,47 @@
         "trust": 1349,
         "dealer": 1195,
         "total": -10149
+      },
+      "ai_summary": "無 AI 分析數據（請先於 .env 設定 gemini_api_key）"
+    },
+    {
+      "date": "2026-10-27",
+      "tse_summary": {
+        "foreign": -80.39,
+        "trust": 236.05,
+        "dealer": -123.99,
+        "total": 31.67
+      },
+      "tpex_summary": {
+        "foreign": 23.46,
+        "trust": 26.72,
+        "dealer": 1.61,
+        "total": 51.8
+      },
+      "combined_summary": {
+        "foreign": -56.92,
+        "trust": 262.77,
+        "dealer": -122.38,
+        "total": 83.47
+      },
+      "gov_banks": {
+        "net_buy": 66.6,
+        "date": "2026-10-27"
+      },
+      "margin_trading": {
+        "margin_balance_change": -104.93,
+        "margin_balance_total": 6233.87,
+        "short_balance_change": 1169,
+        "short_balance_total": 217708
+      },
+      "trading_volume": {
+        "tse_volume": 10316.84
+      },
+      "tsmc_chips": {
+        "foreign": -1618,
+        "trust": 2420,
+        "dealer": 1907,
+        "total": 2709
       },
       "ai_summary": "無 AI 分析數據（請先於 .env 設定 gemini_api_key）"
     }
