@@ -1,76 +1,33 @@
 {
-  "last_updated": "2026-10-28 03:01:04",
+  "last_updated": "2026-10-28 22:15:28",
   "stock_prices": {
     "tw_2330": {
-      "price": 2400.0,
-      "change": 15.0,
-      "change_percent": 0.63
+      "price": 2425.0,
+      "change": 25.0,
+      "change_percent": 1.04
     },
     "us_tsm": {
-      "price": 437.76,
-      "change": 13.39,
-      "change_percent": 3.16
+      "price": 438.77,
+      "change": 1.9,
+      "change_percent": 0.43
     }
   },
   "news": [
     {
-      "news_id": 6638372,
-      "title": "〈力成法說〉漲價效益延續帶動Q4獲利攀升 盼與晶圓廠策略聯盟",
-      "summary": "力成法說：盼與晶圓廠組供應鏈聯盟、提升附加價值，非成為封測代工者。&#10;因原物料與成本上揚，力成依產品漲價個位數到雙位數，第四季獲利看增。&#10;FOPLP採510×515面板，朝2027量產；先進封裝營收已占集團三成以上。",
-      "publish_time": "2026-10-27 16:33:19",
-      "publish_timestamp": 1793089999,
-      "url": "https://news.cnyes.com/news/id/6638372",
-      "keywords": [
-        "力成",
-        "半導體",
-        "台積電"
-      ]
-    },
-    {
-      "news_id": 6638339,
-      "title": "台積擺尾台股守住4萬6、外資連2賣 三大法人買超31.42億元",
+      "news_id": 6639079,
+      "title": "台股殺出雙11「折扣行情」！<mark>台積電</mark>？聯發科？誰有機會脫穎而出？",
       "summary": "",
-      "publish_time": "2026-10-27 15:04:05",
-      "publish_timestamp": 1793084645,
-      "url": "https://news.cnyes.com/news/id/6638339",
+      "publish_time": "2026-10-28 08:19:50",
+      "publish_timestamp": 1793146790,
+      "url": "https://news.cnyes.com/news/id/6639079",
       "keywords": [
-        "台股盤後",
-        "台股收盤",
-        "三大法人買賣超",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6638246,
-      "title": "46,000點守不住？AI永動機危機？年底前布局還是逃命？",
-      "summary": "傳出台積電CoWoS恐漲1至2成，主因AI晶片需求增、設備交期拉長，產能難擴充&#10;台積電先前已通知晶圓代工明年1月起漲價3-6%，7奈米以下最高漲10%&#10;市場稱台積電遠期本益比僅15-16倍，2400元以下空間有限，成台股定海神針",
-      "publish_time": "2026-10-27 11:53:24",
-      "publish_timestamp": 1793073204,
-      "url": "https://news.cnyes.com/news/id/6638246",
-      "keywords": [
-        "葉俊敏",
-        "台積電",
-        "鴻海",
-        "欣興",
-        "力積電",
-        "臻鼎-KY",
-        "華邦電",
-        "京元電",
+        "江國中",
+        "點股成金",
         "摩爾投顧",
-        "趨勢分析"
-      ]
-    },
-    {
-      "news_id": 6638159,
-      "title": "〈台股開盤〉四日連假開門紅 <mark>台積電</mark>、鴻海領軍漲逾500點 記憶體、機器人走揚",
-      "summary": "",
-      "publish_time": "2026-10-27 10:17:11",
-      "publish_timestamp": 1793067431,
-      "url": "https://news.cnyes.com/news/id/6638159",
-      "keywords": [
-        "台股開盤",
-        "台股",
-        "台積電"
+        "趨勢分析",
+        "台積電",
+        "聯發科",
+        "鴻海"
       ]
     },
     {
