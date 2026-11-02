@@ -1,34 +1,49 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-11-02",
   "foreign_buy_streak_3d": [],
   "foreign_buy_streak_2d": [
     {
-      "code": "00712",
-      "name": "復華富時不動產",
-      "streak": 2
-    },
-    {
-      "code": "9904",
-      "name": "寶成",
+      "code": "2609",
+      "name": "陽明",
       "streak": 2
     }
   ],
   "trust_buy_streak_3d": [
     {
-      "code": "3711",
-      "name": "日月光投控",
-      "streak": 5
+      "code": "2890",
+      "name": "永豐金",
+      "streak": 3
     },
     {
       "code": "0050",
       "name": "元大台灣50",
       "streak": 5
+    },
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "streak": 5
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "2890",
-      "name": "永豐金",
+      "code": "2887",
+      "name": "台新新光金",
+      "streak": 2
+    },
+    {
+      "code": "2891",
+      "name": "中信金",
+      "streak": 2
+    },
+    {
+      "code": "2884",
+      "name": "玉山金",
+      "streak": 2
+    },
+    {
+      "code": "2882",
+      "name": "國泰金",
       "streak": 2
     }
   ]
