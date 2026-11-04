@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05 02:09:33",
+  "last_updated": "2026-11-05 04:33:18",
   "stock_prices": {
     "tw_2330": {
       "price": 2260.0,
@@ -7,9 +7,9 @@
       "change_percent": -1.53
     },
     "us_tsm": {
-      "price": 397.16,
-      "change": -7.64,
-      "change_percent": -1.89
+      "price": 395.99,
+      "change": -8.81,
+      "change_percent": -2.18
     }
   },
   "news": [
@@ -57,53 +57,6 @@
         "TOP",
         "期中選舉"
       ]
-    },
-    {
-      "news_id": 6645752,
-      "title": "台積電25年供電長約待送審 Pinnacle West規劃1.88GW供電",
-      "summary": "",
-      "publish_time": "2026-11-04 01:30:09",
-      "publish_timestamp": 1793727009,
-      "url": "https://news.cnyes.com/news/id/6645752",
-      "keywords": [
-        "電力",
-        "2330",
-        "供電",
-        "半導體",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6645240,
-      "title": "台積電:公告本公司115年度第4期無擔保普通公司債(綠色債券)主要發行條件",
-      "summary": "",
-      "publish_time": "2026-11-03 15:55:14",
-      "publish_timestamp": 1793692514,
-      "url": "https://news.cnyes.com/news/id/6645240",
-      "keywords": []
-    },
-    {
-      "news_id": 6643843,
-      "title": "〈台股盤後〉11月開門出師不利台積電疲軟 跌292點失守4萬5",
-      "summary": "",
-      "publish_time": "2026-11-02 14:35:44",
-      "publish_timestamp": 1793601344,
-      "url": "https://news.cnyes.com/news/id/6643843",
-      "keywords": [
-        "台股盤後",
-        "光通訊",
-        "CCL",
-        "資服股"
-      ]
-    },
-    {
-      "news_id": 6640555,
-      "title": "台積電:公告本公司取得廠房及附屬設施",
-      "summary": "",
-      "publish_time": "2026-10-29 14:05:38",
-      "publish_timestamp": 1793253938,
-      "url": "https://news.cnyes.com/news/id/6640555",
-      "keywords": []
     }
   ]
 }
