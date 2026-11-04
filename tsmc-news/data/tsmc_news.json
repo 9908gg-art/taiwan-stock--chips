@@ -1,21 +1,66 @@
 {
-  "last_updated": "2026-11-04 04:17:19",
+  "last_updated": "2026-11-04 23:34:26",
   "stock_prices": {
     "tw_2330": {
-      "price": 2295.0,
+      "price": 2260.0,
       "change": -35.0,
-      "change_percent": -1.5
+      "change_percent": -1.53
     },
     "us_tsm": {
-      "price": 404.11,
-      "change": 5.48,
-      "change_percent": 1.37
+      "price": 402.5,
+      "change": -2.3,
+      "change_percent": -0.57
     }
   },
   "news": [
     {
+      "news_id": 6647027,
+      "title": "不只<mark>台積電</mark>！AI搞越大越缺「它」！美中角力新戰場！吳嘉隆點名「這族群」主力悄悄卡位：防駭客成剛需大贏家！",
+      "summary": "",
+      "publish_time": "2026-11-04 20:30:06",
+      "publish_timestamp": 1793795406,
+      "url": "https://news.cnyes.com/news/id/6647027",
+      "keywords": [
+        "台積電",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6646894,
+      "title": "外資倒貨近1500億元創史上第5賣超 大砍主動式ETF、連19賣<mark>台積電</mark>",
+      "summary": "台股今盤中急挫跌破4萬2千點，震盪1,885點創史上第4大，終場收42,948點、成交1.1兆元&#10;外資大賣1,498.99億元、期貨淨空單增至9.36萬口；自營賣375.19億元，三大法人合計賣超1,597.88億元&#10;外資賣超00403A 8.4萬張、0050 7.75萬張，台積電連19賣。",
+      "publish_time": "2026-11-04 20:12:44",
+      "publish_timestamp": 1793794364,
+      "url": "https://news.cnyes.com/news/id/6646894",
+      "keywords": [
+        "盤後三大法人",
+        "主動式",
+        "台積電"
+      ]
+    },
+    {
+      "news_id": 6646335,
+      "title": "美國選後換劇本！AI資料中心半數新增容量恐卡關 <mark>台積電</mark>等供應鏈承壓",
+      "summary": "德州新任民主黨州長希諾霍薩主張凍結資料中心開發，恐使德州約13GW AI園區計畫面臨風險。&#10;市場憂監管收緊，標普500期貨跌1.2%、那斯達克100期貨跌2.2%，亞洲晶片股同步走弱。&#10;民主黨在德州、俄亥俄、喬治亞等州勝選，恐擴大全美AI資料中心審查與延宕壓力。",
+      "publish_time": "2026-11-04 16:10:02",
+      "publish_timestamp": 1793779802,
+      "url": "https://news.cnyes.com/news/id/6646335",
+      "keywords": [
+        "美國期中選舉",
+        "民主黨",
+        "AI資料中心",
+        "資料中心監管",
+        "AI基礎建設",
+        "德州",
+        "台積電",
+        "AI供應鏈",
+        "TOP",
+        "期中選舉"
+      ]
+    },
+    {
       "news_id": 6645752,
-      "title": "<mark>台積電</mark>25年供電長約待送審 Pinnacle West規劃1.88GW供電",
+      "title": "台積電25年供電長約待送審 Pinnacle West規劃1.88GW供電",
       "summary": "",
       "publish_time": "2026-11-04 01:30:09",
       "publish_timestamp": 1793727009,
@@ -30,45 +75,12 @@
     },
     {
       "news_id": 6645240,
-      "title": "<mark>台積電</mark>:公告本公司115年度第4期無擔保普通公司債(綠色債券)主要發行條件",
+      "title": "台積電:公告本公司115年度第4期無擔保普通公司債(綠色債券)主要發行條件",
       "summary": "",
       "publish_time": "2026-11-03 15:55:14",
       "publish_timestamp": 1793692514,
       "url": "https://news.cnyes.com/news/id/6645240",
       "keywords": []
-    },
-    {
-      "news_id": 6644531,
-      "title": "英特爾10月暴跌45%、11月開局再挫超8% 晶圓代工轉型迎關鍵考驗",
-      "summary": "英特爾10月重挫45%，11月再跌8.8%，財測失色，上季營收展望低於預期10億至20億美元&#10;為滿足伺服器處理器需求，英特爾將奧勒岡部分18A產能轉向Intel 3，外界憂代工客戶產能不足&#10;陳立武稱未來兩季將宣布幾家客戶，但若一年內仍無大型代工單，財務壓力恐加劇",
-      "publish_time": "2026-11-03 06:30:08",
-      "publish_timestamp": 1793658608,
-      "url": "https://news.cnyes.com/news/id/6644531",
-      "keywords": [
-        "英特爾",
-        "晶圓代工",
-        "美股",
-        "PC",
-        "記憶體",
-        "晶片設計",
-        "18A",
-        "Intel 3",
-        "先進製程"
-      ]
-    },
-    {
-      "news_id": 6644200,
-      "title": "<mark>台積電</mark>供應鏈迅得對半導體設備出貨走揚 10月營收改寫歷史次高",
-      "summary": "迅得10月營收6.73億元，月減3.15%、年增28.08%，改寫歷史單月次高與同期新高。&#10;2026年第三季營收19.45億元，季增6.64%、年增13.62%，刷新單季紀錄。&#10;法人估第四季維持高檔，全年營收可望年增10%至15%；南部新廠最快年底至明年初動工。",
-      "publish_time": "2026-11-02 20:48:55",
-      "publish_timestamp": 1793623735,
-      "url": "https://news.cnyes.com/news/id/6644200",
-      "keywords": [
-        "台積電",
-        "PCB",
-        "半導體",
-        "迅得"
-      ]
     },
     {
       "news_id": 6643843,
@@ -92,32 +104,6 @@
       "publish_timestamp": 1793253938,
       "url": "https://news.cnyes.com/news/id/6640555",
       "keywords": []
-    },
-    {
-      "news_id": 6632423,
-      "title": "鉅亨速報 - Factset 最新調查：台積電(<mark>2330</mark>-TW)目標價調升至3300元，幅度約3.13%",
-      "summary": "",
-      "publish_time": "2026-10-16 22:10:36",
-      "publish_timestamp": 1792159836,
-      "url": "https://news.cnyes.com/news/id/6632423",
-      "keywords": [
-        "台股",
-        "市場預估",
-        "目標價"
-      ]
-    },
-    {
-      "news_id": 6631541,
-      "title": "鉅亨速報 - Factset 最新調查：台積電(<mark>2330</mark>-TW)EPS預估上修至109.21元，預估目標價為3220元",
-      "summary": "",
-      "publish_time": "2026-10-15 22:11:28",
-      "publish_timestamp": 1792073488,
-      "url": "https://news.cnyes.com/news/id/6631541",
-      "keywords": [
-        "台股",
-        "市場預估",
-        "eps"
-      ]
     }
   ]
 }
