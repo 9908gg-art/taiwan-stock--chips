@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07 01:36:02",
+  "last_updated": "2026-11-07 04:02:15",
   "stock_prices": {
     "tw_2330": {
       "price": 2135.0,
@@ -7,12 +7,27 @@
       "change_percent": -4.69
     },
     "us_tsm": {
-      "price": 373.69,
-      "change": 20.58,
-      "change_percent": 5.83
+      "price": 375.92,
+      "change": 22.81,
+      "change_percent": 6.46
     }
   },
   "news": [
+    {
+      "news_id": 6651744,
+      "title": "世芯-KY(3661) N3 是從競爭對手手上贏回來的！次級晶圓市場若收斂，對世芯絕對是好消息",
+      "summary": "",
+      "publish_time": "2026-11-07 02:00:04",
+      "publish_timestamp": 1793988004,
+      "url": "https://news.cnyes.com/news/id/6651744",
+      "keywords": [
+        "世芯-KY(3661-TW)",
+        "ASIC",
+        "台積電",
+        "晶圓代工",
+        "優分析"
+      ]
+    },
     {
       "news_id": 6651695,
       "title": "<mark>台積電</mark>擬進軍先進記憶體晶片製造，應英偉達要求布局3D DRAM",
