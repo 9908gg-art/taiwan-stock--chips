@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06 23:12:35",
+  "last_updated": "2026-11-07 01:36:02",
   "stock_prices": {
     "tw_2330": {
       "price": 2135.0,
@@ -7,12 +7,52 @@
       "change_percent": -4.69
     },
     "us_tsm": {
-      "price": 374.88,
-      "change": 21.78,
-      "change_percent": 6.17
+      "price": 373.69,
+      "change": 20.58,
+      "change_percent": 5.83
     }
   },
   "news": [
+    {
+      "news_id": 6651695,
+      "title": "<mark>台積電</mark>擬進軍先進記憶體晶片製造，應英偉達要求布局3D DRAM",
+      "summary": "",
+      "publish_time": "2026-11-07 00:05:14",
+      "publish_timestamp": 1793981114,
+      "url": "https://news.cnyes.com/news/id/6651695",
+      "keywords": [
+        "律動財經",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
+      ]
+    },
+    {
+      "news_id": 6651567,
+      "title": "<mark>台積電</mark>要做AI記憶體？傳應輝達要求研擬生產3D DRAM",
+      "summary": "輝達要求下，台積電研擬3D DRAM生產計畫，評估新建晶圓廠或收購既有廠房改造。&#10;計畫由徐國晉主導，台積電與輝達均未回應；投產時程尚未明朗。&#10;若量產，台積電將進入先進記憶體市場，與三星、SK海力士、美光競爭。",
+      "publish_time": "2026-11-06 23:13:33",
+      "publish_timestamp": 1793978013,
+      "url": "https://news.cnyes.com/news/id/6651567",
+      "keywords": [
+        "台積電",
+        "輝達",
+        "3D DRAM",
+        "DRAM",
+        "AI",
+        "人工智慧",
+        "記憶體",
+        "先進記憶體",
+        "晶片",
+        "半導體",
+        "價格",
+        "記憶體晶片",
+        "半導體供應鏈",
+        "科技",
+        "產業",
+        "TOP"
+      ]
+    },
     {
       "news_id": 6651653,
       "title": "快訊／傳輝達找<mark>台積電</mark>生產3D DRAMAI記憶體供應鏈恐迎新變局",
