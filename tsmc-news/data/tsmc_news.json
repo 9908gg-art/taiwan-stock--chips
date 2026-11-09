@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10 01:44:08",
+  "last_updated": "2026-11-10 04:56:22",
   "stock_prices": {
     "tw_2330": {
       "price": 2235.0,
@@ -7,9 +7,9 @@
       "change_percent": 4.68
     },
     "us_tsm": {
-      "price": 389.75,
-      "change": 14.31,
-      "change_percent": 3.81
+      "price": 389.88,
+      "change": 14.44,
+      "change_percent": 3.84
     }
   },
   "news": [
@@ -52,20 +52,6 @@
       "publish_timestamp": 1794215677,
       "url": "https://news.cnyes.com/news/id/6653754",
       "keywords": []
-    },
-    {
-      "news_id": 6653049,
-      "title": "<mark>台積電</mark>漲幅進一步擴大，現上漲6%",
-      "summary": "",
-      "publish_time": "2026-11-09 12:05:11",
-      "publish_timestamp": 1794197111,
-      "url": "https://news.cnyes.com/news/id/6653049",
-      "keywords": [
-        "律動財經",
-        " 加密貨幣",
-        " 虛擬貨幣",
-        " BTC"
-      ]
     },
     {
       "news_id": 6651187,
