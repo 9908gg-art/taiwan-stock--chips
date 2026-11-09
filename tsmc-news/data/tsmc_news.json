@@ -1,93 +1,25 @@
 {
-  "last_updated": "2026-11-07 04:02:15",
+  "last_updated": "2026-11-10 01:44:08",
   "stock_prices": {
     "tw_2330": {
-      "price": 2135.0,
-      "change": -105.0,
-      "change_percent": -4.69
+      "price": 2235.0,
+      "change": 100.0,
+      "change_percent": 4.68
     },
     "us_tsm": {
-      "price": 375.92,
-      "change": 22.81,
-      "change_percent": 6.46
+      "price": 389.75,
+      "change": 14.31,
+      "change_percent": 3.81
     }
   },
   "news": [
     {
-      "news_id": 6651744,
-      "title": "世芯-KY(3661) N3 是從競爭對手手上贏回來的！次級晶圓市場若收斂，對世芯絕對是好消息",
+      "news_id": 6654793,
+      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大漲5.01%，報394.24美元",
       "summary": "",
-      "publish_time": "2026-11-07 02:00:04",
-      "publish_timestamp": 1793988004,
-      "url": "https://news.cnyes.com/news/id/6651744",
-      "keywords": [
-        "世芯-KY(3661-TW)",
-        "ASIC",
-        "台積電",
-        "晶圓代工",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6651695,
-      "title": "<mark>台積電</mark>擬進軍先進記憶體晶片製造，應英偉達要求布局3D DRAM",
-      "summary": "",
-      "publish_time": "2026-11-07 00:05:14",
-      "publish_timestamp": 1793981114,
-      "url": "https://news.cnyes.com/news/id/6651695",
-      "keywords": [
-        "律動財經",
-        " 加密貨幣",
-        " 虛擬貨幣",
-        " BTC"
-      ]
-    },
-    {
-      "news_id": 6651567,
-      "title": "<mark>台積電</mark>要做AI記憶體？傳應輝達要求研擬生產3D DRAM",
-      "summary": "輝達要求下，台積電研擬3D DRAM生產計畫，評估新建晶圓廠或收購既有廠房改造。&#10;計畫由徐國晉主導，台積電與輝達均未回應；投產時程尚未明朗。&#10;若量產，台積電將進入先進記憶體市場，與三星、SK海力士、美光競爭。",
-      "publish_time": "2026-11-06 23:13:33",
-      "publish_timestamp": 1793978013,
-      "url": "https://news.cnyes.com/news/id/6651567",
-      "keywords": [
-        "台積電",
-        "輝達",
-        "3D DRAM",
-        "DRAM",
-        "AI",
-        "人工智慧",
-        "記憶體",
-        "先進記憶體",
-        "晶片",
-        "半導體",
-        "價格",
-        "記憶體晶片",
-        "半導體供應鏈",
-        "科技",
-        "產業",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6651653,
-      "title": "快訊／傳輝達找<mark>台積電</mark>生產3D DRAMAI記憶體供應鏈恐迎新變局",
-      "summary": "",
-      "publish_time": "2026-11-06 23:00:54",
-      "publish_timestamp": 1793977254,
-      "url": "https://news.cnyes.com/news/id/6651653",
-      "keywords": [
-        "記憶體",
-        "HBM",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6651611,
-      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大漲7.56%，報379.78美元",
-      "summary": "",
-      "publish_time": "2026-11-06 22:45:18",
-      "publish_timestamp": 1793976318,
-      "url": "https://news.cnyes.com/news/id/6651611",
+      "publish_time": "2026-11-10 00:18:16",
+      "publish_timestamp": 1794241096,
+      "url": "https://news.cnyes.com/news/id/6654793",
       "keywords": [
         "美股",
         "美股盤中",
@@ -96,8 +28,48 @@
       ]
     },
     {
-      "news_id": 6651187,
+      "news_id": 6653644,
+      "title": "三井化學攜手日本政策投資銀行 斥資1.84兆日元收購晶圓材料廠JSR",
+      "summary": "三井化學與DBJ達成協議，將以1.84兆日元向JIC收購晶圓材料大廠JSR Corp.&#10;交易採全現金，含1.64兆日元過渡貸款、DBJ旗下2,000億日元特別股，並擬發新股籌1,500億日元&#10;若成交將成日本化工史上最大併購，三井化學稱合併後可成日本最大半導體材料供應商",
+      "publish_time": "2026-11-09 20:20:05",
+      "publish_timestamp": 1794226805,
+      "url": "https://news.cnyes.com/news/id/6653644",
+      "keywords": [
+        "三井化學",
+        "晶圓材料",
+        "JSR",
+        "併購",
+        "債務",
+        "核心利潤",
+        "光阻劑"
+      ]
+    },
+    {
+      "news_id": 6653754,
       "title": "<mark>台積電</mark>:本公司受邀參加機構投資人說明會",
+      "summary": "",
+      "publish_time": "2026-11-09 17:14:37",
+      "publish_timestamp": 1794215677,
+      "url": "https://news.cnyes.com/news/id/6653754",
+      "keywords": []
+    },
+    {
+      "news_id": 6653049,
+      "title": "<mark>台積電</mark>漲幅進一步擴大，現上漲6%",
+      "summary": "",
+      "publish_time": "2026-11-09 12:05:11",
+      "publish_timestamp": 1794197111,
+      "url": "https://news.cnyes.com/news/id/6653049",
+      "keywords": [
+        "律動財經",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
+      ]
+    },
+    {
+      "news_id": 6651187,
+      "title": "台積電:本公司受邀參加機構投資人說明會",
       "summary": "",
       "publish_time": "2026-11-06 18:05:50",
       "publish_timestamp": 1793959550,
