@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10 23:40:42",
+  "last_updated": "2026-11-11 02:04:46",
   "stock_prices": {
     "tw_2330": {
       "price": 2285.0,
@@ -7,9 +7,9 @@
       "change_percent": 2.24
     },
     "us_tsm": {
-      "price": 397.13,
-      "change": 8.51,
-      "change_percent": 2.19
+      "price": 390.12,
+      "change": 1.5,
+      "change_percent": 0.39
     }
   },
   "news": [
