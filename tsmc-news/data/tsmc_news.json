@@ -1,21 +1,129 @@
 {
-  "last_updated": "2026-11-11 04:36:40",
+  "last_updated": "2026-11-11 23:27:52",
   "stock_prices": {
     "tw_2330": {
-      "price": 2285.0,
-      "change": 50.0,
-      "change_percent": 2.24
+      "price": 2395.0,
+      "change": 110.0,
+      "change_percent": 4.81
     },
     "us_tsm": {
-      "price": 396.15,
-      "change": 7.53,
-      "change_percent": 1.94
+      "price": 409.43,
+      "change": 12.94,
+      "change_percent": 3.26
     }
   },
   "news": [
     {
+      "news_id": 6659120,
+      "title": "〈美股早盤〉CoreWeave財報助攻！那指領漲 <mark>台積電</mark>ADR漲逾4%",
+      "summary": "CoreWeave強勁財報帶動AI需求信心回升，盤前大漲15%，輝達與AI概念股反彈。&#10;OpenAI單季營收首破100億美元，Anthropic IPO認購倍數超額，資金重返AI題材。&#10;升息預期與美元走強限制漲勢；美債殖利率升至5.0%，費半仍漲4.66%。",
+      "publish_time": "2026-11-11 22:40:40",
+      "publish_timestamp": 1794408040,
+      "url": "https://news.cnyes.com/news/id/6659120",
+      "keywords": [
+        "美股",
+        "期貨",
+        "那斯達克100",
+        "標普500",
+        "AI",
+        "人工智慧",
+        "概念股",
+        "Anthropic",
+        "IPO",
+        "CoreWeave",
+        "超額認購",
+        "聯準會",
+        "Fed",
+        "升息",
+        "油價",
+        "美債",
+        "殖利率",
+        "美股早盤",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6659609,
+      "title": "聯強(2347) 台灣商用市場前 3 季成長 153%，晶圓廠與 IC 設計擴廠是主要訂單來源",
+      "summary": "",
+      "publish_time": "2026-11-11 22:30:04",
+      "publish_timestamp": 1794407404,
+      "url": "https://news.cnyes.com/news/id/6659609",
+      "keywords": [
+        "商用市場",
+        "AI伺服器",
+        "半導體擴廠",
+        "系統整合",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6659126,
+      "title": "晶片股自高點跌29%！又是網路泡沫？<mark>台積電</mark>營收透露不同訊號",
+      "summary": "半導體股自2023年來漲逾400%，走勢近似1990年代末網路泡沫，近期回檔引發是否重演疑慮&#10;但SIA9月全球晶片銷售年增逾1倍，台積電10月營收約178億美元、月增15%，需求仍強&#10;半導體指數預估本益比約13倍、處五年低檔；分析認為賣壓或近尾聲，仍須看大型買家支出",
+      "publish_time": "2026-11-11 20:59:43",
+      "publish_timestamp": 1794401983,
+      "url": "https://news.cnyes.com/news/id/6659126",
+      "keywords": [
+        "半導體",
+        "晶片股",
+        "半導體股",
+        "AI",
+        "AI股",
+        "人工智慧",
+        "泡沫",
+        "網路泡沫",
+        "美股",
+        "台積電",
+        "超微",
+        "博通",
+        "資料中心",
+        "資本支出",
+        "晶片需求",
+        "營收",
+        "本益比",
+        "估值",
+        "科技",
+        "產業",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6658948,
+      "title": "發展半導體三大挑戰 台積副總點出地緣政治、缺電及人才短缺風險",
+      "summary": "侯永清稱台灣已成主要半導體國家之一，半導體占GDP 13%、出口33%，全球非記憶體製造占比逾50%。&#10;他指半導體擴張面臨地緣政治、缺電與少子化三大壓力，電網穩定與綠電供應尤關鍵。&#10;侯永清表示需海外擴張、吸引國際人才，並透過AI提升效率，以因應人力短缺。",
+      "publish_time": "2026-11-11 18:57:07",
+      "publish_timestamp": 1794394627,
+      "url": "https://news.cnyes.com/news/id/6658948",
+      "keywords": [
+        "工業總會",
+        "台積電",
+        "半導體",
+        "少子化",
+        "地緣政治",
+        "缺電",
+        "綠能"
+      ]
+    },
+    {
+      "news_id": 6658388,
+      "title": "〈台股盤後〉台積電漲110元領軍記憶體、散熱族群 飆1545點收復4萬4站回10日均線",
+      "summary": "",
+      "publish_time": "2026-11-11 13:50:04",
+      "publish_timestamp": 1794376204,
+      "url": "https://news.cnyes.com/news/id/6658388",
+      "keywords": [
+        "台股盤後",
+        "台積電",
+        "聯發科",
+        "記憶體",
+        "散熱",
+        "PCB"
+      ]
+    },
+    {
       "news_id": 6657710,
-      "title": "<mark>台積電</mark>(2330)擬投資Anthropic與OpenAI最高10億美元從AI晶片供應跨入模型業者股東",
+      "title": "台積電(<mark>2330</mark>)擬投資Anthropic與OpenAI最高10億美元從AI晶片供應跨入模型業者股東",
       "summary": "",
       "publish_time": "2026-11-10 22:30:06",
       "publish_timestamp": 1794321006,
@@ -27,162 +135,139 @@
       ]
     },
     {
-      "news_id": 6656994,
-      "title": "<mark>台積電</mark>10月營收5868.90億元年增59.71% 1—10月達44856.17億元",
+      "news_id": 6657985,
+      "title": "台積電:補充本公司董事會民國108年11月12日核准資本預算案之實際執行情形",
       "summary": "",
-      "publish_time": "2026-11-10 21:42:55",
-      "publish_timestamp": 1794318175,
-      "url": "https://news.cnyes.com/news/id/6656994",
+      "publish_time": "2026-11-10 22:05:14",
+      "publish_timestamp": 1794319514,
+      "url": "https://news.cnyes.com/news/id/6657985",
       "keywords": []
     },
     {
-      "news_id": 6656911,
-      "title": "<mark>台積電</mark>Q3配息9元 核准資本預算409億美元 擬各砸5億美元入股Anthropic與OpenAI",
+      "news_id": 6657984,
+      "title": "台積電:本公司捐贈台積電慈善基金會",
       "summary": "",
-      "publish_time": "2026-11-10 21:28:59",
-      "publish_timestamp": 1794317339,
-      "url": "https://news.cnyes.com/news/id/6656911",
-      "keywords": [
-        "台積電",
-        "晶圓代工",
-        "半導體"
-      ]
+      "publish_time": "2026-11-10 21:56:11",
+      "publish_timestamp": 1794318971,
+      "url": "https://news.cnyes.com/news/id/6657984",
+      "keywords": []
     },
     {
-      "news_id": 6656875,
-      "title": "<mark>台積電</mark>Q3賺7630.6億元年增近7成 EPS 29.43元續創高",
+      "news_id": 6657983,
+      "title": "台積電:本公司捐贈台積電文教基金會",
       "summary": "",
-      "publish_time": "2026-11-10 21:22:42",
-      "publish_timestamp": 1794316962,
-      "url": "https://news.cnyes.com/news/id/6656875",
-      "keywords": [
-        "台積電",
-        "晶圓代工",
-        "財報",
-        "半導體"
-      ]
+      "publish_time": "2026-11-10 21:55:09",
+      "publish_timestamp": 1794318909,
+      "url": "https://news.cnyes.com/news/id/6657983",
+      "keywords": []
     },
     {
-      "news_id": 6655555,
-      "title": "Anthropic招股意外泄露融資細節！<mark>台積電</mark>等7大科技巨頭傳砸260億美元投資、估值遭下修",
-      "summary": "Anthropic招股文件稱擬發行8.67億股A類普通股、每股70至80美元，最高募資693億美元，後又坦承定價資訊有誤。&#10;輝達、超微、博通、美光、微軟、台積電等傳將合計以IPO發行價投入260億美元參與。&#10;在科技股重挫後，Anthropic估值預期降至1.2兆至1.3兆美元。",
-      "publish_time": "2026-11-10 21:10:03",
-      "publish_timestamp": 1794316203,
-      "url": "https://news.cnyes.com/news/id/6655555",
-      "keywords": [
-        "人工智慧",
-        "AI",
-        "Anthropic",
-        "IPO",
-        "上市",
-        "定價",
-        "估值",
-        "台積電",
-        "輝達",
-        "募資",
-        "AMD",
-        "博通",
-        "美光",
-        "微軟",
-        "那斯達克",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6656873,
-      "title": "AI新創Anthropic擬募資最高904億美元台積電、輝達列基石投資人",
+      "news_id": 6657982,
+      "title": "台積電:公告本公司董事會決議辦理限制員工權利新股收回註銷減資事宜",
       "summary": "",
-      "publish_time": "2026-11-10 21:00:11",
-      "publish_timestamp": 1794315611,
-      "url": "https://news.cnyes.com/news/id/6656873",
-      "keywords": [
-        "Anthropic",
-        "AI",
-        "優分析"
-      ]
+      "publish_time": "2026-11-10 21:52:10",
+      "publish_timestamp": 1794318730,
+      "url": "https://news.cnyes.com/news/id/6657982",
+      "keywords": []
     },
     {
-      "news_id": 6656698,
-      "title": "Claude開發商拚本月上市！Anthropic開價70至78美元 <mark>台積電</mark>、輝達參與私募",
-      "summary": "Anthropic公布IPO價格區間每股70至78美元，本月以ANT赴那指，連同私募最高籌資約904億美元&#10;按上限估值約1兆美元、完全稀釋約1.405兆美元；台積電、輝達、Google等參與260億美元私募&#10;第三季營收近170億美元年增約1,200%，但營業虧損5.67億美元。",
-      "publish_time": "2026-11-10 20:32:19",
-      "publish_timestamp": 1794313939,
-      "url": "https://news.cnyes.com/news/id/6656698",
-      "keywords": [
-        "Anthropic",
-        "Claude",
-        "IPO",
-        "ANT",
-        "人工智慧",
-        "AI",
-        "那斯達克",
-        "首次公開發行",
-        "私募",
-        "估值",
-        "台積電",
-        "輝達",
-        "超微",
-        "營收",
-        "資本支出",
-        "新股IPO",
-        "科技",
-        "產業",
-        "TOP"
-      ]
+      "news_id": 6657981,
+      "title": "台積電:代子公司TSMC Partners, Ltd.公告擬投資OpenAI Group PBC",
+      "summary": "",
+      "publish_time": "2026-11-10 21:47:06",
+      "publish_timestamp": 1794318426,
+      "url": "https://news.cnyes.com/news/id/6657981",
+      "keywords": []
+    },
+    {
+      "news_id": 6657980,
+      "title": "台積電:代子公司TSMC Partners, Ltd.公告擬投資Anthropic, PBC",
+      "summary": "",
+      "publish_time": "2026-11-10 21:40:47",
+      "publish_timestamp": 1794318047,
+      "url": "https://news.cnyes.com/news/id/6657980",
+      "keywords": []
+    },
+    {
+      "news_id": 6657979,
+      "title": "台積電:公告本公司取得不動產之使用權資產",
+      "summary": "",
+      "publish_time": "2026-11-10 21:30:02",
+      "publish_timestamp": 1794317402,
+      "url": "https://news.cnyes.com/news/id/6657979",
+      "keywords": []
+    },
+    {
+      "news_id": 6657992,
+      "title": "台積電:本公司處分機器設備公告",
+      "summary": "",
+      "publish_time": "2026-11-10 21:20:48",
+      "publish_timestamp": 1794316848,
+      "url": "https://news.cnyes.com/news/id/6657992",
+      "keywords": []
+    },
+    {
+      "news_id": 6657991,
+      "title": "台積電:本公司董事會核准機器設備、不動產及資本化租賃資產資本預算案",
+      "summary": "",
+      "publish_time": "2026-11-10 21:18:53",
+      "publish_timestamp": 1794316733,
+      "url": "https://news.cnyes.com/news/id/6657991",
+      "keywords": []
+    },
+    {
+      "news_id": 6657990,
+      "title": "台積電:代子公司TSMC Partners, Ltd.公告投資Maverick Silicon Fund II, L.P.",
+      "summary": "",
+      "publish_time": "2026-11-10 20:55:48",
+      "publish_timestamp": 1794315348,
+      "url": "https://news.cnyes.com/news/id/6657990",
+      "keywords": []
+    },
+    {
+      "news_id": 6657989,
+      "title": "台積電:本公司董事會核准投資TSMC Ventures(名稱待定)",
+      "summary": "",
+      "publish_time": "2026-11-10 20:52:20",
+      "publish_timestamp": 1794315140,
+      "url": "https://news.cnyes.com/news/id/6657989",
+      "keywords": []
+    },
+    {
+      "news_id": 6657988,
+      "title": "台積電:本公司訂定民國115年第三季之現金股利除息交易日",
+      "summary": "",
+      "publish_time": "2026-11-10 20:48:21",
+      "publish_timestamp": 1794314901,
+      "url": "https://news.cnyes.com/news/id/6657988",
+      "keywords": []
+    },
+    {
+      "news_id": 6657987,
+      "title": "台積電:本公司董事會決議股利分派",
+      "summary": "",
+      "publish_time": "2026-11-10 20:43:54",
+      "publish_timestamp": 1794314634,
+      "url": "https://news.cnyes.com/news/id/6657987",
+      "keywords": []
+    },
+    {
+      "news_id": 6657986,
+      "title": "台積電:本公司民國115年度第三季合併財務報告業經董事會決議通過",
+      "summary": "",
+      "publish_time": "2026-11-10 20:33:47",
+      "publish_timestamp": 1794314027,
+      "url": "https://news.cnyes.com/news/id/6657986",
+      "keywords": []
     },
     {
       "news_id": 6656880,
-      "title": "<mark>台積電</mark>:台積公司董事會決議",
+      "title": "台積電:台積公司董事會決議",
       "summary": "",
       "publish_time": "2026-11-10 20:28:12",
       "publish_timestamp": 1794313692,
       "url": "https://news.cnyes.com/news/id/6656880",
       "keywords": []
-    },
-    {
-      "news_id": 6656710,
-      "title": "Anthropic投資方包括美光科技、微軟、<mark>台積電</mark>、英偉達",
-      "summary": "",
-      "publish_time": "2026-11-10 20:05:06",
-      "publish_timestamp": 1794312306,
-      "url": "https://news.cnyes.com/news/id/6656710",
-      "keywords": [
-        "律動財經",
-        " 加密貨幣",
-        " 虛擬貨幣",
-        " BTC"
-      ]
-    },
-    {
-      "news_id": 6656700,
-      "title": "台股連2日飆漲千點、外資仍大賣341億元 連23賣倒貨<mark>台積電</mark>",
-      "summary": "台股今大漲1050點、站回4萬2千點，2天累漲近3000點，成交量增近1600億。&#10;外資賣超341億、連9賣，期貨淨空單增至10.34萬口；台積電遭連23日賣超8181張。&#10;外資買超主動統一升級50 9.71萬張居首；投信買超0050、台積電，法人看短線震盪保守。",
-      "publish_time": "2026-11-10 20:03:05",
-      "publish_timestamp": 1794312185,
-      "url": "https://news.cnyes.com/news/id/6656700",
-      "keywords": [
-        "台股盤後三大法人",
-        "台積電",
-        "聯電",
-        "元大台灣50",
-        "統一"
-      ]
-    },
-    {
-      "news_id": 6655968,
-      "title": "【量大強漲股整理】<mark>台積電</mark>營收亮眼!下波AI供應鏈換誰表現?",
-      "summary": "台股開高走高，終場漲1050.22點至42711.92點，成交量10033.40億。&#10;台積電10月營收5868.9億元，月增14.7%、年增59.7%，前10月營收年增43.3%。&#10;麗臺、邁達特等資安與AI供應鏈走強，麗臺漲74%、邁達特漲20%，受市場追捧。",
-      "publish_time": "2026-11-10 18:05:31",
-      "publish_timestamp": 1794305131,
-      "url": "https://news.cnyes.com/news/id/6655968",
-      "keywords": [
-        "漲價題材",
-        "集團股",
-        "莊佳螢分析師",
-        "摩爾投顧",
-        "三大法人",
-        "趨勢分析"
-      ]
     },
     {
       "news_id": 6655815,
@@ -216,84 +301,6 @@
       "publish_timestamp": 1794215677,
       "url": "https://news.cnyes.com/news/id/6653754",
       "keywords": []
-    },
-    {
-      "news_id": 6651187,
-      "title": "台積電:本公司受邀參加機構投資人說明會",
-      "summary": "",
-      "publish_time": "2026-11-06 18:05:50",
-      "publish_timestamp": 1793959550,
-      "url": "https://news.cnyes.com/news/id/6651187",
-      "keywords": []
-    },
-    {
-      "news_id": 6649515,
-      "title": "盤中速報 - 台積電(<mark>2330</mark>)股價殺至跌停，跌停價2020.0元，成交10,426張",
-      "summary": "",
-      "publish_time": "2026-11-06 09:00:48",
-      "publish_timestamp": 1793926848,
-      "url": "https://news.cnyes.com/news/id/6649515",
-      "keywords": [
-        "台股",
-        "台股盤中",
-        "盤中速報",
-        "盤中漲跌停"
-      ]
-    },
-    {
-      "news_id": 6647853,
-      "title": "《價值型投資 最新產業研究報告》台積電 (<mark>2330</mark>-TW) 先進製程需求延續，封裝升級擴大成長空間",
-      "summary": "台積電第三季每股盈餘29.43元、年增約69%，毛利率66.4%，先進製程與獲利仍持續成長。&#10;2奈米已量產，手機與高效能運算客戶導入；3奈米需求也續強，AI晶片複雜化帶動先進封裝重要性升高。&#10;CoWoS傳醞釀調價，台積電擴充製程與封裝產能並保留現金支撐投資，後續出貨轉現金是價值關鍵。",
-      "publish_time": "2026-11-05 13:42:48",
-      "publish_timestamp": 1793857368,
-      "url": "https://news.cnyes.com/news/id/6647853",
-      "keywords": [
-        "蔡慶龍",
-        "價值型投資",
-        "台積電 (2330-TW)",
-        "先進製程",
-        "先進封裝",
-        "企業價值",
-        "趨勢分析"
-      ]
-    },
-    {
-      "news_id": 6645752,
-      "title": "台積電25年供電長約待送審 Pinnacle West規劃1.88GW供電",
-      "summary": "",
-      "publish_time": "2026-11-04 01:30:09",
-      "publish_timestamp": 1793727009,
-      "url": "https://news.cnyes.com/news/id/6645752",
-      "keywords": [
-        "電力",
-        "2330",
-        "供電",
-        "半導體",
-        "優分析"
-      ]
-    },
-    {
-      "news_id": 6645240,
-      "title": "台積電:公告本公司115年度第4期無擔保普通公司債(綠色債券)主要發行條件",
-      "summary": "",
-      "publish_time": "2026-11-03 15:55:14",
-      "publish_timestamp": 1793692514,
-      "url": "https://news.cnyes.com/news/id/6645240",
-      "keywords": []
-    },
-    {
-      "news_id": 6643843,
-      "title": "〈台股盤後〉11月開門出師不利台積電疲軟 跌292點失守4萬5",
-      "summary": "",
-      "publish_time": "2026-11-02 14:35:44",
-      "publish_timestamp": 1793601344,
-      "url": "https://news.cnyes.com/news/id/6643843",
-      "keywords": [
-        "台股盤後",
-        "光通訊",
-        "CCL",
-        "資服股"
-      ]
     }
   ]
 }
