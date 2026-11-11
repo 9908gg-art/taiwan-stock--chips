@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11 23:27:52",
+  "last_updated": "2026-11-12 02:00:29",
   "stock_prices": {
     "tw_2330": {
       "price": 2395.0,
@@ -7,12 +7,26 @@
       "change_percent": 4.81
     },
     "us_tsm": {
-      "price": 409.43,
-      "change": 12.94,
-      "change_percent": 3.26
+      "price": 415.9,
+      "change": 19.42,
+      "change_percent": 4.9
     }
   },
   "news": [
+    {
+      "news_id": 6659769,
+      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大漲5%，報416.31美元",
+      "summary": "",
+      "publish_time": "2026-11-12 01:13:20",
+      "publish_timestamp": 1794417200,
+      "url": "https://news.cnyes.com/news/id/6659769",
+      "keywords": [
+        "美股",
+        "美股盤中",
+        "盤中速報",
+        "台積電ADR"
+      ]
+    },
     {
       "news_id": 6659120,
       "title": "〈美股早盤〉CoreWeave財報助攻！那指領漲 <mark>台積電</mark>ADR漲逾4%",
@@ -103,22 +117,6 @@
         "地緣政治",
         "缺電",
         "綠能"
-      ]
-    },
-    {
-      "news_id": 6658388,
-      "title": "〈台股盤後〉台積電漲110元領軍記憶體、散熱族群 飆1545點收復4萬4站回10日均線",
-      "summary": "",
-      "publish_time": "2026-11-11 13:50:04",
-      "publish_timestamp": 1794376204,
-      "url": "https://news.cnyes.com/news/id/6658388",
-      "keywords": [
-        "台股盤後",
-        "台積電",
-        "聯發科",
-        "記憶體",
-        "散熱",
-        "PCB"
       ]
     },
     {
