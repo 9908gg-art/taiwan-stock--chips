@@ -1,51 +1,92 @@
 {
-  "last_updated": "2026-11-17 07:02:03",
+  "last_updated": "2026-11-18 01:00:56",
   "stock_prices": {
     "tw_2330": {
-      "price": 2215.0,
-      "change": -135.0,
-      "change_percent": -5.74
+      "price": 2170.0,
+      "change": -45.0,
+      "change_percent": -2.03
     },
     "us_tsm": {
-      "price": 373.45,
-      "change": -25.28,
-      "change_percent": -6.34
+      "price": 356.99,
+      "change": -16.46,
+      "change_percent": -4.41
     }
   },
   "news": [
     {
-      "news_id": 6664477,
-      "title": "〈美股盤後〉輝達財報前AI股掀賣壓 道瓊瀉近740點 費半、台積ADR重挫超5%",
-      "summary": "美國收緊中國透過第三國租用先進AI算力，輝達財報前股價跌4.12%，費半重挫5.28%&#10;黃仁勳上週辭任執行長後，川普稱支持回任，但董事會未討論；美財長籲大幅改組&#10;輝達將於週二盤後公布財報，市場估營收1087.3億美元、EPS 2.47美元，聚焦後續經營方向",
-      "publish_time": "2026-11-17 06:09:15",
-      "publish_timestamp": 1794866955,
-      "url": "https://news.cnyes.com/news/id/6664477",
+      "news_id": 6665586,
+      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大跌5.01%，報354.75美元",
+      "summary": "",
+      "publish_time": "2026-11-18 00:07:38",
+      "publish_timestamp": 1794931658,
+      "url": "https://news.cnyes.com/news/id/6665586",
       "keywords": [
-        "美股盤後",
         "美股",
-        "TOP",
-        "川普",
-        "輝達",
-        "黃仁勳",
-        "財報",
-        "銀行",
-        "系統故障",
-        "微軟"
+        "美股盤中",
+        "盤中速報",
+        "台積電ADR"
       ]
     },
     {
-      "news_id": 6663530,
-      "title": "<mark>台積電</mark>供應鏈迅得3季淨利大增49.72%EPS達6.12元 Q4不看淡",
-      "summary": "迅得第3季稅後純益1.92億元、EPS 2.33元；前3季純益5.03億元、EPS 6.12元&#10;10月營收6.73億元，創同期新高、歷史單月次高，前10月營收61.86億元、年增10.93%&#10;公司看好第4季半導體設備出貨高峰，擬於南部擴產並持續推進投資案",
-      "publish_time": "2026-11-16 10:56:19",
-      "publish_timestamp": 1794797779,
-      "url": "https://news.cnyes.com/news/id/6663530",
+      "news_id": 6665127,
+      "title": "<mark>台積電</mark>表揚35家優良供應商 台廠漢唐、矽品、和碩新入列",
+      "summary": "台積電17日辦2026供應鏈管理論壇，魏哲家領軍，優良供應商卓越表現獎增至35家，漢唐、矽品、和碩新入列。&#10;魏哲家稱面對總經不確定性，成長信心來自供應鏈信賴，須靠大同盟緊密敏捷合作克服挑戰。&#10;論壇聚焦AI下技術與系統整合、在地採購與韌性；台積電強調建廠安全、工安與低碳營建。",
+      "publish_time": "2026-11-17 16:45:13",
+      "publish_timestamp": 1794905113,
+      "url": "https://news.cnyes.com/news/id/6665127",
       "keywords": [
         "台積電",
-        "營收",
-        "迅得",
-        "景碩",
-        "臻鼎"
+        "矽品",
+        "漢唐",
+        "和碩",
+        "供應鏈"
+      ]
+    },
+    {
+      "news_id": 6665004,
+      "title": "〈台股盤後〉上下振盪高達1747點  堅守4萬點大關由台積電扮攻防要角",
+      "summary": "台股今上下振盪1747.39點，終場守住4萬點，收40092.11點、跌947.97點，成交值9617.95億元，台積電收2170元跌45元。&#10;受AI需求恐慌影響，聯茂、台燿、欣興、南電、景碩全數跌停，台光電收3540元跌6.72%，信驊、大立光、川湖同步重挫。&#10;",
+      "publish_time": "2026-11-17 14:13:53",
+      "publish_timestamp": 1794896033,
+      "url": "https://news.cnyes.com/news/id/6665004",
+      "keywords": [
+        "信驊",
+        "台股盤後",
+        "台積電",
+        "AI",
+        "輝達",
+        "中鼎",
+        "欣興",
+        "台光電"
+      ]
+    },
+    {
+      "news_id": 6664818,
+      "title": "傳奇投資人Druckenmiller大砍台積電持股94%！增持SpaceX、Palantir、AppLovin",
+      "summary": "卓肯米勒第三季大幅調整Duquesne持股，退出約48項部位，清倉AMD、SNDK、GOOGL，並砍台積電94%&#10;新建倉SpaceX、Palantir、AppLovin與多檔黃金礦業股。&#10;Natera為最大持股，占44.7億美元組合29.2%；持股還包括STX、AMZN、FOXA、YPF與EWZ等",
+      "publish_time": "2026-11-17 11:50:52",
+      "publish_timestamp": 1794887452,
+      "url": "https://news.cnyes.com/news/id/6664818",
+      "keywords": [
+        "卓肯米勒",
+        "Stanley Druckenmiller",
+        "Duquesne家族辦公室",
+        "13F",
+        "持倉",
+        "投資組合",
+        "台積電",
+        "超微半導體",
+        "AMD",
+        "SanDisk",
+        "Alphabet",
+        "SpaceX",
+        "Palantir",
+        "AppLovin",
+        "黃金礦業",
+        "紐蒙特",
+        "美股",
+        "投資",
+        "TOP"
       ]
     },
     {
