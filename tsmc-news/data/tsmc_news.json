@@ -1,92 +1,74 @@
 {
-  "last_updated": "2026-11-18 05:54:57",
+  "last_updated": "2026-11-19 00:38:42",
   "stock_prices": {
     "tw_2330": {
-      "price": 2170.0,
-      "change": -45.0,
-      "change_percent": -2.03
+      "price": 2175.0,
+      "change": 5.0,
+      "change_percent": 0.23
     },
     "us_tsm": {
-      "price": 359.69,
-      "change": -13.76,
-      "change_percent": -3.68
+      "price": 359.44,
+      "change": -0.25,
+      "change_percent": -0.07
     }
   },
   "news": [
     {
-      "news_id": 6665586,
-      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大跌5.01%，報354.75美元",
-      "summary": "",
-      "publish_time": "2026-11-18 00:07:38",
-      "publish_timestamp": 1794931658,
-      "url": "https://news.cnyes.com/news/id/6665586",
-      "keywords": [
-        "美股",
-        "美股盤中",
-        "盤中速報",
-        "台積電ADR"
-      ]
-    },
-    {
-      "news_id": 6665127,
-      "title": "<mark>台積電</mark>表揚35家優良供應商 台廠漢唐、矽品、和碩新入列",
-      "summary": "台積電17日辦2026供應鏈管理論壇，魏哲家領軍，優良供應商卓越表現獎增至35家，漢唐、矽品、和碩新入列。&#10;魏哲家稱面對總經不確定性，成長信心來自供應鏈信賴，須靠大同盟緊密敏捷合作克服挑戰。&#10;論壇聚焦AI下技術與系統整合、在地採購與韌性；台積電強調建廠安全、工安與低碳營建。",
-      "publish_time": "2026-11-17 16:45:13",
-      "publish_timestamp": 1794905113,
-      "url": "https://news.cnyes.com/news/id/6665127",
+      "news_id": 6665715,
+      "title": "台積4.6萬員工個資遭索5枚比特幣 駭客狂言下個狙擊目標是AMD",
+      "summary": "駭客自稱握有近4.6萬名台積電員工個資，11/15免費公開260筆檔案，開價調高至5枚比特幣，並預告18日釋第二批&#10;台積電11/12通報資安重大訊息並向SEC交6-K，稱外洩來自外部網站與雲端供應商，未見內部系統遭入侵&#10;分析指恐被交叉比對用於詐騙；台積電18日收2175元，漲5元，週內仍跌7.45%",
+      "publish_time": "2026-11-18 18:49:38",
+      "publish_timestamp": 1794998978,
+      "url": "https://news.cnyes.com/news/id/6665715",
       "keywords": [
         "台積電",
-        "矽品",
-        "漢唐",
-        "和碩",
-        "供應鏈"
-      ]
-    },
-    {
-      "news_id": 6665004,
-      "title": "〈台股盤後〉上下振盪高達1747點  堅守4萬點大關由台積電扮攻防要角",
-      "summary": "台股今上下振盪1747.39點，終場守住4萬點，收40092.11點、跌947.97點，成交值9617.95億元，台積電收2170元跌45元。&#10;受AI需求恐慌影響，聯茂、台燿、欣興、南電、景碩全數跌停，台光電收3540元跌6.72%，信驊、大立光、川湖同步重挫。&#10;",
-      "publish_time": "2026-11-17 14:13:53",
-      "publish_timestamp": 1794896033,
-      "url": "https://news.cnyes.com/news/id/6665004",
-      "keywords": [
-        "信驊",
-        "台股盤後",
-        "台積電",
-        "AI",
-        "輝達",
-        "中鼎",
-        "欣興",
-        "台光電"
-      ]
-    },
-    {
-      "news_id": 6664818,
-      "title": "傳奇投資人Druckenmiller大砍台積電持股94%！增持SpaceX、Palantir、AppLovin",
-      "summary": "卓肯米勒第三季大幅調整Duquesne持股，退出約48項部位，清倉AMD、SNDK、GOOGL，並砍台積電94%&#10;新建倉SpaceX、Palantir、AppLovin與多檔黃金礦業股。&#10;Natera為最大持股，占44.7億美元組合29.2%；持股還包括STX、AMZN、FOXA、YPF與EWZ等",
-      "publish_time": "2026-11-17 11:50:52",
-      "publish_timestamp": 1794887452,
-      "url": "https://news.cnyes.com/news/id/6664818",
-      "keywords": [
-        "卓肯米勒",
-        "Stanley Druckenmiller",
-        "Duquesne家族辦公室",
-        "13F",
-        "持倉",
-        "投資組合",
-        "台積電",
-        "超微半導體",
+        "個資外洩",
+        "比特幣",
+        "資安",
+        "雲端供應商",
         "AMD",
-        "SanDisk",
-        "Alphabet",
-        "SpaceX",
-        "Palantir",
-        "AppLovin",
-        "黃金礦業",
-        "紐蒙特",
-        "美股",
-        "投資",
-        "TOP"
+        "駭客"
+      ]
+    },
+    {
+      "news_id": 6666362,
+      "title": "美股盤前晶片概念股普漲，邁威爾科技漲 4.4%，<mark>台積電</mark>漲 3.8%",
+      "summary": "",
+      "publish_time": "2026-11-18 17:30:57",
+      "publish_timestamp": 1794994257,
+      "url": "https://news.cnyes.com/news/id/6666362",
+      "keywords": [
+        "RootData",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
+      ]
+    },
+    {
+      "news_id": 6666004,
+      "title": "<mark>台積電</mark>高層親赴輝達關切訂單 供應鏈增援推升明年成長率上修至75%",
+      "summary": "",
+      "publish_time": "2026-11-18 11:30:06",
+      "publish_timestamp": 1794972606,
+      "url": "https://news.cnyes.com/news/id/6666004",
+      "keywords": [
+        "半導體",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6665855,
+      "title": "輝達擴大與供應鏈夥伴合作 <mark>台積電</mark>、鴻海、景碩及矽品等4台廠入列",
+      "summary": "輝達擴大與景碩、矽品、台積電、鴻海等台廠合作，擴產載板、先進封裝、晶圓製造及委託製造。&#10;景碩先進ABF載板產能將增逾3.5倍，預計2027年下半年投產；矽品先進封裝目標2029年年中增產。&#10;輝達稱此舉為目前及下一世代加速運算平台做準備，鴻海、台積電也將支援AI基礎設施與新平台量產。",
+      "publish_time": "2026-11-18 10:15:12",
+      "publish_timestamp": 1794968112,
+      "url": "https://news.cnyes.com/news/id/6665855",
+      "keywords": [
+        "輝達",
+        "台積電",
+        "鴻海",
+        "景碩",
+        "矽品"
       ]
     },
     {
