@@ -1,74 +1,150 @@
 {
-  "last_updated": "2026-11-19 05:34:33",
+  "last_updated": "2026-11-20 00:42:59",
   "stock_prices": {
     "tw_2330": {
-      "price": 2175.0,
-      "change": 5.0,
-      "change_percent": 0.23
+      "price": 2100.0,
+      "change": -75.0,
+      "change_percent": -3.45
     },
     "us_tsm": {
-      "price": 362.62,
-      "change": 2.93,
-      "change_percent": 0.81
+      "price": 364.28,
+      "change": 1.66,
+      "change_percent": 0.46
     }
   },
   "news": [
     {
-      "news_id": 6665715,
-      "title": "台積4.6萬員工個資遭索5枚比特幣 駭客狂言下個狙擊目標是AMD",
-      "summary": "駭客自稱握有近4.6萬名台積電員工個資，11/15免費公開260筆檔案，開價調高至5枚比特幣，並預告18日釋第二批&#10;台積電11/12通報資安重大訊息並向SEC交6-K，稱外洩來自外部網站與雲端供應商，未見內部系統遭入侵&#10;分析指恐被交叉比對用於詐騙；台積電18日收2175元，漲5元，週內仍跌7.45%",
-      "publish_time": "2026-11-18 18:49:38",
-      "publish_timestamp": 1794998978,
-      "url": "https://news.cnyes.com/news/id/6665715",
-      "keywords": [
-        "台積電",
-        "個資外洩",
-        "比特幣",
-        "資安",
-        "雲端供應商",
-        "AMD",
-        "駭客"
-      ]
-    },
-    {
-      "news_id": 6666362,
-      "title": "美股盤前晶片概念股普漲，邁威爾科技漲 4.4%，<mark>台積電</mark>漲 3.8%",
+      "news_id": 6667952,
+      "title": "<mark>台積電</mark>子公司斥資約5億美元認購Anthropic股票",
       "summary": "",
-      "publish_time": "2026-11-18 17:30:57",
-      "publish_timestamp": 1794994257,
-      "url": "https://news.cnyes.com/news/id/6666362",
+      "publish_time": "2026-11-19 22:05:58",
+      "publish_timestamp": 1795097158,
+      "url": "https://news.cnyes.com/news/id/6667952",
       "keywords": [
-        "RootData",
+        "律動財經",
         " 加密貨幣",
         " 虛擬貨幣",
         " BTC"
       ]
     },
     {
-      "news_id": 6666004,
-      "title": "<mark>台積電</mark>高層親赴輝達關切訂單 供應鏈增援推升明年成長率上修至75%",
+      "news_id": 6667925,
+      "title": "海外下單也要查！<mark>台積電</mark>傳收緊對中代工 中國AI晶片再卡關",
+      "summary": "台積電收緊對中國晶片設計業者限制，暫停部分先前獲准的16奈米及更先進製程訂單。&#10;美國商務部新規取消原有驗證管道，相關先進晶片除符合例外外，須取得出口許可。&#10;中國業者多被限用28奈米、40奈米，且不得用HBM與先進封裝，恐增國產AI晶片阻力。",
+      "publish_time": "2026-11-19 21:24:50",
+      "publish_timestamp": 1795094690,
+      "url": "https://news.cnyes.com/news/id/6667925",
+      "keywords": [
+        "台積電",
+        "TSMC",
+        "中國",
+        "美國",
+        "AI",
+        "半導體",
+        "晶片",
+        "人工智慧",
+        "晶圓代工",
+        "先進製程",
+        "出口管制",
+        "HBM",
+        "高頻寬記憶體",
+        "先進封裝",
+        "輝達",
+        "三星電子"
+      ]
+    },
+    {
+      "news_id": 6667918,
+      "title": "美國晶片禁令今正式生效！<mark>台積電</mark>緊急喊停中國16奈米先進製程訂單，AI晶片設計完成也恐無廠可代工",
       "summary": "",
-      "publish_time": "2026-11-18 11:30:06",
-      "publish_timestamp": 1794972606,
-      "url": "https://news.cnyes.com/news/id/6666004",
+      "publish_time": "2026-11-19 21:00:28",
+      "publish_timestamp": 1795093228,
+      "url": "https://news.cnyes.com/news/id/6667918",
       "keywords": [
         "半導體",
         "優分析"
       ]
     },
     {
-      "news_id": 6665855,
-      "title": "輝達擴大與供應鏈夥伴合作 <mark>台積電</mark>、鴻海、景碩及矽品等4台廠入列",
-      "summary": "輝達擴大與景碩、矽品、台積電、鴻海等台廠合作，擴產載板、先進封裝、晶圓製造及委託製造。&#10;景碩先進ABF載板產能將增逾3.5倍，預計2027年下半年投產；矽品先進封裝目標2029年年中增產。&#10;輝達稱此舉為目前及下一世代加速運算平台做準備，鴻海、台積電也將支援AI基礎設施與新平台量產。",
-      "publish_time": "2026-11-18 10:15:12",
-      "publish_timestamp": 1794968112,
-      "url": "https://news.cnyes.com/news/id/6665855",
+      "news_id": 6667851,
+      "title": "快訊／美國晶片管制擴大！<mark>台積電</mark>、三星暫停部分中國客戶出貨",
+      "summary": "",
+      "publish_time": "2026-11-19 20:00:45",
+      "publish_timestamp": 1795089645,
+      "url": "https://news.cnyes.com/news/id/6667851",
       "keywords": [
-        "輝達",
+        "半導體",
+        "AI晶片",
+        "優分析"
+      ]
+    },
+    {
+      "news_id": 6667671,
+      "title": "<mark>台積電</mark>斥資近5億美元入股Anthropic 取得602萬股持股約0.03%",
+      "summary": "",
+      "publish_time": "2026-11-19 17:10:04",
+      "publish_timestamp": 1795079404,
+      "url": "https://news.cnyes.com/news/id/6667671",
+      "keywords": [
         "台積電",
-        "鴻海",
-        "景碩",
-        "矽品"
+        "AI",
+        "Anthropic"
+      ]
+    },
+    {
+      "news_id": 6667680,
+      "title": "<mark>台積電</mark>:代子公司TSMC Partners, Ltd.公告投資Anthropic, PBC(補充115/11/10公告)",
+      "summary": "",
+      "publish_time": "2026-11-19 16:09:03",
+      "publish_timestamp": 1795075743,
+      "url": "https://news.cnyes.com/news/id/6667680",
+      "keywords": []
+    },
+    {
+      "news_id": 6667080,
+      "title": "早年押注Anthropic狂賺1470%！南韓SK電信持股飆至32億美元 <mark>台積電</mark>、輝達也參與私募",
+      "summary": "Anthropic周三IPO定價，SK電信持股估值升至32億美元，較2.04億美元原始投入報酬率達1,470%。&#10;SK電信自2023年起投資Anthropic，是否出售持股將視業務綜效、市場環境與成長資金需求。&#10;台積電、美光、輝達也參與Anthropic 260億美元私募。",
+      "publish_time": "2026-11-19 16:00:05",
+      "publish_timestamp": 1795075205,
+      "url": "https://news.cnyes.com/news/id/6667080",
+      "keywords": [
+        "Anthropic",
+        "AI",
+        "IPO",
+        "掛牌",
+        "上市",
+        "南韓",
+        "韓國",
+        "崔泰源",
+        "SK電信",
+        "SK集團",
+        "早期投資人",
+        "SK海力士",
+        "三星電子",
+        "台積電",
+        "美光",
+        "輝達",
+        "記憶體",
+        "HBM",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6667527,
+      "title": "《價值型投資 最新產業研究報告》<mark>台積電</mark> (2330-TW) 中央處理器需求升溫，二奈米與封裝擴大商機",
+      "summary": "台積電10月營收5,868.9億元、年增近六成，第三季EPS 29.43元、毛利率66.4%。&#10;公司看好明年2奈米產能超過倍增，手機與AI客戶需求強，3奈米也持續追加產能。&#10;AI帶動CPU、先進封裝與HBM需求增溫，美國供電暫未改變需求預期。",
+      "publish_time": "2026-11-19 14:19:18",
+      "publish_timestamp": 1795069158,
+      "url": "https://news.cnyes.com/news/id/6667527",
+      "keywords": [
+        "蔡慶龍",
+        "價值型投資",
+        "台積電 (2330-TW)",
+        "先進製程",
+        "中央處理器",
+        "先進封裝",
+        "趨勢分析",
+        "摩爾投顧"
       ]
     },
     {
@@ -209,30 +285,6 @@
       "publish_timestamp": 1794314027,
       "url": "https://news.cnyes.com/news/id/6657986",
       "keywords": []
-    },
-    {
-      "news_id": 6656880,
-      "title": "台積電:台積公司董事會決議",
-      "summary": "",
-      "publish_time": "2026-11-10 20:28:12",
-      "publish_timestamp": 1794313692,
-      "url": "https://news.cnyes.com/news/id/6656880",
-      "keywords": []
-    },
-    {
-      "news_id": 6655815,
-      "title": "營收速報  - 台積電(<mark>2330</mark>)10月營收5,868.90億元年增率高達59.71％",
-      "summary": "",
-      "publish_time": "2026-11-10 16:20:53",
-      "publish_timestamp": 1794298853,
-      "url": "https://news.cnyes.com/news/id/6655815",
-      "keywords": [
-        "台股",
-        "台股營收",
-        "營收速報",
-        "10月營收",
-        "台積電"
-      ]
     }
   ]
 }
