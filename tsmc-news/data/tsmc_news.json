@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20 03:07:07",
+  "last_updated": "2026-11-20 05:46:34",
   "stock_prices": {
     "tw_2330": {
       "price": 2100.0,
@@ -7,12 +7,27 @@
       "change_percent": -3.45
     },
     "us_tsm": {
-      "price": 354.42,
-      "change": -8.2,
-      "change_percent": -2.26
+      "price": 352.09,
+      "change": -10.53,
+      "change_percent": -2.9
     }
   },
   "news": [
+    {
+      "news_id": 6667178,
+      "title": "〈台股盤前要聞〉金管會祭「有條件禁空令」、全體券商10月獲利月減近6成、<mark>台積電</mark>砸5億美元取得Anthropic 602萬股",
+      "summary": "",
+      "publish_time": "2026-11-20 05:10:06",
+      "publish_timestamp": 1795122606,
+      "url": "https://news.cnyes.com/news/id/6667178",
+      "keywords": [
+        "台股",
+        "台股盤前",
+        "摘要",
+        "禁空令",
+        "台積電"
+      ]
+    },
     {
       "news_id": 6667952,
       "title": "<mark>台積電</mark>子公司斥資約5億美元認購Anthropic股票",
@@ -131,7 +146,7 @@
     },
     {
       "news_id": 6667527,
-      "title": "《價值型投資 最新產業研究報告》<mark>台積電</mark> (2330-TW) 中央處理器需求升溫，二奈米與封裝擴大商機",
+      "title": "《價值型投資 最新產業研究報告》台積電 (<mark>2330</mark>-TW) 中央處理器需求升溫，二奈米與封裝擴大商機",
       "summary": "台積電10月營收5,868.9億元、年增近六成，第三季EPS 29.43元、毛利率66.4%。&#10;公司看好明年2奈米產能超過倍增，手機與AI客戶需求強，3奈米也持續追加產能。&#10;AI帶動CPU、先進封裝與HBM需求增溫，美國供電暫未改變需求預期。",
       "publish_time": "2026-11-19 14:19:18",
       "publish_timestamp": 1795069158,
