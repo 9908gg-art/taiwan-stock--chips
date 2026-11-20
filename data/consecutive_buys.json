@@ -1,33 +1,49 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "foreign_buy_streak_3d": [],
-  "foreign_buy_streak_2d": [],
+  "foreign_buy_streak_2d": [
+    {
+      "code": "2303",
+      "name": "聯電",
+      "streak": 2
+    },
+    {
+      "code": "00712",
+      "name": "復華富時不動產",
+      "streak": 2
+    },
+    {
+      "code": "2409",
+      "name": "友達",
+      "streak": 2
+    },
+    {
+      "code": "2887",
+      "name": "台新新光金",
+      "streak": 2
+    }
+  ],
   "trust_buy_streak_3d": [
     {
       "code": "2027",
       "name": "大成鋼",
-      "streak": 4
-    },
-    {
-      "code": "2882",
-      "name": "國泰金",
       "streak": 5
-    },
-    {
-      "code": "2891",
-      "name": "中信金",
-      "streak": 3
     },
     {
       "code": "0050",
       "name": "元大台灣50",
       "streak": 5
+    },
+    {
+      "code": "6505",
+      "name": "台塑化",
+      "streak": 3
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "6505",
-      "name": "台塑化",
+      "code": "5876",
+      "name": "上海商銀",
       "streak": 2
     }
   ]
