@@ -1,25 +1,21 @@
 {
-  "date": "2026-11-20",
-  "foreign_buy_streak_3d": [],
-  "foreign_buy_streak_2d": [
-    {
-      "code": "2303",
-      "name": "聯電",
-      "streak": 2
-    },
+  "date": "2026-11-23",
+  "foreign_buy_streak_3d": [
     {
       "code": "00712",
       "name": "復華富時不動產",
+      "streak": 3
+    }
+  ],
+  "foreign_buy_streak_2d": [
+    {
+      "code": "00953B",
+      "name": "群益優選非投等債",
       "streak": 2
     },
     {
-      "code": "2409",
-      "name": "友達",
-      "streak": 2
-    },
-    {
-      "code": "2887",
-      "name": "台新新光金",
+      "code": "6770",
+      "name": "力積電",
       "streak": 2
     }
   ],
@@ -37,13 +33,23 @@
     {
       "code": "6505",
       "name": "台塑化",
-      "streak": 3
+      "streak": 4
     }
   ],
   "trust_buy_streak_2d": [
     {
-      "code": "5876",
-      "name": "上海商銀",
+      "code": "2883",
+      "name": "凱基金",
+      "streak": 2
+    },
+    {
+      "code": "2886",
+      "name": "兆豐金",
+      "streak": 2
+    },
+    {
+      "code": "2412",
+      "name": "中華電",
       "streak": 2
     }
   ]

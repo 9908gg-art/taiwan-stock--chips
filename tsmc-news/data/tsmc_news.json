@@ -1,25 +1,25 @@
 {
-  "last_updated": "2026-11-21 05:27:05",
+  "last_updated": "2026-11-24 03:25:10",
   "stock_prices": {
     "tw_2330": {
-      "price": 2000.0,
-      "change": -100.0,
-      "change_percent": -4.76
+      "price": 2030.0,
+      "change": 30.0,
+      "change_percent": 1.5
     },
     "us_tsm": {
-      "price": 319.14,
-      "change": -32.94,
-      "change_percent": -9.36
+      "price": 366.03,
+      "change": 47.32,
+      "change_percent": 14.85
     }
   },
   "news": [
     {
-      "news_id": 6669535,
-      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大跌5.04%，報334.33美元",
+      "news_id": 6670327,
+      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大漲20.65%，報384.53美元",
       "summary": "",
-      "publish_time": "2026-11-20 23:34:51",
-      "publish_timestamp": 1795188891,
-      "url": "https://news.cnyes.com/news/id/6669535",
+      "publish_time": "2026-11-23 23:06:38",
+      "publish_timestamp": 1795446398,
+      "url": "https://news.cnyes.com/news/id/6670327",
       "keywords": [
         "美股",
         "美股盤中",
@@ -28,25 +28,73 @@
       ]
     },
     {
+      "news_id": 6670197,
+      "title": "〈美股早盤〉黃仁勳回歸點燃美股！那指開盤飆約7% <mark>台積電</mark>ADR漲逾14%",
+      "summary": "輝達宣布黃仁勳即刻回任執行長並重返董事會，激勵股價盤前一度大漲逾31%，帶動AI交易熱情回溫。&#10;美股周一強勢反攻，道瓊漲近1,200點、那指漲逾5.9%、費半漲近12%，台積電ADR漲逾14%。&#10;市場仍關注周三PCE物價指數與Fed升息前景，通膨與政策不確定性將考驗反彈續航力。",
+      "publish_time": "2026-11-23 22:51:11",
+      "publish_timestamp": 1795445471,
+      "url": "https://news.cnyes.com/news/id/6670197",
+      "keywords": [
+        "美股",
+        "那斯達克",
+        "標普500",
+        "輝達",
+        "黃仁勳",
+        "復職",
+        "回任",
+        "科技股",
+        "AI",
+        "人工智慧",
+        "AI交易",
+        "半導體",
+        "晶片",
+        "美股早盤",
+        "台積電",
+        "ADR",
+        "TOP"
+      ]
+    },
+    {
+      "news_id": 6670191,
+      "title": "<mark>台積電</mark>強力喊話AI沒降溫！ 先進製程供不應求情況將持續存在",
+      "summary": "",
+      "publish_time": "2026-11-23 19:07:12",
+      "publish_timestamp": 1795432032,
+      "url": "https://news.cnyes.com/news/id/6670191",
+      "keywords": [
+        "台積電",
+        "半導體",
+        "先進製程"
+      ]
+    },
+    {
+      "news_id": 6670110,
+      "title": "最搶手AI職缺出爐！輝達Q4營收衝1300億美元 帶動<mark>台積電</mark>6台廠人力需求爆增",
+      "summary": "1111人力銀行與資策會白皮書指，2026年前三季AI職缺大增，AI Agent技能需求較Q1暴增350%。&#10;AI工程師職缺成長66.12%居首，演算法開發增54.41%、資安增35.47%，企業加速系統建置與防護。&#10;AI需求擴散至傳產，化學製造業AI職缺年增74.32%；台鏈擴大訂單推升人才需求。",
+      "publish_time": "2026-11-23 13:19:40",
+      "publish_timestamp": 1795411180,
+      "url": "https://news.cnyes.com/news/id/6670110",
+      "keywords": [
+        "技能",
+        "工程師",
+        "人才",
+        "職缺",
+        "AI",
+        "1111",
+        "a",
+        "人力銀行",
+        "台積電",
+        "鴻海"
+      ]
+    },
+    {
       "news_id": 6669265,
-      "title": "<mark>台積電</mark>:代子公司Emerging Fund, L.P.公告投資Element Labs Ltd.",
+      "title": "台積電:代子公司Emerging Fund, L.P.公告投資Element Labs Ltd.",
       "summary": "",
       "publish_time": "2026-11-20 16:50:44",
       "publish_timestamp": 1795164644,
       "url": "https://news.cnyes.com/news/id/6669265",
       "keywords": []
-    },
-    {
-      "news_id": 6668967,
-      "title": "晶片管制｜市場傳出台積電收緊中國先進製程訂單AI晶片製造管道受影響",
-      "summary": "",
-      "publish_time": "2026-11-20 14:00:08",
-      "publish_timestamp": 1795154408,
-      "url": "https://news.cnyes.com/news/id/6668967",
-      "keywords": [
-        "半導體",
-        "優分析"
-      ]
     },
     {
       "news_id": 6667680,
