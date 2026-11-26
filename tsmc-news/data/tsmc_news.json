@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-26 06:43:31",
+  "last_updated": "2026-11-27 01:51:40",
   "stock_prices": {
     "tw_2330": {
-      "price": 2150.0,
-      "change": -80.0,
-      "change_percent": -3.59
+      "price": 2145.0,
+      "change": -5.0,
+      "change_percent": -0.23
     },
     "us_tsm": {
       "price": 342.34,
@@ -14,135 +14,101 @@
   },
   "news": [
     {
-      "news_id": 6671782,
-      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大跌5.75%，報329.13美元",
+      "news_id": 6673048,
+      "title": "台股收盤／加權指數大漲956點收復3萬9<mark>台積電</mark>逆勢收黑",
       "summary": "",
-      "publish_time": "2026-11-25 22:45:07",
-      "publish_timestamp": 1795617907,
-      "url": "https://news.cnyes.com/news/id/6671782",
+      "publish_time": "2026-11-26 18:01:16",
+      "publish_timestamp": 1795687276,
+      "url": "https://news.cnyes.com/news/id/6673048",
       "keywords": [
-        "美股",
-        "美股盤中",
-        "盤中速報",
-        "台積電ADR"
+        "台股收盤",
+        "優分析"
       ]
     },
     {
-      "news_id": 6671728,
-      "title": "〈美股早盤〉AI賣壓、通膨與關稅夾擊！那指跌逾4% <mark>台積電</mark>ADR挫逾7%",
-      "summary": "美股周三重挫，納指跌逾4%、費半跌7.36%，輝達與台積電ADR領跌AI股。&#10;核心PCE年增3.3%、GDP修正值4.3%，通膨偏高使Fed下月升息預期續升。&#10;資金轉向美債避險，10年債殖利率降至4.84%，金價跌破3500美元。",
-      "publish_time": "2026-11-25 22:44:38",
-      "publish_timestamp": 1795617878,
-      "url": "https://news.cnyes.com/news/id/6671728",
+      "news_id": 6672995,
+      "title": "台股重登39K  外資期貨、現貨仍齊作空並再自台積電提款近390億元",
+      "summary": "台股今(26)日反彈956.38點，收39151.81點；成交值8174.68億元，外資仍賣超491.81億元。&#10;外資續賣超台積電18134張、金額389.84億元，台積電收2145元跌5元；三大法人合計賣超132.65億元。&#10;分析師指若不破昨低36681.9點有助止跌，後續看Fed升息。",
+      "publish_time": "2026-11-26 17:28:30",
+      "publish_timestamp": 1795685310,
+      "url": "https://news.cnyes.com/news/id/6672995",
       "keywords": [
-        "美股",
-        "美股期貨",
-        "標普500",
-        "那斯達克100",
-        "科技股",
-        "AI",
-        "人工智慧",
-        "輝達",
-        "黃仁勳",
-        "美債",
-        "殖利率",
-        "美債殖利率",
-        "聯準會",
-        "Fed",
-        "升息",
-        "通膨",
-        "PCE",
-        "感恩節",
-        "休市",
-        "美股早盤",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6671735,
-      "title": "救回黃仁勳後再出招！川普擬親赴台積電美廠動土",
-      "summary": "川普傳12/4赴亞利桑那州鳳凰城，主持台積電廠區擴建動土，白宮稱將加深對半導體產業介入。&#10;台積電亞利桑那廠已生產輝達Blackwell晶片，並供應AMD、蘋果；廠區擴建將強化美國先進晶片產能。&#10;台積電已承諾投資2650億美元，美國議員同時擬查黃仁勳相關爭議與敏感晶片輸中是否危及國安。",
-      "publish_time": "2026-11-25 19:27:25",
-      "publish_timestamp": 1795606045,
-      "url": "https://news.cnyes.com/news/id/6671735",
-      "keywords": [
-        "台積電",
-        "川普",
-        "美國",
-        "黃仁勳",
-        "輝達",
-        "亞利桑那州",
-        "鳳凰城",
-        "動土典禮",
-        "半導體",
-        "晶片",
-        "AI",
-        "人工智慧",
-        "先進製程",
-        "超微",
-        "出口管制",
-        "科技",
-        "產業",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6671701,
-      "title": "外資提款1236億元持續倒貨0050、<mark>台積電</mark>及鴻海 主動式ETF獲青睞",
-      "summary": "台股今跌1926.92點至38195.43點，史上第六大跌點，成交量放大至1.19兆元。&#10;外資連8賣，賣超1236.54億元；同步砍0050、台積電、鴻海，並大買多檔主動式ETF。&#10;投信連2買、買超535.32億元，與外資對作加碼兆豐金、永豐金、第一金、聯電與台積電。",
-      "publish_time": "2026-11-25 17:24:39",
-      "publish_timestamp": 1795598679,
-      "url": "https://news.cnyes.com/news/id/6671701",
-      "keywords": [
-        "三大法人",
         "外資",
-        "台積電",
-        "鴻海",
-        "0050",
-        "主動式ETF",
-        "台股"
+        "三大法人",
+        "台積電"
       ]
     },
     {
-      "news_id": 6671603,
-      "title": "川普再批台灣「偷走」美國晶片產業！預告2年後課200%關稅",
-      "summary": "川普稱台灣過去幾乎拿走美國100%晶片產業，並再度點名台積電董事長魏哲家。&#10;他預告兩年後將對進口晶片課徵200%關稅，藉此逼半導體業者赴美設廠。&#10;川普指台積電已在亞利桑那州投入數千億美元，並評估德州226億美元投資案。",
-      "publish_time": "2026-11-25 11:30:39",
-      "publish_timestamp": 1795577439,
-      "url": "https://news.cnyes.com/news/id/6671603",
-      "keywords": [
-        "川普",
-        "台灣",
-        "台積電",
-        "魏哲家",
-        "晶片",
-        "關稅",
-        "美國",
-        "半導體",
-        "赴美設廠",
-        "德州",
-        "亞利桑那州",
-        "英特爾",
-        "晶片製造",
-        "偷走",
-        "輝達",
-        "黃仁勳",
-        "TOP"
-      ]
-    },
-    {
-      "news_id": 6671132,
-      "title": "盤中速報 - <mark>台積電</mark>ADR(TSM-US)大跌5.02%，報345.36美元",
+      "news_id": 6673013,
+      "title": "<mark>台積電</mark>:本公司限制員工權利新股收回註銷完成實收資本額變更登記事宜",
       "summary": "",
-      "publish_time": "2026-11-24 23:32:00",
-      "publish_timestamp": 1795534320,
-      "url": "https://news.cnyes.com/news/id/6671132",
+      "publish_time": "2026-11-26 15:51:56",
+      "publish_timestamp": 1795679516,
+      "url": "https://news.cnyes.com/news/id/6673013",
+      "keywords": []
+    },
+    {
+      "news_id": 6672829,
+      "title": "〈台股盤後〉電子族群強勢反彈帶動收漲近千點 護盤指標股<mark>台積電</mark>收小跌",
+      "summary": "台股今早盤由電子股領軍反彈，終場大漲956.38點至39151.81點，成交值8174.68億元。&#10;LEO、散熱、被動元件與記憶體走強，華通、昇達科受LEO大量部署激勵先攻漲停。&#10;台積電終場小跌5元收2145元，國安基金與限空令支撐；簡伯儀指後續關鍵看昨日低點36681.9是否失守。",
+      "publish_time": "2026-11-26 14:09:09",
+      "publish_timestamp": 1795673349,
+      "url": "https://news.cnyes.com/news/id/6672829",
       "keywords": [
-        "美股",
-        "美股盤中",
-        "盤中速報",
-        "台積電ADR"
+        "台股盤後",
+        "台積電",
+        "南電",
+        "欣興",
+        "台達電",
+        "國安基金",
+        "護盤"
       ]
+    },
+    {
+      "news_id": 6672162,
+      "title": "美股盤中晶片概念股普漲，英偉達漲 32.2%，<mark>台積電</mark>漲 20.9%",
+      "summary": "",
+      "publish_time": "2026-11-26 13:44:29",
+      "publish_timestamp": 1795671869,
+      "url": "https://news.cnyes.com/news/id/6672162",
+      "keywords": [
+        "RootData",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
+      ]
+    },
+    {
+      "news_id": 6672161,
+      "title": "美股盤後晶片概念股普漲，<mark>台積電</mark>漲 1.6%，邁威爾科技漲 1.2%",
+      "summary": "",
+      "publish_time": "2026-11-26 13:44:29",
+      "publish_timestamp": 1795671869,
+      "url": "https://news.cnyes.com/news/id/6672161",
+      "keywords": [
+        "RootData",
+        " 加密貨幣",
+        " 虛擬貨幣",
+        " BTC"
+      ]
+    },
+    {
+      "news_id": 6672248,
+      "title": "台積電:公告本公司調整民國115年第二季每股現金股利金額",
+      "summary": "",
+      "publish_time": "2026-11-25 16:05:09",
+      "publish_timestamp": 1795593909,
+      "url": "https://news.cnyes.com/news/id/6672248",
+      "keywords": []
+    },
+    {
+      "news_id": 6672246,
+      "title": "台積電:本公司受邀參加機構投資人說明會",
+      "summary": "",
+      "publish_time": "2026-11-24 16:10:19",
+      "publish_timestamp": 1795507819,
+      "url": "https://news.cnyes.com/news/id/6672246",
+      "keywords": []
     },
     {
       "news_id": 6670443,
@@ -259,42 +225,6 @@
       "publish_time": "2026-11-10 21:40:47",
       "publish_timestamp": 1794318047,
       "url": "https://news.cnyes.com/news/id/6657980",
-      "keywords": []
-    },
-    {
-      "news_id": 6657979,
-      "title": "台積電:公告本公司取得不動產之使用權資產",
-      "summary": "",
-      "publish_time": "2026-11-10 21:30:02",
-      "publish_timestamp": 1794317402,
-      "url": "https://news.cnyes.com/news/id/6657979",
-      "keywords": []
-    },
-    {
-      "news_id": 6657992,
-      "title": "台積電:本公司處分機器設備公告",
-      "summary": "",
-      "publish_time": "2026-11-10 21:20:48",
-      "publish_timestamp": 1794316848,
-      "url": "https://news.cnyes.com/news/id/6657992",
-      "keywords": []
-    },
-    {
-      "news_id": 6657991,
-      "title": "台積電:本公司董事會核准機器設備、不動產及資本化租賃資產資本預算案",
-      "summary": "",
-      "publish_time": "2026-11-10 21:18:53",
-      "publish_timestamp": 1794316733,
-      "url": "https://news.cnyes.com/news/id/6657991",
-      "keywords": []
-    },
-    {
-      "news_id": 6657990,
-      "title": "台積電:代子公司TSMC Partners, Ltd.公告投資Maverick Silicon Fund II, L.P.",
-      "summary": "",
-      "publish_time": "2026-11-10 20:55:48",
-      "publish_timestamp": 1794315348,
-      "url": "https://news.cnyes.com/news/id/6657990",
       "keywords": []
     }
   ]
