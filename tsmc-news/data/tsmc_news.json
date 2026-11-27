@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-28 01:32:55",
+  "last_updated": "2026-11-28 03:33:19",
   "stock_prices": {
     "tw_2330": {
       "price": 2180.0,
@@ -7,9 +7,9 @@
       "change_percent": 1.63
     },
     "us_tsm": {
-      "price": 351.37,
-      "change": 9.03,
-      "change_percent": 2.64
+      "price": 353.34,
+      "change": 11.0,
+      "change_percent": 3.21
     }
   },
   "news": [
@@ -181,15 +181,6 @@
       "publish_time": "2026-11-10 21:47:06",
       "publish_timestamp": 1794318426,
       "url": "https://news.cnyes.com/news/id/6657981",
-      "keywords": []
-    },
-    {
-      "news_id": 6657980,
-      "title": "台積電:代子公司TSMC Partners, Ltd.公告擬投資Anthropic, PBC",
-      "summary": "",
-      "publish_time": "2026-11-10 21:40:47",
-      "publish_timestamp": 1794318047,
-      "url": "https://news.cnyes.com/news/id/6657980",
       "keywords": []
     }
   ]
